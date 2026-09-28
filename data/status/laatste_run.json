@@ -1,4 +1,22 @@
 ﻿{
+  "Laadpunten": {
+    "tijd": "2026-09-28T18:05:23Z",
+    "melding": "80207 locaties, 201329 laadpunten (50467 aan het laden); bestand van 2026-09-28T18:05:29Z",
+    "status": "ok",
+    "seconden": 23
+  },
+  "EnergyZero": {
+    "tijd": "2026-09-28T14:45:02Z",
+    "seconden": 9,
+    "status": "ok",
+    "melding": "218 uurprijzen bijgewerkt"
+  },
+  "KvkOpenData": {
+    "status": "ok",
+    "seconden": 36,
+    "tijd": "2026-09-28T13:36:34Z",
+    "melding": "1919229 bv's/nv's verwerkt, waarvan 77221 met status faillissement"
+  },
   "Netcongestie": {
     "status": "ok",
     "seconden": 6,
@@ -11,28 +29,10 @@
     "tijd": "2026-09-28T13:36:34Z",
     "melding": "1000 nieuwe publicaties"
   },
-  "Laadpunten": {
-    "melding": "80206 locaties, 201327 laadpunten (48695 aan het laden); bestand van 2026-09-28T17:05:38Z",
-    "tijd": "2026-09-28T17:05:33Z",
-    "status": "ok",
-    "seconden": 32
-  },
   "RDW": {
     "status": "ok",
     "seconden": 100,
     "tijd": "2026-09-28T13:36:34Z",
     "melding": "18527 personenauto-registraties sinds 2026-09-18 verwerkt"
-  },
-  "KvkOpenData": {
-    "status": "ok",
-    "seconden": 36,
-    "tijd": "2026-09-28T13:36:34Z",
-    "melding": "1919229 bv's/nv's verwerkt, waarvan 77221 met status faillissement"
-  },
-  "EnergyZero": {
-    "tijd": "2026-09-28T14:45:02Z",
-    "seconden": 9,
-    "status": "ok",
-    "melding": "218 uurprijzen bijgewerkt"
   }
 }
