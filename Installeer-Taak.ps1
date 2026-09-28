@@ -1,6 +1,7 @@
 <#
 .SYNOPSIS
-    Plant de verzamelaar in Windows Taakplanner (onder je eigen account, geen beheerrechten nodig).
+    Plant de verzamelaar in Windows Taakplanner, onder je eigen account. De taken draaien onzichtbaar
+    (aanmeldtype S4U, geen flitsend venster); start dit script daarom als administrator.
 .EXAMPLE
     .\Installeer-Taak.ps1                       # elke dag om 06:30
 .EXAMPLE
@@ -29,10 +30,12 @@ $root = $PSScriptRoot
 $exe = (Get-Process -Id $PID).Path          # powershell.exe of pwsh.exe, waarmee dit script draait
 $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Hours 2) `
     -RestartCount 2 -RestartInterval (New-TimeSpan -Minutes 30) -MultipleInstances IgnoreNew
+# S4U: draait in een eigen, onzichtbare sessie (ook als je niet bent aangemeld), zonder opgeslagen wachtwoord.
+$principal = New-ScheduledTaskPrincipal -UserId "$env:USERDOMAIN\$env:USERNAME" -LogonType S4U -RunLevel Limited
 
 $actie = New-ScheduledTaskAction -Execute $exe -WorkingDirectory $root `
     -Argument ('-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "{0}"' -f (Join-Path $root 'Verzamel.ps1'))
-Register-ScheduledTask -TaskName $naamDag -Action $actie -Trigger (New-ScheduledTaskTrigger -Daily -At $Tijd) -Settings $settings `
+Register-ScheduledTask -TaskName $naamDag -Action $actie -Trigger (New-ScheduledTaskTrigger -Daily -At $Tijd) -Settings $settings -Principal $principal `
     -Description 'Haalt de real-time bronnen op en werkt de tijdreeksen bij.' -Force | Out-Null
 Write-Host "Taak '$naamDag' gepland om $Tijd."
 
@@ -41,7 +44,7 @@ if ($LaadpuntenElkUur) {
         -Argument ('-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "{0}" -Bron Laadpunten' -f (Join-Path $root 'Verzamel.ps1'))
     $start = (Get-Date).Date.AddHours((Get-Date).Hour + 1).AddMinutes(5)
     $trigger = New-ScheduledTaskTrigger -Once -At $start -RepetitionInterval (New-TimeSpan -Hours 1)
-    Register-ScheduledTask -TaskName $naamUur -Action $actie -Trigger $trigger -Settings $settings `
+    Register-ScheduledTask -TaskName $naamUur -Action $actie -Trigger $trigger -Settings $settings -Principal $principal `
         -Description 'Momentopname van alle publieke laadpunten (bezetting en tarieven).' -Force | Out-Null
     Write-Host "Taak '$naamUur' gepland, eerste run om $($start.ToString('HH:mm'))."
 }
@@ -53,7 +56,7 @@ if ($OvFiets) {
         (Join-Path $root 'ovfiets\scrape_ovfiets.py'), $tmp, (Join-Path $root 'ovfiets\samenvoegen.py'), (Join-Path $root 'data\ovfiets'))
     $actie = New-ScheduledTaskAction -Execute 'cmd.exe' -Argument $cmd -WorkingDirectory $root
     $trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday, Thursday -At '04:20'
-    Register-ScheduledTask -TaskName $naamOvf -Action $actie -Trigger $trigger -Settings $settings `
+    Register-ScheduledTask -TaskName $naamOvf -Action $actie -Trigger $trigger -Settings $settings -Principal $principal `
         -Description 'OV-fiets historie van alle locaties ophalen en samenvoegen.' -Force | Out-Null
     Write-Host "Taak '$naamOvf' gepland op maandag en donderdag om 04:20."
 }

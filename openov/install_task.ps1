@@ -22,12 +22,15 @@ $triggers = @(
 )
 $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
     -RunOnlyIfNetworkAvailable -ExecutionTimeLimit (New-TimeSpan -Minutes 15) -MultipleInstances IgnoreNew
+# S4U = "ook uitvoeren als de gebruiker niet is aangemeld", zonder opgeslagen wachtwoord. De taak draait dan in een
+# eigen, onzichtbare sessie: geen flitsend PowerShell-venster. Internet werkt; netwerkschijven met inlog niet.
+$principal = New-ScheduledTaskPrincipal -UserId "$env:USERDOMAIN\$env:USERNAME" -LogonType S4U -RunLevel Limited
 
 try {
     if (Get-ScheduledTask -TaskName $naam -ErrorAction SilentlyContinue) {
         Unregister-ScheduledTask -TaskName $naam -Confirm:$false -ErrorAction Stop
     }
-    Register-ScheduledTask -TaskName $naam -Action $action -Trigger $triggers -Settings $settings -ErrorAction Stop `
+    Register-ScheduledTask -TaskName $naam -Action $action -Trigger $triggers -Settings $settings -Principal $principal -ErrorAction Stop `
         -Description 'Haalt OV-fiets data van GitHub (api28092026-cmyk/realtime-verzamelaar) naar de lokale schijf' | Out-Null
 } catch {
     Write-Host "Taak kon niet worden vervangen: $($_.Exception.Message)" -ForegroundColor Red
