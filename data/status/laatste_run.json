@@ -1,38 +1,38 @@
 ﻿{
-    "KvkOpenData":  {
-                        "status":  "ok",
-                        "seconden":  36,
-                        "tijd":  "2026-09-28T13:36:34Z",
-                        "melding":  "1919229 bv\u0027s/nv\u0027s verwerkt, waarvan 77221 met status faillissement"
-                    },
-    "Netcongestie":  {
-                         "status":  "ok",
-                         "seconden":  6,
-                         "tijd":  "2026-09-28T13:36:34Z",
-                         "melding":  "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (925 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (925 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)"
-                     },
-    "Laadpunten":  {
-                       "status":  "ok",
-                       "seconden":  120,
-                       "tijd":  "2026-09-28T13:36:34Z",
-                       "melding":  "80203 locaties, 201328 laadpunten (42244 aan het laden); bestand van 2026-09-28T13:52:01Z"
-                   },
-    "TenderNed":  {
-                      "status":  "ok",
-                      "seconden":  807,
-                      "tijd":  "2026-09-28T13:36:34Z",
-                      "melding":  "1000 nieuwe publicaties"
-                  },
-    "EnergyZero":  {
-                       "status":  "ok",
-                       "seconden":  2,
-                       "tijd":  "2026-09-28T13:36:34Z",
-                       "melding":  "222 uurprijzen bijgewerkt"
-                   },
-    "RDW":  {
-                "status":  "ok",
-                "seconden":  100,
-                "tijd":  "2026-09-28T13:36:34Z",
-                "melding":  "18527 personenauto-registraties sinds 2026-09-18 verwerkt"
-            }
+  "Netcongestie": {
+    "status": "ok",
+    "seconden": 6,
+    "tijd": "2026-09-28T13:36:34Z",
+    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (925 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (925 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)"
+  },
+  "Laadpunten": {
+    "status": "ok",
+    "seconden": 120,
+    "tijd": "2026-09-28T13:36:34Z",
+    "melding": "80203 locaties, 201328 laadpunten (42244 aan het laden); bestand van 2026-09-28T13:52:01Z"
+  },
+  "KvkOpenData": {
+    "status": "ok",
+    "seconden": 36,
+    "tijd": "2026-09-28T13:36:34Z",
+    "melding": "1919229 bv's/nv's verwerkt, waarvan 77221 met status faillissement"
+  },
+  "EnergyZero": {
+    "tijd": "2026-09-28T14:45:02Z",
+    "seconden": 9,
+    "status": "ok",
+    "melding": "218 uurprijzen bijgewerkt"
+  },
+  "TenderNed": {
+    "status": "ok",
+    "seconden": 807,
+    "tijd": "2026-09-28T13:36:34Z",
+    "melding": "1000 nieuwe publicaties"
+  },
+  "RDW": {
+    "status": "ok",
+    "seconden": 100,
+    "tijd": "2026-09-28T13:36:34Z",
+    "melding": "18527 personenauto-registraties sinds 2026-09-18 verwerkt"
+  }
 }
