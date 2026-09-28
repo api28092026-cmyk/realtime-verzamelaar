@@ -5,18 +5,6 @@
     "tijd": "2026-09-28T13:36:34Z",
     "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (925 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (925 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)"
   },
-  "EnergyZero": {
-    "tijd": "2026-09-28T14:45:02Z",
-    "seconden": 9,
-    "status": "ok",
-    "melding": "218 uurprijzen bijgewerkt"
-  },
-  "Laadpunten": {
-    "seconden": 51,
-    "melding": "80207 locaties, 201329 laadpunten (52496 aan het laden); bestand van 2026-09-28T20:05:36Z",
-    "status": "ok",
-    "tijd": "2026-09-28T20:05:31Z"
-  },
   "KvkOpenData": {
     "status": "ok",
     "seconden": 36,
@@ -29,10 +17,22 @@
     "tijd": "2026-09-28T13:36:34Z",
     "melding": "1000 nieuwe publicaties"
   },
+  "Laadpunten": {
+    "melding": "80208 locaties, 201331 laadpunten (53257 aan het laden); bestand van 2026-09-28T21:05:39Z",
+    "status": "ok",
+    "tijd": "2026-09-28T21:05:32Z",
+    "seconden": 50
+  },
   "RDW": {
     "status": "ok",
     "seconden": 100,
     "tijd": "2026-09-28T13:36:34Z",
     "melding": "18527 personenauto-registraties sinds 2026-09-18 verwerkt"
+  },
+  "EnergyZero": {
+    "tijd": "2026-09-28T14:45:02Z",
+    "seconden": 9,
+    "status": "ok",
+    "melding": "218 uurprijzen bijgewerkt"
   }
 }
