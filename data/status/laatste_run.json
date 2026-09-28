@@ -5,17 +5,11 @@
     "tijd": "2026-09-28T13:36:34Z",
     "melding": "1919229 bv's/nv's verwerkt, waarvan 77221 met status faillissement"
   },
-  "RDW": {
+  "EnergyZero": {
+    "tijd": "2026-09-28T14:45:02Z",
+    "seconden": 9,
     "status": "ok",
-    "seconden": 100,
-    "tijd": "2026-09-28T13:36:34Z",
-    "melding": "18527 personenauto-registraties sinds 2026-09-18 verwerkt"
-  },
-  "Netcongestie": {
-    "status": "ok",
-    "seconden": 6,
-    "tijd": "2026-09-28T13:36:34Z",
-    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (925 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (925 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)"
+    "melding": "218 uurprijzen bijgewerkt"
   },
   "TenderNed": {
     "status": "ok",
@@ -23,16 +17,22 @@
     "tijd": "2026-09-28T13:36:34Z",
     "melding": "1000 nieuwe publicaties"
   },
-  "Laadpunten": {
-    "seconden": 34,
-    "melding": "80208 locaties, 201338 laadpunten (44524 aan het laden); bestand van 2026-09-28T15:05:35Z",
-    "tijd": "2026-09-28T15:05:28Z",
-    "status": "ok"
-  },
-  "EnergyZero": {
-    "tijd": "2026-09-28T14:45:02Z",
-    "seconden": 9,
+  "Netcongestie": {
     "status": "ok",
-    "melding": "218 uurprijzen bijgewerkt"
+    "seconden": 6,
+    "tijd": "2026-09-28T13:36:34Z",
+    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (925 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (925 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)"
+  },
+  "Laadpunten": {
+    "status": "ok",
+    "melding": "80206 locaties, 201327 laadpunten (47094 aan het laden); bestand van 2026-09-28T16:36:59Z",
+    "seconden": 43,
+    "tijd": "2026-09-28T16:36:50Z"
+  },
+  "RDW": {
+    "status": "ok",
+    "seconden": 100,
+    "tijd": "2026-09-28T13:36:34Z",
+    "melding": "18527 personenauto-registraties sinds 2026-09-18 verwerkt"
   }
 }
