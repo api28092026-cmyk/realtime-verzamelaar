@@ -1,94 +1,90 @@
-# Planning: wanneer draait wat
+# Planning: cron-job.org start de workflows
 
-| Taak | Wanneer | Duur | Waarom zo vaak |
+Alle workflows in deze repository hebben alleen een handmatige trigger (`workflow_dispatch`). De planning ligt bij [cron-job.org](https://cron-job.org): dat stuurt op vaste tijden een POST naar de GitHub-API, en GitHub start dan de workflow. De eigen planner van GitHub (`schedule:`) slaat bij drukte runs over of start ze tot een half uur te laat. cron-job.org is gratis en stipt.
+
+De repository is openbaar, dus GitHub Actions-minuten zijn gratis en onbeperkt.
+
+| Job in cron-job.org | Workflow | Wanneer | Body |
 |---|---|---|---|
-| Alle realtime-bronnen (`Verzamel.ps1`) | dagelijks 06:30 | ~5 min (eerste keer ~15) | De bronnen verversen dagelijks; RDW en KVK tellen een venster van dagen terug. |
-| Laadpunten (`Verzamel.ps1 -Bron Laadpunten`) | elk uur (optioneel) | ~2 min | Status is een momentopname; pas met meerdere metingen per dag krijg je bezettingsgraden. |
-| OV-fiets (`ovfiets/scrape_ovfiets.py`) | maandag en donderdag 04:20 | ~25 min | De site bewaart zelf ~4 weken per kwartier; twee keer per week geeft ruime overlap. |
+| OV-fiets wijzigingen | `openov.yml` | elke 5 minuten | `{"ref":"main"}` |
+| Realtime-bronnen | `verzamelen.yml` | dagelijks 06:30 | `{"ref":"main"}` |
+| Laadpunten (optioneel) | `verzamelen.yml` | elk uur op :05 | `{"ref":"main","inputs":{"bron":"Laadpunten"}}` |
+| OV-fiets historie | `ovfiets.yml` | maandag en donderdag 04:20 | `{"ref":"main"}` |
 
-Er zijn drie manieren om dit te plannen. Kies er één, anders halen twee machines dezelfde data op en krijg je dubbele commits.
+## Stap 1: token aanmaken (eenmalig, op het account api28092026-cmyk)
 
-## 1. GitHub Actions (aanbevolen)
+1. GitHub > **Settings** > **Developer settings** > **Personal access tokens** > **Fine-grained tokens** > **Generate new token**.
+2. **Repository access:** *Only select repositories* > `realtime-verzamelaar`.
+3. **Permissions** > *Repository permissions* > **Actions: Read and write**. Metadata (alleen lezen) komt er automatisch bij; verder niets aanvinken.
+4. Kies een lange vervaldatum en zet een herinnering in je agenda. Een verlopen token geeft in cron-job.org status 401 en de scrapers stoppen.
 
-De planning zit al in de repository:
+Met dit token kan alleen workflows in deze ene repository gestart worden, niets anders. Zet het nergens in de repository zelf.
 
-- `.github/workflows/verzamelen.yml`: `30 4 * * *` (dagelijks)
-- `.github/workflows/ovfiets.yml`: `20 2 * * 1,4` (maandag en donderdag)
+## Stap 2: jobs in cron-job.org
 
-**GitHub rekent cron in UTC.** `30 4 * * *` is 06:30 in de zomer en 05:30 in de winter. Wil je dat het hele jaar om 06:30 Nederlandse tijd valt, dan moet je de regel twee keer per jaar aanpassen. Voor deze data maakt dat niet uit.
+Maak per regel uit de tabel een cronjob aan (*Create cronjob*):
 
-Zo werkt de cron-regel (`minuut uur dag-van-maand maand dag-van-week`):
+- **URL:** `https://api.github.com/repos/api28092026-cmyk/realtime-verzamelaar/actions/workflows/<workflow>/dispatches`, bijvoorbeeld `.../workflows/openov.yml/dispatches`
+- **Execution schedule:** zie de tabel. Zet onder *Advanced* de tijdzone op **Europe/Amsterdam**; dan hoef je niet met zomer- en wintertijd te rekenen.
+- **Advanced > Request method:** `POST`
+- **Advanced > Headers:**
+  | Key | Value |
+  |---|---|
+  | `Authorization` | `Bearer <token uit stap 1>` |
+  | `Accept` | `application/vnd.github+json` |
+  | `X-GitHub-Api-Version` | `2022-11-28` |
+  | `Content-Type` | `application/json` |
+- **Advanced > Request body:** de body uit de tabel.
+- **Notifications:** zet een melding aan bij mislukte uitvoeringen. GitHub antwoordt `204 No Content` als het goed gaat.
 
-```
-30 4 * * *       elke dag om 04:30 UTC
-20 2 * * 1,4     maandag (1) en donderdag (4) om 02:20 UTC
-5 * * * *        elk uur op :05
-```
+Testen kan ook vanaf de command line; `204` betekent dat de workflow gestart is:
 
-Handig om te weten:
-
-- **Handmatig starten:** via het tabblad *Actions* > workflow > *Run workflow*, of vanaf de command line:
-  ```bash
-  gh workflow run verzamelen.yml -R api28092026-cmyk/realtime-verzamelaar
-  ```
-  Eén bron draaien kan ook:
-  ```bash
-  gh workflow run verzamelen.yml -R api28092026-cmyk/realtime-verzamelaar -f bron=TenderNed
-  ```
-- **Resultaten bekijken:**
-  ```bash
-  gh run list -R api28092026-cmyk/realtime-verzamelaar
-  ```
-- **Vertraging.** Geplande runs starten bij drukte soms 5–30 minuten te laat. Kies daarom geen tijdstip precies op het hele uur.
-- **Minuten.** Een privérepository heeft 2.000 gratis Actions-minuten per maand. Dagelijks plus OV-fiets kost ~500 minuten. Een laadpuntrun elk uur (`5 * * * *`) komt daar ~1.500 bij; doe die liever op een eigen server of pc.
-- **Inactiviteit.** GitHub zet geplande workflows uit na 60 dagen zonder activiteit in de repository. Omdat elke run data commit, gebeurt dat hier niet. Krijg je toch een melding, zet ze dan weer aan onder *Actions*.
-
-Laadpunten elk uur via GitHub (als je de minuten ervoor over hebt): voeg in `verzamelen.yml` onder `schedule:` een tweede regel toe en laat de stap alleen de laadpunten draaien als dat schema afgaat:
-
-```yaml
-    - cron: '5 * * * *'
-```
-```pwsh
-if ('${{ github.event.schedule }}' -eq '5 * * * *') { ./Verzamel.ps1 -Bron Laadpunten } elseif ($env:BRON) { ... } else { ./Verzamel.ps1 }
+```bash
+curl -i -X POST -H "Authorization: Bearer <token>" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" https://api.github.com/repos/api28092026-cmyk/realtime-verzamelaar/actions/workflows/openov.yml/dispatches -d "{\"ref\":\"main\"}"
 ```
 
-## 2. Eigen Linux-server (crontab)
+Voor handmatig starten is een token niet nodig: gebruik het tabblad *Actions* > workflow > *Run workflow*, of:
 
-Eenmalig:
+```bash
+gh workflow run verzamelen.yml -R api28092026-cmyk/realtime-verzamelaar -f bron=TenderNed
+```
+
+## Waar de data terechtkomt
+
+| Workflow | Branch | Map |
+|---|---|---|
+| `openov.yml` | `data` | root van de branch: `changes/`, `scrapes/`, `state.json`, `locaties_meta.csv`; afgesloten maanden als release `data-JJJJ-MM` |
+| `verzamelen.yml` | `main` | `data/` |
+| `ovfiets.yml` | `main` | `data/ovfiets/` |
+
+De runs van `verzamelen.yml` en `ovfiets.yml` wachten op elkaar (concurrency-groep `data-commit`), zodat ze nooit tegelijk naar `main` pushen.
+
+Lokaal bijhouden: `openov\install_task.ps1` plant `openov\sync_local.ps1`, dat de OV-fiets-wijzigingen elk uur naar `openov\data\` haalt. Voor de rest volstaat een `git pull`.
+
+## Alternatief zonder GitHub Actions
+
+**Eigen Linux-server (crontab).** Zet eerst de tijdzone van de server op Europe/Amsterdam:
 
 ```bash
 sudo timedatectl set-timezone Europe/Amsterdam
-git clone https://github.com/api28092026-cmyk/realtime-verzamelaar.git /opt/realtime-verzamelaar
-# PowerShell 7 (pwsh) en Python 3 installeren, zie learn.microsoft.com/powershell/scripting/install
 ```
 
-Daarna `crontab -e` en deze regels plakken (let op: `%` moet in crontab als `\%`):
+Voeg dan met `crontab -e` deze regels toe (een `%` moet in crontab als `\%`):
 
 ```cron
-MAILTO=""
-# dagelijks 06:30: alle realtime-bronnen
 30 6 * * *   cd /opt/realtime-verzamelaar && pwsh -NoProfile -File ./Verzamel.ps1 >> data/logs/cron.log 2>&1
-# elk uur op :05: momentopname laadpunten
 5 * * * *    cd /opt/realtime-verzamelaar && pwsh -NoProfile -File ./Verzamel.ps1 -Bron Laadpunten >> data/logs/cron.log 2>&1
-# maandag en donderdag 04:20: OV-fiets
 20 4 * * 1,4 cd /opt/realtime-verzamelaar && ( python3 ovfiets/scrape_ovfiets.py --all --no-raw --out /tmp/ovfiets; python3 ovfiets/scrape_ovfiets.py --index --out /tmp/ovfiets; python3 ovfiets/samenvoegen.py /tmp/ovfiets data/ovfiets ) >> data/logs/cron.log 2>&1
-# optioneel 07:30: resultaten naar GitHub pushen (vereist een deploy key of token met schrijfrechten)
 30 7 * * *   cd /opt/realtime-verzamelaar && git add data && git commit -qm "Data $(date +\%F)" && git pull -q --rebase && git push -q
 ```
 
-Gebruik je deze route, schakel dan de geplande workflows in GitHub uit (*Actions* > workflow > *Disable workflow*).
+**Windows Taakplanner (deze pc).** Gebruik `.\Installeer-Taak.ps1 -LaadpuntenElkUur -OvFiets` en haal ze weer weg met `-Verwijder`.
 
-## 3. Windows Taakplanner (deze pc)
-
-```powershell
-.\Installeer-Taak.ps1 -LaadpuntenElkUur -OvFiets   # dagelijks 06:30, laadpunten elk uur, OV-fiets ma/do 04:20
-.\Installeer-Taak.ps1 -Verwijder                    # alles weer weghalen
-```
-
-De taken draaien onder je eigen account en alleen als de pc aan staat. Gemiste runs worden ingehaald. Pushen naar GitHub gebeurt hier niet automatisch.
+Gebruik steeds maar één route. Anders halen twee machines dezelfde data op en krijg je dubbele commits.
 
 ## Bewaken
 
-- `data/status/laatste_run.json`: per bron de laatste uitkomst (`ok` of `fout`) met melding.
-- `data/logs/<JJJJ-MM>.log`: volledig logboek van de realtime-bronnen.
-- In GitHub krijgt de eigenaar van de repository standaard een e-mail als een workflow faalt.
+- In cron-job.org: de uitvoeringsgeschiedenis per job; bij een melding eerst naar de statuscode kijken (401 = token verlopen, 404 = verkeerde URL of workflownaam).
+- In GitHub: *Actions* toont elke run; de eigenaar krijgt een e-mail als een workflow faalt.
+- `data/status/laatste_run.json` op `main`: per realtime-bron de laatste uitkomst.
+- `openov\sync_local.ps1` schrijft een waarschuwing in `openov\data\sync.log` als de laatste 5-minutenscrape ouder is dan 30 minuten.

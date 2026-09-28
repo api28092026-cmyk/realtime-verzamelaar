@@ -1,11 +1,10 @@
 # OV-fiets beschikbaarheid (ovfietsbeschikbaar.nl): twee keer per week de ~4 weken historie van
 # alle ~285 locaties ophalen en samenvoegen tot doorlopende reeksen per locatie per maand.
 # Een run duurt ~25 minuten (het script wacht bewust 2 s tussen verzoeken).
+# Gestart door cron-job.org op maandag en donderdag 04:20; zie CRON.md.
 name: OV-fiets
 
 on:
-  schedule:
-    - cron: '20 2 * * 1,4'    # maandag en donderdag 02:20 UTC
   workflow_dispatch: {}
 
 permissions:

@@ -1,10 +1,8 @@
-# Draait de verzamelaar dagelijks op een GitHub-server en legt de aggregaten vast in deze repository.
-# Zo komen de verzoeken niet van het kantoornetwerk en hoeft er geen computer aan te staan.
+# Draait de verzamelaar op een GitHub-server en legt de aggregaten vast in deze repository.
+# Gestart door cron-job.org (dagelijks 06:30, optioneel laadpunten elk uur); zie CRON.md.
 name: Verzamelen
 
 on:
-  schedule:
-    - cron: '30 4 * * *'      # dagelijks 04:30 UTC = 06:30 zomertijd / 05:30 wintertijd
   workflow_dispatch:
     inputs:
       bron:
