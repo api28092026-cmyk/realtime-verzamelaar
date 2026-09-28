@@ -1,27 +1,15 @@
 ﻿{
-  "Netcongestie": {
-    "status": "ok",
-    "seconden": 6,
-    "tijd": "2026-09-28T13:36:34Z",
-    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (925 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (925 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)"
-  },
-  "KvkOpenData": {
-    "status": "ok",
-    "seconden": 36,
-    "tijd": "2026-09-28T13:36:34Z",
-    "melding": "1919229 bv's/nv's verwerkt, waarvan 77221 met status faillissement"
-  },
   "TenderNed": {
     "status": "ok",
     "seconden": 807,
     "tijd": "2026-09-28T13:36:34Z",
     "melding": "1000 nieuwe publicaties"
   },
-  "Laadpunten": {
-    "melding": "80208 locaties, 201331 laadpunten (53257 aan het laden); bestand van 2026-09-28T21:05:39Z",
+  "Netcongestie": {
     "status": "ok",
-    "tijd": "2026-09-28T21:05:32Z",
-    "seconden": 50
+    "seconden": 6,
+    "tijd": "2026-09-28T13:36:34Z",
+    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (925 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (925 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)"
   },
   "RDW": {
     "status": "ok",
@@ -34,5 +22,17 @@
     "seconden": 9,
     "status": "ok",
     "melding": "218 uurprijzen bijgewerkt"
+  },
+  "Laadpunten": {
+    "seconden": 39,
+    "status": "ok",
+    "tijd": "2026-09-28T22:05:36Z",
+    "melding": "80261 locaties, 201446 laadpunten (53848 aan het laden); bestand van 2026-09-28T22:05:41Z"
+  },
+  "KvkOpenData": {
+    "status": "ok",
+    "seconden": 36,
+    "tijd": "2026-09-28T13:36:34Z",
+    "melding": "1919229 bv's/nv's verwerkt, waarvan 77221 met status faillissement"
   }
 }
