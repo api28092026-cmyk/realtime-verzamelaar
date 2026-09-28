@@ -1,0 +1,44 @@
+# OV-fiets beschikbaarheid (ovfietsbeschikbaar.nl): twee keer per week de ~4 weken historie van
+# alle ~285 locaties ophalen en samenvoegen tot doorlopende reeksen per locatie per maand.
+# Een run duurt ~25 minuten (het script wacht bewust 2 s tussen verzoeken).
+name: OV-fiets
+
+on:
+  schedule:
+    - cron: '20 2 * * 1,4'    # maandag en donderdag 02:20 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
+
+jobs:
+  ovfiets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Historie en live-stand ophalen
+        continue-on-error: true   # exitcode 1 = enkele locaties niet in orde; de rest wordt wel bewaard
+        run: |
+          python ovfiets/scrape_ovfiets.py --all --no-raw --out /tmp/ovfiets
+          python ovfiets/scrape_ovfiets.py --index --out /tmp/ovfiets
+
+      - name: Samenvoegen
+        run: python ovfiets/samenvoegen.py /tmp/ovfiets data/ovfiets
+
+      - name: Data vastleggen
+        run: |
+          git config user.name  "verzamelaar"
+          git config user.email "verzamelaar@users.noreply.github.com"
+          git add data/ovfiets
+          git commit -m "OV-fiets $(date -u +%F)" || { echo "Geen wijzigingen"; exit 0; }
+          git pull --rebase
+          git push

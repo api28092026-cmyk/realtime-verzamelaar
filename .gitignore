@@ -1,0 +1,4 @@
+# Ruwe downloads (zip, gz, json) en het detailarchief van TenderNed zijn te groot voor git.
+data/ruw/
+data/tenderned_details/
+*.tmp

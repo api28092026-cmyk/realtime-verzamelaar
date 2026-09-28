@@ -1,0 +1,44 @@
+# Draait de verzamelaar dagelijks op een GitHub-server en legt de aggregaten vast in deze repository.
+# Zo komen de verzoeken niet van het kantoornetwerk en hoeft er geen computer aan te staan.
+name: Verzamelen
+
+on:
+  schedule:
+    - cron: '30 4 * * *'      # dagelijks 04:30 UTC = 06:30 zomertijd / 05:30 wintertijd
+  workflow_dispatch:
+    inputs:
+      bron:
+        description: 'Eén bron (leeg = alle): EnergyZero, TenderNed, RDW, Laadpunten, Netcongestie, KvkOpenData'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-commit          # gedeeld met ovfiets.yml, zodat twee runs niet tegelijk pushen
+  cancel-in-progress: false
+
+jobs:
+  verzamel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Bronnen ophalen
+        shell: pwsh
+        continue-on-error: true   # één falende bron mag de rest niet blokkeren
+        env:
+          BRON: ${{ github.event.inputs.bron }}
+        run: |
+          if ($env:BRON) { ./Verzamel.ps1 -Bron (($env:BRON -split ',') | ForEach-Object { $_.Trim() }) } else { ./Verzamel.ps1 }
+
+      - name: Data vastleggen
+        run: |
+          git config user.name  "verzamelaar"
+          git config user.email "verzamelaar@users.noreply.github.com"
+          git add data
+          git commit -m "Data $(date -u +%F)" || { echo "Geen wijzigingen"; exit 0; }
+          git pull --rebase
+          git push
