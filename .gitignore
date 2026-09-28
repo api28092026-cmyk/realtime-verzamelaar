@@ -2,3 +2,5 @@
 data/ruw/
 data/tenderned_details/
 *.tmp
+.vscode/
+__pycache__/
