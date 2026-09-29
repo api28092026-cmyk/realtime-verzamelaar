@@ -57,7 +57,7 @@ gh workflow run verzamelen.yml -R api28092026-cmyk/realtime-verzamelaar -f bron=
 | `verzamelen.yml` | `main` | `data/` |
 | `ovfiets.yml` | `main` | `data/ovfiets/` |
 
-De runs van `verzamelen.yml` en `ovfiets.yml` wachten op elkaar (concurrency-groep `data-commit`), zodat ze nooit tegelijk naar `main` pushen.
+Een run van `ovfiets.yml` duurt 1,5 tot 2 uur, omdat de site elke historiepagina op de server uitrekent (~10–25 s per locatie). Hij heeft daarom een eigen wachtrij en houdt de runs van `verzamelen.yml` niet op. Beide schrijven naar andere bestanden en doen `git pull --rebase` vóór het pushen, dus ze botsen niet. Wordt een OV-fiets-run toch afgebroken, dan wordt wat al is opgehaald nog samengevoegd en opgeslagen.
 
 Lokaal bijhouden: `openov\install_task.ps1` plant `openov\sync_local.ps1`, dat de OV-fiets-wijzigingen elk uur naar `openov\data\` haalt. Voor de rest volstaat een `git pull`.
 

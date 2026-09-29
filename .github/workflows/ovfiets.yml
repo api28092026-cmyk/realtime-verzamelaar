@@ -1,7 +1,7 @@
 # OV-fiets beschikbaarheid (ovfietsbeschikbaar.nl): twee keer per week de ~4 weken historie van
 # alle ~285 locaties ophalen en samenvoegen tot doorlopende reeksen per locatie per maand.
-# Een run duurt ~25 minuten (het script wacht bewust 2 s tussen verzoeken).
-# Gestart door cron-job.org op maandag en donderdag 04:20; zie CRON.md.
+# De site rekent elke historiepagina op de server uit (~10-25 s per locatie), dus een run duurt
+# 1,5 tot 2 uur. Gestart door cron-job.org op maandag en donderdag 04:20; zie CRON.md.
 name: OV-fiets
 
 on:
@@ -10,14 +10,16 @@ on:
 permissions:
   contents: write
 
+# Eigen wachtrij: deze lange run mag de laadpunten- en dagelijkse runs niet ophouden. Ze schrijven naar
+# andere bestanden (alleen data/ovfiets), dus 'git pull --rebase' voor het pushen botst nooit.
 concurrency:
-  group: data-commit
+  group: ovfiets
   cancel-in-progress: false
 
 jobs:
   ovfiets:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,18 +28,21 @@ jobs:
 
       - name: Historie en live-stand ophalen
         continue-on-error: true   # exitcode 1 = enkele locaties niet in orde; de rest wordt wel bewaard
+        timeout-minutes: 270      # ruim binnen de joblimiet, zodat samenvoegen en vastleggen altijd nog lukken
         run: |
-          python ovfiets/scrape_ovfiets.py --all --no-raw --out /tmp/ovfiets
-          python ovfiets/scrape_ovfiets.py --index --out /tmp/ovfiets
+          python -u ovfiets/scrape_ovfiets.py --all --no-raw --out /tmp/ovfiets
+          python -u ovfiets/scrape_ovfiets.py --index --out /tmp/ovfiets
 
       - name: Samenvoegen
+        if: always()
         run: python ovfiets/samenvoegen.py /tmp/ovfiets data/ovfiets
 
       - name: Data vastleggen
+        if: always()
         run: |
           git config user.name  "verzamelaar"
           git config user.email "verzamelaar@users.noreply.github.com"
           git add data/ovfiets
           git commit -m "OV-fiets $(date -u +%F)" || { echo "Geen wijzigingen"; exit 0; }
-          git pull --rebase
-          git push
+          for i in 1 2 3 4 5; do git pull --rebase && git push && exit 0; echo "poging $i mislukt, opnieuw"; sleep $((i * 5)); done
+          exit 1
