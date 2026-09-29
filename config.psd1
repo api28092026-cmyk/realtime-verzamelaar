@@ -23,4 +23,11 @@
 
     # KVK open dataset: hoeveel dagen terug oprichtingen per aanvangsdatum worden bijgewerkt.
     KvkDagenTerug  = 60
+
+    # Parkeren: pauze tussen de ~325 bezettingsverzoeken (milliseconden).
+    ParkerenPauzeMs = 200
+
+    # Spoorverstoringen (Rijden de Treinen): vanaf welke maand samenvatten, en hoeveel maanden per run bijwerken.
+    RdtVanaf         = '2026-01'
+    RdtMaandenPerRun = 2
 }

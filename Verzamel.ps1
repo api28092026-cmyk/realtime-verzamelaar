@@ -8,8 +8,8 @@
 #>
 [CmdletBinding()]
 param(
-    [ValidateSet('EnergyZero', 'TenderNed', 'RDW', 'Laadpunten', 'Netcongestie', 'KvkOpenData')]
-    [string[]]$Bron = @('EnergyZero', 'TenderNed', 'RDW', 'Laadpunten', 'Netcongestie', 'KvkOpenData')
+    [ValidateSet('EnergyZero', 'TenderNed', 'RDW', 'Laadpunten', 'Netcongestie', 'KvkOpenData', 'Parkeren', 'Deelmobiliteit', 'Verstoringen')]
+    [string[]]$Bron = @('EnergyZero', 'TenderNed', 'RDW', 'Laadpunten', 'Netcongestie', 'KvkOpenData', 'Parkeren', 'Deelmobiliteit', 'Verstoringen')
 )
 
 $root = $PSScriptRoot

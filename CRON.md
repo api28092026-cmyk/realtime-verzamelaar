@@ -8,7 +8,7 @@ De repository is openbaar, dus GitHub Actions-minuten zijn gratis en onbeperkt.
 |---|---|---|---|
 | OV-fiets wijzigingen | `openov.yml` | elke 5 minuten | `{"ref":"main"}` |
 | Realtime-bronnen | `verzamelen.yml` | dagelijks 06:30 | `{"ref":"main"}` |
-| Laadpunten (optioneel) | `verzamelen.yml` | elk uur op :05 | `{"ref":"main","inputs":{"bron":"Laadpunten"}}` |
+| Momentopnamen (laadpunten, parkeren, deelmobiliteit, wegverstoringen) | `verzamelen.yml` | elk uur op :05 | `{"ref":"main","inputs":{"bron":"Laadpunten,Parkeren,Deelmobiliteit,Verstoringen"}}` |
 | OV-fiets historie | `ovfiets.yml` | maandag en donderdag 04:20 | `{"ref":"main"}` |
 
 ## Stap 1: token aanmaken (eenmalig, op het account api28092026-cmyk)

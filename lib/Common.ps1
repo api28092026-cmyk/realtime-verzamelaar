@@ -29,11 +29,20 @@ function Write-Log {
 
 function Suspend-Beleefd { Start-Sleep -Milliseconds ([int]$script:Cfg.PauzeMs) }
 
-# GET met herhaalpogingen (5 s, 15 s, 45 s). Geeft de body als UTF-8-string terug, of schrijft naar -OutFile.
+# HTTP-statuscode uit een foutmelding van Invoke-WebRequest (PowerShell 5.1 en 7), of 0 als die er niet is.
+function Get-HttpStatus {
+    param($ErrorRecord)
+    $resp = $ErrorRecord.Exception.Response
+    if ($resp -and $resp.StatusCode) { return [int]$resp.StatusCode }
+    return 0
+}
+
+# GET met herhaalpogingen (5 s, 15 s, 45 s) bij tijdelijke fouten. Een 4xx-fout (behalve 408 en 429) betekent dat het
+# adres niet (meer) bestaat of niet mag; die wordt direct doorgegeven. Geeft de body als UTF-8-string terug, of schrijft naar -OutFile.
 function Invoke-Get {
-    param([string]$Uri, [string]$OutFile, [int]$TimeoutSec = 300)
+    param([string]$Uri, [string]$OutFile, [int]$TimeoutSec = 300, [int]$Pogingen = 4)
     $delay = 5
-    for ($i = 1; $i -le 4; $i++) {
+    for ($i = 1; $i -le $Pogingen; $i++) {
         try {
             if ($OutFile) {
                 Invoke-WebRequest -Uri $Uri -OutFile $OutFile -UserAgent $script:Cfg.UserAgent -UseBasicParsing -TimeoutSec $TimeoutSec
@@ -42,7 +51,8 @@ function Invoke-Get {
             $r = Invoke-WebRequest -Uri $Uri -UserAgent $script:Cfg.UserAgent -UseBasicParsing -TimeoutSec $TimeoutSec
             return [Text.Encoding]::UTF8.GetString($r.RawContentStream.ToArray())
         } catch {
-            if ($i -eq 4) { throw }
+            $code = Get-HttpStatus $_
+            if ($i -eq $Pogingen -or ($code -ge 400 -and $code -lt 500 -and $code -notin 408, 429)) { throw }
             Write-Log ("Poging {0} mislukt ({1}): {2}. Opnieuw over {3} s." -f $i, $Uri, $_.Exception.Message, $delay) 'WARN'
             Start-Sleep -Seconds $delay
             $delay *= 3
@@ -52,8 +62,8 @@ function Invoke-Get {
 
 # Arrays worden element voor element teruggegeven (PowerShell 5.1 geeft anders één array-object door).
 function Invoke-GetJson {
-    param([string]$Uri, [int]$TimeoutSec = 300)
-    $o = ConvertFrom-Json -InputObject (Invoke-Get -Uri $Uri -TimeoutSec $TimeoutSec)
+    param([string]$Uri, [int]$TimeoutSec = 300, [int]$Pogingen = 4)
+    $o = ConvertFrom-Json -InputObject (Invoke-Get -Uri $Uri -TimeoutSec $TimeoutSec -Pogingen $Pogingen)
     return $o
 }
 
