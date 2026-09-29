@@ -108,6 +108,7 @@ function Invoke-NsDrukte {
 
 function Invoke-BronNS {
     if (-not $env:NS_API_KEY) { return 'overgeslagen: geen NS_API_KEY ingesteld' }
+    New-Item -ItemType Directory -Force -Path (Get-DataPath 'ns') | Out-Null
     $uit = @()
     $s = Update-NsStations; if ($s) { $uit += $s }
     $uit += Invoke-NsStoringen

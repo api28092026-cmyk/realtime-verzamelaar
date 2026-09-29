@@ -99,7 +99,8 @@ function Invoke-EnergieTenneT {
     $perKwartier = @{}
     foreach ($p in $punten) {
         $t = [datetime]::Parse($p.'Timeinterval Start Utc', $script:Inv, [Globalization.DateTimeStyles]::AdjustToUniversal -bor [Globalization.DateTimeStyles]::AssumeUniversal)
-        $k = (New-Object DateTime ($t.Year, $t.Month, $t.Day, $t.Hour, ([int][math]::Floor($t.Minute / 15)) * 15, 0, [DateTimeKind]::Utc)).ToString($iso, $script:Inv)
+        $minuut = [int][math]::Floor($t.Minute / 15) * 15
+        $k = [datetime]::SpecifyKind($t.Date.AddHours($t.Hour).AddMinutes($minuut), [DateTimeKind]::Utc).ToString($iso, $script:Inv)
         if (-not $perKwartier.ContainsKey($k)) { $perKwartier[$k] = @{ n = 0; som = @{}; min = @{}; max = @{} } }
         $a = $perKwartier[$k]; $a.n++
         foreach ($v in $velden) {
