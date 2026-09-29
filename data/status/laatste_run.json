@@ -1,9 +1,27 @@
 ﻿{
+  "EnergyZero": {
+    "status": "ok",
+    "tijd": "2026-09-29T04:30:45Z",
+    "melding": "170 uurprijzen bijgewerkt",
+    "seconden": 3
+  },
+  "Laadpunten": {
+    "status": "ok",
+    "seconden": 46,
+    "melding": "74874 locaties, 187482 laadpunten (38699 aan het laden); bestand van 2026-09-29T12:05:36Z",
+    "tijd": "2026-09-29T12:05:31Z"
+  },
   "TenderNed": {
     "status": "ok",
     "tijd": "2026-09-29T04:30:45Z",
     "melding": "53 nieuwe publicaties",
     "seconden": 59
+  },
+  "OV": {
+    "melding": "dienstregeling: 3459 lijnen, 1591304 geplande ritten in 14 dagen; live: 14479 ritten, 911 uitgevallen; meldingen: 592 actief, 592 nieuw",
+    "status": "ok",
+    "seconden": 53,
+    "tijd": "2026-09-29T12:56:10Z"
   },
   "Deelmobiliteit": {
     "status": "ok",
@@ -17,35 +35,23 @@
     "melding": "bezetting van 319 van 324 garages (1 mislukt)",
     "tijd": "2026-09-29T12:05:31Z"
   },
-  "KvkOpenData": {
-    "status": "ok",
-    "tijd": "2026-09-29T04:30:45Z",
-    "melding": "1920569 bv's/nv's verwerkt, waarvan 77225 met status faillissement",
-    "seconden": 14
-  },
-  "Laadpunten": {
-    "status": "ok",
-    "seconden": 46,
-    "melding": "74874 locaties, 187482 laadpunten (38699 aan het laden); bestand van 2026-09-29T12:05:36Z",
-    "tijd": "2026-09-29T12:05:31Z"
-  },
   "Verstoringen": {
     "status": "ok",
     "seconden": 14,
     "melding": "weg: 1322 actieve meldingen, 60 nieuw; spoor: 2026-07 (1966262 haltes), 2026-08 (1898432 haltes)",
     "tijd": "2026-09-29T12:05:31Z"
   },
-  "EnergyZero": {
-    "status": "ok",
-    "tijd": "2026-09-29T04:30:45Z",
-    "melding": "170 uurprijzen bijgewerkt",
-    "seconden": 3
-  },
   "RDW": {
     "status": "ok",
     "tijd": "2026-09-29T04:30:45Z",
     "melding": "15290 personenauto-registraties sinds 2026-09-19 verwerkt",
     "seconden": 91
+  },
+  "KvkOpenData": {
+    "status": "ok",
+    "tijd": "2026-09-29T04:30:45Z",
+    "melding": "1920569 bv's/nv's verwerkt, waarvan 77225 met status faillissement",
+    "seconden": 14
   },
   "Netcongestie": {
     "status": "ok",
