@@ -1,38 +1,38 @@
 ﻿{
-  "EnergyZero": {
-    "tijd": "2026-09-28T14:45:02Z",
-    "seconden": 9,
-    "status": "ok",
-    "melding": "218 uurprijzen bijgewerkt"
-  },
   "TenderNed": {
     "status": "ok",
-    "seconden": 807,
-    "tijd": "2026-09-28T13:36:34Z",
-    "melding": "1000 nieuwe publicaties"
+    "tijd": "2026-09-29T04:30:45Z",
+    "melding": "53 nieuwe publicaties",
+    "seconden": 59
   },
-  "Netcongestie": {
+  "EnergyZero": {
     "status": "ok",
-    "seconden": 6,
-    "tijd": "2026-09-28T13:36:34Z",
-    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (925 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (925 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)"
-  },
-  "KvkOpenData": {
-    "status": "ok",
-    "seconden": 36,
-    "tijd": "2026-09-28T13:36:34Z",
-    "melding": "1919229 bv's/nv's verwerkt, waarvan 77221 met status faillissement"
-  },
-  "Laadpunten": {
-    "melding": "74891 locaties, 187513 laadpunten (50385 aan het laden); bestand van 2026-09-29T04:05:36Z",
-    "status": "ok",
-    "seconden": 22,
-    "tijd": "2026-09-29T04:05:30Z"
+    "tijd": "2026-09-29T04:30:45Z",
+    "melding": "170 uurprijzen bijgewerkt",
+    "seconden": 3
   },
   "RDW": {
     "status": "ok",
-    "seconden": 100,
-    "tijd": "2026-09-28T13:36:34Z",
-    "melding": "18527 personenauto-registraties sinds 2026-09-18 verwerkt"
+    "tijd": "2026-09-29T04:30:45Z",
+    "melding": "15290 personenauto-registraties sinds 2026-09-19 verwerkt",
+    "seconden": 91
+  },
+  "KvkOpenData": {
+    "status": "ok",
+    "tijd": "2026-09-29T04:30:45Z",
+    "melding": "1920569 bv's/nv's verwerkt, waarvan 77225 met status faillissement",
+    "seconden": 14
+  },
+  "Netcongestie": {
+    "status": "ok",
+    "tijd": "2026-09-29T04:30:45Z",
+    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
+    "seconden": 4
+  },
+  "Laadpunten": {
+    "status": "ok",
+    "tijd": "2026-09-29T04:30:45Z",
+    "melding": "74891 locaties, 187513 laadpunten (48132 aan het laden); bestand van 2026-09-29T04:33:23Z",
+    "seconden": 48
   }
 }
