@@ -5,12 +5,6 @@
     "melding": "170 uurprijzen bijgewerkt",
     "seconden": 3
   },
-  "Laadpunten": {
-    "status": "ok",
-    "seconden": 46,
-    "melding": "74874 locaties, 187482 laadpunten (38699 aan het laden); bestand van 2026-09-29T12:05:36Z",
-    "tijd": "2026-09-29T12:05:31Z"
-  },
   "TenderNed": {
     "status": "ok",
     "tijd": "2026-09-29T04:30:45Z",
@@ -23,29 +17,23 @@
     "seconden": 53,
     "tijd": "2026-09-29T12:56:10Z"
   },
-  "Deelmobiliteit": {
+  "Verstoringen": {
+    "seconden": 3,
+    "tijd": "2026-09-29T13:05:27Z",
     "status": "ok",
-    "seconden": 81,
-    "melding": "45 van 56 systemen, 26693 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "tijd": "2026-09-29T12:05:31Z"
+    "melding": "weg: 1362 actieve meldingen, 57 nieuw; spoor: niets nieuws"
   },
   "Parkeren": {
+    "seconden": 218,
+    "tijd": "2026-09-29T13:05:27Z",
     "status": "ok",
-    "seconden": 165,
-    "melding": "bezetting van 319 van 324 garages (1 mislukt)",
-    "tijd": "2026-09-29T12:05:31Z"
+    "melding": "bezetting van 319 van 324 garages (1 mislukt)"
   },
-  "Verstoringen": {
-    "status": "ok",
-    "seconden": 14,
-    "melding": "weg: 1322 actieve meldingen, 60 nieuw; spoor: 2026-07 (1966262 haltes), 2026-08 (1898432 haltes)",
-    "tijd": "2026-09-29T12:05:31Z"
-  },
-  "RDW": {
+  "Netcongestie": {
     "status": "ok",
     "tijd": "2026-09-29T04:30:45Z",
-    "melding": "15290 personenauto-registraties sinds 2026-09-19 verwerkt",
-    "seconden": 91
+    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
+    "seconden": 4
   },
   "KvkOpenData": {
     "status": "ok",
@@ -53,10 +41,22 @@
     "melding": "1920569 bv's/nv's verwerkt, waarvan 77225 met status faillissement",
     "seconden": 14
   },
-  "Netcongestie": {
+  "Laadpunten": {
+    "seconden": 51,
+    "tijd": "2026-09-29T13:05:27Z",
+    "status": "ok",
+    "melding": "74876 locaties, 187486 laadpunten (38443 aan het laden); bestand van 2026-09-29T13:05:34Z"
+  },
+  "Deelmobiliteit": {
+    "seconden": 109,
+    "tijd": "2026-09-29T13:05:27Z",
+    "status": "ok",
+    "melding": "45 van 56 systemen, 26710 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+  },
+  "RDW": {
     "status": "ok",
     "tijd": "2026-09-29T04:30:45Z",
-    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
-    "seconden": 4
+    "melding": "15290 personenauto-registraties sinds 2026-09-19 verwerkt",
+    "seconden": 91
   }
 }
