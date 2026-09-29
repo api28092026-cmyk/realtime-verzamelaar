@@ -8,14 +8,18 @@
 #>
 [CmdletBinding()]
 param(
-    [ValidateSet('EnergyZero', 'TenderNed', 'RDW', 'Laadpunten', 'Netcongestie', 'KvkOpenData', 'Parkeren', 'Deelmobiliteit', 'Verstoringen')]
-    [string[]]$Bron = @('EnergyZero', 'TenderNed', 'RDW', 'Laadpunten', 'Netcongestie', 'KvkOpenData', 'Parkeren', 'Deelmobiliteit', 'Verstoringen')
+    [ValidateSet('EnergyZero', 'TenderNed', 'RDW', 'Laadpunten', 'Netcongestie', 'KvkOpenData', 'Parkeren', 'Deelmobiliteit', 'Verstoringen', 'OV', 'Wachttijden')]
+    [string[]]$Bron = @('EnergyZero', 'TenderNed', 'RDW', 'Laadpunten', 'Netcongestie', 'KvkOpenData', 'Parkeren', 'Deelmobiliteit', 'Verstoringen', 'OV'),
+    # Andere datamap dan in config.psd1, bv. voor bronnen die alleen lokaal mogen (Wachttijden -> lokaal\).
+    [string]$DataDir
 )
 
 $root = $PSScriptRoot
 . (Join-Path (Join-Path $root 'lib') 'Common.ps1')
 Get-ChildItem -Path (Join-Path $root 'bronnen') -Filter '*.ps1' | ForEach-Object { . $_.FullName }
-Initialize-Verzamelaar -Config (Import-PowerShellDataFile (Join-Path $root 'config.psd1')) -Root $root
+$config = Import-PowerShellDataFile (Join-Path $root 'config.psd1')
+if ($DataDir) { $config.DataDir = $DataDir }
+Initialize-Verzamelaar -Config $config -Root $root
 
 $resultaat = [ordered]@{}
 $fouten = 0

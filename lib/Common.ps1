@@ -54,7 +54,7 @@ function Invoke-Get {
             $code = Get-HttpStatus $_
             if ($i -eq $Pogingen -or ($code -ge 400 -and $code -lt 500 -and $code -notin 408, 429)) { throw }
             Write-Log ("Poging {0} mislukt ({1}): {2}. Opnieuw over {3} s." -f $i, $Uri, $_.Exception.Message, $delay) 'WARN'
-            Start-Sleep -Seconds $delay
+            Start-Sleep -Seconds $(if ($code -eq 429) { [Math]::Max($delay, 65) } else { $delay })   # 429: veel API's tellen per minuut
             $delay *= 3
         }
     }

@@ -4,3 +4,6 @@ data/tenderned_details/
 *.tmp
 .vscode/
 __pycache__/
+
+# Lokale data die niet openbaar mag (o.a. wachttijden van ZorgkaartNederland).
+lokaal/

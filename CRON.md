@@ -8,7 +8,7 @@ De repository is openbaar, dus GitHub Actions-minuten zijn gratis en onbeperkt.
 |---|---|---|---|
 | OV-fiets wijzigingen | `openov.yml` | elke 5 minuten | `{"ref":"main"}` |
 | Realtime-bronnen | `verzamelen.yml` | dagelijks 06:30 | `{"ref":"main"}` |
-| Momentopnamen (laadpunten, parkeren, deelmobiliteit, wegverstoringen) | `verzamelen.yml` | elk uur op :05 | `{"ref":"main","inputs":{"bron":"Laadpunten,Parkeren,Deelmobiliteit,Verstoringen"}}` |
+| Momentopnamen (laadpunten, parkeren, deelmobiliteit, verstoringen, OV) | `verzamelen.yml` | elk uur op :05 | `{"ref":"main","inputs":{"bron":"Laadpunten,Parkeren,Deelmobiliteit,Verstoringen,OV"}}` |
 | OV-fiets historie | `ovfiets.yml` | maandag en donderdag 04:20 | `{"ref":"main"}` |
 
 ## Stap 1: token aanmaken (eenmalig, op het account api28092026-cmyk)
@@ -82,6 +82,15 @@ Voeg dan met `crontab -e` deze regels toe (een `%` moet in crontab als `\%`):
 
 Gebruik steeds maar één route. Anders halen twee machines dezelfde data op en krijg je dubbele commits.
 
+## Alleen lokaal: wachttijden
+
+De wachttijden (NZa-gegevens via ZorgkaartNederland) draaien bewust niet op GitHub, zodat de data niet openbaar wordt. Plan ze eenmalig op deze pc, in PowerShell **als administrator**:
+
+```powershell
+.\Installeer-WachttijdenTaak.ps1
+```
+
+De taak start elke dag om 07:15, onzichtbaar. Hij haalt hooguit één keer per 7 dagen op, dus een gemiste week wordt vanzelf ingehaald. De data komt in `lokaal\wachttijden\<jaar>.csv`. Weghalen gaat met `.\Installeer-WachttijdenTaak.ps1 -Verwijder`.
 ## Bewaken
 
 - In cron-job.org: de uitvoeringsgeschiedenis per job; bij een melding eerst naar de statuscode kijken (401 = token verlopen, 404 = verkeerde URL of workflownaam).

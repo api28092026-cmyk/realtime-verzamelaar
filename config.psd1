@@ -4,7 +4,7 @@
 
     # Neutrale, eerlijke identificatie richting de bronnen. Geen bedrijfsnaam nodig;
     # een algemeen contactadres is netjes maar optioneel, bv. 'realtime-verzamelaar/1.0 (+data@voorbeeld.nl)'.
-    UserAgent      = 'realtime-verzamelaar/1.0'
+    UserAgent      = 'realtime-verzamelaar/1.0 (+https://github.com/api28092026-cmyk/realtime-verzamelaar)'
 
     # Pauze tussen opeenvolgende verzoeken aan dezelfde bron (milliseconden).
     PauzeMs        = 700
@@ -30,4 +30,8 @@
     # Spoorverstoringen (Rijden de Treinen): vanaf welke maand samenvatten, en hoeveel maanden per run bijwerken.
     RdtVanaf         = '2026-01'
     RdtMaandenPerRun = 2
+
+    # Wachttijden (alleen lokaal): minimaal aantal dagen tussen twee rondes, en pauze tussen pagina's.
+    WachttijdenDagen   = 7
+    WachttijdenPauzeMs = 1500
 }
