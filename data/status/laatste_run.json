@@ -1,9 +1,15 @@
 ﻿{
-  "OV": {
-    "melding": "live: 9376 ritten, 264 uitgevallen; meldingen: 602 actief, 0 nieuw",
+  "NS": {
+    "tijd": "2026-09-29T23:05:46Z",
     "status": "ok",
-    "tijd": "2026-09-29T22:05:28Z",
-    "seconden": 3
+    "seconden": 78,
+    "melding": "storingen/werkzaamheden: 5 actief, 2 nieuw; drukte: 47 van 47 rijdende treinen, 165 stations, 0 keer drukte hoog"
+  },
+  "RDW": {
+    "status": "ok",
+    "tijd": "2026-09-29T04:30:45Z",
+    "melding": "15290 personenauto-registraties sinds 2026-09-19 verwerkt",
+    "seconden": 91
   },
   "Netcongestie": {
     "status": "ok",
@@ -11,11 +17,11 @@
     "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
     "seconden": 4
   },
-  "Verstoringen": {
-    "melding": "weg: 1731 actieve meldingen, 84 nieuw; spoor: niets nieuws",
+  "OV": {
+    "tijd": "2026-09-29T23:05:46Z",
     "status": "ok",
-    "tijd": "2026-09-29T22:05:28Z",
-    "seconden": 3
+    "seconden": 3,
+    "melding": "live: 7061 ritten, 197 uitgevallen; meldingen: 602 actief, 0 nieuw"
   },
   "KvkOpenData": {
     "status": "ok",
@@ -24,22 +30,16 @@
     "seconden": 14
   },
   "Energie": {
-    "melding": "Nord Pool: 192 kwartierprijzen; opwek: 3948 waarden, grensstromen: 1650 waarden; TenneT: balance delta: 357 metingen in 6 kwartieren",
+    "tijd": "2026-09-29T23:05:46Z",
     "status": "ok",
-    "tijd": "2026-09-29T22:05:28Z",
-    "seconden": 5
+    "seconden": 6,
+    "melding": "Nord Pool: 192 kwartierprijzen; opwek: 3990 waarden, grensstromen: 1680 waarden; TenneT: balance delta: 358 metingen in 6 kwartieren"
   },
-  "RDW": {
+  "Parkeren": {
+    "tijd": "2026-09-29T23:05:46Z",
     "status": "ok",
-    "tijd": "2026-09-29T04:30:45Z",
-    "melding": "15290 personenauto-registraties sinds 2026-09-19 verwerkt",
-    "seconden": 91
-  },
-  "Deelmobiliteit": {
-    "melding": "45 van 56 systemen, 26982 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "status": "ok",
-    "tijd": "2026-09-29T22:05:28Z",
-    "seconden": 81
+    "seconden": 163,
+    "melding": "bezetting van 319 van 324 garages (1 mislukt)"
   },
   "EnergyZero": {
     "status": "ok",
@@ -47,28 +47,28 @@
     "seconden": 8,
     "tijd": "2026-09-29T15:31:21Z"
   },
-  "Parkeren": {
-    "melding": "bezetting van 319 van 324 garages (1 mislukt)",
+  "Deelmobiliteit": {
+    "tijd": "2026-09-29T23:05:46Z",
     "status": "ok",
-    "tijd": "2026-09-29T22:05:28Z",
-    "seconden": 162
-  },
-  "NS": {
-    "melding": "storingen/werkzaamheden: 4 actief, 2 nieuw; drukte: 190 van 190 rijdende treinen, 245 stations, 3 keer drukte hoog",
-    "status": "ok",
-    "tijd": "2026-09-29T22:05:28Z",
-    "seconden": 298
-  },
-  "Laadpunten": {
-    "melding": "74944 locaties, 187666 laadpunten (53540 aan het laden); bestand van 2026-09-29T22:05:33Z",
-    "status": "ok",
-    "tijd": "2026-09-29T22:05:28Z",
-    "seconden": 36
+    "seconden": 81,
+    "melding": "45 van 56 systemen, 26999 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
   },
   "TenderNed": {
     "status": "ok",
     "tijd": "2026-09-29T04:30:45Z",
     "melding": "53 nieuwe publicaties",
     "seconden": 59
+  },
+  "Laadpunten": {
+    "tijd": "2026-09-29T23:05:46Z",
+    "status": "ok",
+    "seconden": 47,
+    "melding": "74944 locaties, 187666 laadpunten (54033 aan het laden); bestand van 2026-09-29T23:05:51Z"
+  },
+  "Verstoringen": {
+    "tijd": "2026-09-29T23:05:46Z",
+    "status": "ok",
+    "seconden": 4,
+    "melding": "weg: 1702 actieve meldingen, 60 nieuw; spoor: niets nieuws"
   }
 }
