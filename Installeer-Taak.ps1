@@ -34,14 +34,14 @@ $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -ExecutionTimeLimit
 $principal = New-ScheduledTaskPrincipal -UserId "$env:USERDOMAIN\$env:USERNAME" -LogonType S4U -RunLevel Limited
 
 $actie = New-ScheduledTaskAction -Execute $exe -WorkingDirectory $root `
-    -Argument ('-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "{0}"' -f (Join-Path $root 'Verzamel.ps1'))
+    -Argument ('-NoProfile -ExecutionPolicy RemoteSigned -File "{0}"' -f (Join-Path $root 'Verzamel.ps1'))
 Register-ScheduledTask -TaskName $naamDag -Action $actie -Trigger (New-ScheduledTaskTrigger -Daily -At $Tijd) -Settings $settings -Principal $principal `
     -Description 'Haalt de real-time bronnen op en werkt de tijdreeksen bij.' -Force | Out-Null
 Write-Host "Taak '$naamDag' gepland om $Tijd."
 
 if ($LaadpuntenElkUur) {
     $actie = New-ScheduledTaskAction -Execute $exe -WorkingDirectory $root `
-        -Argument ('-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "{0}" -Bron Laadpunten' -f (Join-Path $root 'Verzamel.ps1'))
+        -Argument ('-NoProfile -ExecutionPolicy RemoteSigned -File "{0}" -Bron Laadpunten' -f (Join-Path $root 'Verzamel.ps1'))
     $start = (Get-Date).Date.AddHours((Get-Date).Hour + 1).AddMinutes(5)
     $trigger = New-ScheduledTaskTrigger -Once -At $start -RepetitionInterval (New-TimeSpan -Hours 1)
     Register-ScheduledTask -TaskName $naamUur -Action $actie -Trigger $trigger -Settings $settings -Principal $principal `

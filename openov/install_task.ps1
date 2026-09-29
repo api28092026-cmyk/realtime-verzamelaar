@@ -15,7 +15,7 @@ param([string]$Dest = (Join-Path $PSScriptRoot 'data'))
 $naam = 'OV-fiets data sync'
 $script = Join-Path $PSScriptRoot 'sync_local.ps1'
 $action = New-ScheduledTaskAction -Execute 'powershell.exe' -WorkingDirectory $PSScriptRoot `
-    -Argument "-NoProfile -NonInteractive -WindowStyle Hidden -ExecutionPolicy Bypass -File `"$script`" -Dest `"$Dest`""
+    -Argument "-NoProfile -NonInteractive -ExecutionPolicy RemoteSigned -File `"$script`" -Dest `"$Dest`""
 $triggers = @(
     New-ScheduledTaskTrigger -AtLogOn -User "$env:USERDOMAIN\$env:USERNAME"
     New-ScheduledTaskTrigger -Once -At (Get-Date).Date -RepetitionInterval (New-TimeSpan -Hours 1)

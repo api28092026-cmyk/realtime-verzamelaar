@@ -22,7 +22,7 @@ $root = $PSScriptRoot
 $data = Join-Path $root 'lokaal'
 $exe = (Get-Process -Id $PID).Path
 $actie = New-ScheduledTaskAction -Execute $exe -WorkingDirectory $root `
-    -Argument ('-NoProfile -NonInteractive -ExecutionPolicy Bypass -WindowStyle Hidden -File "{0}" -Bron Wachttijden -DataDir "{1}"' -f (Join-Path $root 'Verzamel.ps1'), $data)
+    -Argument ('-NoProfile -NonInteractive -ExecutionPolicy RemoteSigned -File "{0}" -Bron Wachttijden -DataDir "{1}"' -f (Join-Path $root 'Verzamel.ps1'), $data)
 $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -RunOnlyIfNetworkAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
     -ExecutionTimeLimit (New-TimeSpan -Hours 1) -MultipleInstances IgnoreNew
 $principal = New-ScheduledTaskPrincipal -UserId "$env:USERDOMAIN\$env:USERNAME" -LogonType S4U -RunLevel Limited
