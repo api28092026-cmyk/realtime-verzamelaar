@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       bron:
-        description: 'Bronnen, komma-gescheiden (leeg = alle): EnergyZero, TenderNed, RDW, Laadpunten, Netcongestie, KvkOpenData, Parkeren, Deelmobiliteit, Verstoringen, OV'
+        description: 'Bronnen, komma-gescheiden (leeg = alle): EnergyZero, TenderNed, RDW, Laadpunten, Netcongestie, KvkOpenData, Parkeren, Deelmobiliteit, Verstoringen, OV, NS, Energie'
         required: false
         default: ''
 
@@ -29,6 +29,8 @@ jobs:
         continue-on-error: true   # één falende bron mag de rest niet blokkeren
         env:
           BRON: ${{ github.event.inputs.bron }}
+          NS_API_KEY: ${{ secrets.NS_API_KEY }}           # GitHub-geheimen; nooit in de code of de logs
+          TENNET_API_KEY: ${{ secrets.TENNET_API_KEY }}
         run: |
           if ($env:BRON) { ./Verzamel.ps1 -Bron (($env:BRON -split ',') | ForEach-Object { $_.Trim() }) } else { ./Verzamel.ps1 }
 

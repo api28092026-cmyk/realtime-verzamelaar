@@ -8,8 +8,8 @@
 #>
 [CmdletBinding()]
 param(
-    [ValidateSet('EnergyZero', 'TenderNed', 'RDW', 'Laadpunten', 'Netcongestie', 'KvkOpenData', 'Parkeren', 'Deelmobiliteit', 'Verstoringen', 'OV', 'Wachttijden')]
-    [string[]]$Bron = @('EnergyZero', 'TenderNed', 'RDW', 'Laadpunten', 'Netcongestie', 'KvkOpenData', 'Parkeren', 'Deelmobiliteit', 'Verstoringen', 'OV'),
+    [ValidateSet('EnergyZero', 'TenderNed', 'RDW', 'Laadpunten', 'Netcongestie', 'KvkOpenData', 'Parkeren', 'Deelmobiliteit', 'Verstoringen', 'OV', 'NS', 'Energie', 'Wachttijden')]
+    [string[]]$Bron = @('EnergyZero', 'TenderNed', 'RDW', 'Laadpunten', 'Netcongestie', 'KvkOpenData', 'Parkeren', 'Deelmobiliteit', 'Verstoringen', 'OV', 'NS', 'Energie'),
     # Andere datamap dan in config.psd1, bv. voor bronnen die alleen lokaal mogen (Wachttijden -> lokaal\).
     [string]$DataDir
 )

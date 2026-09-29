@@ -34,4 +34,7 @@
     # Wachttijden (alleen lokaal): minimaal aantal dagen tussen twee rondes, en pauze tussen pagina's.
     WachttijdenDagen   = 7
     WachttijdenPauzeMs = 1500
+
+    # NS-drukte: hooguit zoveel rijdende treinen per run bevragen (1 verzoek per trein, 1,1 s pauze).
+    NsDrukteMaxTreinen = 400
 }
