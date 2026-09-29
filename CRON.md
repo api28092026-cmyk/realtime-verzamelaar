@@ -90,7 +90,7 @@ De wachttijden (NZa-gegevens via ZorgkaartNederland) draaien bewust niet op GitH
 .\Installeer-WachttijdenTaak.ps1
 ```
 
-De taak start elke dag om 07:15, onzichtbaar. Hij haalt hooguit één keer per 7 dagen op, dus een gemiste week wordt vanzelf ingehaald. De data komt in `lokaal\wachttijden\<jaar>.csv`. Weghalen gaat met `.\Installeer-WachttijdenTaak.ps1 -Verwijder`.
+De taak start elke dag om 10:15, onzichtbaar. Hij haalt hooguit één keer per 7 dagen op, dus een gemiste week wordt vanzelf ingehaald. De data komt in `lokaal\wachttijden\<jaar>.csv`. Weghalen gaat met `.\Installeer-WachttijdenTaak.ps1 -Verwijder`.
 ## Bewaken
 
 - In cron-job.org: de uitvoeringsgeschiedenis per job; bij een melding eerst naar de statuscode kijken (401 = token verlopen, 404 = verkeerde URL of workflownaam).

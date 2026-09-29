@@ -11,7 +11,7 @@
     .\Installeer-WachttijdenTaak.ps1 -Verwijder
 #>
 param(
-    [string]$Tijd = '07:15',
+    [string]$Tijd = '10:15',
     [switch]$Verwijder
 )
 
