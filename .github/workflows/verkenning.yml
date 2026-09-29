@@ -36,17 +36,18 @@ jobs:
           }
           $ns = @{ 'Ocp-Apim-Subscription-Key' = $env:NS_API_KEY; 'Accept' = 'application/json' }
           $g = 'https://gateway.apiportal.ns.nl'
-          Probeer 'NS disruptions v3 actief' "$g/disruptions/v3?isActive=true" $ns
-          Probeer 'NS disruptions v3 calamities' "$g/disruptions/v3/calamities" $ns
-          Probeer 'NS stations v3' "$g/nsapp-stations/v3" $ns
-          Probeer 'NS virtual train vehicle' "$g/virtual-train-api/api/vehicle" $ns
-          Probeer 'NS virtual train v1 vehicle' "$g/virtual-train-api/api/v1/vehicle" $ns
-          Probeer 'NS virtual train v1 trein 3500' "$g/virtual-train-api/api/v1/trein/3500" $ns
-          Probeer 'NS virtual train v1 prognose 3500' "$g/virtual-train-api/api/v1/prognose/3500" $ns
-          Probeer 'NS virtual train v1 ingekorte treinen' "$g/virtual-train-api/api/v1/ingekorte-treinen" $ns
-          Probeer 'NS reisinfo departures UT' "$g/reisinformatie-api/api/v2/departures?station=UT&maxJourneys=3" $ns
+          $dep = (Invoke-RestMethod -Uri "$g/reisinformatie-api/api/v2/departures?station=UT&maxJourneys=5" -Headers $ns).payload.departures | Where-Object { $_.departureStatus -ne 'DEPARTED' } | Select-Object -First 1
+          $nr = ($dep.name -replace '\D', '').TrimStart('0'); if (-not $nr) { $nr = $dep.product.number }
+          Write-Host "trein voor proef: $nr ($($dep.trainCategory) richting $($dep.direction), vertrek $($dep.plannedDateTime))"
+          Probeer "NS prognose $nr" "$g/virtual-train-api/api/v1/prognose/$nr" $ns
+          Probeer "NS prognose $nr station UT" "$g/virtual-train-api/api/v1/prognose/$($nr)?station=UT" $ns
+          Probeer "NS trein $nr (zonder v1)" "$g/virtual-train-api/api/trein/$nr" $ns
+          Probeer "NS trein $nr station UT" "$g/virtual-train-api/api/trein/$nr/UT" $ns
+          Probeer "NS v1 trein $nr station UT" "$g/virtual-train-api/api/v1/trein/$nr/UT" $ns
+          Probeer "NS trip UT-ASD (crowdForecast?)" "$g/reisinformatie-api/api/v3/trips?fromStation=UT&toStation=ASD" $ns
+          Probeer 'NS disruptions type MAINTENANCE' "$g/disruptions/v3?isActive=true&type=MAINTENANCE" $ns
+          Probeer 'NS disruptions type CALAMITY' "$g/disruptions/v3?isActive=true&type=CALAMITY" $ns
           $tn = @{ 'apikey' = $env:TENNET_API_KEY; 'Accept' = 'text/csv' }
-          $van = (Get-Date).ToUniversalTime().AddHours(-2)
-          $fmt = 'dd-MM-yyyy HH:mm:ss'
-          Probeer 'TenneT settlement prices (2 uur)' ("https://api.tennet.eu/publications/v1/settlement-prices?date_from=" + [Uri]::EscapeDataString($van.ToString($fmt)) + "&date_to=" + [Uri]::EscapeDataString((Get-Date).ToUniversalTime().ToString($fmt))) $tn
-          Probeer 'TenneT balance delta (10 min)' ("https://api.tennet.eu/publications/v1/balance-delta-high-res?date_from=" + [Uri]::EscapeDataString((Get-Date).ToUniversalTime().AddMinutes(-40).ToString('yyyy-MM-ddTHH:mm:ssZ')) + "&date_to=" + [Uri]::EscapeDataString((Get-Date).ToUniversalTime().AddMinutes(-30).ToString('yyyy-MM-ddTHH:mm:ssZ'))) $tn
+          $fmt = 'dd-MM-yyyy HH:mm:ss'; $gisteren = (Get-Date).Date.AddDays(-1)
+          Probeer 'TenneT settlement prices gisteren 00-01u' ("https://api.tennet.eu/publications/v1/settlement-prices?date_from=" + [Uri]::EscapeDataString($gisteren.ToString($fmt)) + "&date_to=" + [Uri]::EscapeDataString($gisteren.AddHours(1).ToString($fmt))) $tn
+          Probeer 'TenneT settlement prices vandaag tot nu' ("https://api.tennet.eu/publications/v1/settlement-prices?date_from=" + [Uri]::EscapeDataString((Get-Date).Date.ToString($fmt)) + "&date_to=" + [Uri]::EscapeDataString((Get-Date).ToString($fmt))) $tn
