@@ -217,3 +217,17 @@
 2026-09-29T21:05:36Z,RoadOrCarriagewayOrLaneManagement,other,77,0
 2026-09-29T21:05:36Z,RoadOrCarriagewayOrLaneManagement,laneClosures,210,0
 2026-09-29T21:05:36Z,RoadOrCarriagewayOrLaneManagement,roadClosed,13,0
+2026-09-29T22:05:28Z,ReroutingManagement,followDiversionSigns,152,0
+2026-09-29T22:05:28Z,GeneralObstruction,other,4,0
+2026-09-29T22:05:28Z,RoadOrCarriagewayOrLaneManagement,other,78,0
+2026-09-29T22:05:28Z,RoadOrCarriagewayOrLaneManagement,laneClosures,208,0
+2026-09-29T22:05:28Z,RoadOrCarriagewayOrLaneManagement,useSpecifiedLanesOrCarriageways,1,0
+2026-09-29T22:05:28Z,GeneralNetworkManagement,bridgeSwingInOperation,2,0
+2026-09-29T22:05:28Z,RoadOrCarriagewayOrLaneManagement,lanesDeviated,46,0
+2026-09-29T22:05:28Z,RoadOrCarriagewayOrLaneManagement,roadClosed,13,0
+2026-09-29T22:05:28Z,RoadOrCarriagewayOrLaneManagement,carriagewayClosures,837,0
+2026-09-29T22:05:28Z,VehicleObstruction,other,138,0
+2026-09-29T22:05:28Z,RoadOrCarriagewayOrLaneManagement,narrowLanes,1,0
+2026-09-29T22:05:28Z,SpeedManagement,speedRestrictionInOperation,176,0
+2026-09-29T22:05:28Z,RoadOrCarriagewayOrLaneManagement,hardShoulderRunningInOperation,52,0
+2026-09-29T22:05:28Z,RoadOrCarriagewayOrLaneManagement,useOfSpecifiedLanesOrCarriagewaysAllowed,23,0
