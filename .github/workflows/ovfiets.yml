@@ -30,7 +30,8 @@ jobs:
         continue-on-error: true   # exitcode 1 = enkele locaties niet in orde; de rest wordt wel bewaard
         timeout-minutes: 270      # ruim binnen de joblimiet, zodat samenvoegen en vastleggen altijd nog lukken
         run: |
-          python -u ovfiets/scrape_ovfiets.py --all --no-raw --out /tmp/ovfiets
+          # Exitcode 1 = een paar locaties niet in orde; dan moet de live-stand hierna toch nog worden opgehaald.
+          python -u ovfiets/scrape_ovfiets.py --all --no-raw --out /tmp/ovfiets || echo "::warning::Niet alle locaties in orde (zie log)"
           python -u ovfiets/scrape_ovfiets.py --index --out /tmp/ovfiets
 
       - name: Samenvoegen
