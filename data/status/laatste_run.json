@@ -1,21 +1,9 @@
 ﻿{
-  "RDW": {
-    "status": "ok",
-    "seconden": 100,
-    "tijd": "2026-09-28T13:36:34Z",
-    "melding": "18527 personenauto-registraties sinds 2026-09-18 verwerkt"
-  },
   "KvkOpenData": {
     "status": "ok",
     "seconden": 36,
     "tijd": "2026-09-28T13:36:34Z",
     "melding": "1919229 bv's/nv's verwerkt, waarvan 77221 met status faillissement"
-  },
-  "Netcongestie": {
-    "status": "ok",
-    "seconden": 6,
-    "tijd": "2026-09-28T13:36:34Z",
-    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (925 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (925 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)"
   },
   "EnergyZero": {
     "tijd": "2026-09-28T14:45:02Z",
@@ -23,16 +11,28 @@
     "status": "ok",
     "melding": "218 uurprijzen bijgewerkt"
   },
+  "Laadpunten": {
+    "tijd": "2026-09-29T03:05:25Z",
+    "status": "ok",
+    "seconden": 51,
+    "melding": "80262 locaties, 201448 laadpunten (53915 aan het laden); bestand van 2026-09-29T03:05:32Z"
+  },
+  "Netcongestie": {
+    "status": "ok",
+    "seconden": 6,
+    "tijd": "2026-09-28T13:36:34Z",
+    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (925 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (925 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)"
+  },
   "TenderNed": {
     "status": "ok",
     "seconden": 807,
     "tijd": "2026-09-28T13:36:34Z",
     "melding": "1000 nieuwe publicaties"
   },
-  "Laadpunten": {
-    "tijd": "2026-09-29T02:05:37Z",
+  "RDW": {
     "status": "ok",
-    "melding": "80262 locaties, 201448 laadpunten (54314 aan het laden); bestand van 2026-09-29T02:05:43Z",
-    "seconden": 52
+    "seconden": 100,
+    "tijd": "2026-09-28T13:36:34Z",
+    "melding": "18527 personenauto-registraties sinds 2026-09-18 verwerkt"
   }
 }
