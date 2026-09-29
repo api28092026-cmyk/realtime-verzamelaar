@@ -254,6 +254,9 @@
 2026-09-29T13:00:00Z,Cross border electricity trading,-909
 2026-09-29T13:15:00Z,Cross border electricity trading,-973.8
 2026-09-29T13:30:00Z,Cross border electricity trading,-996.2
+2026-09-29T13:45:00Z,Cross border electricity trading,-996.7
+2026-09-29T14:00:00Z,Cross border electricity trading,-321.7
+2026-09-29T14:15:00Z,Cross border electricity trading,-390.4
 2026-09-26T22:00:00Z,Nuclear,472.1
 2026-09-26T22:15:00Z,Nuclear,471.5
 2026-09-26T22:30:00Z,Nuclear,472.4
@@ -509,6 +512,9 @@
 2026-09-29T13:00:00Z,Nuclear,472.6
 2026-09-29T13:15:00Z,Nuclear,472.1
 2026-09-29T13:30:00Z,Nuclear,472.2
+2026-09-29T13:45:00Z,Nuclear,472.1
+2026-09-29T14:00:00Z,Nuclear,472.1
+2026-09-29T14:15:00Z,Nuclear,472.4
 2026-09-26T22:00:00Z,Biomass,0
 2026-09-26T22:15:00Z,Biomass,0
 2026-09-26T22:30:00Z,Biomass,0
@@ -764,6 +770,9 @@
 2026-09-29T13:00:00Z,Biomass,0
 2026-09-29T13:15:00Z,Biomass,0
 2026-09-29T13:30:00Z,Biomass,0
+2026-09-29T13:45:00Z,Biomass,0
+2026-09-29T14:00:00Z,Biomass,0
+2026-09-29T14:15:00Z,Biomass,0
 2026-09-26T22:00:00Z,Fossil hard coal,3309.9
 2026-09-26T22:15:00Z,Fossil hard coal,3300.7
 2026-09-26T22:30:00Z,Fossil hard coal,3304.6
@@ -1019,6 +1028,9 @@
 2026-09-29T13:00:00Z,Fossil hard coal,2253.4
 2026-09-29T13:15:00Z,Fossil hard coal,2544.3
 2026-09-29T13:30:00Z,Fossil hard coal,2699.5
+2026-09-29T13:45:00Z,Fossil hard coal,2872.8
+2026-09-29T14:00:00Z,Fossil hard coal,3103
+2026-09-29T14:15:00Z,Fossil hard coal,3232.9
 2026-09-26T22:00:00Z,Fossil gas,6397.3
 2026-09-26T22:15:00Z,Fossil gas,6261.7
 2026-09-26T22:30:00Z,Fossil gas,5835.1
@@ -1274,6 +1286,9 @@
 2026-09-29T13:00:00Z,Fossil gas,710.6
 2026-09-29T13:15:00Z,Fossil gas,786
 2026-09-29T13:30:00Z,Fossil gas,804.1
+2026-09-29T13:45:00Z,Fossil gas,833.6
+2026-09-29T14:00:00Z,Fossil gas,831.1
+2026-09-29T14:15:00Z,Fossil gas,1154.7
 2026-09-26T22:00:00Z,Others,457.9
 2026-09-26T22:15:00Z,Others,453.2
 2026-09-26T22:30:00Z,Others,312.2
@@ -1529,6 +1544,9 @@
 2026-09-29T13:00:00Z,Others,20.3
 2026-09-29T13:15:00Z,Others,12.7
 2026-09-29T13:30:00Z,Others,14.8
+2026-09-29T13:45:00Z,Others,25.4
+2026-09-29T14:00:00Z,Others,29.1
+2026-09-29T14:15:00Z,Others,32.3
 2026-09-26T22:00:00Z,Waste,70.6
 2026-09-26T22:15:00Z,Waste,70.1
 2026-09-26T22:30:00Z,Waste,69.8
@@ -1784,6 +1802,9 @@
 2026-09-29T13:00:00Z,Waste,67.7
 2026-09-29T13:15:00Z,Waste,66.4
 2026-09-29T13:30:00Z,Waste,67.3
+2026-09-29T13:45:00Z,Waste,67.4
+2026-09-29T14:00:00Z,Waste,68.2
+2026-09-29T14:15:00Z,Waste,68.7
 2026-09-26T22:00:00Z,Wind offshore,273.4
 2026-09-26T22:15:00Z,Wind offshore,300
 2026-09-26T22:30:00Z,Wind offshore,318.8
@@ -2039,6 +2060,9 @@
 2026-09-29T13:00:00Z,Wind offshore,524.8
 2026-09-29T13:15:00Z,Wind offshore,562.5
 2026-09-29T13:30:00Z,Wind offshore,599.3
+2026-09-29T13:45:00Z,Wind offshore,629.6
+2026-09-29T14:00:00Z,Wind offshore,686.2
+2026-09-29T14:15:00Z,Wind offshore,792.9
 2026-09-26T22:00:00Z,Wind onshore,202.4
 2026-09-26T22:15:00Z,Wind onshore,198.5
 2026-09-26T22:30:00Z,Wind onshore,191.2
@@ -2294,6 +2318,9 @@
 2026-09-29T13:00:00Z,Wind onshore,71.7
 2026-09-29T13:15:00Z,Wind onshore,98.3
 2026-09-29T13:30:00Z,Wind onshore,121
+2026-09-29T13:45:00Z,Wind onshore,132.2
+2026-09-29T14:00:00Z,Wind onshore,136.5
+2026-09-29T14:15:00Z,Wind onshore,148.5
 2026-09-26T22:00:00Z,Solar,0
 2026-09-26T22:15:00Z,Solar,0
 2026-09-26T22:30:00Z,Solar,0
@@ -2549,6 +2576,9 @@
 2026-09-29T13:00:00Z,Solar,125.7
 2026-09-29T13:15:00Z,Solar,133.2
 2026-09-29T13:30:00Z,Solar,128.2
+2026-09-29T13:45:00Z,Solar,108.1
+2026-09-29T14:00:00Z,Solar,115.4
+2026-09-29T14:15:00Z,Solar,88
 2026-09-26T22:00:00Z,Load,9800.4
 2026-09-26T22:15:00Z,Load,10062.5
 2026-09-26T22:30:00Z,Load,10123.6
@@ -2804,6 +2834,9 @@
 2026-09-29T13:00:00Z,Load,6350.5
 2026-09-29T13:15:00Z,Load,6499.2
 2026-09-29T13:30:00Z,Load,6590.1
+2026-09-29T13:45:00Z,Load,6812.5
+2026-09-29T14:00:00Z,Load,7120.1
+2026-09-29T14:15:00Z,Load,7526.4
 2026-09-26T22:00:00Z,Residual load,9324.6
 2026-09-26T22:15:00Z,Residual load,9564
 2026-09-26T22:30:00Z,Residual load,9613.6
@@ -3059,6 +3092,9 @@
 2026-09-29T13:00:00Z,Residual load,5628.3
 2026-09-29T13:15:00Z,Residual load,5705.1
 2026-09-29T13:30:00Z,Residual load,5741.6
+2026-09-29T13:45:00Z,Residual load,5942.6
+2026-09-29T14:00:00Z,Residual load,6182
+2026-09-29T14:15:00Z,Residual load,6497.1
 2026-09-26T22:00:00Z,Renewable share of load,5.2
 2026-09-26T22:15:00Z,Renewable share of load,5.3
 2026-09-26T22:30:00Z,Renewable share of load,5.4
@@ -3314,6 +3350,9 @@
 2026-09-29T13:00:00Z,Renewable share of load,11.9
 2026-09-29T13:15:00Z,Renewable share of load,12.7
 2026-09-29T13:30:00Z,Renewable share of load,13.4
+2026-09-29T13:45:00Z,Renewable share of load,13.3
+2026-09-29T14:00:00Z,Renewable share of load,13.7
+2026-09-29T14:15:00Z,Renewable share of load,14.1
 2026-09-26T22:00:00Z,Renewable share of generation,4.6
 2026-09-26T22:15:00Z,Renewable share of generation,4.8
 2026-09-26T22:30:00Z,Renewable share of generation,5.2
@@ -3569,3 +3608,6 @@
 2026-09-29T13:00:00Z,Renewable share of generation,17.8
 2026-09-29T13:15:00Z,Renewable share of generation,17.7
 2026-09-29T13:30:00Z,Renewable share of generation,18
+2026-09-29T13:45:00Z,Renewable share of generation,17.6
+2026-09-29T14:00:00Z,Renewable share of generation,17.9
+2026-09-29T14:15:00Z,Renewable share of generation,17.8
