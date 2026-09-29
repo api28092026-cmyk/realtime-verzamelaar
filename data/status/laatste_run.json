@@ -1,21 +1,15 @@
 ﻿{
+  "Laadpunten": {
+    "status": "ok",
+    "tijd": "2026-09-29T01:05:29Z",
+    "seconden": 48,
+    "melding": "80262 locaties, 201448 laadpunten (54366 aan het laden); bestand van 2026-09-29T01:05:35Z"
+  },
   "EnergyZero": {
     "tijd": "2026-09-28T14:45:02Z",
     "seconden": 9,
     "status": "ok",
     "melding": "218 uurprijzen bijgewerkt"
-  },
-  "Netcongestie": {
-    "status": "ok",
-    "seconden": 6,
-    "tijd": "2026-09-28T13:36:34Z",
-    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (925 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (925 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)"
-  },
-  "RDW": {
-    "status": "ok",
-    "seconden": 100,
-    "tijd": "2026-09-28T13:36:34Z",
-    "melding": "18527 personenauto-registraties sinds 2026-09-18 verwerkt"
   },
   "KvkOpenData": {
     "status": "ok",
@@ -23,16 +17,22 @@
     "tijd": "2026-09-28T13:36:34Z",
     "melding": "1919229 bv's/nv's verwerkt, waarvan 77221 met status faillissement"
   },
+  "RDW": {
+    "status": "ok",
+    "seconden": 100,
+    "tijd": "2026-09-28T13:36:34Z",
+    "melding": "18527 personenauto-registraties sinds 2026-09-18 verwerkt"
+  },
+  "Netcongestie": {
+    "status": "ok",
+    "seconden": 6,
+    "tijd": "2026-09-28T13:36:34Z",
+    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (925 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (925 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)"
+  },
   "TenderNed": {
     "status": "ok",
     "seconden": 807,
     "tijd": "2026-09-28T13:36:34Z",
     "melding": "1000 nieuwe publicaties"
-  },
-  "Laadpunten": {
-    "seconden": 37,
-    "melding": "80262 locaties, 201448 laadpunten (54300 aan het laden); bestand van 2026-09-29T00:05:35Z",
-    "tijd": "2026-09-29T00:05:25Z",
-    "status": "ok"
   }
 }
