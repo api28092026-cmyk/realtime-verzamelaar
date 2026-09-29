@@ -1,0 +1,52 @@
+# Tijdelijk: verkent welke NS- en TenneT-endpoints werken en hoe de antwoorden eruitzien (alleen structuur).
+name: Verkenning API's
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  verken:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Endpoints proberen
+        shell: pwsh
+        env:
+          NS_API_KEY: ${{ secrets.NS_API_KEY }}
+          TENNET_API_KEY: ${{ secrets.TENNET_API_KEY }}
+        run: |
+          function Structuur($o, $diepte = 0) {
+            if ($null -eq $o) { return 'null' }
+            if ($o -is [array]) { $n = $o.Count; if ($n -eq 0) { return '[]' }; return "[$n x " + (Structuur $o[0] ($diepte + 1)) + ']' }
+            if ($o -is [pscustomobject]) {
+              if ($diepte -ge 4) { return '{...}' }
+              return '{' + (($o.PSObject.Properties | ForEach-Object { $_.Name + ':' + (Structuur $_.Value ($diepte + 1)) }) -join ', ') + '}'
+            }
+            $s = [string]$o; if ($s.Length -gt 40) { $s = $s.Substring(0, 40) + '...' }; return '"' + $s + '"'
+          }
+          function Probeer($naam, $url, $headers) {
+            try {
+              $r = Invoke-WebRequest -Uri $url -Headers $headers -TimeoutSec 60
+              $txt = [Text.Encoding]::UTF8.GetString($r.RawContentStream.ToArray())
+              Write-Host "=== $naam -> $($r.StatusCode), $($txt.Length) tekens, $($r.Headers['Content-Type'])"
+              if ($txt.TrimStart().StartsWith('{') -or $txt.TrimStart().StartsWith('[')) { $s = Structuur ($txt | ConvertFrom-Json -Depth 50); Write-Host ($s.Substring(0, [Math]::Min(2500, $s.Length))) }
+              else { Write-Host ($txt.Substring(0, [Math]::Min(700, $txt.Length))) }
+            } catch { Write-Host "=== $naam -> FOUT: $($_.Exception.Message)" }
+            Start-Sleep -Seconds 2
+          }
+          $ns = @{ 'Ocp-Apim-Subscription-Key' = $env:NS_API_KEY; 'Accept' = 'application/json' }
+          $g = 'https://gateway.apiportal.ns.nl'
+          Probeer 'NS disruptions v3 actief' "$g/disruptions/v3?isActive=true" $ns
+          Probeer 'NS disruptions v3 calamities' "$g/disruptions/v3/calamities" $ns
+          Probeer 'NS stations v3' "$g/nsapp-stations/v3" $ns
+          Probeer 'NS virtual train vehicle' "$g/virtual-train-api/api/vehicle" $ns
+          Probeer 'NS virtual train v1 vehicle' "$g/virtual-train-api/api/v1/vehicle" $ns
+          Probeer 'NS virtual train v1 trein 3500' "$g/virtual-train-api/api/v1/trein/3500" $ns
+          Probeer 'NS virtual train v1 prognose 3500' "$g/virtual-train-api/api/v1/prognose/3500" $ns
+          Probeer 'NS virtual train v1 ingekorte treinen' "$g/virtual-train-api/api/v1/ingekorte-treinen" $ns
+          Probeer 'NS reisinfo departures UT' "$g/reisinformatie-api/api/v2/departures?station=UT&maxJourneys=3" $ns
+          $tn = @{ 'apikey' = $env:TENNET_API_KEY; 'Accept' = 'text/csv' }
+          $van = (Get-Date).ToUniversalTime().AddHours(-2)
+          $fmt = 'dd-MM-yyyy HH:mm:ss'
+          Probeer 'TenneT settlement prices (2 uur)' ("https://api.tennet.eu/publications/v1/settlement-prices?date_from=" + [Uri]::EscapeDataString($van.ToString($fmt)) + "&date_to=" + [Uri]::EscapeDataString((Get-Date).ToUniversalTime().ToString($fmt))) $tn
+          Probeer 'TenneT balance delta (10 min)' ("https://api.tennet.eu/publications/v1/balance-delta-high-res?date_from=" + [Uri]::EscapeDataString((Get-Date).ToUniversalTime().AddMinutes(-40).ToString('yyyy-MM-ddTHH:mm:ssZ')) + "&date_to=" + [Uri]::EscapeDataString((Get-Date).ToUniversalTime().AddMinutes(-30).ToString('yyyy-MM-ddTHH:mm:ssZ'))) $tn
