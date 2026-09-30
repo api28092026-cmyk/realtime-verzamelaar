@@ -115,7 +115,7 @@ function Invoke-EnergieTenneT {
     $status = Get-Status 'energie_tennet'
     # 1. Afrekenprijzen: een keer per dag, de laatste 3 dagen (TenneT publiceert na afloop van de dag).
     if (-not $status -or $status.afrekenprijzen_peildatum -ne $script:Today) {
-        $n = Save-TenneTAfrekenprijzen (Get-Date).Date.AddDays(-3) (Get-Date)
+        $n = Save-TenneTAfrekenprijzen (Get-Date).Date.AddDays(-3) (Get-Date).Date
         $status = @{ afrekenprijzen_peildatum = $script:Today; balance_delta_tot = $(if ($status) { $status.balance_delta_tot } else { $null }) }
         $uit += "afrekenprijzen: $n kwartieren"
         Start-Sleep -Seconds 2
@@ -203,12 +203,19 @@ function Invoke-EnergieHistorie {
             $m = & $maand $st.tennet_volgende
             if ($m -lt $grens) { $st.tennet_klaar = $true; break }
             Start-Sleep -Seconds 13
-            try { $aantal = Save-TenneTAfrekenprijzen $m $m.AddMonths(1).AddSeconds(-1) }
-            catch {
-                $code = Get-HttpStatus $_
-                if ($code -eq 429) { $uit += 'TenneT-limiet bereikt, morgen verder'; break }
-                if ($code -ge 400 -and $code -lt 500) { $aantal = 0 } else { Set-Status 'energie_historie' $st; throw "TenneT $($st.tennet_volgende): $($_.Exception.Message)" }
+            # Tot middernacht, anders valt het laatste kwartier (23:45-00:00) weg. Weigert TenneT dat als langer dan een
+            # maand, dan tot 23:59:59. Een 4xx op beide telt als een lege maand.
+            $aantal = 0; $limiet = $false
+            foreach ($tot in @($m.AddMonths(1), $m.AddMonths(1).AddSeconds(-1))) {
+                try { $aantal = Save-TenneTAfrekenprijzen $m $tot; break }
+                catch {
+                    $code = Get-HttpStatus $_
+                    if ($code -eq 429) { $limiet = $true; break }
+                    if ($code -lt 400 -or $code -ge 500) { Set-Status 'energie_historie' $st; throw "TenneT $($st.tennet_volgende): $($_.Exception.Message)" }
+                    Start-Sleep -Seconds 13
+                }
             }
+            if ($limiet) { $uit += 'TenneT-limiet bereikt, morgen verder'; break }
             $gedaan += "$($st.tennet_volgende) ($aantal)"; $n += $aantal
             if ($aantal -eq 0) { $st.tennet_leeg = [int]$st.tennet_leeg + 1 } else { $st.tennet_leeg = 0 }
             $st.tennet_volgende = $m.AddMonths(-1).ToString('yyyy-MM', $script:Inv)
