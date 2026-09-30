@@ -197,3 +197,11 @@
 2026-09-30 07:18:43 [INFO] Energie OK in 6 s: Nord Pool: 96 kwartierprijzen; opwek: 3108 waarden, grensstromen: 1296 waarden; TenneT: balance delta: 364 metingen in 5 kwartieren
 2026-09-30 07:26:08 [WARN] Poging 1 mislukt (https://api.energy-charts.info/price?bzn=NL&start=2026-05-01&end=2026-05-31): Response status code does not indicate success: 429 (Too Many Requests).. Opnieuw over 5 s.
 2026-09-30 07:29:42 [INFO] Energie OK in 305 s: Omgezet: opwek_per_bron.csv -> opwek/, grensstromen.csv -> grensstromen/, tennet_afrekenprijzen.csv -> tennet_afrekenprijzen/, tennet_balance_delta_kwartier.csv -> tennet_balance_delta/; Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 222, grensstromen 216, day-ahead 288 tijdstippen; TenneT: balance delta: 104 metingen in 3 kwartieren; Historie: Energy-Charts 2026-04 t/m 2026-09; TenneT-afrekenprijzen 2026-09 (2784), 2026-08 (2975), 2026-07 (2975), 2026-06 (2879), 2026-05 (2975), 2026-04 (2879), 2026-03 (2971), 2026-02 (2687)
+2026-09-30 08:06:06 [INFO] Laadpunten OK in 27 s: 74937 locaties, 187664 laadpunten (36088 aan het laden); bestand van 2026-09-30T08:05:45Z
+2026-09-30 08:09:14 [INFO] Parkeren OK in 188 s: bezetting van 319 van 324 garages (1 mislukt)
+2026-09-30 08:10:47 [INFO] Deelmobiliteit OK in 94 s: 45 van 56 systemen, 26782 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-09-30 08:10:50 [INFO] Verstoringen OK in 3 s: weg: 1407 actieve meldingen, 195 nieuw; spoor: niets nieuws
+2026-09-30 08:10:56 [INFO] OV OK in 6 s: live: 17743 ritten, 1425 uitgevallen; meldingen: 605 actief, 7 nieuw
+2026-09-30 08:19:45 [INFO] NS OK in 529 s: storingen/werkzaamheden: 4 actief, 0 nieuw; drukte: 318 van 318 rijdende treinen, 251 stations, 154 keer drukte hoog
+2026-09-30 08:21:15 [WARN] Poging 1 mislukt (https://api.energy-charts.info/price?bzn=NL&start=2025-11-01&end=2025-11-30): Response status code does not indicate success: 429 (Too Many Requests).. Opnieuw over 5 s.
+2026-09-30 08:22:45 [INFO] Energie OK in 180 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 228, grensstromen 220, day-ahead 288 tijdstippen; TenneT: balance delta: 350 metingen in 5 kwartieren; Historie: Energy-Charts 2025-10 t/m 2026-03
