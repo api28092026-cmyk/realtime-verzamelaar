@@ -1,4 +1,4 @@
-# Gedeelde hulpfuncties: logging, HTTP met herhaalpogingen, CSV schrijven/bijwerken, ruwe opslag.
+﻿# Gedeelde hulpfuncties: logging, HTTP met herhaalpogingen, CSV schrijven/bijwerken, ruwe opslag.
 # Werkt in Windows PowerShell 5.1 en PowerShell 7 (Windows, Linux, macOS).
 
 $ErrorActionPreference = 'Stop'
@@ -107,22 +107,43 @@ function Add-CsvRows {
 
 # Werkt rijen bij op sleutel: bestaande rijen met dezelfde sleutel worden vervangen, de rest blijft staan.
 function Update-CsvRows {
-    param([string]$Path, [string[]]$Columns, [object[]]$Rows, [string[]]$Key)
+    param([string]$Path, [string[]]$Columns, [object[]]$Rows, [string[]]$Key, [switch]$Sorteer)
     if (-not $Rows -or $Rows.Count -eq 0) { return }
     $newKeys = @{}
     foreach ($r in $Rows) { $newKeys[(($Key | ForEach-Object { [string]$r.$_ }) -join '|')] = $true }
-    $sb = New-Object Text.StringBuilder
-    [void]$sb.AppendLine(($Columns | ForEach-Object { ConvertTo-CsvField $_ }) -join ',')
+    $alle = New-Object System.Collections.ArrayList
     if (Test-Path $Path) {
         foreach ($old in (Import-Csv -Path $Path)) {
             $k = ($Key | ForEach-Object { [string]$old.$_ }) -join '|'
-            if (-not $newKeys.ContainsKey($k)) { [void]$sb.AppendLine((ConvertTo-CsvLine $Columns $old)) }
+            if (-not $newKeys.ContainsKey($k)) { [void]$alle.Add($old) }
         }
     }
-    foreach ($r in $Rows) { [void]$sb.AppendLine((ConvertTo-CsvLine $Columns $r)) }
+    foreach ($r in $Rows) { [void]$alle.Add($r) }
+    if ($Sorteer) { $k0 = $Key[0]; $alle = @($alle | Sort-Object { [string]$_.$k0 }) }
+    $sb = New-Object Text.StringBuilder
+    [void]$sb.AppendLine(($Columns | ForEach-Object { ConvertTo-CsvField $_ }) -join ',')
+    foreach ($r in $alle) { [void]$sb.AppendLine((ConvertTo-CsvLine $Columns $r)) }
     $tmp = $Path + '.tmp'
     [IO.File]::WriteAllText($tmp, $sb.ToString(), $script:Utf8Bom)
     Move-Item -Path $tmp -Destination $Path -Force
+}
+
+# Als Update-CsvRows, maar verdeeld over een bestand per maand (<Map>\<JJJJ-MM>.csv; met -Tekens 4 per jaar) op basis van
+# het begin van de tijdkolom. Nieuwe kolommen (bv. een nieuwe energiebron) worden aan de bestaande kop toegevoegd; oude rijen blijven leeg.
+function Update-CsvRowsPerPeriode {
+    param([string]$Map, [string[]]$Columns, [object[]]$Rows, [string[]]$Key, [string]$TijdKolom, [int]$Tekens = 7)
+    if (-not $Rows -or $Rows.Count -eq 0) { return }
+    New-Item -ItemType Directory -Force -Path $Map | Out-Null
+    foreach ($groep in ($Rows | Group-Object { ([string]$_.$TijdKolom).Substring(0, $Tekens) })) {
+        $pad = Join-Path $Map ($groep.Name + '.csv')
+        $kolommen = New-Object System.Collections.Generic.List[string]
+        if (Test-Path $pad) {
+            $kop = (Get-Content -Path $pad -TotalCount 1 -Encoding UTF8).TrimStart([char]0xFEFF)
+            foreach ($k in ($kop -split ',')) { $k = $k.Trim('"'); if ($k -and -not $kolommen.Contains($k)) { $kolommen.Add($k) } }
+        }
+        foreach ($k in $Columns) { if (-not $kolommen.Contains($k)) { $kolommen.Add($k) } }
+        Update-CsvRows -Path $pad -Columns $kolommen.ToArray() -Rows @($groep.Group) -Key $Key -Sorteer
+    }
 }
 
 function Get-CsvColumnValues {

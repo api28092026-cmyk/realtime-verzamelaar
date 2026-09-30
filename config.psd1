@@ -37,4 +37,10 @@
 
     # NS-drukte: hooguit zoveel rijdende treinen per run bevragen (1 verzoek per trein, 1,1 s pauze).
     NsDrukteMaxTreinen = 400
+
+    # Historische aanvulling energie: Energy-Charts (opwek, grensstromen, day-ahead) terug tot deze maand, zoveel maanden per run;
+    # TenneT-afrekenprijzen zoveel maanden per dag (limiet 25 verzoeken per dag).
+    EnergieHistorieVanaf         = '2015-01'
+    EnergieHistorieMaandenPerRun = 6
+    TennetHistorieMaandenPerDag  = 8
 }
