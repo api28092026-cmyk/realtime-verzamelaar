@@ -1,32 +1,32 @@
 ﻿{
-  "OV": {
-    "tijd": "2026-09-30T15:05:34Z",
-    "melding": "live: 14022 ritten, 1365 uitgevallen; meldingen: 613 actief, 6 nieuw",
-    "seconden": 5,
-    "status": "ok"
+  "RDW": {
+    "melding": "16915 personenauto-registraties sinds 2026-09-20 verwerkt",
+    "status": "ok",
+    "seconden": 343,
+    "tijd": "2026-09-30T04:30:47Z"
   },
-  "Laadpunten": {
-    "tijd": "2026-09-30T15:05:34Z",
-    "melding": "74937 locaties, 187700 laadpunten (42060 aan het laden); bestand van 2026-09-30T15:05:41Z",
-    "seconden": 33,
-    "status": "ok"
-  },
-  "Energie": {
-    "tijd": "2026-09-30T15:05:34Z",
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 255, grensstromen 249, day-ahead 384 tijdstippen; TenneT: balance delta: 379 metingen in 6 kwartieren; Historie: Energy-Charts 2022-04 t/m 2022-09",
-    "seconden": 175,
-    "status": "ok"
+  "NS": {
+    "melding": "storingen/werkzaamheden: 4 actief, 0 nieuw; drukte: 18 van 18 rijdende treinen, 0 stations, 0 keer drukte hoog",
+    "tijd": "2026-09-30T16:05:33Z",
+    "status": "ok",
+    "seconden": 37
   },
   "Parkeren": {
-    "tijd": "2026-09-30T15:05:34Z",
     "melding": "bezetting van 319 van 324 garages (1 mislukt)",
-    "seconden": 212,
-    "status": "ok"
-  },
-  "EnergyZero": {
-    "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
+    "tijd": "2026-09-30T16:05:33Z",
     "status": "ok",
-    "seconden": 5,
+    "seconden": 223
+  },
+  "Energie": {
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 258, grensstromen 253, day-ahead 384 tijdstippen; TenneT: balance delta: 333 metingen in 5 kwartieren; Historie: Energy-Charts 2021-10 t/m 2022-03",
+    "tijd": "2026-09-30T16:05:33Z",
+    "status": "ok",
+    "seconden": 122
+  },
+  "TenderNed": {
+    "melding": "97 nieuwe publicaties",
+    "status": "ok",
+    "seconden": 257,
     "tijd": "2026-09-30T04:30:47Z"
   },
   "Netcongestie": {
@@ -41,34 +41,34 @@
     "seconden": 14,
     "tijd": "2026-09-30T04:30:47Z"
   },
-  "TenderNed": {
-    "melding": "97 nieuwe publicaties",
-    "status": "ok",
-    "seconden": 257,
-    "tijd": "2026-09-30T04:30:47Z"
-  },
   "Deelmobiliteit": {
-    "tijd": "2026-09-30T15:05:34Z",
-    "melding": "45 van 56 systemen, 26611 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "seconden": 107,
-    "status": "ok"
+    "melding": "45 van 56 systemen, 26619 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "tijd": "2026-09-30T16:05:33Z",
+    "status": "ok",
+    "seconden": 110
+  },
+  "Laadpunten": {
+    "melding": "74897 locaties, 187607 laadpunten (43679 aan het laden); bestand van 2026-09-30T16:05:40Z",
+    "tijd": "2026-09-30T16:05:33Z",
+    "status": "ok",
+    "seconden": 47
   },
   "Verstoringen": {
-    "tijd": "2026-09-30T15:05:34Z",
-    "melding": "weg: 1515 actieve meldingen, 315 nieuw; spoor: niets nieuws",
-    "seconden": 3,
-    "status": "ok"
-  },
-  "RDW": {
-    "melding": "16915 personenauto-registraties sinds 2026-09-20 verwerkt",
+    "melding": "weg: 1406 actieve meldingen, 228 nieuw; spoor: niets nieuws",
+    "tijd": "2026-09-30T16:05:33Z",
     "status": "ok",
-    "seconden": 343,
-    "tijd": "2026-09-30T04:30:47Z"
+    "seconden": 5
   },
-  "NS": {
-    "tijd": "2026-09-30T15:05:34Z",
-    "melding": "storingen/werkzaamheden: 4 actief, 0 nieuw; drukte: 337 van 337 rijdende treinen, 251 stations, 438 keer drukte hoog",
-    "seconden": 565,
-    "status": "ok"
+  "OV": {
+    "melding": "live: 16439 ritten, 1302 uitgevallen; meldingen: 625 actief, 14 nieuw",
+    "tijd": "2026-09-30T16:05:33Z",
+    "status": "ok",
+    "seconden": 5
+  },
+  "EnergyZero": {
+    "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
+    "status": "ok",
+    "seconden": 5,
+    "tijd": "2026-09-30T04:30:47Z"
   }
 }
