@@ -1,63 +1,9 @@
 ﻿{
-  "NS": {
-    "tijd": "2026-09-30T11:05:31Z",
-    "melding": "storingen/werkzaamheden: 5 actief, 1 nieuw; drukte: 316 van 316 rijdende treinen, 248 stations, 21 keer drukte hoog",
-    "status": "ok",
-    "seconden": 517
-  },
-  "OV": {
-    "tijd": "2026-09-30T11:05:31Z",
-    "melding": "live: 15714 ritten, 1440 uitgevallen; meldingen: 606 actief, 6 nieuw",
-    "status": "ok",
-    "seconden": 4
-  },
-  "TenderNed": {
-    "melding": "97 nieuwe publicaties",
-    "status": "ok",
-    "seconden": 257,
-    "tijd": "2026-09-30T04:30:47Z"
-  },
-  "KvkOpenData": {
-    "melding": "1920583 bv's/nv's verwerkt, waarvan 77228 met status faillissement",
-    "status": "ok",
-    "seconden": 14,
-    "tijd": "2026-09-30T04:30:47Z"
-  },
   "Netcongestie": {
     "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
     "status": "ok",
     "seconden": 4,
     "tijd": "2026-09-30T04:30:47Z"
-  },
-  "Parkeren": {
-    "tijd": "2026-09-30T11:05:31Z",
-    "melding": "bezetting van 319 van 324 garages (1 mislukt)",
-    "status": "ok",
-    "seconden": 176
-  },
-  "Laadpunten": {
-    "tijd": "2026-09-30T11:05:31Z",
-    "melding": "74929 locaties, 187680 laadpunten (38503 aan het laden); bestand van 2026-09-30T11:05:37Z",
-    "status": "ok",
-    "seconden": 40
-  },
-  "Energie": {
-    "tijd": "2026-09-30T11:05:31Z",
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 240, grensstromen 231, day-ahead 288 tijdstippen; TenneT: balance delta: 371 metingen in 5 kwartieren; Historie: Energy-Charts 2024-04 t/m 2024-09",
-    "status": "ok",
-    "seconden": 177
-  },
-  "Deelmobiliteit": {
-    "tijd": "2026-09-30T11:05:31Z",
-    "melding": "45 van 56 systemen, 26720 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "status": "ok",
-    "seconden": 89
-  },
-  "Verstoringen": {
-    "tijd": "2026-09-30T11:05:31Z",
-    "melding": "weg: 1424 actieve meldingen, 195 nieuw; spoor: niets nieuws",
-    "status": "ok",
-    "seconden": 4
   },
   "EnergyZero": {
     "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
@@ -65,10 +11,64 @@
     "seconden": 5,
     "tijd": "2026-09-30T04:30:47Z"
   },
+  "Laadpunten": {
+    "tijd": "2026-09-30T12:05:33Z",
+    "status": "ok",
+    "seconden": 32,
+    "melding": "74930 locaties, 187682 laadpunten (38074 aan het laden); bestand van 2026-09-30T12:05:38Z"
+  },
+  "Deelmobiliteit": {
+    "tijd": "2026-09-30T12:05:33Z",
+    "status": "ok",
+    "seconden": 84,
+    "melding": "45 van 56 systemen, 26726 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+  },
+  "TenderNed": {
+    "melding": "97 nieuwe publicaties",
+    "status": "ok",
+    "seconden": 257,
+    "tijd": "2026-09-30T04:30:47Z"
+  },
+  "NS": {
+    "tijd": "2026-09-30T12:05:33Z",
+    "status": "ok",
+    "seconden": 513,
+    "melding": "storingen/werkzaamheden: 5 actief, 1 nieuw; drukte: 323 van 323 rijdende treinen, 248 stations, 38 keer drukte hoog"
+  },
+  "Verstoringen": {
+    "tijd": "2026-09-30T12:05:33Z",
+    "status": "ok",
+    "seconden": 3,
+    "melding": "weg: 1434 actieve meldingen, 208 nieuw; spoor: niets nieuws"
+  },
+  "Parkeren": {
+    "tijd": "2026-09-30T12:05:33Z",
+    "status": "ok",
+    "seconden": 163,
+    "melding": "bezetting van 319 van 324 garages (1 mislukt)"
+  },
+  "KvkOpenData": {
+    "melding": "1920583 bv's/nv's verwerkt, waarvan 77228 met status faillissement",
+    "status": "ok",
+    "seconden": 14,
+    "tijd": "2026-09-30T04:30:47Z"
+  },
   "RDW": {
     "melding": "16915 personenauto-registraties sinds 2026-09-20 verwerkt",
     "status": "ok",
     "seconden": 343,
     "tijd": "2026-09-30T04:30:47Z"
+  },
+  "OV": {
+    "tijd": "2026-09-30T12:05:33Z",
+    "status": "ok",
+    "seconden": 3,
+    "melding": "live: 15234 ritten, 1433 uitgevallen; meldingen: 608 actief, 8 nieuw"
+  },
+  "Energie": {
+    "tijd": "2026-09-30T12:05:33Z",
+    "status": "ok",
+    "seconden": 167,
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 243, grensstromen 235, day-ahead 288 tijdstippen; TenneT: balance delta: 371 metingen in 6 kwartieren; Historie: Energy-Charts 2023-10 t/m 2024-03"
   }
 }
