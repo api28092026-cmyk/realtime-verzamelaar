@@ -1,15 +1,33 @@
 ﻿{
-  "NS": {
-    "seconden": 415,
-    "tijd": "2026-10-01T19:05:52Z",
+  "Parkeren": {
+    "melding": "bezetting van 319 van 324 garages (1 mislukt)",
     "status": "ok",
-    "melding": "storingen/werkzaamheden: 6 actief, 0 nieuw; drukte: 255 van 255 rijdende treinen, 247 stations, 75 keer drukte hoog"
+    "tijd": "2026-10-01T20:05:31Z",
+    "seconden": 209
   },
   "Verstoringen": {
-    "seconden": 4,
-    "tijd": "2026-10-01T19:05:52Z",
+    "melding": "weg: 1663 actieve meldingen, 257 nieuw; spoor: 2026-09 nog niet gepubliceerd",
     "status": "ok",
-    "melding": "weg: 1541 actieve meldingen, 330 nieuw; spoor: 2026-09 nog niet gepubliceerd"
+    "tijd": "2026-10-01T20:05:31Z",
+    "seconden": 5
+  },
+  "TenderNed": {
+    "status": "ok",
+    "seconden": 126,
+    "tijd": "2026-10-01T04:30:44Z",
+    "melding": "103 nieuwe publicaties"
+  },
+  "Deelmobiliteit": {
+    "melding": "45 van 56 systemen, 25264 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "status": "ok",
+    "tijd": "2026-10-01T20:05:31Z",
+    "seconden": 101
+  },
+  "NS": {
+    "melding": "storingen/werkzaamheden: 6 actief, 0 nieuw; drukte: 239 van 239 rijdende treinen, 247 stations, 69 keer drukte hoog",
+    "status": "ok",
+    "tijd": "2026-10-01T20:05:31Z",
+    "seconden": 394
   },
   "RDW": {
     "status": "ok",
@@ -23,17 +41,11 @@
     "tijd": "2026-10-01T04:30:44Z",
     "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd"
   },
-  "Parkeren": {
-    "seconden": 163,
-    "tijd": "2026-10-01T19:05:52Z",
+  "KvkOpenData": {
     "status": "ok",
-    "melding": "bezetting van 319 van 324 garages (1 mislukt)"
-  },
-  "Deelmobiliteit": {
-    "seconden": 82,
-    "tijd": "2026-10-01T19:05:52Z",
-    "status": "ok",
-    "melding": "45 van 56 systemen, 25914 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+    "seconden": 18,
+    "tijd": "2026-10-01T04:30:44Z",
+    "melding": "1920935 bv's/nv's verwerkt, waarvan 77229 met status faillissement"
   },
   "EnergyZero": {
     "status": "ok",
@@ -41,34 +53,22 @@
     "tijd": "2026-10-01T04:30:44Z",
     "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen"
   },
-  "Laadpunten": {
-    "seconden": 33,
-    "tijd": "2026-10-01T19:05:52Z",
+  "Energie": {
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 274, grensstromen 170, day-ahead 384 tijdstippen; TenneT: balance delta: 376 metingen in 6 kwartieren; Historie compleet",
     "status": "ok",
-    "melding": "75118 locaties, 188382 laadpunten (51227 aan het laden); bestand van 2026-10-01T19:05:58Z"
+    "tijd": "2026-10-01T20:05:31Z",
+    "seconden": 9
+  },
+  "Laadpunten": {
+    "melding": "75118 locaties, 188382 laadpunten (52181 aan het laden); bestand van 2026-10-01T20:05:37Z",
+    "status": "ok",
+    "tijd": "2026-10-01T20:05:31Z",
+    "seconden": 32
   },
   "OV": {
-    "seconden": 3,
-    "tijd": "2026-10-01T19:05:52Z",
+    "melding": "live: 13008 ritten, 1520 uitgevallen; meldingen: 651 actief, 0 nieuw",
     "status": "ok",
-    "melding": "live: 13456 ritten, 1587 uitgevallen; meldingen: 655 actief, 6 nieuw"
-  },
-  "Energie": {
-    "seconden": 13,
-    "tijd": "2026-10-01T19:05:52Z",
-    "status": "ok",
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 271, grensstromen 170, day-ahead 384 tijdstippen; TenneT: balance delta: 364 metingen in 6 kwartieren; Historie compleet"
-  },
-  "KvkOpenData": {
-    "status": "ok",
-    "seconden": 18,
-    "tijd": "2026-10-01T04:30:44Z",
-    "melding": "1920935 bv's/nv's verwerkt, waarvan 77229 met status faillissement"
-  },
-  "TenderNed": {
-    "status": "ok",
-    "seconden": 126,
-    "tijd": "2026-10-01T04:30:44Z",
-    "melding": "103 nieuwe publicaties"
+    "tijd": "2026-10-01T20:05:31Z",
+    "seconden": 4
   }
 }
