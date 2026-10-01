@@ -1,2 +1,6 @@
 ﻿kwartier_utc,metingen,gem_power_in_activated_afrr,gem_power_out_activated_afrr,gem_power_in_igcc,gem_power_out_igcc,gem_power_in_mfrrda,gem_power_out_mfrrda,gem_highest_upward_regulation_price,gem_lowest_downward_regulation_price,gem_mid_price,gem_picasso_contribution_power_in,gem_picasso_contribution_power_out,gem_mari_contribution_power_in,gem_mari_contribution_power_out,min_highest_upward_regulation_price,max_highest_upward_regulation_price,min_lowest_downward_regulation_price,max_lowest_downward_regulation_price,min_mid_price,max_mid_price
-2026-10-01T00:00:00Z,34,0.15,230.26,44.72,0,0,0,6.08,127.11,120,136.04,0.14,0,0,93,113.83,117.61,130,120,120
+2026-10-01T00:00:00Z,75,0.09,125.44,21.55,0,0,0,4,136.93,120,61.81,0.38,0,0,93,113.83,117.61,152.9,120,120
+2026-10-01T00:15:00Z,75,0.28,120.99,2.93,0,0,0,8.27,139.99,120,114.37,0.94,0,0,93,113.83,128.41,146.2,120,120
+2026-10-01T00:30:00Z,75,0,288.09,0,0,0,0,,123.53,120,34.57,0,0,0,,,93.44,138.71,120,120
+2026-10-01T00:45:00Z,75,0,395.03,0,0,0,0,,102.32,116.19,17.16,8.26,0,0,,,72,117.61,116.19,116.19
+2026-10-01T01:00:00Z,31,0,347.81,0,0,0,0,,109.35,117.2,1.64,0.39,0,0,,,106.15,128.41,117.2,117.2
