@@ -135,7 +135,6 @@
 162983,ARR,Arriva,bus,615
 162990,ARR,Arriva,bus,672
 162991,ARR,Arriva,bus,603
-162992,ARR,Arriva,bus,10
 162993,ARR,Arriva,bus,611
 162994,ARR,Arriva,bus,616
 162995,ARR,Arriva,bus,618
@@ -145,7 +144,6 @@
 163000,ARR,Arriva,bus,657
 163001,ARR,Arriva,bus,658
 163002,ARR,Arriva,bus,659
-163003,ARR,Arriva,bus,10
 163004,ARR,Arriva,bus,601
 163005,ARR,Arriva,bus,606
 163006,ARR,Arriva,bus,617
@@ -353,6 +351,7 @@
 160448,BRAVO:CXX,Bravo (Hermes),bus,614
 160450,BRAVO:CXX,Bravo (Hermes),bus,656
 161353,BRENG,Breng,bus,58
+163019,BRENG,Breng,bus,58
 146848,CXX,Connexxion,bus,500
 146932,CXX,Connexxion,bus,2
 146933,CXX,Connexxion,bus,4
@@ -3269,7 +3268,6 @@
 162788,RRREIS,RRReis,bus,24
 162789,RRREIS,RRReis,bus,25
 162790,RRREIS,RRReis,bus,58
-163011,RRREIS,RRReis,bus,1
 163017,RRREIS,RRReis,bus,1
 134174,TESO,TESO,veerboot,TESO
 147000,TRANSDEV,Transdev,bus,1
