@@ -1,50 +1,38 @@
 ﻿{
-  "Parkeren": {
-    "tijd": "2026-10-03T21:05:37Z",
-    "seconden": 178,
-    "melding": "bezetting van 319 van 324 garages (1 mislukt)",
-    "status": "ok"
-  },
-  "Deelmobiliteit": {
-    "tijd": "2026-10-03T21:05:37Z",
-    "seconden": 89,
-    "melding": "45 van 56 systemen, 20843 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "status": "ok"
-  },
-  "RDW": {
-    "tijd": "2026-10-03T04:30:42Z",
-    "melding": "12829 personenauto-registraties sinds 2026-09-23 verwerkt",
-    "seconden": 179,
-    "status": "ok"
-  },
-  "Energie": {
-    "tijd": "2026-10-03T21:05:37Z",
-    "seconden": 9,
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 277, grensstromen 272, day-ahead 384 tijdstippen; TenneT: balance delta: 363 metingen in 5 kwartieren; Historie compleet",
-    "status": "ok"
-  },
-  "OV": {
-    "tijd": "2026-10-03T21:05:37Z",
-    "seconden": 4,
-    "melding": "live: 8648 ritten, 425 uitgevallen; meldingen: 628 actief, 0 nieuw",
-    "status": "ok"
-  },
   "TenderNed": {
     "tijd": "2026-10-03T04:30:42Z",
     "melding": "28 nieuwe publicaties",
     "seconden": 35,
     "status": "ok"
   },
-  "NS": {
-    "tijd": "2026-10-03T21:05:37Z",
-    "seconden": 428,
-    "melding": "storingen/werkzaamheden: 10 actief, 0 nieuw; drukte: 264 van 264 rijdende treinen, 238 stations, 64 keer drukte hoog",
+  "Verstoringen": {
+    "seconden": 10,
+    "melding": "weg: 1324 actieve meldingen, 55 nieuw; spoor: 2026-09 nog niet gepubliceerd",
+    "tijd": "2026-10-03T22:05:27Z",
     "status": "ok"
   },
-  "Laadpunten": {
-    "tijd": "2026-10-03T21:05:37Z",
-    "seconden": 40,
-    "melding": "75076 locaties, 188086 laadpunten (45670 aan het laden); bestand van 2026-10-03T21:05:43Z",
+  "Energie": {
+    "seconden": 9,
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 283, grensstromen 277, day-ahead 384 tijdstippen; TenneT: balance delta: 367 metingen in 6 kwartieren; Historie compleet",
+    "tijd": "2026-10-03T22:05:27Z",
+    "status": "ok"
+  },
+  "OV": {
+    "seconden": 3,
+    "melding": "live: 7964 ritten, 377 uitgevallen; meldingen: 621 actief, 2 nieuw",
+    "tijd": "2026-10-03T22:05:27Z",
+    "status": "ok"
+  },
+  "EnergyZero": {
+    "tijd": "2026-10-03T04:30:42Z",
+    "melding": "214 uurprijzen bijgewerkt; gas: 6 gasdagen",
+    "seconden": 4,
+    "status": "ok"
+  },
+  "Deelmobiliteit": {
+    "seconden": 83,
+    "melding": "45 van 56 systemen, 22121 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "tijd": "2026-10-03T22:05:27Z",
     "status": "ok"
   },
   "KvkOpenData": {
@@ -59,16 +47,28 @@
     "seconden": 4,
     "status": "ok"
   },
-  "EnergyZero": {
-    "tijd": "2026-10-03T04:30:42Z",
-    "melding": "214 uurprijzen bijgewerkt; gas: 6 gasdagen",
-    "seconden": 4,
+  "NS": {
+    "seconden": 358,
+    "melding": "storingen/werkzaamheden: 10 actief, 0 nieuw; drukte: 232 van 232 rijdende treinen, 238 stations, 1 keer drukte hoog",
+    "tijd": "2026-10-03T22:05:27Z",
     "status": "ok"
   },
-  "Verstoringen": {
-    "tijd": "2026-10-03T21:05:37Z",
-    "seconden": 8,
-    "melding": "weg: 1326 actieve meldingen, 74 nieuw; spoor: 2026-09 nog niet gepubliceerd",
+  "Laadpunten": {
+    "seconden": 48,
+    "melding": "74940 locaties, 187208 laadpunten (45481 aan het laden); bestand van 2026-10-03T22:05:33Z",
+    "tijd": "2026-10-03T22:05:27Z",
+    "status": "ok"
+  },
+  "RDW": {
+    "tijd": "2026-10-03T04:30:42Z",
+    "melding": "12829 personenauto-registraties sinds 2026-09-23 verwerkt",
+    "seconden": 179,
+    "status": "ok"
+  },
+  "Parkeren": {
+    "seconden": 169,
+    "melding": "bezetting van 319 van 324 garages (1 mislukt)",
+    "tijd": "2026-10-03T22:05:27Z",
     "status": "ok"
   }
 }
