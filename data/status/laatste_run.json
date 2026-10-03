@@ -1,27 +1,33 @@
 ﻿{
-  "Parkeren": {
-    "seconden": 188,
-    "melding": "bezetting van 319 van 324 garages (1 mislukt)",
+  "OV": {
+    "tijd": "2026-10-03T14:05:31Z",
     "status": "ok",
-    "tijd": "2026-10-03T13:05:29Z"
-  },
-  "KvkOpenData": {
-    "tijd": "2026-10-03T04:30:42Z",
-    "melding": "1921911 bv's/nv's verwerkt, waarvan 77284 met status faillissement",
-    "seconden": 15,
-    "status": "ok"
-  },
-  "Verstoringen": {
     "seconden": 4,
-    "melding": "weg: 1524 actieve meldingen, 184 nieuw; spoor: 2026-09 nog niet gepubliceerd",
-    "status": "ok",
-    "tijd": "2026-10-03T13:05:29Z"
+    "melding": "live: 12978 ritten, 979 uitgevallen; meldingen: 636 actief, 5 nieuw"
   },
-  "Energie": {
-    "seconden": 8,
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 247, grensstromen 240, day-ahead 288 tijdstippen; TenneT: balance delta: 369 metingen in 6 kwartieren; Historie compleet",
+  "Laadpunten": {
+    "tijd": "2026-10-03T14:05:31Z",
     "status": "ok",
-    "tijd": "2026-10-03T13:05:29Z"
+    "seconden": 46,
+    "melding": "74867 locaties, 187004 laadpunten (40556 aan het laden); bestand van 2026-10-03T14:05:37Z"
+  },
+  "Deelmobiliteit": {
+    "tijd": "2026-10-03T14:05:31Z",
+    "status": "ok",
+    "seconden": 81,
+    "melding": "44 van 56 systemen, 18433 voertuigen; niet bereikbaar: CKL, dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+  },
+  "Parkeren": {
+    "tijd": "2026-10-03T14:05:31Z",
+    "status": "ok",
+    "seconden": 162,
+    "melding": "bezetting van 319 van 324 garages (1 mislukt)"
+  },
+  "RDW": {
+    "tijd": "2026-10-03T04:30:42Z",
+    "melding": "12829 personenauto-registraties sinds 2026-09-23 verwerkt",
+    "seconden": 179,
+    "status": "ok"
   },
   "Netcongestie": {
     "tijd": "2026-10-03T04:30:42Z",
@@ -29,46 +35,40 @@
     "seconden": 4,
     "status": "ok"
   },
-  "NS": {
-    "seconden": 422,
-    "melding": "storingen/werkzaamheden: 12 actief, 0 nieuw; drukte: 248 van 248 rijdende treinen, 239 stations, 92 keer drukte hoog",
-    "status": "ok",
-    "tijd": "2026-10-03T13:05:29Z"
-  },
-  "Laadpunten": {
-    "seconden": 21,
-    "melding": "74867 locaties, 187004 laadpunten (39942 aan het laden); bestand van 2026-10-03T13:05:34Z",
-    "status": "ok",
-    "tijd": "2026-10-03T13:05:29Z"
-  },
   "TenderNed": {
     "tijd": "2026-10-03T04:30:42Z",
     "melding": "28 nieuwe publicaties",
     "seconden": 35,
     "status": "ok"
   },
+  "KvkOpenData": {
+    "tijd": "2026-10-03T04:30:42Z",
+    "melding": "1921911 bv's/nv's verwerkt, waarvan 77284 met status faillissement",
+    "seconden": 15,
+    "status": "ok"
+  },
+  "Energie": {
+    "tijd": "2026-10-03T14:05:31Z",
+    "status": "ok",
+    "seconden": 10,
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 250, grensstromen 245, day-ahead 384 tijdstippen; TenneT: balance delta: 370 metingen in 6 kwartieren; Historie compleet"
+  },
+  "NS": {
+    "tijd": "2026-10-03T14:05:31Z",
+    "status": "ok",
+    "seconden": 378,
+    "melding": "storingen/werkzaamheden: 12 actief, 0 nieuw; drukte: 246 van 246 rijdende treinen, 239 stations, 91 keer drukte hoog"
+  },
+  "Verstoringen": {
+    "tijd": "2026-10-03T14:05:31Z",
+    "status": "ok",
+    "seconden": 10,
+    "melding": "weg: 1521 actieve meldingen, 177 nieuw; spoor: 2026-09 nog niet gepubliceerd"
+  },
   "EnergyZero": {
     "tijd": "2026-10-03T04:30:42Z",
     "melding": "214 uurprijzen bijgewerkt; gas: 6 gasdagen",
     "seconden": 4,
-    "status": "ok"
-  },
-  "OV": {
-    "seconden": 4,
-    "melding": "live: 13744 ritten, 1053 uitgevallen; meldingen: 632 actief, 1 nieuw",
-    "status": "ok",
-    "tijd": "2026-10-03T13:05:29Z"
-  },
-  "Deelmobiliteit": {
-    "seconden": 93,
-    "melding": "45 van 56 systemen, 18745 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "status": "ok",
-    "tijd": "2026-10-03T13:05:29Z"
-  },
-  "RDW": {
-    "tijd": "2026-10-03T04:30:42Z",
-    "melding": "12829 personenauto-registraties sinds 2026-09-23 verwerkt",
-    "seconden": 179,
     "status": "ok"
   }
 }
