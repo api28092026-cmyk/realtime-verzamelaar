@@ -350,7 +350,6 @@
 160447,BRAVO:CXX,Bravo (Hermes),bus,610
 160448,BRAVO:CXX,Bravo (Hermes),bus,614
 160450,BRAVO:CXX,Bravo (Hermes),bus,656
-161353,BRENG,Breng,bus,58
 163019,BRENG,Breng,bus,58
 146848,CXX,Connexxion,bus,500
 146932,CXX,Connexxion,bus,2
@@ -1266,6 +1265,7 @@
 162522,HTM,HTM,bus,77
 162523,HTM,HTM,bus,23A
 162524,HTM,HTM,bus,23B
+163021,HTM,HTM,bus,50
 86488,IFF:ARRIVA,Arriva,trein,Stoptrein RS18
 86489,IFF:ARRIVA,Arriva,trein,Stoptrein RS11
 86490,IFF:ARRIVA,Arriva,trein,Stoptrein RS11
@@ -1292,8 +1292,6 @@
 160507,IFF:ARRIVA,Arriva,trein,Stoptrein RS18
 160742,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
 160745,IFF:ARRIVA,Arriva,trein,Sneltrein RE6
-161212,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
-161213,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
 161400,IFF:ARRIVA,Arriva,bus,Snelbus ipv trein
 162460,IFF:ARRIVA,Arriva,bus,Snelbus ipv trein
 162461,IFF:ARRIVA,Arriva,bus,Snelbus ipv trein
@@ -1427,9 +1425,7 @@
 161222,IFF:NS,NS,bus,Snelbus ipv trein
 161223,IFF:NS,NS,bus,Snelbus ipv trein
 161224,IFF:NS,NS,bus,Snelbus ipv trein
-161225,IFF:NS,NS,bus,Snelbus ipv trein
 161226,IFF:NS,NS,bus,Stopbus ipv trein
-161227,IFF:NS,NS,bus,Stopbus ipv trein
 161230,IFF:NS,NS,bus,Stopbus ipv trein
 161231,IFF:NS,NS,bus,Stopbus ipv trein
 161232,IFF:NS,NS,bus,Taxibus ipv trein
