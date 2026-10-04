@@ -702,3 +702,11 @@
 2026-10-04 18:16:30 [INFO] NS OK in 375 s: storingen/werkzaamheden: 11 actief, 0 nieuw; drukte: 245 van 245 rijdende treinen, 241 stations, 48 keer drukte hoog
 2026-10-04 18:16:33 [WARN] Poging 1 mislukt (https://api.energy-charts.info/public_power?country=nl&start=2026-10-02&end=2026-10-05): Response status code does not indicate success: 503 (Service Unavailable).. Opnieuw over 5 s.
 2026-10-04 18:16:39 [ERROR] Energie MISLUKT: Nord Pool: 192 kwartierprijzen; TenneT: balance delta: 372 metingen in 6 kwartieren; Historie compleet; Charts mislukt: Response status code does not indicate success: 503 (Service Unavailable).
+2026-10-04 19:06:23 [INFO] Laadpunten OK in 49 s: 75074 locaties, 187971 laadpunten (48429 aan het laden); bestand van 2026-10-04T19:05:42Z
+2026-10-04 19:10:05 [INFO] Parkeren OK in 221 s: bezetting van 319 van 324 garages (1 mislukt)
+2026-10-04 19:11:50 [INFO] Deelmobiliteit OK in 106 s: 45 van 56 systemen, 26150 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-10-04 19:12:01 [INFO] Verstoringen OK in 11 s: weg: 1312 actieve meldingen, 83 nieuw; spoor: 2026-09 nog niet gepubliceerd
+2026-10-04 19:12:06 [INFO] OV OK in 5 s: live: 9722 ritten, 349 uitgevallen; meldingen: 614 actief, 0 nieuw
+2026-10-04 19:19:03 [INFO] NS OK in 417 s: storingen/werkzaamheden: 11 actief, 0 nieuw; drukte: 237 van 237 rijdende treinen, 240 stations, 36 keer drukte hoog
+2026-10-04 19:19:07 [WARN] Poging 1 mislukt (https://api.energy-charts.info/public_power?country=nl&start=2026-10-02&end=2026-10-05): Response status code does not indicate success: 503 (Service Unavailable).. Opnieuw over 5 s.
+2026-10-04 19:19:14 [ERROR] Energie MISLUKT: Nord Pool: 192 kwartierprijzen; TenneT: balance delta: 387 metingen in 6 kwartieren; Historie compleet; Charts mislukt: Response status code does not indicate success: 503 (Service Unavailable).
