@@ -638,3 +638,11 @@
 2026-10-04 10:17:42 [INFO] NS OK in 412 s: storingen/werkzaamheden: 11 actief, 0 nieuw; drukte: 245 van 245 rijdende treinen, 240 stations, 186 keer drukte hoog
 2026-10-04 10:17:44 [WARN] Poging 1 mislukt (https://api.energy-charts.info/public_power?country=nl&start=2026-10-02&end=2026-10-05): Response status code does not indicate success: 503 (Service Unavailable).. Opnieuw over 5 s.
 2026-10-04 10:17:51 [ERROR] Energie MISLUKT: Nord Pool: 96 kwartierprijzen; TenneT: balance delta: 370 metingen in 6 kwartieren; Historie compleet; Charts mislukt: Response status code does not indicate success: 503 (Service Unavailable).
+2026-10-04 11:05:59 [INFO] Laadpunten OK in 31 s: 74874 locaties, 187080 laadpunten (39723 aan het laden); bestand van 2026-10-04T11:05:35Z
+2026-10-04 11:09:29 [INFO] Parkeren OK in 210 s: bezetting van 319 van 324 garages (1 mislukt)
+2026-10-04 11:11:15 [INFO] Deelmobiliteit OK in 107 s: 45 van 56 systemen, 21397 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-10-04 11:11:22 [INFO] Verstoringen OK in 6 s: weg: 1371 actieve meldingen, 120 nieuw; spoor: 2026-09 nog niet gepubliceerd
+2026-10-04 11:11:26 [INFO] OV OK in 4 s: live: 10211 ritten, 465 uitgevallen; meldingen: 630 actief, 0 nieuw
+2026-10-04 11:18:23 [INFO] NS OK in 417 s: storingen/werkzaamheden: 11 actief, 0 nieuw; drukte: 247 van 247 rijdende treinen, 240 stations, 119 keer drukte hoog
+2026-10-04 11:18:25 [WARN] Poging 1 mislukt (https://api.energy-charts.info/public_power?country=nl&start=2026-10-02&end=2026-10-05): Response status code does not indicate success: 503 (Service Unavailable).. Opnieuw over 5 s.
+2026-10-04 11:18:32 [ERROR] Energie MISLUKT: Nord Pool: 192 kwartierprijzen; TenneT: balance delta: 377 metingen in 6 kwartieren; Historie compleet; Charts mislukt: Response status code does not indicate success: 503 (Service Unavailable).
