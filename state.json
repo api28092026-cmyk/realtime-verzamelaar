@@ -141,7 +141,7 @@
 },
 "ZD002": {
 "bikes": "40",
-"open": "Yes"
+"open": "No"
 },
 "Zh001": {
 "bikes": "7",
@@ -169,15 +169,15 @@
 },
 "alm001": {
 "bikes": "40",
-"open": "Yes"
+"open": "No"
 },
 "amf001": {
 "bikes": "323",
-"open": "Yes"
+"open": "No"
 },
 "amf002": {
 "bikes": "79",
-"open": "Yes"
+"open": "No"
 },
 "amfs001": {
 "bikes": "32",
@@ -209,7 +209,7 @@
 },
 "asa001": {
 "bikes": "227",
-"open": "Yes"
+"open": "No"
 },
 "asb002": {
 "bikes": "22",
@@ -225,7 +225,7 @@
 },
 "asd009": {
 "bikes": "5",
-"open": "Yes"
+"open": "No"
 },
 "asd010": {
 "bikes": "340",
@@ -237,7 +237,7 @@
 },
 "asdm001": {
 "bikes": "62",
-"open": "Yes"
+"open": "No"
 },
 "asdz001": {
 "bikes": "231",
@@ -249,7 +249,7 @@
 },
 "asn001": {
 "bikes": "176",
-"open": "Yes"
+"open": "No"
 },
 "ass001": {
 "bikes": "153",
@@ -464,7 +464,7 @@
 "open": "Yes"
 },
 "ed004": {
-"bikes": "211",
+"bikes": "209",
 "open": "Yes"
 },
 "ed901": {
@@ -569,7 +569,7 @@
 },
 "had003": {
 "bikes": "21",
-"open": "Yes"
+"open": "No"
 },
 "hd001": {
 "bikes": "53",
@@ -589,11 +589,11 @@
 },
 "hfd002": {
 "bikes": "52",
-"open": "Yes"
+"open": "No"
 },
 "hgl002": {
 "bikes": "25",
-"open": "Yes"
+"open": "No"
 },
 "hglg001": {
 "bikes": "9",
@@ -645,7 +645,7 @@
 },
 "hn001": {
 "bikes": "53",
-"open": "Yes"
+"open": "No"
 },
 "hnk001": {
 "bikes": "7",
@@ -673,7 +673,7 @@
 },
 "ht001": {
 "bikes": "278",
-"open": "Yes"
+"open": "No"
 },
 "ht002": {
 "bikes": "5",
@@ -777,11 +777,11 @@
 },
 "mt001": {
 "bikes": "160",
-"open": "Yes"
+"open": "No"
 },
 "mt003": {
 "bikes": "20",
-"open": "Yes"
+"open": "No"
 },
 "mtn001": {
 "bikes": "1",
@@ -893,7 +893,7 @@
 },
 "rsd002": {
 "bikes": "44",
-"open": "Yes"
+"open": "No"
 },
 "rsn001": {
 "bikes": "7",
@@ -912,7 +912,7 @@
 "open": "No"
 },
 "rtd001": {
-"bikes": "412",
+"bikes": "411",
 "open": "Yes"
 },
 "rtd906": {
@@ -1045,7 +1045,7 @@
 },
 "uto002": {
 "bikes": "35",
-"open": "Yes"
+"open": "No"
 },
 "utt001": {
 "bikes": "12",
@@ -1057,7 +1057,7 @@
 },
 "vb002": {
 "bikes": "23",
-"open": "Yes"
+"open": "No"
 },
 "vh001": {
 "bikes": "6",
