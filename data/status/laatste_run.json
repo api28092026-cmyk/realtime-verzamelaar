@@ -1,9 +1,27 @@
 ﻿{
   "OV": {
-    "tijd": "2026-10-05T11:05:33Z",
-    "seconden": 4,
-    "melding": "live: 18165 ritten, 1321 uitgevallen; meldingen: 624 actief, 13 nieuw",
-    "status": "ok"
+    "status": "ok",
+    "tijd": "2026-10-05T12:05:35Z",
+    "melding": "live: 17525 ritten, 1325 uitgevallen; meldingen: 624 actief, 2 nieuw",
+    "seconden": 5
+  },
+  "Deelmobiliteit": {
+    "status": "ok",
+    "tijd": "2026-10-05T12:05:35Z",
+    "melding": "45 van 56 systemen, 15820 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "seconden": 110
+  },
+  "NS": {
+    "status": "ok",
+    "tijd": "2026-10-05T12:05:35Z",
+    "melding": "storingen/werkzaamheden: 8 actief, 2 nieuw; drukte: 23 van 23 rijdende treinen, 0 stations, 0 keer drukte hoog",
+    "seconden": 44
+  },
+  "Laadpunten": {
+    "status": "ok",
+    "tijd": "2026-10-05T12:05:35Z",
+    "melding": "74897 locaties, 187073 laadpunten (40723 aan het laden); bestand van 2026-10-05T12:05:42Z",
+    "seconden": 34
   },
   "Netcongestie": {
     "status": "ok",
@@ -11,23 +29,11 @@
     "seconden": 5,
     "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (925 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (925 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)"
   },
-  "Verstoringen": {
-    "tijd": "2026-10-05T11:05:33Z",
-    "seconden": 6,
-    "melding": "weg: 1376 actieve meldingen, 255 nieuw; spoor: niets nieuws",
-    "status": "ok"
-  },
-  "NS": {
-    "tijd": "2026-10-05T11:05:33Z",
-    "seconden": 526,
-    "melding": "storingen/werkzaamheden: 6 actief, 0 nieuw; drukte: 313 van 313 rijdende treinen, 246 stations, 13 keer drukte hoog",
-    "status": "ok"
-  },
-  "TenderNed": {
+  "Parkeren": {
     "status": "ok",
-    "tijd": "2026-10-05T04:30:46Z",
-    "seconden": 126,
-    "melding": "74 nieuwe publicaties"
+    "tijd": "2026-10-05T12:05:35Z",
+    "melding": "bezetting van 319 van 324 garages (1 mislukt)",
+    "seconden": 211
   },
   "RDW": {
     "status": "ok",
@@ -36,15 +42,9 @@
     "melding": "22761 personenauto-registraties sinds 2026-09-25 verwerkt"
   },
   "Energie": {
-    "tijd": "2026-10-05T11:05:33Z",
-    "melding": "Nord Pool: 192 kwartierprijzen; TenneT: balance delta: 380 metingen in 6 kwartieren; Historie compleet; Charts mislukt: Response status code does not indicate success: 503 (Service Unavailable).",
-    "status": "fout"
-  },
-  "Parkeren": {
-    "tijd": "2026-10-05T11:05:33Z",
-    "seconden": 191,
-    "melding": "bezetting van 319 van 324 garages (1 mislukt)",
-    "status": "ok"
+    "status": "fout",
+    "tijd": "2026-10-05T12:05:35Z",
+    "melding": "Nord Pool: 192 kwartierprijzen; TenneT: balance delta: 337 metingen in 5 kwartieren; Historie compleet; Charts mislukt: Response status code does not indicate success: 503 (Service Unavailable)."
   },
   "KvkOpenData": {
     "status": "ok",
@@ -52,17 +52,17 @@
     "seconden": 18,
     "melding": "1921911 bv's/nv's verwerkt, waarvan 77284 met status faillissement"
   },
-  "Deelmobiliteit": {
-    "tijd": "2026-10-05T11:05:33Z",
-    "seconden": 104,
-    "melding": "45 van 56 systemen, 15791 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "status": "ok"
+  "Verstoringen": {
+    "status": "ok",
+    "tijd": "2026-10-05T12:05:35Z",
+    "melding": "weg: 1384 actieve meldingen, 266 nieuw; spoor: niets nieuws",
+    "seconden": 7
   },
-  "Laadpunten": {
-    "tijd": "2026-10-05T11:05:33Z",
-    "seconden": 26,
-    "melding": "74897 locaties, 187072 laadpunten (41815 aan het laden); bestand van 2026-10-05T11:05:39Z",
-    "status": "ok"
+  "TenderNed": {
+    "status": "ok",
+    "tijd": "2026-10-05T04:30:46Z",
+    "seconden": 126,
+    "melding": "74 nieuwe publicaties"
   },
   "EnergyZero": {
     "status": "ok",
