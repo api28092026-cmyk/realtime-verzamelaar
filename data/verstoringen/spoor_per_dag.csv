@@ -7611,3 +7611,952 @@
 2026-08-31,NS Int,Nightjet,4,0,3,32,7,6,8.47,28
 2026-08-31,NMBS,Stoptrein,35,0,1,679,34,25,0.59,1
 2026-08-31,VIAS,Snelbus ipv trein,1,0,0,1,0,0,0,0
+2026-09-01,DB,Stoptrein,74,0,0,1099,335,180,2.41,0
+2026-09-01,Eurobahn,Belbus ipv trein,1,0,0,2,0,0,0,0
+2026-09-01,VIAS,Stopbus ipv trein,20,0,0,60,0,0,0,0
+2026-09-01,NS,Snelbus ipv trein,3,0,0,4,0,0,0,0
+2026-09-01,R-net Qb,Stopbus ipv trein,4,0,0,27,0,0,0,0
+2026-09-01,RRReis A,Sneltrein,8,0,0,28,1,0,0.57,0
+2026-09-01,Blauwnet K,Intercity,28,0,0,140,13,1,0.61,0
+2026-09-01,Arriva,Stopbus ipv trein,34,0,0,68,0,0,0,0
+2026-09-01,Blauwnet A,Sneltrein,49,0,0,324,23,2,0.68,0
+2026-09-01,NS,Intercity direct,110,4,14,630,123,69,1.74,49
+2026-09-01,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-01,NS Int,Eurocity Direct,32,2,5,180,28,20,1.29,23
+2026-09-01,NS Int,Eurostar,34,0,2,159,57,48,7.69,6
+2026-09-01,NS Int,EuroCity,32,0,0,288,47,31,1.12,0
+2026-09-01,VIAS,Stoptrein,36,0,19,297,29,28,1.66,57
+2026-09-01,R-net NS,Sprinter,130,0,0,780,24,15,0.47,0
+2026-09-01,NS Int,Intercity direct,4,0,0,16,0,0,0.38,0
+2026-09-01,NMBS,Stoptrein,35,0,0,680,104,66,1.1,0
+2026-09-01,RRReis A,Stoptrein,327,6,10,2350,436,240,1.38,63
+2026-09-01,NS,Intercity,1425,31,358,10750,1560,833,1.26,2558
+2026-09-01,NS Int,ICE,29,0,4,315,147,129,15.3,9
+2026-09-01,NS,Sprinter,2464,25,329,24392,2418,1116,0.88,2727
+2026-09-01,NS,Stopbus ipv trein,86,0,0,284,0,0,0,0
+2026-09-01,Arriva,Stoptrein,752,7,36,6795,670,271,0.88,273
+2026-09-01,Eurobahn,Sneltrein,36,0,16,600,52,38,1.28,38
+2026-09-01,NS Int,Nightjet,4,0,1,49,9,9,14.39,7
+2026-09-01,Blauwnet K,Sprinter,156,2,3,900,29,4,0.39,23
+2026-09-01,RRReis K,Sprinter,137,0,4,766,36,16,0.64,10
+2026-09-01,R-net Qb,Stoptrein,132,0,0,1093,4,0,0.34,0
+2026-09-01,Eurobahn,Stoptrein,36,1,6,235,47,41,4.1,15
+2026-09-01,Blauwnet A,Stoptrein,181,2,4,1243,77,26,0.69,18
+2026-09-01,Arriva,Sneltrein,195,2,22,1124,226,142,1.63,71
+2026-09-02,NMBS,Stoptrein,35,0,0,680,95,67,1.29,0
+2026-09-02,RRReis A,Stoptrein,327,4,6,2367,75,17,0.41,46
+2026-09-02,R-net NS,Sprinter,130,0,0,780,1,0,0.22,0
+2026-09-02,VIAS,Stoptrein,36,1,5,332,67,57,2.62,22
+2026-09-02,NS Int,EuroCity,32,2,3,269,21,14,0.84,19
+2026-09-02,NS Int,Eurostar,34,0,0,165,34,20,2.35,0
+2026-09-02,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-02,Blauwnet A,Sneltrein,49,0,0,324,13,0,0.52,0
+2026-09-02,NS Int,Intercity direct,4,0,0,16,1,1,0.69,0
+2026-09-02,Arriva,Stopbus ipv trein,43,0,0,129,0,0,0,0
+2026-09-02,Blauwnet K,Intercity,28,0,0,140,1,0,0.15,0
+2026-09-02,GoVolta,GoVolta,2,0,0,14,2,0,0.79,0
+2026-09-02,RRReis A,Sneltrein,8,0,0,28,0,0,0.11,0
+2026-09-02,NS,Intercity direct,108,3,15,610,111,64,1.78,57
+2026-09-02,Blauwnet A,Stoptrein,181,4,4,1233,45,12,0.46,28
+2026-09-02,NS Int,Eurocity Direct,33,0,4,197,8,3,0.77,10
+2026-09-02,R-net Qb,Stoptrein,135,2,2,1108,4,0,0.34,12
+2026-09-02,NS Int,Nightjet,4,0,0,54,12,9,3.2,0
+2026-09-02,NS,Intercity,1326,6,66,11386,794,355,0.66,356
+2026-09-02,NS,Snelbus ipv trein,14,0,0,15,0,0,0,0
+2026-09-02,Eu Sleeper,European Sleeper,2,0,0,21,10,9,45.1,0
+2026-09-02,NS Int,ICE,29,0,7,300,111,101,7.59,26
+2026-09-02,NS,Sprinter,2371,17,57,25161,1434,666,0.55,332
+2026-09-02,DB,Stoptrein,74,0,0,1099,341,183,2.12,0
+2026-09-02,Eurobahn,Stoptrein,36,0,2,246,37,31,1.3,4
+2026-09-02,Arriva,Stoptrein,742,5,16,6841,296,85,0.55,86
+2026-09-02,Eurobahn,Sneltrein,36,3,6,588,114,107,2.67,50
+2026-09-02,Arriva,Sneltrein,191,2,9,1109,114,59,0.93,41
+2026-09-02,Blauwnet K,Sprinter,156,0,0,923,21,1,0.31,0
+2026-09-02,RRReis K,Sprinter,138,12,12,732,36,9,0.55,54
+2026-09-02,NS,Stopbus ipv trein,84,0,0,260,0,0,0,0
+2026-09-03,R-net NS,Sprinter,130,0,0,780,28,9,0.48,0
+2026-09-03,VIAS,Stoptrein,36,0,2,348,73,57,2.97,6
+2026-09-03,NS Int,EuroCity,32,7,8,224,25,18,1.05,64
+2026-09-03,NS Int,Eurostar,38,0,1,179,42,31,2.77,1
+2026-09-03,NS Int,Eurocity Direct,32,0,0,202,33,18,1.6,0
+2026-09-03,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-03,Arriva,Stopbus ipv trein,36,0,0,78,0,0,0,0
+2026-09-03,NS Int,Intercity direct,4,0,0,16,6,5,3.38,0
+2026-09-03,Blauwnet A,Sneltrein,49,0,0,324,0,0,0.31,0
+2026-09-03,Blauwnet K,Intercity,28,0,0,140,16,7,0.86,0
+2026-09-03,GoVolta,GoVolta,2,0,0,14,1,1,0.93,0
+2026-09-03,RRReis A,Sneltrein,8,0,0,28,7,4,1.43,0
+2026-09-03,RRReis A,Stoptrein,327,8,9,2346,205,43,0.71,67
+2026-09-03,NS,Intercity direct,108,5,22,596,114,78,2.06,74
+2026-09-03,Arriva,Nachttrein,1,0,0,3,0,0,0,0
+2026-09-03,NMBS,Stoptrein,35,0,0,680,92,26,0.85,0
+2026-09-03,Eurobahn,Stoptrein,36,1,6,233,39,29,1.42,17
+2026-09-03,Blauwnet A,Stoptrein,181,2,2,1247,72,10,0.55,14
+2026-09-03,DB,Stoptrein,74,1,1,1086,395,215,2.6,13
+2026-09-03,NS Int,Nightjet,4,0,0,54,6,6,12.22,0
+2026-09-03,NS,Snelbus ipv trein,13,0,0,15,0,0,0,0
+2026-09-03,NS Int,ICE,29,0,0,324,118,99,7.5,0
+2026-09-03,NS,Sprinter,2402,38,167,24691,2185,959,0.82,1456
+2026-09-03,NS,Intercity,1371,16,206,11029,1451,811,1.21,1527
+2026-09-03,Arriva,Stoptrein,746,1,6,6951,473,125,0.64,15
+2026-09-03,Eurobahn,Sneltrein,36,2,6,579,55,38,0.65,59
+2026-09-03,Blauwnet K,Sprinter,156,0,0,923,39,13,0.38,0
+2026-09-03,Arriva,Sneltrein,195,1,19,1117,185,125,1.6,78
+2026-09-03,RRReis K,Sprinter,138,0,0,786,32,1,0.61,0
+2026-09-03,R-net Qb,Stoptrein,135,0,0,1120,34,0,0.49,0
+2026-09-03,NS,Stopbus ipv trein,81,0,0,251,0,0,0,0
+2026-09-04,NS,Intercity direct,106,6,16,594,71,29,1.12,66
+2026-09-04,VIAS,Stoptrein,36,0,0,354,53,46,3.08,0
+2026-09-04,NS Int,EuroCity,32,2,2,270,35,22,1.71,18
+2026-09-04,NS Int,Eurostar,38,0,0,185,39,24,3.42,0
+2026-09-04,NS Int,Eurocity Direct,32,2,3,188,17,13,1.29,14
+2026-09-04,Blauwnet A,Sneltrein,56,11,22,274,24,13,1.07,107
+2026-09-04,R-net NS,Sprinter,130,0,0,780,2,1,0.3,0
+2026-09-04,Arriva,Stopbus ipv trein,34,0,0,68,0,0,0,0
+2026-09-04,Blauwnet K,Intercity,28,0,0,140,35,14,1.51,0
+2026-09-04,GoVolta,GoVolta,2,0,0,14,5,4,7.14,0
+2026-09-04,RRReis A,Sneltrein,8,0,0,28,3,0,0.5,0
+2026-09-04,Eurobahn,Stopbus ipv trein,2,0,0,5,0,0,0,0
+2026-09-04,Arriva,Nachttrein,1,0,0,4,0,0,0.5,0
+2026-09-04,NS Int,Intercity direct,4,2,2,8,0,0,0,8
+2026-09-04,RRReis A,Stoptrein,329,2,2,2423,76,12,0.46,16
+2026-09-04,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-04,Blauwnet A,Stoptrein,198,16,60,1148,123,52,1.2,277
+2026-09-04,DB,Stoptrein,76,2,9,1048,529,401,4.71,77
+2026-09-04,NS Int,Nightjet,4,1,1,44,3,3,2.14,10
+2026-09-04,NS,Intercity,1330,22,97,10693,1280,665,1.07,528
+2026-09-04,Eu Sleeper,European Sleeper,3,0,0,28,12,10,43.57,0
+2026-09-04,NS Int,ICE,29,0,1,325,162,143,11.21,1
+2026-09-04,NS,Sprinter,2296,26,96,24173,1864,825,0.7,638
+2026-09-04,NS,Stopbus ipv trein,81,0,0,245,0,0,0,0
+2026-09-04,NMBS,Stoptrein,35,0,0,680,61,20,0.58,0
+2026-09-04,Eurobahn,Sneltrein,36,0,14,574,120,105,2.68,64
+2026-09-04,Arriva,Sneltrein,192,0,26,1118,148,85,1.39,49
+2026-09-04,Blauwnet K,Sprinter,158,0,0,943,85,36,0.8,0
+2026-09-04,RRReis K,Sprinter,138,12,12,738,62,2,0.87,48
+2026-09-04,R-net Qb,Stoptrein,135,0,0,1120,45,31,0.58,0
+2026-09-04,Eurobahn,Stoptrein,36,0,4,236,44,35,2.11,8
+2026-09-04,Arriva,Stoptrein,757,11,47,6854,573,262,0.83,220
+2026-09-05,Arriva,Stopbus ipv trein,107,0,0,287,0,0,0,0
+2026-09-05,Arriva,Sneltrein,153,0,5,1015,71,41,0.8,5
+2026-09-05,RRReis A,Sneltrein,34,0,0,179,13,1,0.54,0
+2026-09-05,NS,Snelbus ipv trein,585,0,0,592,0,0,0,0
+2026-09-05,RRReis A,Stoptrein,169,0,0,1456,135,45,0.76,0
+2026-09-05,R-net NS,Sprinter,74,0,0,444,0,0,0.17,0
+2026-09-05,Blauwnet K,Sprinter,148,0,0,875,27,7,0.34,0
+2026-09-05,Blauwnet A,Stopbus ipv trein,73,0,0,73,0,0,0,0
+2026-09-05,NMBS,Stoptrein,33,0,0,633,93,48,1.05,0
+2026-09-05,Blauwnet A,Sneltrein,32,0,0,224,5,0,0.44,0
+2026-09-05,GoVolta,GoVolta,2,0,0,16,3,3,2.56,0
+2026-09-05,Eurobahn,Stopbus ipv trein,2,0,0,5,0,0,0,0
+2026-09-05,R-net Qb,Stopbus ipv trein,1,0,0,11,0,0,0,0
+2026-09-05,Blauwnet A,Stoptrein,159,0,2,1050,30,10,0.4,4
+2026-09-05,NS Int,ICE,30,1,3,307,95,83,8.46,11
+2026-09-05,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-05,R-net Qb,Stoptrein,120,0,0,1027,16,3,0.36,0
+2026-09-05,DB,Stoptrein,74,1,2,1045,301,171,2.5,22
+2026-09-05,NS,Intercity,1496,9,69,9888,1217,687,1.09,538
+2026-09-05,NS Int,Nightjet,4,0,0,54,9,8,8.26,0
+2026-09-05,Arriva,Nachttrein,4,0,0,16,4,3,1.88,0
+2026-09-05,NS,Sprinter,2093,17,41,21396,1551,739,0.7,267
+2026-09-05,Eurobahn,Sneltrein,36,0,0,633,22,8,0.28,0
+2026-09-05,NS Int,EuroCity,32,3,5,258,24,14,0.61,30
+2026-09-05,Eurobahn,Stoptrein,34,0,6,222,49,45,3.38,10
+2026-09-05,NS,Stopbus ipv trein,155,0,0,318,0,0,0,0
+2026-09-05,VIAS,Stoptrein,36,0,2,350,46,38,2.36,6
+2026-09-05,NS Int,Eurostar,25,1,1,131,19,11,1.89,6
+2026-09-05,RRReis K,Sprinter,116,0,2,698,22,4,0.56,6
+2026-09-05,NS Int,Eurocity Direct,32,0,1,94,12,4,0.88,2
+2026-09-05,Arriva,Stoptrein,673,6,12,6090,233,91,0.52,62
+2026-09-06,Blauwnet A,Stoptrein,117,2,2,791,40,17,0.48,14
+2026-09-06,Arriva,Sneltrein,114,0,2,813,40,16,0.49,2
+2026-09-06,Blauwnet A,Stopbus ipv trein,65,0,0,65,0,0,0,0
+2026-09-06,Arriva,Stopbus ipv trein,102,0,0,274,0,0,0,0
+2026-09-06,RRReis K,Sprinter,68,0,0,476,11,5,0.27,0
+2026-09-06,Blauwnet K,Sprinter,139,0,0,750,17,4,0.28,0
+2026-09-06,Blauwnet K,Stopbus ipv trein,68,0,0,68,0,0,0,0
+2026-09-06,RRReis A,Stoptrein,153,0,0,1275,13,0,0.23,0
+2026-09-06,R-net NS,Sprinter,70,0,0,420,0,0,0.13,0
+2026-09-06,GoVolta,GoVolta,2,0,0,16,2,2,3.12,0
+2026-09-06,Arriva,Snelbus ipv trein,14,0,0,14,0,0,0,0
+2026-09-06,Blauwnet A,Sneltrein,29,0,0,203,0,0,0.28,0
+2026-09-06,R-net Qb,Stoptrein,75,0,1,750,22,16,0.49,1
+2026-09-06,RRReis A,Sneltrein,32,0,0,172,0,0,0.03,0
+2026-09-06,Eurobahn,Stopbus ipv trein,2,0,0,5,0,0,0,0
+2026-09-06,Eurobahn,Sneltrein,32,0,0,567,26,21,0.45,0
+2026-09-06,Arriva,Stoptrein,537,2,6,4612,148,48,0.45,25
+2026-09-06,DB,Stoptrein,66,3,5,898,201,77,1.68,47
+2026-09-06,NS Int,Nightjet,4,0,0,54,7,4,5.41,0
+2026-09-06,NS,Intercity,1410,7,143,9277,801,438,0.8,841
+2026-09-06,NS,Snelbus ipv trein,555,0,0,562,0,0,0,0
+2026-09-06,Arriva,Nachttrein,1,0,0,4,2,0,2,0
+2026-09-06,NS,Sprinter,1969,28,134,18652,1152,533,0.62,842
+2026-09-06,NS Int,Eurostar,30,0,0,173,23,16,1.68,0
+2026-09-06,VIAS,Stoptrein,35,0,0,344,51,40,2.21,0
+2026-09-06,NS Int,EuroCity,32,0,0,288,18,11,0.67,0
+2026-09-06,NMBS,Stoptrein,33,0,0,633,158,84,2.27,0
+2026-09-06,NS Int,ICE,29,0,0,305,58,49,3.75,0
+2026-09-06,Eurobahn,Stoptrein,32,0,2,216,30,22,1.37,2
+2026-09-06,NS,Stopbus ipv trein,150,0,0,333,0,0,0,0
+2026-09-06,NS Int,Eurocity Direct,33,0,4,98,13,8,1.12,7
+2026-09-07,RRReis A,Stoptrein,327,6,11,2356,129,43,0.56,57
+2026-09-07,Arriva,Stopbus ipv trein,42,0,0,103,0,0,0,0
+2026-09-07,R-net NS,Sprinter,130,0,2,770,28,7,0.48,10
+2026-09-07,NS Int,ICE,29,0,13,302,140,133,7.98,23
+2026-09-07,VIAS,Stoptrein,36,0,0,354,63,51,2.53,0
+2026-09-07,NS Int,EuroCity,32,0,1,287,45,32,1.7,1
+2026-09-07,NS Int,Eurostar,34,0,1,164,49,35,3.71,1
+2026-09-07,NS,Intercity direct,107,0,9,646,100,49,1.22,13
+2026-09-07,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-07,NS Int,Intercity direct,4,0,0,16,3,2,1.06,0
+2026-09-07,Blauwnet A,Sneltrein,49,0,1,323,27,10,0.91,1
+2026-09-07,Blauwnet K,Intercity,28,0,0,140,3,0,0.34,0
+2026-09-07,NMBS,Stoptrein,35,0,0,680,79,16,0.79,0
+2026-09-07,RRReis A,Sneltrein,8,0,0,28,10,6,2.43,0
+2026-09-07,NS Int,Eurocity Direct,32,0,6,189,30,25,2.41,14
+2026-09-07,GoVolta,GoVolta,2,0,0,14,5,5,9.79,0
+2026-09-07,Eurobahn,Snelbus ipv trein,1,0,0,1,0,0,0,0
+2026-09-07,Eurobahn,Stoptrein,36,0,2,242,46,37,2.14,2
+2026-09-07,Blauwnet A,Stoptrein,183,2,10,1243,111,44,0.77,28
+2026-09-07,DB,Stoptrein,74,0,0,1091,264,134,1.83,0
+2026-09-07,NS Int,Nightjet,4,0,0,54,4,3,2.94,0
+2026-09-07,NS,Intercity,1325,62,188,11138,1102,567,1.02,852
+2026-09-07,NS,Stopbus ipv trein,108,0,0,371,0,0,0,0
+2026-09-07,NS,Sprinter,2377,68,156,24283,1991,924,0.77,1204
+2026-09-07,Eu Sleeper,European Sleeper,4,1,4,30,23,23,29.43,22
+2026-09-07,Eurobahn,Stopbus ipv trein,3,0,0,11,0,0,0,0
+2026-09-07,Eurobahn,Sneltrein,36,1,4,629,26,17,0.4,9
+2026-09-07,Arriva,Sneltrein,192,2,34,1057,189,122,1.81,89
+2026-09-07,Blauwnet K,Sprinter,156,0,0,923,37,16,0.38,0
+2026-09-07,RRReis K,Sprinter,138,4,7,752,123,43,1.39,31
+2026-09-07,R-net Qb,Stoptrein,135,0,0,1120,47,7,0.49,0
+2026-09-07,Arriva,Stoptrein,747,1,43,6798,631,315,0.93,185
+2026-09-08,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-08,NS Int,EuroCity,32,0,0,288,27,10,0.57,0
+2026-09-08,VIAS,Stoptrein,36,2,4,330,46,30,1.61,24
+2026-09-08,NS Int,Eurostar,34,3,13,126,44,34,10.66,39
+2026-09-08,NS Int,Eurocity Direct,32,1,3,190,27,16,1.32,12
+2026-09-08,NS,Intercity direct,113,4,28,614,140,94,1.79,86
+2026-09-08,NS Int,ICE,29,1,2,313,171,155,12.65,12
+2026-09-08,Blauwnet A,Sneltrein,49,0,0,324,2,0,0.29,0
+2026-09-08,Arriva,Stopbus ipv trein,41,0,0,101,0,0,0,0
+2026-09-08,Blauwnet K,Intercity,28,0,0,140,3,2,0.44,0
+2026-09-08,RRReis A,Sneltrein,8,0,0,28,4,0,0.89,0
+2026-09-08,Eurobahn,Stopbus ipv trein,3,0,0,8,0,0,0,0
+2026-09-08,NS Int,Intercity direct,4,0,0,16,5,1,1.62,0
+2026-09-08,R-net NS,Sprinter,130,2,2,768,8,4,0.38,12
+2026-09-08,RRReis K,Sprinter,137,0,0,776,65,7,0.81,0
+2026-09-08,NMBS,Stoptrein,35,0,0,680,74,55,1.43,0
+2026-09-08,DB,Stoptrein,74,8,13,921,280,158,2.35,170
+2026-09-08,NS Int,Nightjet,4,0,1,50,5,4,5.84,4
+2026-09-08,NS,Intercity,1370,22,186,11274,1926,1139,1.52,1248
+2026-09-08,NS,Sprinter,2392,35,116,24690,2684,1310,0.95,774
+2026-09-08,Arriva,Stoptrein,762,2,43,6899,476,117,0.67,244
+2026-09-08,Eurobahn,Sneltrein,36,0,4,634,62,48,0.97,4
+2026-09-08,NS,Stopbus ipv trein,107,0,0,369,0,0,0,0
+2026-09-08,Blauwnet K,Sprinter,156,2,4,899,47,24,0.56,24
+2026-09-08,RRReis A,Stoptrein,327,2,2,2397,245,102,0.87,16
+2026-09-08,R-net Qb,Stoptrein,135,3,22,1053,184,54,1.08,67
+2026-09-08,Eurobahn,Stoptrein,36,1,1,237,31,21,1.14,7
+2026-09-08,Blauwnet A,Stoptrein,184,2,12,1246,102,29,0.75,30
+2026-09-08,Arriva,Sneltrein,191,3,11,1090,161,92,1.37,43
+2026-09-09,NS,Intercity direct,106,106,106,0,0,0,,653
+2026-09-09,VIAS,Stoptrein,36,0,36,246,0,0,0,108
+2026-09-09,NS Int,EuroCity,32,32,32,0,0,0,,288
+2026-09-09,NS Int,Eurostar,34,34,34,0,0,0,,165
+2026-09-09,NS Int,Eurocity Direct,32,32,32,0,0,0,,202
+2026-09-09,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-09,NS Int,Intercity direct,4,4,4,0,0,0,,16
+2026-09-09,VIAS,Snelbus ipv trein,36,0,0,115,0,0,0,0
+2026-09-09,Arriva,Stopbus ipv trein,41,0,0,101,0,0,0,0
+2026-09-09,Blauwnet K,Intercity,28,28,28,0,0,0,,140
+2026-09-09,GoVolta,GoVolta,2,0,2,6,0,0,0,8
+2026-09-09,RRReis A,Sneltrein,8,8,8,0,0,0,,28
+2026-09-09,NS,Snelbus ipv trein,5,5,5,0,0,0,,6
+2026-09-09,NS Int,ICE,29,15,29,72,35,32,9.94,253
+2026-09-09,Blauwnet A,Sneltrein,49,49,49,0,0,0,,324
+2026-09-09,R-net NS,Sprinter,130,130,130,0,0,0,,780
+2026-09-09,RRReis A,Stoptrein,327,327,327,0,0,0,,2413
+2026-09-09,NMBS,Stoptrein,35,0,35,645,0,0,0,35
+2026-09-09,NS Int,Nightjet,4,4,4,0,0,0,,54
+2026-09-09,NS,Intercity,1303,1289,1303,14,0,0,0,11458
+2026-09-09,Eu Sleeper,European Sleeper,4,0,4,30,0,0,0,18
+2026-09-09,Eurobahn,Stopbus ipv trein,136,0,0,253,0,0,0,0
+2026-09-09,NS,Sprinter,2361,2205,2212,603,77,47,1.47,24746
+2026-09-09,NS,Stopbus ipv trein,85,85,85,0,0,0,,269
+2026-09-09,Arriva,Stoptrein,746,746,746,0,0,0,,6966
+2026-09-09,DB,Stoptrein,74,39,74,431,162,111,4.41,660
+2026-09-09,Arriva,Sneltrein,205,126,205,158,0,0,0,1157
+2026-09-09,Blauwnet K,Sprinter,156,156,156,0,0,0,,923
+2026-09-09,RRReis K,Sprinter,138,138,138,0,0,0,,786
+2026-09-09,R-net Qb,Stoptrein,135,135,135,0,0,0,,1120
+2026-09-09,Eurobahn,Stoptrein,36,0,34,176,0,0,0,68
+2026-09-09,Blauwnet A,Stoptrein,181,181,181,0,0,0,,1261
+2026-09-09,Eurobahn,Sneltrein,36,0,36,602,0,0,0,36
+2026-09-10,VIAS,Stoptrein,36,0,3,345,60,46,2.03,9
+2026-09-10,NS Int,EuroCity,32,5,5,243,39,27,2.09,45
+2026-09-10,NS Int,Eurostar,35,0,3,159,58,45,6.71,11
+2026-09-10,NS Int,Eurocity Direct,32,1,13,164,31,12,1.74,38
+2026-09-10,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-10,NS,Intercity direct,107,4,20,604,136,69,2.38,56
+2026-09-10,Blauwnet K,Intercity,28,0,0,140,13,6,0.83,0
+2026-09-10,Blauwnet A,Sneltrein,49,0,0,324,126,44,2.19,0
+2026-09-10,Arriva,Stopbus ipv trein,34,0,0,68,0,0,0,0
+2026-09-10,GoVolta,GoVolta,2,0,0,14,6,4,8.64,0
+2026-09-10,RRReis A,Sneltrein,8,0,0,28,0,0,0.39,0
+2026-09-10,Eurobahn,Stopbus ipv trein,7,0,0,16,0,0,0,0
+2026-09-10,NS Int,ICE,29,0,0,325,176,166,18.48,0
+2026-09-10,NS Int,Intercity direct,4,0,0,16,0,0,0.19,0
+2026-09-10,RRReis A,Stoptrein,327,5,7,2373,158,35,0.61,40
+2026-09-10,R-net NS,Sprinter,130,0,0,780,5,0,0.27,0
+2026-09-10,NMBS,Stoptrein,35,0,0,680,89,62,1.72,0
+2026-09-10,DB,Stoptrein,74,2,5,1055,279,116,1.99,44
+2026-09-10,NS Int,Nightjet,4,0,0,54,7,6,10,0
+2026-09-10,NS,Snelbus ipv trein,26,1,1,34,0,0,0,2
+2026-09-10,NS,Intercity,1421,39,319,11044,1821,1063,1.62,2027
+2026-09-10,NS,Stopbus ipv trein,83,0,0,258,0,0,0,0
+2026-09-10,Arriva,Stoptrein,746,22,82,6662,812,366,1.04,304
+2026-09-10,NS,Sprinter,2416,46,201,24535,3436,1791,1.24,1776
+2026-09-10,Blauwnet K,Sprinter,156,0,0,923,29,15,0.4,0
+2026-09-10,Arriva,Sneltrein,195,7,36,1058,272,160,2.76,144
+2026-09-10,RRReis K,Sprinter,138,24,30,666,133,56,2.04,120
+2026-09-10,R-net Qb,Stoptrein,135,0,0,1120,22,0,0.47,0
+2026-09-10,Eurobahn,Stoptrein,36,6,6,202,31,30,2.05,42
+2026-09-10,Blauwnet A,Stoptrein,183,3,10,1231,186,67,1.14,40
+2026-09-10,Eurobahn,Sneltrein,36,0,9,624,18,9,0.28,14
+2026-09-11,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-11,NS Int,ICE,29,0,2,322,151,133,10.46,2
+2026-09-11,VIAS,Stoptrein,36,0,0,354,53,40,2.04,0
+2026-09-11,NS Int,EuroCity,32,0,0,288,27,9,0.64,0
+2026-09-11,NS Int,Eurostar,39,0,2,185,50,40,8.11,6
+2026-09-11,NS Int,Eurocity Direct,32,0,1,202,41,27,2.52,2
+2026-09-11,NS,Intercity direct,117,6,46,578,81,38,1.3,160
+2026-09-11,Arriva,Nachttrein,3,0,1,17,2,0,0.71,2
+2026-09-11,Blauwnet A,Sneltrein,49,3,8,298,43,16,1.17,26
+2026-09-11,Arriva,Stopbus ipv trein,66,0,0,132,0,0,0,0
+2026-09-11,Blauwnet K,Intercity,28,0,0,140,21,4,0.87,0
+2026-09-11,GoVolta,GoVolta,2,0,0,14,6,4,9.57,0
+2026-09-11,RRReis A,Sneltrein,8,0,0,29,0,0,0.24,0
+2026-09-11,Eurobahn,Stopbus ipv trein,2,0,0,5,0,0,0,0
+2026-09-11,R-net NS,Sprinter,130,2,2,768,1,1,0.27,12
+2026-09-11,NS Int,Intercity direct,4,0,0,16,0,0,0.25,0
+2026-09-11,RRReis A,Stoptrein,332,1,3,2445,147,34,0.55,12
+2026-09-11,R-net Qb,Stoptrein,135,0,0,1120,41,5,0.6,0
+2026-09-11,Blauwnet A,Stoptrein,182,6,21,1208,101,45,1,63
+2026-09-11,DB,Stoptrein,76,0,0,1125,323,191,2.27,0
+2026-09-11,NS Int,Nightjet,4,0,0,54,8,6,5.04,0
+2026-09-11,NS,Intercity,1382,18,172,10689,1102,539,0.97,838
+2026-09-11,NS,Snelbus ipv trein,6,0,0,6,0,0,0,0
+2026-09-11,NMBS,Stoptrein,35,0,0,680,87,35,1,0
+2026-09-11,NS,Sprinter,2311,23,112,24104,1984,831,0.72,640
+2026-09-11,NS,Stopbus ipv trein,86,0,0,257,0,0,0,0
+2026-09-11,Eu Sleeper,European Sleeper,4,0,0,50,30,30,112.38,0
+2026-09-11,Eurobahn,Sneltrein,36,0,0,638,28,23,0.57,0
+2026-09-11,Arriva,Sneltrein,202,10,28,1111,165,103,1.47,152
+2026-09-11,Blauwnet K,Sprinter,158,2,2,939,54,19,0.47,4
+2026-09-11,RRReis K,Sprinter,138,16,16,722,61,12,0.84,64
+2026-09-11,Eurobahn,Stoptrein,36,0,2,242,20,14,0.81,2
+2026-09-11,Arriva,Stoptrein,750,9,63,6779,456,127,0.65,224
+2026-09-12,NMBS,Stoptrein,33,0,0,33,8,1,1.82,0
+2026-09-12,RRReis A,Stoptrein,141,0,0,1319,74,20,0.58,0
+2026-09-12,R-net NS,Sprinter,74,0,0,444,0,0,0.32,0
+2026-09-12,Blauwnet A,Stoptrein,158,0,0,1029,35,0,0.45,0
+2026-09-12,NS,Snelbus ipv trein,84,4,4,152,0,0,0,6
+2026-09-12,Blauwnet K,Sprinter,148,0,0,875,25,11,0.32,0
+2026-09-12,NS Int,Eurostar,19,0,0,68,13,10,3.46,0
+2026-09-12,Arriva,Snelbus ipv trein,54,0,0,92,0,0,0,0
+2026-09-12,NS,Taxibus ipv trein,70,0,0,71,0,0,0,0
+2026-09-12,GoVolta,GoVolta,2,0,0,28,0,0,0.07,0
+2026-09-12,Eurobahn,Stopbus ipv trein,17,0,0,50,0,0,0,0
+2026-09-12,RRReis A,Stopbus ipv trein,129,0,0,219,0,0,0,0
+2026-09-12,RRReis A,Belbus ipv trein,28,0,0,28,0,0,0,0
+2026-09-12,RRReis A,Taxibus ipv trein,9,0,0,9,0,0,0,0
+2026-09-12,Blauwnet A,Sneltrein,32,0,0,256,11,0,0.64,0
+2026-09-12,NS,Intercity direct,125,1,2,543,76,42,1.29,10
+2026-09-12,DB,Stoptrein,74,1,2,1045,394,241,3.01,22
+2026-09-12,NS Int,Eurocity Direct,32,0,2,103,14,9,0.99,1
+2026-09-12,Arriva,Sneltrein,155,9,36,956,229,159,2.18,89
+2026-09-12,NS,Intercity,1210,14,70,9464,1152,611,1.16,405
+2026-09-12,NS Int,Nightjet,4,0,0,54,6,6,4.31,0
+2026-09-12,Arriva,Nachttrein,4,0,0,24,0,0,0.21,0
+2026-09-12,Eurobahn,Sneltrein,36,0,0,633,77,60,0.91,0
+2026-09-12,Arriva,Stoptrein,692,18,49,5981,450,277,0.94,230
+2026-09-12,Eurobahn,Stoptrein,33,8,8,172,7,6,0.37,56
+2026-09-12,NS,Sprinter,1902,9,58,19761,1377,648,0.68,405
+2026-09-12,RRReis K,Sprinter,80,0,0,446,26,3,0.6,0
+2026-09-12,VIAS,Stoptrein,36,0,5,341,51,43,1.95,15
+2026-09-12,R-net Qb,Stoptrein,121,4,7,995,13,1,0.34,43
+2026-09-12,NS Int,EuroCity,32,0,0,288,18,15,0.72,0
+2026-09-12,NS Int,ICE,30,0,2,317,56,49,2.77,2
+2026-09-12,Arriva,Stopbus ipv trein,110,0,0,372,0,0,0,0
+2026-09-12,NS,Stopbus ipv trein,280,0,0,745,0,0,0,0
+2026-09-13,NS,Taxibus ipv trein,69,0,0,69,0,0,0,0
+2026-09-13,RRReis K,Sprinter,70,0,0,394,35,4,0.63,0
+2026-09-13,Arriva,Sneltrein,114,0,0,812,40,18,0.56,0
+2026-09-13,Blauwnet K,Sprinter,146,3,16,783,22,12,0.27,104
+2026-09-13,RRReis A,Stoptrein,124,0,2,1131,26,3,0.4,2
+2026-09-13,R-net NS,Sprinter,70,0,0,420,0,0,0.21,0
+2026-09-13,NS Int,Eurostar,29,1,2,100,21,18,6.36,6
+2026-09-13,NS Int,Snelbus ipv trein,2,0,0,2,0,0,0,0
+2026-09-13,Arriva,Snelbus ipv trein,52,0,0,90,0,0,0,0
+2026-09-13,Blauwnet A,Sneltrein,29,0,0,232,0,0,0.17,0
+2026-09-13,Eurobahn,Stopbus ipv trein,2,0,0,5,0,0,0,0
+2026-09-13,RRReis A,Taxibus ipv trein,30,0,0,30,0,0,0,0
+2026-09-13,RRReis A,Belbus ipv trein,40,0,0,40,0,0,0,0
+2026-09-13,Arriva,Stopbus ipv trein,104,0,0,352,0,0,0,0
+2026-09-13,GoVolta,GoVolta,2,0,0,28,0,0,0,0
+2026-09-13,Blauwnet A,Stoptrein,119,0,0,791,5,1,0.22,0
+2026-09-13,RRReis A,Stopbus ipv trein,167,0,0,303,0,0,0,0
+2026-09-13,NS,Intercity direct,123,8,18,480,48,29,1.07,56
+2026-09-13,NS,Snelbus ipv trein,115,7,7,179,0,0,0,8
+2026-09-13,NS,Intercity,1151,10,44,8938,789,410,0.84,241
+2026-09-13,NS Int,Nightjet,4,0,0,54,15,15,15.44,0
+2026-09-13,NS,Sprinter,1678,16,48,17484,1056,523,0.6,325
+2026-09-13,Arriva,Nachttrein,1,0,0,4,2,0,2.5,0
+2026-09-13,NS,Stopbus ipv trein,260,0,0,710,0,0,0,0
+2026-09-13,VIAS,Stoptrein,35,0,10,308,41,33,2.85,36
+2026-09-13,DB,Stoptrein,66,1,4,921,301,147,2.27,24
+2026-09-13,NS Int,ICE,29,0,6,289,74,60,4.93,29
+2026-09-13,NS Int,EuroCity,32,0,0,288,31,23,1.42,0
+2026-09-13,NMBS,Stoptrein,33,0,0,33,1,0,1.15,0
+2026-09-13,Eurobahn,Sneltrein,32,0,0,573,16,10,0.2,0
+2026-09-13,R-net Qb,Stoptrein,75,0,0,751,5,0,0.35,0
+2026-09-13,Eurobahn,Stoptrein,32,0,0,218,7,6,0.21,0
+2026-09-13,NS Int,Eurocity Direct,32,0,0,103,22,16,3.01,0
+2026-09-13,Arriva,Stoptrein,548,2,2,4644,134,30,0.44,12
+2026-09-14,NS Int,ICE,29,0,0,325,134,121,9.07,0
+2026-09-14,VIAS,Stoptrein,36,0,2,348,71,56,3.44,6
+2026-09-14,NS Int,EuroCity,32,0,0,287,44,24,1.38,0
+2026-09-14,NS Int,Eurostar,36,0,2,166,69,58,7.01,2
+2026-09-14,NS Int,Eurocity Direct,32,0,3,195,33,16,1.78,7
+2026-09-14,Arriva,Snelbus ipv trein,64,0,0,112,0,0,0,0
+2026-09-14,NS Int,Intercity direct,4,0,0,16,2,1,0.56,0
+2026-09-14,Blauwnet A,Sneltrein,49,0,0,324,1,0,0.2,0
+2026-09-14,GoVolta,GoVolta,2,0,0,14,6,6,28.43,0
+2026-09-14,RRReis A,Sneltrein,8,0,0,28,7,5,1.64,0
+2026-09-14,Eurobahn,Stopbus ipv trein,2,0,0,5,0,0,0,0
+2026-09-14,NS,Stopbus ipv trein,6,0,0,40,0,0,0,0
+2026-09-14,R-net NS,Sprinter,130,2,2,768,1,0,0.32,12
+2026-09-14,NS,Intercity direct,109,8,25,592,101,56,1.89,81
+2026-09-14,Blauwnet K,Intercity,28,0,0,140,3,2,0.42,0
+2026-09-14,NMBS,Stoptrein,35,0,0,680,56,12,0.76,0
+2026-09-14,Blauwnet A,Stoptrein,181,3,6,1236,77,24,0.58,25
+2026-09-14,RRReis A,Stoptrein,327,0,0,2413,156,43,0.61,0
+2026-09-14,DB,Stoptrein,74,0,2,1077,400,273,3.37,22
+2026-09-14,NS Int,Nightjet,4,0,0,50,8,8,5.94,0
+2026-09-14,NS,Intercity,1381,31,301,11209,1671,960,1.43,1528
+2026-09-14,NS,Sprinter,2520,46,294,24796,2234,1091,0.82,2297
+2026-09-14,Arriva,Stopbus ipv trein,115,0,0,390,0,0,0,0
+2026-09-14,Eu Sleeper,European Sleeper,2,0,0,30,16,14,14.27,0
+2026-09-14,Eurobahn,Sneltrein,36,1,2,616,8,2,0.16,22
+2026-09-14,Arriva,Sneltrein,191,1,8,1136,135,57,1.01,14
+2026-09-14,Blauwnet K,Sprinter,156,0,0,923,28,7,0.34,0
+2026-09-14,RRReis K,Sprinter,137,30,32,654,101,29,1.04,122
+2026-09-14,R-net Qb,Stoptrein,135,0,0,1120,152,48,0.96,0
+2026-09-14,Eurobahn,Stoptrein,36,0,2,240,8,5,0.35,4
+2026-09-14,Arriva,Stoptrein,736,3,10,6627,376,145,0.64,35
+2026-09-15,Arriva,Snelbus ipv trein,64,0,0,112,0,0,0,0
+2026-09-15,VIAS,Stoptrein,36,0,0,354,68,56,2.76,0
+2026-09-15,NS Int,EuroCity,32,4,5,250,33,21,1.07,37
+2026-09-15,NS Int,Eurostar,34,0,0,165,60,45,6.67,0
+2026-09-15,NS Int,Eurocity Direct,32,0,0,202,32,21,2.02,0
+2026-09-15,NS,Intercity direct,107,3,17,603,82,57,1.44,57
+2026-09-15,NS Int,ICE,29,0,14,226,113,107,12.5,99
+2026-09-15,Blauwnet A,Sneltrein,49,7,7,290,66,39,1.76,34
+2026-09-15,Blauwnet K,Intercity,28,3,4,124,27,5,1.31,16
+2026-09-15,RRReis A,Sneltrein,8,1,2,26,0,0,0.5,2
+2026-09-15,Eurobahn,Stopbus ipv trein,2,0,0,5,0,0,0,0
+2026-09-15,R-net Qb,Stopbus ipv trein,4,0,0,27,0,0,0,0
+2026-09-15,NS,Stopbus ipv trein,6,0,0,40,0,0,0,0
+2026-09-15,NS Int,Intercity direct,4,0,0,16,0,0,0.06,0
+2026-09-15,R-net NS,Sprinter,130,0,0,780,3,0,0.22,0
+2026-09-15,NS,Snelbus ipv trein,2,0,0,2,0,0,0,0
+2026-09-15,NMBS,Stoptrein,35,0,0,680,139,82,1.87,0
+2026-09-15,RRReis A,Stoptrein,327,0,1,2412,225,105,0.85,1
+2026-09-15,DB,Stoptrein,74,1,5,1054,450,282,3.65,45
+2026-09-15,NS Int,Nightjet,4,0,0,52,6,6,8.4,0
+2026-09-15,NS,Intercity,1467,61,496,10756,1488,860,1.25,2929
+2026-09-15,Arriva,Stopbus ipv trein,114,0,0,388,0,0,0,0
+2026-09-15,Arriva,Stoptrein,737,7,11,6621,289,49,0.52,42
+2026-09-15,NS,Sprinter,2528,189,501,23701,2457,1217,0.94,3220
+2026-09-15,Arriva,Sneltrein,193,3,9,1124,144,60,1.25,52
+2026-09-15,Blauwnet K,Sprinter,156,1,2,911,95,34,0.86,12
+2026-09-15,RRReis K,Sprinter,137,84,88,320,47,20,1.1,456
+2026-09-15,R-net Qb,Stoptrein,132,0,0,1093,47,1,0.55,0
+2026-09-15,Eurobahn,Stoptrein,36,1,3,233,35,24,1.3,11
+2026-09-15,Blauwnet A,Stoptrein,182,14,43,1133,217,148,1.73,135
+2026-09-15,Eurobahn,Sneltrein,36,0,0,638,23,8,0.24,0
+2026-09-16,Arriva,Snelbus ipv trein,64,0,0,112,0,0,0,0
+2026-09-16,NS Int,ICE,29,0,1,323,162,148,10.8,3
+2026-09-16,VIAS,Stoptrein,36,0,6,336,78,71,3.07,18
+2026-09-16,NS Int,EuroCity,32,0,0,287,44,29,0.99,0
+2026-09-16,NS Int,Eurostar,34,0,0,165,40,36,3.56,0
+2026-09-16,NS Int,Eurocity Direct,32,0,0,202,38,21,1.47,0
+2026-09-16,NS,Intercity direct,110,1,10,642,86,50,1.29,39
+2026-09-16,NS,Stopbus ipv trein,1,0,0,7,0,0,0,0
+2026-09-16,Blauwnet A,Sneltrein,49,0,0,324,4,0,0.49,0
+2026-09-16,Blauwnet K,Intercity,28,0,0,140,9,1,0.51,0
+2026-09-16,GoVolta,GoVolta,2,0,0,14,8,8,12.57,0
+2026-09-16,RRReis A,Sneltrein,8,0,0,28,4,0,1,0
+2026-09-16,Eurobahn,Stopbus ipv trein,2,0,0,5,0,0,0,0
+2026-09-16,R-net NS,Sprinter,130,0,0,780,44,15,0.61,0
+2026-09-16,NS Int,Intercity direct,4,0,0,16,7,6,4.88,0
+2026-09-16,RRReis A,Stoptrein,327,0,0,2413,115,13,0.47,0
+2026-09-16,NMBS,Stoptrein,35,0,3,667,139,81,2.48,13
+2026-09-16,Blauwnet A,Stoptrein,181,0,0,1261,71,15,0.65,0
+2026-09-16,NS Int,Nightjet,4,0,0,53,4,4,6.09,0
+2026-09-16,NS,Intercity,1336,23,178,11281,1360,758,1.09,1145
+2026-09-16,NS,Snelbus ipv trein,9,0,0,10,0,0,0,0
+2026-09-16,NS,Sprinter,2478,39,184,24913,2198,1131,0.83,1560
+2026-09-16,Arriva,Stopbus ipv trein,114,0,0,388,0,0,0,0
+2026-09-16,Eu Sleeper,European Sleeper,2,0,0,30,14,12,46.67,0
+2026-09-16,DB,Stoptrein,74,9,17,951,507,374,5.98,148
+2026-09-16,Eurobahn,Sneltrein,36,0,18,620,27,20,0.32,18
+2026-09-16,Arriva,Sneltrein,191,1,8,1141,215,130,1.56,11
+2026-09-16,Blauwnet K,Sprinter,156,0,0,923,24,5,0.32,0
+2026-09-16,RRReis K,Sprinter,138,30,30,666,31,4,0.6,120
+2026-09-16,R-net Qb,Stoptrein,135,0,0,1120,55,2,0.54,0
+2026-09-16,Eurobahn,Stoptrein,36,0,2,240,30,28,2.06,4
+2026-09-16,Arriva,Stoptrein,736,8,18,6536,467,147,0.68,126
+2026-09-17,VIAS,Stoptrein,38,0,11,329,104,96,6.47,45
+2026-09-17,NS Int,Eurostar,35,0,0,170,63,53,7.18,0
+2026-09-17,NS Int,Eurocity Direct,32,0,2,198,40,32,3.04,4
+2026-09-17,Arriva,Snelbus ipv trein,64,0,0,112,0,0,0,0
+2026-09-17,NS,Intercity direct,106,1,14,634,118,55,1.4,19
+2026-09-17,NS Int,Intercity direct,4,0,0,16,2,0,1,0
+2026-09-17,RRReis A,Sneltrein,8,0,0,28,13,12,3.82,0
+2026-09-17,Blauwnet K,Intercity,28,0,0,140,17,2,0.72,0
+2026-09-17,GoVolta,GoVolta,2,0,0,14,0,0,0.21,0
+2026-09-17,Eurobahn,Stopbus ipv trein,2,0,0,6,0,0,0,0
+2026-09-17,NS,Stopbus ipv trein,1,0,0,7,0,0,0,0
+2026-09-17,VIAS,Stopbus ipv trein,6,0,0,18,0,0,0,0
+2026-09-17,NS Int,EuroCity,32,0,1,279,44,35,2.49,8
+2026-09-17,Blauwnet A,Sneltrein,50,5,7,302,47,26,1.87,31
+2026-09-17,R-net NS,Sprinter,130,0,0,780,24,6,0.62,0
+2026-09-17,NS Int,ICE,29,0,0,325,176,164,11.91,0
+2026-09-17,NMBS,Stoptrein,35,0,3,677,77,30,0.87,3
+2026-09-17,DB,Stoptrein,74,7,11,995,453,328,4.34,104
+2026-09-17,NS Int,Nightjet,4,0,0,52,5,5,3.19,0
+2026-09-17,NS,Snelbus ipv trein,13,0,0,15,0,0,0,0
+2026-09-17,NS,Intercity,1298,9,123,11339,1643,885,1.39,658
+2026-09-17,NS,Sprinter,2454,31,118,25084,2319,989,0.82,855
+2026-09-17,Arriva,Stopbus ipv trein,121,0,0,421,0,0,0,0
+2026-09-17,Arriva,Stoptrein,755,21,54,6516,624,228,0.89,298
+2026-09-17,RRReis A,Stoptrein,327,3,8,2373,226,97,0.88,40
+2026-09-17,Blauwnet K,Sprinter,156,0,0,923,50,23,0.68,0
+2026-09-17,Arriva,Sneltrein,190,4,11,1065,204,93,1.46,53
+2026-09-17,RRReis K,Sprinter,138,44,46,608,73,23,0.93,178
+2026-09-17,R-net Qb,Stoptrein,135,0,0,1120,30,1,0.47,0
+2026-09-17,Eurobahn,Stoptrein,36,0,5,234,19,13,0.69,10
+2026-09-17,Blauwnet A,Stoptrein,186,4,18,1220,116,49,1.02,74
+2026-09-17,Eurobahn,Sneltrein,36,0,0,638,53,38,1,0
+2026-09-18,VIAS,Stoptrein,36,1,1,344,50,43,2.35,10
+2026-09-18,NS Int,EuroCity,32,0,0,288,44,32,1.22,0
+2026-09-18,NS Int,Eurostar,38,0,0,186,46,34,3.58,0
+2026-09-18,NS Int,Eurocity Direct,33,1,5,190,26,21,1.77,19
+2026-09-18,Arriva,Snelbus ipv trein,64,0,0,112,0,0,0,0
+2026-09-18,NS,Intercity direct,108,2,22,617,87,47,1.4,57
+2026-09-18,NS Int,Intercity direct,4,0,0,16,0,0,0.31,0
+2026-09-18,RRReis A,Sneltrein,8,0,0,28,0,0,0.54,0
+2026-09-18,Blauwnet K,Intercity,28,0,0,140,2,0,0.45,0
+2026-09-18,GoVolta,GoVolta,2,0,0,14,2,0,1,0
+2026-09-18,Arriva,Nachttrein,2,0,0,10,0,0,0.3,0
+2026-09-18,NS,Snelbus ipv trein,4,0,0,4,0,0,0,0
+2026-09-18,Eurobahn,Stopbus ipv trein,9,0,0,18,0,0,0,0
+2026-09-18,NS Int,ICE,30,0,5,307,135,112,11.23,29
+2026-09-18,NS Int,Snelbus ipv trein,1,0,0,1,0,0,0,0
+2026-09-18,Blauwnet A,Sneltrein,49,0,2,322,44,36,1.3,2
+2026-09-18,Eurobahn,Belbus ipv trein,9,0,0,9,0,0,0,0
+2026-09-18,R-net NS,Sprinter,130,2,6,748,16,10,0.51,32
+2026-09-18,NMBS,Stoptrein,35,0,0,680,38,3,0.45,0
+2026-09-18,RRReis A,Stoptrein,331,2,6,2423,117,34,0.5,26
+2026-09-18,DB,Stoptrein,76,5,8,1051,419,236,3.63,74
+2026-09-18,NS Int,Nightjet,4,0,0,45,4,3,0.78,0
+2026-09-18,NS,Intercity,1301,14,114,10714,1042,542,0.86,659
+2026-09-18,NS,Sprinter,2371,45,136,24257,1717,729,0.73,987
+2026-09-18,Arriva,Stopbus ipv trein,121,0,0,421,0,0,0,0
+2026-09-18,Arriva,Stoptrein,741,7,20,6631,322,120,0.58,72
+2026-09-18,Eu Sleeper,European Sleeper,2,0,0,23,5,3,1.3,0
+2026-09-18,Arriva,Sneltrein,190,2,5,1098,125,61,0.96,22
+2026-09-18,Blauwnet K,Sprinter,158,0,0,943,29,13,0.36,0
+2026-09-18,RRReis K,Sprinter,138,30,30,666,35,2,0.61,120
+2026-09-18,R-net Qb,Stoptrein,135,4,8,1090,109,41,0.95,30
+2026-09-18,Eurobahn,Stoptrein,36,8,8,196,18,13,0.77,54
+2026-09-18,Blauwnet A,Stoptrein,183,2,20,1229,88,59,0.82,41
+2026-09-18,Eurobahn,Sneltrein,36,1,20,540,13,7,0.24,95
+2026-09-19,R-net NS,Sprinter,74,0,0,444,0,0,0.22,0
+2026-09-19,NS Int,Eurostar,26,0,0,129,40,33,7.19,0
+2026-09-19,Arriva,Snelbus ipv trein,54,0,0,92,0,0,0,0
+2026-09-19,NS,Intercity direct,100,1,3,330,46,36,1.34,10
+2026-09-19,RRReis A,Sneltrein,34,0,0,179,1,0,0.16,0
+2026-09-19,RRReis A,Stoptrein,169,0,3,1449,104,45,0.71,7
+2026-09-19,Blauwnet A,Stoptrein,161,3,17,1054,33,16,0.4,50
+2026-09-19,Arriva,Sneltrein,152,0,4,988,133,80,1.17,4
+2026-09-19,Arriva,Taxibus ipv trein,36,0,0,36,0,0,0,0
+2026-09-19,Blauwnet A,Sneltrein,32,0,0,256,2,0,0.33,0
+2026-09-19,GoVolta,GoVolta,2,0,0,14,0,0,0.07,0
+2026-09-19,Eurobahn,Stopbus ipv trein,3,0,0,7,0,0,0,0
+2026-09-19,NS Int,Intercity direct,1,0,0,2,0,0,0,0
+2026-09-19,NS Int,Snelbus ipv trein,2,0,0,6,0,0,0,0
+2026-09-19,Blauwnet K,Sprinter,148,0,0,875,13,1,0.2,0
+2026-09-19,NS Int,Eurocity Direct,32,0,2,189,28,21,1.72,3
+2026-09-19,Arriva,Stopbus ipv trein,153,0,0,549,0,0,0,0
+2026-09-19,NMBS,Stoptrein,33,0,0,603,15,8,0.38,0
+2026-09-19,DB,Stoptrein,74,3,7,997,385,281,5.08,70
+2026-09-19,NS,Intercity,1496,6,40,10478,932,517,0.86,157
+2026-09-19,NS Int,Nightjet,4,0,0,45,6,6,10.78,0
+2026-09-19,NS,Snelbus ipv trein,439,0,0,439,0,0,0,0
+2026-09-19,Arriva,Nachttrein,3,0,0,14,2,0,0.64,0
+2026-09-19,NS,Sprinter,2074,19,52,20495,1694,858,0.78,415
+2026-09-19,Eurobahn,Sneltrein,36,1,14,603,5,0,0.08,27
+2026-09-19,NS Int,ICE,29,1,3,294,107,84,3.64,27
+2026-09-19,Eurobahn,Stoptrein,34,2,2,218,1,0,0.07,14
+2026-09-19,VIAS,Stoptrein,36,0,0,356,47,27,1.59,0
+2026-09-19,RRReis K,Sprinter,116,34,34,562,89,35,1.39,142
+2026-09-19,R-net Qb,Stoptrein,121,0,0,1038,14,1,0.3,0
+2026-09-19,NS Int,EuroCity,32,0,0,256,15,11,0.64,0
+2026-09-19,Arriva,Stoptrein,663,0,4,5887,232,103,0.44,4
+2026-09-20,Arriva,Sneltrein,114,0,0,812,94,69,1.07,0
+2026-09-20,RRReis K,Sprinter,68,0,0,476,25,10,0.53,0
+2026-09-20,Blauwnet K,Sprinter,138,0,0,807,28,9,0.31,0
+2026-09-20,RRReis A,Sneltrein,32,0,0,172,0,0,0.18,0
+2026-09-20,RRReis A,Stoptrein,153,2,2,1249,92,37,0.57,26
+2026-09-20,Arriva,Snelbus ipv trein,52,0,0,90,0,0,0,0
+2026-09-20,GoVolta,GoVolta,2,0,0,14,2,2,1.21,0
+2026-09-20,Arriva,Stopbus ipv trein,134,0,0,472,0,0,0,0
+2026-09-20,Blauwnet A,Sneltrein,29,0,0,232,7,0,0.38,0
+2026-09-20,Arriva,Taxibus ipv trein,30,0,0,30,0,0,0,0
+2026-09-20,NS Int,Intercity direct,1,0,0,2,0,0,0.5,0
+2026-09-20,NS,Stopbus ipv trein,4,0,0,32,0,0,0,0
+2026-09-20,R-net NS,Sprinter,70,0,0,420,0,0,0.18,0
+2026-09-20,Blauwnet A,Stoptrein,117,2,2,828,18,6,0.43,10
+2026-09-20,NS Int,Eurostar,34,1,1,163,59,44,6.67,6
+2026-09-20,R-net Qb,Stoptrein,75,0,0,751,62,24,0.74,0
+2026-09-20,NS,Intercity direct,98,0,0,288,55,39,1.5,0
+2026-09-20,DB,Stoptrein,66,0,0,945,341,186,2.75,0
+2026-09-20,NS Int,Nightjet,4,0,1,40,6,6,12.78,1
+2026-09-20,NS,Intercity,1442,11,44,9862,862,454,0.78,173
+2026-09-20,NS,Snelbus ipv trein,431,0,0,432,0,0,0,0
+2026-09-20,NS,Sprinter,1808,31,62,18017,1649,801,0.82,287
+2026-09-20,NS Int,EuroCity,32,0,0,256,30,20,1.09,0
+2026-09-20,Arriva,Nachttrein,1,0,0,3,0,0,0.67,0
+2026-09-20,NMBS,Stoptrein,33,0,0,603,37,13,0.56,0
+2026-09-20,NS Int,ICE,29,0,0,321,109,85,4.74,0
+2026-09-20,NS Int,Eurocity Direct,32,0,0,145,28,18,1.59,0
+2026-09-20,Eurobahn,Stoptrein,32,0,0,224,12,5,0.42,0
+2026-09-20,Arriva,Stoptrein,522,0,0,4402,135,64,0.43,0
+2026-09-20,Eurobahn,Sneltrein,32,0,0,573,14,5,0.16,0
+2026-09-20,VIAS,Stoptrein,35,0,0,344,33,27,1.59,0
+2026-09-21,NS Int,Eurocity Direct,32,6,14,140,22,16,3.46,67
+2026-09-21,NS Int,ICE,29,0,7,303,126,107,7.71,24
+2026-09-21,VIAS,Stoptrein,37,0,0,348,94,65,2.94,0
+2026-09-21,NS Int,EuroCity,32,0,7,282,32,25,1.83,7
+2026-09-21,NS Int,Eurostar,34,0,4,163,55,44,8.69,8
+2026-09-21,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-21,Eurobahn,Stopbus ipv trein,12,0,0,14,0,0,0,0
+2026-09-21,NS Int,Intercity direct,4,0,0,16,4,0,1,0
+2026-09-21,Blauwnet A,Sneltrein,49,0,0,324,4,0,0.38,0
+2026-09-21,Blauwnet K,Intercity,28,1,2,134,8,3,0.68,6
+2026-09-21,GoVolta,GoVolta,2,0,1,16,6,6,49.75,1
+2026-09-21,RRReis A,Sneltrein,8,0,0,28,3,1,1.25,0
+2026-09-21,NS,Stopbus ipv trein,28,0,0,120,0,0,0,0
+2026-09-21,NS,Intercity direct,113,13,43,549,77,42,1.58,154
+2026-09-21,R-net NS,Sprinter,130,2,2,768,6,0,0.34,12
+2026-09-21,Arriva,Stopbus ipv trein,35,0,0,70,0,0,0,0
+2026-09-21,NMBS,Stoptrein,35,0,0,680,95,19,0.97,0
+2026-09-21,DB,Stoptrein,74,2,6,1033,562,378,4.33,58
+2026-09-21,NS Int,Nightjet,4,0,0,52,4,3,0.83,0
+2026-09-21,NS,Intercity,1336,17,208,11145,1201,671,1.01,1346
+2026-09-21,Eu Sleeper,European Sleeper,2,0,0,22,5,3,1.41,0
+2026-09-21,NS,Sprinter,2482,23,183,24809,2000,981,0.73,1466
+2026-09-21,Arriva,Stoptrein,746,10,21,6873,409,205,0.68,84
+2026-09-21,RRReis A,Stoptrein,332,7,10,2368,236,106,0.84,59
+2026-09-21,Arriva,Sneltrein,194,8,32,1061,204,145,2.01,98
+2026-09-21,Blauwnet K,Sprinter,166,1,21,883,65,44,0.98,140
+2026-09-21,RRReis K,Sprinter,137,23,30,657,60,33,1.19,119
+2026-09-21,R-net Qb,Stoptrein,136,0,4,1112,71,8,0.74,18
+2026-09-21,Eurobahn,Stoptrein,36,4,4,222,14,12,0.52,28
+2026-09-21,Blauwnet A,Stoptrein,181,0,0,1261,33,10,0.42,0
+2026-09-21,Eurobahn,Sneltrein,36,1,10,618,8,5,0.11,20
+2026-09-22,VIAS,Stoptrein,36,1,18,293,77,73,7.54,61
+2026-09-22,NS Int,Eurostar,34,0,0,165,40,30,5.27,0
+2026-09-22,NS Int,Eurocity Direct,33,1,5,188,16,12,0.86,21
+2026-09-22,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-22,NS,Intercity direct,107,3,16,615,84,44,1.18,45
+2026-09-22,NS Int,Intercity direct,4,0,0,16,1,0,0.31,0
+2026-09-22,RRReis A,Sneltrein,8,0,0,28,8,6,2.11,0
+2026-09-22,Arriva,Stopbus ipv trein,34,0,0,68,0,0,0,0
+2026-09-22,Blauwnet K,Intercity,28,1,1,135,3,2,0.31,5
+2026-09-22,NS,Stopbus ipv trein,29,0,0,130,0,0,0,0
+2026-09-22,Eurobahn,Stopbus ipv trein,10,0,0,18,0,0,0,0
+2026-09-22,NS Int,Bus,1,0,0,2,0,0,0,0
+2026-09-22,NS Int,EuroCity,32,0,1,285,24,9,0.62,3
+2026-09-22,Blauwnet A,Sneltrein,49,0,0,324,7,3,0.58,0
+2026-09-22,VIAS,Stopbus ipv trein,5,0,0,29,0,0,0,0
+2026-09-22,NS Int,ICE,29,0,3,314,144,124,11.07,17
+2026-09-22,RRReis A,Stoptrein,334,1,9,2398,212,83,0.77,55
+2026-09-22,R-net NS,Sprinter,130,0,4,776,82,42,0.87,4
+2026-09-22,DB,Stoptrein,74,4,11,990,446,335,5.61,101
+2026-09-22,NS Int,Nightjet,4,0,0,52,5,4,3.83,0
+2026-09-22,NS,Intercity,1298,16,154,11273,1042,525,0.87,602
+2026-09-22,Arriva,Stoptrein,750,6,31,6847,403,135,0.61,145
+2026-09-22,Eurobahn,Sneltrein,36,1,8,620,24,23,0.77,18
+2026-09-22,NS,Sprinter,2456,30,109,25057,1877,831,0.71,628
+2026-09-22,Blauwnet K,Sprinter,158,0,4,917,27,14,0.54,26
+2026-09-22,RRReis K,Sprinter,137,0,0,776,37,11,0.65,0
+2026-09-22,R-net Qb,Stoptrein,135,0,2,1118,203,125,1.45,2
+2026-09-22,Eurobahn,Stoptrein,36,0,0,250,35,25,1.21,0
+2026-09-22,Blauwnet A,Stoptrein,181,2,6,1243,64,23,0.59,18
+2026-09-22,NMBS,Stoptrein,35,0,0,680,99,67,1.48,0
+2026-09-22,Arriva,Sneltrein,192,1,13,1113,160,101,1.35,31
+2026-09-23,NS Int,Intercity direct,4,1,1,10,0,0,0,6
+2026-09-23,NS Int,EuroCity,32,5,5,243,15,5,0.51,45
+2026-09-23,NS Int,Eurostar,34,0,0,165,24,16,2.58,0
+2026-09-23,NS Int,Eurocity Direct,32,2,3,185,21,19,1.63,17
+2026-09-23,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-23,NS,Intercity direct,109,0,8,644,89,47,1.3,30
+2026-09-23,Blauwnet A,Sneltrein,49,0,0,324,1,0,0.4,0
+2026-09-23,NS,Snelbus ipv trein,5,2,2,6,0,0,0,2
+2026-09-23,Arriva,Stopbus ipv trein,34,0,0,68,0,0,0,0
+2026-09-23,Blauwnet K,Intercity,28,0,1,139,23,13,1.24,1
+2026-09-23,GoVolta,GoVolta,2,0,0,14,4,1,1.43,0
+2026-09-23,RRReis A,Sneltrein,8,0,0,28,1,0,0.46,0
+2026-09-23,NS,Stopbus ipv trein,1,0,0,7,0,0,0,0
+2026-09-23,VIAS,Stoptrein,36,1,7,326,74,63,3.54,28
+2026-09-23,VIAS,Stopbus ipv trein,7,0,0,21,0,0,0,0
+2026-09-23,NS Int,ICE,29,0,2,323,167,154,10.89,2
+2026-09-23,Eurobahn,Sneltrein,36,3,18,572,42,28,0.88,66
+2026-09-23,RRReis A,Stoptrein,332,0,0,2427,95,11,0.46,0
+2026-09-23,DB,Stoptrein,74,0,0,1091,601,423,4.36,0
+2026-09-23,NS Int,Nightjet,4,0,1,46,6,4,1.33,6
+2026-09-23,NS,Intercity,1281,13,45,11436,710,366,0.61,264
+2026-09-23,Eu Sleeper,European Sleeper,2,0,0,23,10,10,37,0
+2026-09-23,NS,Sprinter,2438,21,57,25266,1296,562,0.51,455
+2026-09-23,Arriva,Stoptrein,748,0,6,6938,267,52,0.48,43
+2026-09-23,R-net NS,Sprinter,130,0,2,778,8,0,0.24,2
+2026-09-23,Blauwnet K,Sprinter,156,0,1,921,43,16,0.52,2
+2026-09-23,RRReis K,Sprinter,138,0,0,786,30,4,0.45,0
+2026-09-23,R-net Qb,Stoptrein,135,0,0,1120,6,0,0.24,0
+2026-09-23,Eurobahn,Stoptrein,36,1,3,239,27,17,0.85,11
+2026-09-23,Blauwnet A,Stoptrein,181,0,4,1257,41,4,0.42,4
+2026-09-23,NMBS,Stoptrein,35,0,0,680,63,12,0.65,0
+2026-09-23,Arriva,Sneltrein,191,0,0,1130,93,43,0.77,0
+2026-09-24,NS Int,Eurostar,35,0,0,170,29,22,1.88,0
+2026-09-24,NS Int,Eurocity Direct,32,0,2,198,32,26,1.85,4
+2026-09-24,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-24,NS,Intercity direct,107,1,15,635,95,50,1.51,25
+2026-09-24,NS Int,Intercity direct,4,0,0,16,0,0,0,0
+2026-09-24,Blauwnet A,Sneltrein,49,0,0,324,1,0,0.42,0
+2026-09-24,RRReis A,Sneltrein,8,0,0,28,2,0,0.64,0
+2026-09-24,Blauwnet K,Intercity,28,0,0,140,18,7,1.01,0
+2026-09-24,GoVolta,GoVolta,2,0,0,14,7,7,24.43,0
+2026-09-24,NS,Stopbus ipv trein,2,0,0,9,0,0,0,0
+2026-09-24,Eurobahn,Stopbus ipv trein,24,0,0,24,0,0,0,0
+2026-09-24,VIAS,Stopbus ipv trein,10,0,0,30,0,0,0,0
+2026-09-24,VIAS,Stoptrein,36,0,13,315,49,42,3.74,39
+2026-09-24,Arriva,Stopbus ipv trein,45,0,0,119,0,0,0,0
+2026-09-24,NS Int,EuroCity,32,0,0,288,27,17,0.98,0
+2026-09-24,NS Int,ICE,29,0,7,316,145,134,11.24,12
+2026-09-24,DB,Stoptrein,74,2,5,1053,584,418,5.07,32
+2026-09-24,R-net NS,Sprinter,130,0,0,780,13,9,0.28,0
+2026-09-24,NS Int,Nightjet,4,0,0,55,4,4,2.87,0
+2026-09-24,NS,Snelbus ipv trein,19,5,5,21,0,0,0,5
+2026-09-24,NS,Intercity,1330,20,183,11273,935,480,0.74,886
+2026-09-24,Arriva,Stoptrein,746,12,46,6737,402,138,0.65,220
+2026-09-24,Eurobahn,Sneltrein,35,1,27,573,3,1,0.04,47
+2026-09-24,Blauwnet K,Sprinter,156,0,0,923,70,23,0.62,0
+2026-09-24,NS,Sprinter,2458,27,100,25265,1675,714,0.59,642
+2026-09-24,RRReis K,Sprinter,139,21,23,698,111,60,1.3,95
+2026-09-24,R-net Qb,Stoptrein,135,3,3,1092,128,27,0.84,28
+2026-09-24,Eurobahn,Stoptrein,36,0,0,250,63,53,3.13,0
+2026-09-24,Blauwnet A,Stoptrein,181,0,8,1253,40,6,0.5,8
+2026-09-24,NMBS,Stoptrein,35,0,0,680,27,12,0.46,0
+2026-09-24,RRReis A,Stoptrein,332,0,0,2427,127,48,0.48,0
+2026-09-24,Arriva,Sneltrein,190,0,7,1092,144,82,1.09,7
+2026-09-25,NS Int,Intercity direct,4,0,0,16,1,0,0.44,0
+2026-09-25,NS Int,EuroCity,32,0,2,287,34,24,1.74,2
+2026-09-25,NS Int,Eurostar,38,0,1,190,58,43,5.52,2
+2026-09-25,NS Int,Eurocity Direct,32,0,6,192,13,8,1.17,13
+2026-09-25,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-25,NS,Intercity direct,105,1,9,639,61,26,0.68,14
+2026-09-25,Blauwnet A,Sneltrein,49,0,0,324,50,25,1.06,0
+2026-09-25,VIAS,Stoptrein,36,0,0,354,66,55,3.03,0
+2026-09-25,Blauwnet K,Intercity,28,0,1,139,7,3,0.71,1
+2026-09-25,GoVolta,GoVolta,2,0,0,14,5,4,9.07,0
+2026-09-25,RRReis A,Sneltrein,8,0,0,28,1,0,0.21,0
+2026-09-25,NS,Stopbus ipv trein,4,0,0,14,0,0,0,0
+2026-09-25,Arriva,Nachttrein,2,0,0,10,0,0,0.1,0
+2026-09-25,Eurobahn,Stopbus ipv trein,8,0,0,8,0,0,0,0
+2026-09-25,Arriva,Stopbus ipv trein,41,0,0,101,0,0,0,0
+2026-09-25,NS Int,ICE,29,0,0,325,128,116,17.25,0
+2026-09-25,R-net NS,Sprinter,130,0,0,780,19,2,0.34,0
+2026-09-25,Eurobahn,Sneltrein,36,0,10,622,12,9,0.21,10
+2026-09-25,NS Int,Nightjet,4,0,0,54,7,6,2.89,0
+2026-09-25,NS,Intercity,1382,15,254,10644,1229,660,1.04,1900
+2026-09-25,NS,Snelbus ipv trein,8,0,0,9,0,0,0,0
+2026-09-25,Eu Sleeper,European Sleeper,2,0,0,22,15,15,14.05,0
+2026-09-25,NS,Sprinter,2401,52,184,24292,1962,938,0.72,1441
+2026-09-25,Arriva,Stoptrein,748,4,13,6932,270,66,0.47,47
+2026-09-25,Arriva,Sneltrein,193,0,25,1044,102,52,1.03,101
+2026-09-25,DB,Stoptrein,76,1,2,1086,589,440,4.64,22
+2026-09-25,RRReis K,Sprinter,138,21,21,693,52,27,1.12,93
+2026-09-25,R-net Qb,Stoptrein,135,4,7,1091,176,55,1.12,29
+2026-09-25,Eurobahn,Stoptrein,36,0,2,248,22,16,0.85,2
+2026-09-25,Blauwnet A,Stoptrein,181,0,2,1259,138,54,1,2
+2026-09-25,NMBS,Stoptrein,35,0,1,679,175,103,2.11,1
+2026-09-25,RRReis A,Stoptrein,329,1,1,2431,87,7,0.45,8
+2026-09-25,Blauwnet K,Sprinter,158,0,1,941,77,37,0.67,2
+2026-09-26,NMBS,Stoptrein,33,0,1,632,117,49,1.19,1
+2026-09-26,Arriva,Snelbus ipv trein,24,0,0,32,0,0,0,0
+2026-09-26,Arriva,Sneltrein,152,4,15,681,30,16,0.54,64
+2026-09-26,RRReis A,Sneltrein,34,0,0,179,8,0,0.37,0
+2026-09-26,RRReis A,Stoptrein,169,0,0,1456,74,13,0.48,0
+2026-09-26,R-net NS,Sprinter,74,2,2,432,0,0,0.28,12
+2026-09-26,GoVolta,GoVolta,2,0,0,15,1,1,0.6,0
+2026-09-26,Blauwnet K,Sprinter,148,0,0,875,16,7,0.23,0
+2026-09-26,Blauwnet A,Sneltrein,32,0,0,256,0,0,0.25,0
+2026-09-26,NS,Intercity direct,46,0,0,46,4,1,0.37,0
+2026-09-26,Eurobahn,Stopbus ipv trein,12,0,0,12,0,0,0,0
+2026-09-26,Keolis,Stopbus ipv trein,4,0,0,10,0,0,0,0
+2026-09-26,Arriva,Stoptrein,646,2,3,4992,90,15,0.36,15
+2026-09-26,Blauwnet A,Stoptrein,159,0,0,1094,16,1,0.3,0
+2026-09-26,NS Int,ICE,32,0,5,328,131,119,7.66,13
+2026-09-26,NS Int,EuroCity,32,0,0,288,8,2,0.21,0
+2026-09-26,NS Int,Eurocity Direct,32,0,7,114,21,16,2.27,14
+2026-09-26,DB,Stoptrein,74,0,1,1047,226,80,1.71,10
+2026-09-26,NS,Intercity,1404,12,207,9838,759,349,0.73,1643
+2026-09-26,NS Int,Nightjet,4,1,2,31,3,2,0.55,24
+2026-09-26,NS,Stopbus ipv trein,283,0,0,1000,0,0,0,0
+2026-09-26,NS,Snelbus ipv trein,94,0,0,94,0,0,0,0
+2026-09-26,NS,Sprinter,2026,6,138,19213,1174,512,0.58,1323
+2026-09-26,Arriva,Nachttrein,3,0,0,14,1,0,0.79,0
+2026-09-26,Arriva,Stopbus ipv trein,365,0,0,1731,0,0,0,0
+2026-09-26,Eurobahn,Stoptrein,34,3,4,215,5,2,0.2,23
+2026-09-26,VIAS,Stoptrein,36,0,2,350,32,26,1.26,6
+2026-09-26,RRReis K,Sprinter,116,8,8,672,14,0,0.35,32
+2026-09-26,NS Int,Eurostar,23,0,0,112,32,27,4.94,0
+2026-09-26,R-net Qb,Stoptrein,121,0,0,1038,3,0,0.23,0
+2026-09-26,Eurobahn,Sneltrein,36,8,24,474,11,11,0.26,159
+2026-09-27,RRReis A,Stoptrein,153,0,0,1275,52,20,0.42,0
+2026-09-27,NS Int,Eurostar,32,1,2,108,23,18,5.63,6
+2026-09-27,Arriva,Sneltrein,114,1,1,612,30,16,0.59,4
+2026-09-27,RRReis K,Sprinter,68,0,0,476,21,14,0.5,0
+2026-09-27,Blauwnet K,Sprinter,138,0,0,807,8,1,0.16,0
+2026-09-27,RRReis A,Sneltrein,32,0,0,172,1,0,0.13,0
+2026-09-27,R-net NS,Sprinter,70,0,0,420,0,0,0.23,0
+2026-09-27,Eurobahn,Snelbus ipv trein,2,0,0,4,0,0,0,0
+2026-09-27,NS Int,Snelbus ipv trein,1,0,0,1,0,0,0,0
+2026-09-27,GoVolta,GoVolta,2,0,1,11,1,1,0.45,3
+2026-09-27,Blauwnet A,Sneltrein,29,0,1,228,18,4,0.65,4
+2026-09-27,NS,Intercity direct,44,1,1,64,8,5,0.81,2
+2026-09-27,NS Int,Intercity direct,1,0,0,2,0,0,0,0
+2026-09-27,Blauwnet A,Stoptrein,84,0,1,670,30,7,0.46,6
+2026-09-27,Blauwnet A,Stopbus ipv trein,33,0,0,139,0,0,0,0
+2026-09-27,R-net Qb,Stoptrein,75,0,0,751,12,12,0.3,0
+2026-09-27,NS,Sprinter,1708,9,55,16822,1212,571,0.66,581
+2026-09-27,Eurobahn,Sneltrein,32,0,0,573,1,1,0.06,0
+2026-09-27,DB,Stoptrein,66,2,8,876,303,172,3.21,69
+2026-09-27,NS,Intercity,1141,8,70,9322,966,562,1.21,494
+2026-09-27,NS Int,Nightjet,4,0,0,54,12,11,4.78,0
+2026-09-27,NS,Stopbus ipv trein,294,0,0,827,0,0,0,0
+2026-09-27,Arriva,Nachttrein,1,0,0,3,0,0,0.33,0
+2026-09-27,NS Int,Eurocity Direct,32,0,0,132,20,8,1.11,0
+2026-09-27,Arriva,Stoptrein,508,0,0,4122,120,30,0.4,0
+2026-09-27,VIAS,Stoptrein,35,0,2,338,22,18,0.9,6
+2026-09-27,NMBS,Stoptrein,33,0,0,633,96,50,1.19,0
+2026-09-27,NS Int,ICE,31,2,6,274,70,58,3.25,44
+2026-09-27,Arriva,Stopbus ipv trein,226,0,0,1017,0,0,0,0
+2026-09-27,Eurobahn,Stoptrein,32,4,7,187,16,12,0.97,37
+2026-09-27,Arriva,Snelbus ipv trein,22,0,0,30,0,0,0,0
+2026-09-27,NS Int,EuroCity,32,2,3,265,26,21,1,23
+2026-09-28,NS Int,ICE,29,1,14,201,55,48,6.97,156
+2026-09-28,VIAS,Stoptrein,36,0,0,354,54,36,2.26,0
+2026-09-28,NS Int,EuroCity,32,3,4,260,36,24,1.2,28
+2026-09-28,NS Int,Eurostar,34,0,0,165,63,52,7.26,0
+2026-09-28,NS Int,Eurocity Direct,32,0,0,202,33,18,1.25,0
+2026-09-28,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-28,Blauwnet K,Intercity,28,0,0,140,5,2,0.4,0
+2026-09-28,NS Int,Intercity direct,4,0,0,16,0,0,0.12,0
+2026-09-28,Blauwnet A,Sneltrein,49,0,0,324,39,14,1.12,0
+2026-09-28,GoVolta,GoVolta,3,1,3,5,3,3,110.8,19
+2026-09-28,RRReis A,Sneltrein,8,0,0,28,5,2,1,0
+2026-09-28,NS,Stopbus ipv trein,6,0,0,40,0,0,0,0
+2026-09-28,Arriva,Stopbus ipv trein,43,0,0,116,0,0,0,0
+2026-09-28,NS,Intercity direct,108,1,18,618,117,65,1.71,50
+2026-09-28,R-net NS,Sprinter,130,0,2,778,24,9,0.39,2
+2026-09-28,RRReis A,Stoptrein,332,5,6,2389,103,12,0.42,38
+2026-09-28,NMBS,Stoptrein,35,0,0,680,127,61,1.51,0
+2026-09-28,DB,Stoptrein,74,2,2,1083,317,147,1.92,16
+2026-09-28,NS Int,Nightjet,4,1,1,39,17,15,16.15,15
+2026-09-28,NS,Intercity,1291,12,74,11369,1094,583,0.95,562
+2026-09-28,Eu Sleeper,European Sleeper,2,0,2,17,16,16,35.35,10
+2026-09-28,Arriva,Stoptrein,746,5,14,6885,222,52,0.44,75
+2026-09-28,Eurobahn,Sneltrein,36,0,5,633,35,25,2.12,5
+2026-09-28,NS,Sprinter,2422,30,159,25062,1874,782,0.69,708
+2026-09-28,Blauwnet K,Sprinter,156,2,2,919,21,5,0.33,4
+2026-09-28,RRReis K,Sprinter,137,0,0,776,33,14,0.52,0
+2026-09-28,R-net Qb,Stoptrein,135,2,2,1108,228,63,1.19,12
+2026-09-28,Eurobahn,Stoptrein,36,0,27,117,1,0,0.09,133
+2026-09-28,Blauwnet A,Stoptrein,181,8,10,1203,83,22,0.66,58
+2026-09-28,Arriva,Sneltrein,197,0,8,1118,107,55,1.6,49
+2026-09-29,NS,Intercity direct,115,7,40,589,147,93,2.36,127
+2026-09-29,NS Int,EuroCity,32,0,2,286,47,41,2.02,2
+2026-09-29,NS Int,Eurostar,34,0,0,165,49,38,6.5,0
+2026-09-29,NS Int,Eurocity Direct,32,0,10,174,51,41,3.82,29
+2026-09-29,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-29,NS,Snelbus ipv trein,4,0,0,4,0,0,0,0
+2026-09-29,NS,Stopbus ipv trein,10,0,0,52,0,0,0,0
+2026-09-29,Blauwnet A,Sneltrein,49,0,0,324,17,0,0.66,0
+2026-09-29,Arriva,Stopbus ipv trein,38,0,0,86,0,0,0,0
+2026-09-29,Blauwnet K,Intercity,28,0,0,140,4,0,0.37,0
+2026-09-29,RRReis A,Sneltrein,8,0,0,28,7,6,2.11,0
+2026-09-29,R-net Qb,Stopbus ipv trein,4,0,0,27,0,0,0,0
+2026-09-29,VIAS,Stoptrein,36,0,0,354,91,80,5.23,0
+2026-09-29,NS Int,Intercity direct,4,0,0,16,4,2,1.69,0
+2026-09-29,NS Int,ICE,29,0,14,208,61,55,9.27,147
+2026-09-29,Blauwnet K,Sprinter,156,2,2,903,22,3,0.29,20
+2026-09-29,RRReis A,Stoptrein,332,3,5,2401,179,63,0.68,26
+2026-09-29,R-net NS,Sprinter,130,0,0,780,7,0,0.25,0
+2026-09-29,DB,Stoptrein,74,4,8,1035,255,152,3.05,64
+2026-09-29,NS Int,Nightjet,4,0,2,43,7,6,1.33,11
+2026-09-29,NS,Intercity,1320,21,171,11257,1380,753,1.08,972
+2026-09-29,Arriva,Stoptrein,746,3,6,6926,252,57,0.58,31
+2026-09-29,Eurobahn,Sneltrein,36,0,4,634,11,4,0.14,4
+2026-09-29,NS,Sprinter,2465,21,188,24799,2125,996,0.81,1365
+2026-09-29,RRReis K,Sprinter,137,2,2,768,52,5,0.67,8
+2026-09-29,R-net Qb,Stoptrein,133,0,0,1104,103,17,0.76,0
+2026-09-29,Eurobahn,Stoptrein,36,0,4,244,39,30,1.6,6
+2026-09-29,Blauwnet A,Stoptrein,181,0,2,1259,84,20,0.59,2
+2026-09-29,NMBS,Stoptrein,35,0,0,680,97,55,1.24,0
+2026-09-29,Arriva,Sneltrein,191,0,1,1130,111,46,0.81,1
+2026-09-30,NS Int,Eurostar,34,0,1,165,68,47,7.88,1
+2026-09-30,NS Int,ICE,30,0,2,321,108,87,8.13,5
+2026-09-30,VIAS,Stoptrein,36,3,4,321,32,26,1.45,33
+2026-09-30,NS Int,EuroCity,32,2,3,268,43,40,2.23,20
+2026-09-30,NS Int,Eurocity Direct,32,0,0,203,27,16,1.5,0
+2026-09-30,GoVolta,GoVolta,2,0,0,14,10,10,19.07,0
+2026-09-30,NS,Intercity direct,106,4,7,626,64,28,1.03,27
+2026-09-30,NS Int,Intercity direct,4,0,0,16,0,0,0.31,0
+2026-09-30,Blauwnet A,Sneltrein,49,0,0,324,13,0,0.52,0
+2026-09-30,Arriva,Stopbus ipv trein,47,0,0,147,0,0,0,0
+2026-09-30,Blauwnet K,Intercity,28,0,0,140,3,0,0.25,0
+2026-09-30,R-net NS,Sprinter,130,0,2,778,38,26,0.73,2
+2026-09-30,Arriva,Snelbus ipv trein,16,0,0,16,0,0,0,0
+2026-09-30,RRReis A,Stoptrein,345,6,34,2364,148,28,0.56,128
+2026-09-30,Arriva,Sneltrein,191,5,17,1105,111,57,0.95,28
+2026-09-30,Eurobahn,Stoptrein,36,0,0,250,54,44,2.49,0
+2026-09-30,Blauwnet A,Stoptrein,181,3,8,1228,104,40,0.75,33
+2026-09-30,R-net Qb,Stoptrein,135,4,6,1093,140,26,0.93,28
+2026-09-30,RRReis K,Sprinter,138,4,8,766,108,47,1.32,20
+2026-09-30,Blauwnet K,Sprinter,156,0,0,923,35,3,0.36,0
+2026-09-30,Eurobahn,Sneltrein,36,2,4,611,8,0,0.11,27
+2026-09-30,Arriva,Stoptrein,741,6,28,6797,311,122,0.57,100
+2026-09-30,NS,Sprinter,2439,15,81,25310,1753,753,0.63,472
+2026-09-30,Eu Sleeper,European Sleeper,2,0,0,23,14,14,31.3,0
+2026-09-30,NS,Snelbus ipv trein,17,0,0,20,0,0,0,0
+2026-09-30,NS,Intercity,1291,35,113,11267,780,318,0.6,519
+2026-09-30,NS Int,Nightjet,4,0,1,52,3,3,2.23,2
+2026-09-30,DB,Stoptrein,74,0,2,1091,309,172,2.36,8
+2026-09-30,RRReis A,Sneltrein,10,2,7,13,1,0,0.77,27
+2026-09-30,NMBS,Stoptrein,35,0,0,680,72,21,0.82,0
+2026-09-30,NS,Stopbus ipv trein,4,0,0,16,0,0,0,0
