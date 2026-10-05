@@ -845,3 +845,11 @@
 2026-10-05 10:18:32 [INFO] NS OK in 491 s: storingen/werkzaamheden: 6 actief, 0 nieuw; drukte: 314 van 314 rijdende treinen, 246 stations, 22 keer drukte hoog
 2026-10-05 10:18:34 [WARN] Poging 1 mislukt (https://api.energy-charts.info/public_power?country=nl&start=2026-10-03&end=2026-10-06): Response status code does not indicate success: 503 (Service Unavailable).. Opnieuw over 5 s.
 2026-10-05 10:18:40 [ERROR] Energie MISLUKT: Nord Pool: 96 kwartierprijzen; TenneT: balance delta: 409 metingen in 6 kwartieren; Historie compleet; Charts mislukt: Response status code does not indicate success: 503 (Service Unavailable).
+2026-10-05 11:06:00 [INFO] Laadpunten OK in 26 s: 74897 locaties, 187072 laadpunten (41815 aan het laden); bestand van 2026-10-05T11:05:39Z
+2026-10-05 11:09:11 [INFO] Parkeren OK in 191 s: bezetting van 319 van 324 garages (1 mislukt)
+2026-10-05 11:10:55 [INFO] Deelmobiliteit OK in 104 s: 45 van 56 systemen, 15791 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-10-05 11:11:00 [INFO] Verstoringen OK in 6 s: weg: 1376 actieve meldingen, 255 nieuw; spoor: niets nieuws
+2026-10-05 11:11:04 [INFO] OV OK in 4 s: live: 18165 ritten, 1321 uitgevallen; meldingen: 624 actief, 13 nieuw
+2026-10-05 11:19:50 [INFO] NS OK in 526 s: storingen/werkzaamheden: 6 actief, 0 nieuw; drukte: 313 van 313 rijdende treinen, 246 stations, 13 keer drukte hoog
+2026-10-05 11:19:53 [WARN] Poging 1 mislukt (https://api.energy-charts.info/public_power?country=nl&start=2026-10-03&end=2026-10-06): Response status code does not indicate success: 503 (Service Unavailable).. Opnieuw over 5 s.
+2026-10-05 11:20:00 [ERROR] Energie MISLUKT: Nord Pool: 192 kwartierprijzen; TenneT: balance delta: 380 metingen in 6 kwartieren; Historie compleet; Charts mislukt: Response status code does not indicate success: 503 (Service Unavailable).
