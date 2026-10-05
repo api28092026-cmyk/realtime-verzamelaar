@@ -61,7 +61,7 @@
 },
 "Hde001": {
 "bikes": "14",
-"open": "No"
+"open": "Yes"
 },
 "Hgz001": {
 "bikes": "11",
@@ -89,7 +89,7 @@
 },
 "Ot001": {
 "bikes": "10",
-"open": "No"
+"open": "Yes"
 },
 "Ow002": {
 "bikes": "7",
@@ -217,7 +217,7 @@
 },
 "asd002": {
 "bikes": "206",
-"open": "Yes"
+"open": "No"
 },
 "asd008": {
 "bikes": "332",
@@ -512,7 +512,7 @@
 "open": "Yes"
 },
 "gd001": {
-"bikes": "125",
+"bikes": "124",
 "open": "Yes"
 },
 "gdg001": {
@@ -548,7 +548,7 @@
 "open": "Yes"
 },
 "gv001": {
-"bikes": "114",
+"bikes": "115",
 "open": "Yes"
 },
 "gvc021": {
@@ -653,7 +653,7 @@
 },
 "hon001": {
 "bikes": "9",
-"open": "No"
+"open": "Yes"
 },
 "hor001": {
 "bikes": "19",
@@ -688,7 +688,7 @@
 "open": "Yes"
 },
 "hvs001": {
-"bikes": "258",
+"bikes": "260",
 "open": "Yes"
 },
 "hvsp001": {
@@ -728,7 +728,7 @@
 "open": "Yes"
 },
 "laa001": {
-"bikes": "9",
+"bikes": "8",
 "open": "Yes"
 },
 "lc001": {
@@ -773,7 +773,7 @@
 },
 "mss001": {
 "bikes": "3",
-"open": "Yes"
+"open": "No"
 },
 "mt001": {
 "bikes": "149",
@@ -804,7 +804,7 @@
 "open": "Unknown"
 },
 "nm001": {
-"bikes": "352",
+"bikes": "353",
 "open": "Yes"
 },
 "nmgo001": {
@@ -884,7 +884,7 @@
 "open": "No"
 },
 "rm001": {
-"bikes": "40",
+"bikes": "39",
 "open": "Yes"
 },
 "rs001": {
@@ -897,7 +897,7 @@
 },
 "rsn001": {
 "bikes": "6",
-"open": "No"
+"open": "Yes"
 },
 "rsw002": {
 "bikes": "13",
@@ -928,7 +928,7 @@
 "open": "Yes"
 },
 "sd001": {
-"bikes": "6",
+"bikes": "5",
 "open": "Yes"
 },
 "sdm002": {
@@ -976,7 +976,7 @@
 "open": "Yes"
 },
 "tb003": {
-"bikes": "223",
+"bikes": "222",
 "open": "Yes"
 },
 "tbg001": {
@@ -997,19 +997,19 @@
 },
 "ut007": {
 "bikes": "0",
-"open": "No"
+"open": "Yes"
 },
 "ut016": {
-"bikes": "570",
+"bikes": "571",
 "open": "Yes"
 },
 "ut020": {
-"bikes": "927",
+"bikes": "928",
 "open": "Yes"
 },
 "ut021": {
 "bikes": "58",
-"open": "Yes"
+"open": "No"
 },
 "ut901": {
 "bikes": "0",
@@ -1181,11 +1181,11 @@
 },
 "ztm002": {
 "bikes": "10",
-"open": "Yes"
+"open": "No"
 },
 "ztm003": {
 "bikes": "22",
-"open": "Yes"
+"open": "No"
 },
 "ztmo001": {
 "bikes": "9",
