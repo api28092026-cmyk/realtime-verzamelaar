@@ -117,7 +117,7 @@
 },
 "UTVR001": {
 "bikes": "101",
-"open": "Yes"
+"open": "No"
 },
 "Vdm001": {
 "bikes": "12",
@@ -160,7 +160,7 @@
 "open": "Unknown"
 },
 "ah001": {
-"bikes": "420",
+"bikes": "421",
 "open": "Yes"
 },
 "ah003": {
@@ -181,7 +181,7 @@
 },
 "amfs001": {
 "bikes": "31",
-"open": "Yes"
+"open": "No"
 },
 "aml002": {
 "bikes": "33",
@@ -201,14 +201,14 @@
 },
 "apd001": {
 "bikes": "363",
-"open": "Yes"
+"open": "No"
 },
 "apn001": {
 "bikes": "43",
 "open": "Yes"
 },
 "asa001": {
-"bikes": "267",
+"bikes": "266",
 "open": "Yes"
 },
 "asb002": {
@@ -228,7 +228,7 @@
 "open": "Yes"
 },
 "asd010": {
-"bikes": "353",
+"bikes": "351",
 "open": "Yes"
 },
 "asdl001": {
@@ -240,7 +240,7 @@
 "open": "Yes"
 },
 "asdz001": {
-"bikes": "218",
+"bikes": "217",
 "open": "Yes"
 },
 "asdz003": {
@@ -357,7 +357,7 @@
 },
 "cas002": {
 "bikes": "54",
-"open": "Yes"
+"open": "No"
 },
 "ck001": {
 "bikes": "16",
@@ -545,7 +545,7 @@
 },
 "gs003": {
 "bikes": "19",
-"open": "Yes"
+"open": "No"
 },
 "gv001": {
 "bikes": "98",
@@ -629,7 +629,7 @@
 },
 "hm001": {
 "bikes": "29",
-"open": "Yes"
+"open": "No"
 },
 "hmbh001": {
 "bikes": "1",
@@ -689,7 +689,7 @@
 },
 "hvs001": {
 "bikes": "237",
-"open": "Yes"
+"open": "No"
 },
 "hvsp001": {
 "bikes": "12",
@@ -812,7 +812,7 @@
 "open": "Yes"
 },
 "nmh001": {
-"bikes": "0",
+"bikes": "1",
 "open": "Yes"
 },
 "nvd001": {
@@ -821,7 +821,7 @@
 },
 "o002": {
 "bikes": "23",
-"open": "Yes"
+"open": "No"
 },
 "obd001": {
 "bikes": "6",
@@ -860,7 +860,7 @@
 "open": "Yes"
 },
 "pt001": {
-"bikes": "10",
+"bikes": "11",
 "open": "Yes"
 },
 "rai001": {
@@ -993,7 +993,7 @@
 },
 "tl003": {
 "bikes": "26",
-"open": "Yes"
+"open": "No"
 },
 "ut007": {
 "bikes": "0",
@@ -1096,7 +1096,7 @@
 "open": "Yes"
 },
 "vs001": {
-"bikes": "25",
+"bikes": "24",
 "open": "No"
 },
 "vst001": {
@@ -1137,7 +1137,7 @@
 },
 "wp001": {
 "bikes": "38",
-"open": "Yes"
+"open": "No"
 },
 "wp901": {
 "bikes": "0",
@@ -1149,7 +1149,7 @@
 },
 "wt003": {
 "bikes": "26",
-"open": "Yes"
+"open": "No"
 },
 "wtv001": {
 "bikes": "11",
