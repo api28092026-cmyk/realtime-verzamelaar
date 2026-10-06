@@ -71,5 +71,10 @@ try {
 }
 catch {
     Log "FOUT (regel $($_.InvocationInfo.ScriptLineNumber)): $($_.Exception.Message)"   # bv. geen internet; volgende run probeert opnieuw
-    exit 1
+    $fout = 1
 }
+
+# Zelfde taak haalt ook de hoogfrequente data (laadpunten en parkeren) binnen; die logt zelf in hoogfrequent\data\sync.log.
+$hf = Join-Path $PSScriptRoot '..\hoogfrequent\sync_local.ps1'
+if (Test-Path $hf) { & $hf }
+if ($fout) { exit 1 }

@@ -7,8 +7,9 @@ De repository is openbaar, dus GitHub Actions-minuten zijn gratis en onbeperkt.
 | Job in cron-job.org | Workflow | Wanneer | Body |
 |---|---|---|---|
 | OV-fiets wijzigingen | `openov.yml` | elke 5 minuten | `{"ref":"main"}` |
+| Laadpunten en parkeren (hoogfrequent) | `hoogfrequent.yml` | elke 5 minuten | `{"ref":"main"}` |
 | Realtime-bronnen | `verzamelen.yml` | dagelijks 06:30 | `{"ref":"main"}` |
-| Momentopnamen (laadpunten, parkeren, deelmobiliteit, verstoringen, OV, NS, energie) | `verzamelen.yml` | elk uur op :05 | `{"ref":"main","inputs":{"bron":"Laadpunten,Parkeren,Deelmobiliteit,Verstoringen,OV,NS,Energie"}}` |
+| Momentopnamen (laadpunten per exploitant, parkeertarieven, deelmobiliteit, verstoringen, OV, NS, energie) | `verzamelen.yml` | elk uur op :05 | `{"ref":"main","inputs":{"bron":"Laadpunten,Parkeren,Deelmobiliteit,Verstoringen,OV,NS,Energie"}}` |
 | OV-fiets historie | `ovfiets.yml` | maandag en donderdag 04:20 | `{"ref":"main"}` |
 
 ## Stap 1: token aanmaken (eenmalig, op het account api28092026-cmyk)
@@ -54,12 +55,13 @@ gh workflow run verzamelen.yml -R api28092026-cmyk/realtime-verzamelaar -f bron=
 | Workflow | Branch | Map |
 |---|---|---|
 | `openov.yml` | `data` | root van de branch: `changes/`, `scrapes/`, `state.json`, `locaties_meta.csv`; afgesloten maanden als release `data-JJJJ-MM` |
+| `hoogfrequent.yml` | `hoogfrequent-data` | `laadpunten/`, `parkeren/`, `runs/`, `state/` (lopende dag); afgesloten dagen als gzip in release `hf-JJJJ-MM` |
 | `verzamelen.yml` | `main` | `data/` |
 | `ovfiets.yml` | `main` | `data/ovfiets/` |
 
 Een run van `ovfiets.yml` duurt 1,5 tot 2 uur, omdat de site elke historiepagina op de server uitrekent (~10–25 s per locatie). Hij heeft daarom een eigen wachtrij en houdt de runs van `verzamelen.yml` niet op. Beide schrijven naar andere bestanden en doen `git pull --rebase` vóór het pushen, dus ze botsen niet. Wordt een OV-fiets-run toch afgebroken, dan wordt wat al is opgehaald nog samengevoegd en opgeslagen.
 
-Lokaal bijhouden: `openov\install_task.ps1` plant `openov\sync_local.ps1`, dat de OV-fiets-wijzigingen elk uur naar `openov\data\` haalt. Voor de rest volstaat een `git pull`.
+Lokaal bijhouden: `openov\install_task.ps1` plant `openov\sync_local.ps1`, dat de OV-fiets-wijzigingen elk uur naar `openov\data\` haalt en daarna `hoogfrequent\sync_local.ps1` aanroept voor laadpunten en parkeren (naar `hoogfrequent\data\`). Voor de rest volstaat een `git pull`.
 
 ## Alternatief zonder GitHub Actions
 
@@ -96,4 +98,4 @@ De taak start elke dag om 10:15, onzichtbaar. Hij haalt hooguit één keer per 7
 - In cron-job.org: de uitvoeringsgeschiedenis per job; bij een melding eerst naar de statuscode kijken (401 = token verlopen, 404 = verkeerde URL of workflownaam).
 - In GitHub: *Actions* toont elke run; de eigenaar krijgt een e-mail als een workflow faalt.
 - `data/status/laatste_run.json` op `main`: per realtime-bron de laatste uitkomst.
-- `openov\sync_local.ps1` schrijft een waarschuwing in `openov\data\sync.log` als de laatste 5-minutenscrape ouder is dan 30 minuten.
+- `openov\sync_local.ps1` schrijft een waarschuwing in `openov\data\sync.log` als de laatste 5-minutenscrape ouder is dan 30 minuten; `hoogfrequent\sync_local.ps1` doet hetzelfde in `hoogfrequent\data\sync.log`.

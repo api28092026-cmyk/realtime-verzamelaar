@@ -1,8 +1,34 @@
 # DOT-NL (NDW): alle publieke laadpunten in NL met status en tarieven (OCPI, open, geen key).
-# Elke run is een momentopname. Draai deze bron ook elk uur als je bezettingsgraden wilt meten.
+# Elke run is een momentopname: per exploitant elke run, per plaats een keer per dag (maandbestanden in data/laadpunten/).
+# De status per laadpunt, elke 5 minuten, staat in de hoogfrequente verzamelaar (hoogfrequent/).
 
 $script:LpStatussen = 'AVAILABLE', 'CHARGING', 'BLOCKED', 'RESERVED', 'OUTOFORDER', 'INOPERATIVE', 'PLANNED', 'REMOVED', 'UNKNOWN'
 
+function Get-LaadpuntenMap { param([string]$Naam) $m = Join-Path (Get-DataPath 'laadpunten') $Naam; New-Item -ItemType Directory -Force -Path $m | Out-Null; $m }
+
+# Eenmalig: de oude doorlopende bestanden opsplitsen in maandbestanden (per_plaats groeide te hard voor git).
+# Regel voor regel (de eerste kolom is peilmoment, JJJJ-MM-...), want Import-Csv is op 30 MB te traag.
+function Move-LaadpuntenOudeBestanden {
+    foreach ($naam in 'per_exploitant', 'per_plaats') {
+        $pad = Get-DataPath "laadpunten_$naam.csv"
+        if (-not (Test-Path $pad)) { continue }
+        $map = Get-LaadpuntenMap $naam
+        $kop = $null; $perMaand = @{}
+        foreach ($regel in [IO.File]::ReadLines($pad)) {
+            if ($null -eq $kop) { $kop = $regel.TrimStart([char]0xFEFF); continue }
+            if ($regel.Length -lt 7) { continue }
+            $m = $regel.Substring(0, 7)
+            if (-not $perMaand.ContainsKey($m)) { $perMaand[$m] = New-Object Text.StringBuilder }
+            [void]$perMaand[$m].AppendLine($regel)
+        }
+        foreach ($m in $perMaand.Keys) {
+            $doel = Join-Path $map ($m + '.csv')
+            $tekst = $(if (Test-Path $doel) { '' } else { $kop + "`r`n" }) + $perMaand[$m].ToString()
+            [IO.File]::AppendAllText($doel, $tekst, $script:Utf8Bom)
+        }
+        Remove-Item -Path $pad
+    }
+}
 function Invoke-BronLaadpunten {
     $tmpDir = Join-Path ([IO.Path]::GetTempPath()) 'realtime-verzamelaar'
     New-Item -ItemType Directory -Force -Path $tmpDir | Out-Null
@@ -13,7 +39,7 @@ function Invoke-BronLaadpunten {
     Invoke-Get -Uri 'https://opendata.ndw.nu/charging_point_locations_ocpi.json.gz' -OutFile $locGz
     foreach ($p in @(@{ s = $tarGz; n = 'tarieven.json.gz' }, @{ s = $locGz; n = 'locaties.json.gz' })) {
         $doel = Get-RuwPad 'laadpunten' $p.n
-        if (-not (Test-Path $doel)) { Copy-Item $p.s $doel }   # één ruwe kopie per dag
+        if (-not (Test-Path $doel)) { Copy-Item $p.s $doel }   # een ruwe kopie per dag
     }
 
     # Tarieven: prijs per kWh (eerste ENERGY-component) per party_id|tarief-id.
@@ -58,10 +84,17 @@ function Invoke-BronLaadpunten {
         foreach ($st in $script:LpStatussen) { $r[$st.ToLower()] = $a[$st] }
         $r }
     $statusKol = $script:LpStatussen | ForEach-Object { $_.ToLower() }
+    Move-LaadpuntenOudeBestanden
+    $maand = (Get-Date).ToUniversalTime().ToString('yyyy-MM', $script:Inv) + '.csv'
     $opRijen = foreach ($k in ($perOp.Keys | Sort-Object)) { & $maakRij 'exploitant' $k $perOp[$k] }
-    Add-CsvRows -Path (Get-DataPath 'laadpunten_per_exploitant.csv') -Columns (@('peilmoment', 'exploitant', 'locaties', 'evses', 'evses_dc') + $statusKol + @('mediaan_kwh_ac', 'mediaan_kwh_dc')) -Rows @($opRijen)
-    $plRijen = foreach ($k in ($perPlaats.Keys | Sort-Object)) { & $maakRij 'plaats' $k $perPlaats[$k] }
-    Add-CsvRows -Path (Get-DataPath 'laadpunten_per_plaats.csv') -Columns (@('peilmoment', 'plaats', 'locaties', 'evses', 'evses_dc') + $statusKol + @('mediaan_kwh_ac', 'mediaan_kwh_dc')) -Rows @($plRijen)
+    Add-CsvRows -Path (Join-Path (Get-LaadpuntenMap 'per_exploitant') $maand) -Columns (@('peilmoment', 'exploitant', 'locaties', 'evses', 'evses_dc') + $statusKol + @('mediaan_kwh_ac', 'mediaan_kwh_dc')) -Rows @($opRijen)
+    # Per plaats (~2.500 plaatsen) een keer per dag; elk uur zou ruim 100 MB per maand opleveren.
+    $status = Get-Status 'laadpunten'
+    if (-not $status -or $status.per_plaats_peildatum -ne $script:Today) {
+        $plRijen = foreach ($k in ($perPlaats.Keys | Sort-Object)) { & $maakRij 'plaats' $k $perPlaats[$k] }
+        Add-CsvRows -Path (Join-Path (Get-LaadpuntenMap 'per_plaats') $maand) -Columns (@('peilmoment', 'plaats', 'locaties', 'evses', 'evses_dc') + $statusKol + @('mediaan_kwh_ac', 'mediaan_kwh_dc')) -Rows @($plRijen)
+        Set-Status 'laadpunten' @{ per_plaats_peildatum = $script:Today }
+    }
 
     $tot = $perOp['_totaal']
     return "$($tot.locaties) locaties, $($tot.evses) laadpunten ($($tot.CHARGING) aan het laden); bestand van $bronTijd"

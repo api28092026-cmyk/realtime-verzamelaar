@@ -1,0 +1,77 @@
+name: hoogfrequent
+
+on:
+  # Elke 5 minuten via cron-job.org: POST naar
+  # https://api.github.com/repos/api28092026-cmyk/realtime-verzamelaar/actions/workflows/hoogfrequent.yml/dispatches
+  # met body {"ref":"main"} en hetzelfde token als de andere jobs. Zie CRON.md. Ook handmatig te starten via de Actions-tab.
+  workflow_dispatch: {}
+
+permissions:
+  contents: write              # data terug committen en releases maken
+
+concurrency:
+  group: hoogfrequent
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: hoogfrequent
+
+jobs:
+  verzamel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: hoogfrequent
+
+      # De data staat op een eigen branch; alleen de nieuwste stand wordt opgehaald.
+      - uses: actions/checkout@v5
+        with:
+          ref: hoogfrequent-data
+          path: hoogfrequent/data
+
+      - name: Verzamel
+        run: python3 verzamel.py
+
+      # Eerste run na middernacht (UTC): de dagbestanden van gisteren gecomprimeerd naar release hf-JJJJ-MM.
+      - name: Archiveer afgesloten dagen
+        id: arch
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 archiveer.py pack > pack.txt
+          if [ ! -s pack.txt ]; then exit 0; fi
+          for m in $(cut -d' ' -f1 pack.txt | sort -u); do
+            gh release view "hf-$m" >/dev/null 2>&1 || gh release create "hf-$m" --target main \
+              --title "Laadpunten en parkeren $m" \
+              --notes "Dagbestanden (gzip) van de hoogfrequente verzamelaar (elke 5 minuten): statuswijzigingen van alle publieke laadpunten en vrije plekken in parkeergarages. Uitleg in de README."
+            gh release upload "hf-$m" $(awk -v m="$m" '$1==m {print $2}' pack.txt) --clobber
+          done
+          echo "dagen=$(sed -E 's#.*_([0-9]{4}-[0-9]{2}-[0-9]{2})\.csv\.gz$#\1#' pack.txt | sort -u | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+
+      - name: Commit & push
+        if: always()
+        env:
+          DAGEN: ${{ steps.arch.outputs.dagen }}
+        run: |
+          # Alleen opruimen als de upload naar de release gelukt is
+          if [ -n "$DAGEN" ]; then python3 archiveer.py prune $DAGEN; fi
+          cd data
+          git config user.name  "hoogfrequent-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          retry() { for i in 1 2 3 4 5; do "$@" && return 0; echo "poging $i mislukt, opnieuw"; sleep $((i * 5)); done; return 1; }
+          if [ -n "$DAGEN" ]; then
+            # Nieuwe geschiedenis beginnen, zodat gearchiveerde dagen ook uit git verdwijnen en de branch klein blijft
+            git checkout --quiet --orphan fresh
+            git add -A
+            git commit --quiet -m "reset na archivering $DAGEN($(date -u +%Y-%m-%dT%H:%MZ))"
+            retry git push --quiet --force origin fresh:hoogfrequent-data
+            exit 0
+          fi
+          git add -A
+          if git diff --cached --quiet; then exit 0; fi
+          git commit --quiet -m "data $(date -u +%Y-%m-%dT%H:%MZ)"
+          retry sh -c 'git pull --rebase --quiet && git push --quiet'
