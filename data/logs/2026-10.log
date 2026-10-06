@@ -1409,3 +1409,11 @@
 2026-10-06 22:08:08 [INFO] OV OK in 4 s: live: 9838 ritten, 1238 uitgevallen; meldingen: 695 actief, 0 nieuw
 2026-10-06 22:13:20 [INFO] NS OK in 312 s: storingen/werkzaamheden: 4 actief, 0 nieuw; drukte: 185 van 185 rijdende treinen, 246 stations, 0 keer drukte hoog
 2026-10-06 22:13:28 [INFO] Energie OK in 8 s: Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 283, grensstromen 274, day-ahead 384 tijdstippen; TenneT: balance delta: 371 metingen in 6 kwartieren; Historie compleet
+2026-10-06 23:06:08 [INFO] Laadpunten OK in 37 s: 75015 locaties, 187425 laadpunten (54903 aan het laden); bestand van 2026-10-06T23:05:37Z
+2026-10-06 23:06:08 [INFO] Parkeren OK in 0 s: tarieven vandaag al bijgewerkt
+2026-10-06 23:07:36 [INFO] Deelmobiliteit OK in 88 s: 45 van 56 systemen, 27215 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-10-06 23:07:45 [INFO] Verstoringen OK in 10 s: weg: 1579 actieve meldingen, 58 nieuw; spoor: niets nieuws
+2026-10-06 23:07:49 [INFO] OV OK in 3 s: live: 8669 ritten, 1187 uitgevallen; meldingen: 694 actief, 0 nieuw
+2026-10-06 23:09:08 [INFO] NS OK in 79 s: storingen/werkzaamheden: 4 actief, 0 nieuw; drukte: 46 van 46 rijdende treinen, 176 stations, 0 keer drukte hoog
+2026-10-06 23:09:28 [WARN] Poging 1 mislukt (https://dataportal-api.nordpoolgroup.com/api/DayAheadPrices?date=2026-10-07&market=DayAhead&deliveryArea=NL&currency=EUR): Response status code does not indicate success: 522 (<none>).. Opnieuw over 5 s.
+2026-10-06 23:09:40 [INFO] Energie OK in 32 s: Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 286, grensstromen 279, day-ahead 384 tijdstippen; TenneT: balance delta: 355 metingen in 6 kwartieren; Historie compleet
