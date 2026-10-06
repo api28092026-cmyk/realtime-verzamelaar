@@ -243,7 +243,7 @@ def garage_kenmerken(dyn: dict) -> None:
 
 def amsterdam(state: dict) -> tuple:
     s = state.setdefault("amsterdam", {})
-    feats = json.loads(haal(AMS_URL)).get("features") or []
+    feats = json.loads(haal(AMS_URL, timeout=20, pogingen=2)).get("features") or []
     rijen = []
     for f in feats:
         p = f.get("properties") or {}
@@ -261,7 +261,7 @@ def amsterdam(state: dict) -> tuple:
 
 def vrachtwagen(state: dict) -> tuple:
     s = state.setdefault("vrachtwagen", {})
-    root = ET.fromstring(haal(TRUCK_URL))
+    root = ET.fromstring(haal(TRUCK_URL, timeout=20, pogingen=2))
     # Eerste afstammeling met deze naam (zonder namespace); het element zelf telt niet mee.
     lokaal = lambda el, naam: next((c for c in el.iter() if c is not el and c.tag.rsplit("}", 1)[-1] == naam), None)
     rijen, n = [], 0
