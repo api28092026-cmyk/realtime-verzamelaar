@@ -1,4 +1,46 @@
 ﻿{
+  "Laadpunten": {
+    "seconden": 22,
+    "tijd": "2026-10-07T03:05:33Z",
+    "status": "ok",
+    "melding": "75015 locaties, 187425 laadpunten (54667 aan het laden); bestand van 2026-10-07T03:05:39Z"
+  },
+  "NS": {
+    "seconden": 39,
+    "tijd": "2026-10-07T03:05:33Z",
+    "status": "ok",
+    "melding": "storingen/werkzaamheden: 3 actief, 0 nieuw; drukte: 19 van 19 rijdende treinen, 125 stations, 1 keer drukte hoog"
+  },
+  "OV": {
+    "seconden": 5,
+    "tijd": "2026-10-07T03:05:33Z",
+    "status": "ok",
+    "melding": "live: 13884 ritten, 2461 uitgevallen; meldingen: 690 actief, 0 nieuw"
+  },
+  "Parkeren": {
+    "seconden": 0,
+    "tijd": "2026-10-07T03:05:33Z",
+    "status": "ok",
+    "melding": "tarieven vandaag al bijgewerkt"
+  },
+  "Energie": {
+    "seconden": 8,
+    "tijd": "2026-10-07T03:05:33Z",
+    "status": "ok",
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 205, grensstromen 200, day-ahead 288 tijdstippen; TenneT: balance delta: 376 metingen in 6 kwartieren; Historie compleet"
+  },
+  "RDW": {
+    "melding": "19541 personenauto-registraties sinds 2026-09-26 verwerkt",
+    "seconden": 121,
+    "status": "ok",
+    "tijd": "2026-10-06T04:30:50Z"
+  },
+  "KvkOpenData": {
+    "melding": "1923038 bv's/nv's verwerkt, waarvan 77288 met status faillissement",
+    "seconden": 15,
+    "status": "ok",
+    "tijd": "2026-10-06T04:30:50Z"
+  },
   "TenderNed": {
     "melding": "85 nieuwe publicaties",
     "seconden": 91,
@@ -11,30 +53,6 @@
     "status": "ok",
     "tijd": "2026-10-06T04:30:50Z"
   },
-  "Laadpunten": {
-    "melding": "75015 locaties, 187425 laadpunten (55074 aan het laden); bestand van 2026-10-07T02:05:42Z",
-    "seconden": 46,
-    "status": "ok",
-    "tijd": "2026-10-07T02:05:37Z"
-  },
-  "KvkOpenData": {
-    "melding": "1923038 bv's/nv's verwerkt, waarvan 77288 met status faillissement",
-    "seconden": 15,
-    "status": "ok",
-    "tijd": "2026-10-06T04:30:50Z"
-  },
-  "Deelmobiliteit": {
-    "melding": "45 van 56 systemen, 27188 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "seconden": 82,
-    "status": "ok",
-    "tijd": "2026-10-07T02:05:37Z"
-  },
-  "RDW": {
-    "melding": "19541 personenauto-registraties sinds 2026-09-26 verwerkt",
-    "seconden": 121,
-    "status": "ok",
-    "tijd": "2026-10-06T04:30:50Z"
-  },
   "EnergyZero": {
     "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
     "seconden": 4,
@@ -42,33 +60,15 @@
     "tijd": "2026-10-06T04:30:50Z"
   },
   "Verstoringen": {
-    "melding": "weg: 1347 actieve meldingen, 15 nieuw; spoor: niets nieuws",
-    "seconden": 14,
+    "seconden": 6,
+    "tijd": "2026-10-07T03:05:33Z",
     "status": "ok",
-    "tijd": "2026-10-07T02:05:37Z"
+    "melding": "weg: 1183 actieve meldingen, 29 nieuw; spoor: niets nieuws"
   },
-  "NS": {
-    "melding": "storingen/werkzaamheden: 3 actief, 0 nieuw; drukte: 6 van 6 rijdende treinen, 13 stations, 0 keer drukte hoog",
-    "seconden": 13,
+  "Deelmobiliteit": {
+    "seconden": 108,
+    "tijd": "2026-10-07T03:05:33Z",
     "status": "ok",
-    "tijd": "2026-10-07T02:05:37Z"
-  },
-  "OV": {
-    "melding": "live: 13730 ritten, 2412 uitgevallen; meldingen: 693 actief, 0 nieuw",
-    "seconden": 3,
-    "status": "ok",
-    "tijd": "2026-10-07T02:05:37Z"
-  },
-  "Parkeren": {
-    "melding": "tarieven vandaag al bijgewerkt",
-    "seconden": 0,
-    "status": "ok",
-    "tijd": "2026-10-07T02:05:37Z"
-  },
-  "Energie": {
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 202, grensstromen 195, day-ahead 288 tijdstippen; TenneT: balance delta: 376 metingen in 6 kwartieren; Historie compleet",
-    "seconden": 7,
-    "status": "ok",
-    "tijd": "2026-10-07T02:05:37Z"
+    "melding": "45 van 56 systemen, 27202 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
   }
 }
