@@ -1,15 +1,9 @@
 ﻿{
-  "TenderNed": {
-    "seconden": 150,
-    "melding": "119 nieuwe publicaties",
+  "OV": {
+    "tijd": "2026-10-07T19:05:34Z",
+    "seconden": 4,
     "status": "ok",
-    "tijd": "2026-10-07T04:30:56Z"
-  },
-  "Deelmobiliteit": {
-    "tijd": "2026-10-07T18:05:56Z",
-    "seconden": 105,
-    "melding": "45 van 56 systemen, 25127 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "status": "ok"
+    "melding": "live: 11165 ritten, 1549 uitgevallen; meldingen: 748 actief, 16 nieuw"
   },
   "RDW": {
     "seconden": 138,
@@ -17,17 +11,53 @@
     "status": "ok",
     "tijd": "2026-10-07T04:30:56Z"
   },
+  "EnergyZero": {
+    "seconden": 5,
+    "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
+    "status": "ok",
+    "tijd": "2026-10-07T04:30:56Z"
+  },
+  "TenderNed": {
+    "seconden": 150,
+    "melding": "119 nieuwe publicaties",
+    "status": "ok",
+    "tijd": "2026-10-07T04:30:56Z"
+  },
+  "Deelmobiliteit": {
+    "tijd": "2026-10-07T19:05:34Z",
+    "seconden": 161,
+    "status": "ok",
+    "melding": "44 van 56 systemen, 25742 voertuigen; niet bereikbaar: CKL, dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+  },
+  "NS": {
+    "tijd": "2026-10-07T19:05:34Z",
+    "seconden": 34,
+    "status": "ok",
+    "melding": "storingen/werkzaamheden: 4 actief, 1 nieuw; drukte: 17 van 17 rijdende treinen, 0 stations, 0 keer drukte hoog"
+  },
+  "Laadpunten": {
+    "tijd": "2026-10-07T19:05:34Z",
+    "seconden": 23,
+    "status": "ok",
+    "melding": "75183 locaties, 188338 laadpunten (52435 aan het laden); bestand van 2026-10-07T19:05:40Z"
+  },
   "KvkOpenData": {
     "seconden": 22,
     "melding": "1923037 bv's/nv's verwerkt, waarvan 77287 met status faillissement",
     "status": "ok",
     "tijd": "2026-10-07T04:30:56Z"
   },
-  "Laadpunten": {
-    "tijd": "2026-10-07T18:05:56Z",
-    "seconden": 51,
-    "melding": "75183 locaties, 188338 laadpunten (51170 aan het laden); bestand van 2026-10-07T18:06:05Z",
-    "status": "ok"
+  "Energie": {
+    "tijd": "2026-10-07T19:05:34Z",
+    "seconden": 7,
+    "status": "ok",
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 271, grensstromen 268, day-ahead 384 tijdstippen; TenneT: balance delta: 341 metingen in 6 kwartieren; Historie compleet"
+  },
+  "Verstoringen": {
+    "tijd": "2026-10-07T19:05:34Z",
+    "seconden": 7,
+    "status": "ok",
+    "melding": "weg: 1486 actieve meldingen, 258 nieuw; spoor: niets nieuws"
   },
   "Netcongestie": {
     "seconden": 4,
@@ -35,40 +65,10 @@
     "status": "ok",
     "tijd": "2026-10-07T04:30:56Z"
   },
-  "Energie": {
-    "tijd": "2026-10-07T18:05:56Z",
-    "seconden": 9,
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 265, grensstromen 261, day-ahead 384 tijdstippen; TenneT: balance delta: 408 metingen in 6 kwartieren; Historie compleet",
-    "status": "ok"
-  },
-  "NS": {
-    "tijd": "2026-10-07T18:05:56Z",
-    "seconden": 423,
-    "melding": "storingen/werkzaamheden: 3 actief, 0 nieuw; drukte: 238 van 238 rijdende treinen, 246 stations, 40 keer drukte hoog",
-    "status": "ok"
-  },
-  "Verstoringen": {
-    "tijd": "2026-10-07T18:05:56Z",
-    "seconden": 16,
-    "melding": "weg: 1357 actieve meldingen, 215 nieuw; spoor: niets nieuws",
-    "status": "ok"
-  },
-  "OV": {
-    "tijd": "2026-10-07T18:05:56Z",
-    "seconden": 5,
-    "melding": "live: 11938 ritten, 1624 uitgevallen; meldingen: 742 actief, 13 nieuw",
-    "status": "ok"
-  },
-  "EnergyZero": {
-    "seconden": 5,
-    "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
-    "status": "ok",
-    "tijd": "2026-10-07T04:30:56Z"
-  },
   "Parkeren": {
-    "tijd": "2026-10-07T18:05:56Z",
+    "tijd": "2026-10-07T19:05:34Z",
     "seconden": 0,
-    "melding": "tarieven vandaag al bijgewerkt",
-    "status": "ok"
+    "status": "ok",
+    "melding": "tarieven vandaag al bijgewerkt"
   }
 }
