@@ -1,37 +1,13 @@
 ﻿{
-  "Laadpunten": {
-    "seconden": 22,
-    "tijd": "2026-10-07T03:05:33Z",
-    "status": "ok",
-    "melding": "75015 locaties, 187425 laadpunten (54667 aan het laden); bestand van 2026-10-07T03:05:39Z"
-  },
-  "NS": {
-    "seconden": 39,
-    "tijd": "2026-10-07T03:05:33Z",
-    "status": "ok",
-    "melding": "storingen/werkzaamheden: 3 actief, 0 nieuw; drukte: 19 van 19 rijdende treinen, 125 stations, 1 keer drukte hoog"
-  },
   "OV": {
+    "melding": "live: 16502 ritten, 2460 uitgevallen; meldingen: 685 actief, 1 nieuw",
+    "tijd": "2026-10-07T04:05:33Z",
     "seconden": 5,
-    "tijd": "2026-10-07T03:05:33Z",
-    "status": "ok",
-    "melding": "live: 13884 ritten, 2461 uitgevallen; meldingen: 690 actief, 0 nieuw"
+    "status": "ok"
   },
-  "Parkeren": {
-    "seconden": 0,
-    "tijd": "2026-10-07T03:05:33Z",
-    "status": "ok",
-    "melding": "tarieven vandaag al bijgewerkt"
-  },
-  "Energie": {
-    "seconden": 8,
-    "tijd": "2026-10-07T03:05:33Z",
-    "status": "ok",
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 205, grensstromen 200, day-ahead 288 tijdstippen; TenneT: balance delta: 376 metingen in 6 kwartieren; Historie compleet"
-  },
-  "RDW": {
-    "melding": "19541 personenauto-registraties sinds 2026-09-26 verwerkt",
-    "seconden": 121,
+  "EnergyZero": {
+    "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
+    "seconden": 4,
     "status": "ok",
     "tijd": "2026-10-06T04:30:50Z"
   },
@@ -47,28 +23,52 @@
     "status": "ok",
     "tijd": "2026-10-06T04:30:50Z"
   },
+  "RDW": {
+    "melding": "19541 personenauto-registraties sinds 2026-09-26 verwerkt",
+    "seconden": 121,
+    "status": "ok",
+    "tijd": "2026-10-06T04:30:50Z"
+  },
+  "Energie": {
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 211, grensstromen 200, day-ahead 288 tijdstippen; TenneT: balance delta: 397 metingen in 6 kwartieren; Historie compleet",
+    "tijd": "2026-10-07T04:05:33Z",
+    "seconden": 7,
+    "status": "ok"
+  },
+  "Deelmobiliteit": {
+    "melding": "45 van 56 systemen, 26628 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "tijd": "2026-10-07T04:05:33Z",
+    "seconden": 103,
+    "status": "ok"
+  },
+  "Verstoringen": {
+    "melding": "weg: 1240 actieve meldingen, 101 nieuw; spoor: niets nieuws",
+    "tijd": "2026-10-07T04:05:33Z",
+    "seconden": 6,
+    "status": "ok"
+  },
+  "NS": {
+    "melding": "storingen/werkzaamheden: 5 actief, 2 nieuw; drukte: 188 van 188 rijdende treinen, 247 stations, 33 keer drukte hoog",
+    "tijd": "2026-10-07T04:05:33Z",
+    "seconden": 323,
+    "status": "ok"
+  },
   "Netcongestie": {
     "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
     "seconden": 4,
     "status": "ok",
     "tijd": "2026-10-06T04:30:50Z"
   },
-  "EnergyZero": {
-    "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
-    "seconden": 4,
-    "status": "ok",
-    "tijd": "2026-10-06T04:30:50Z"
+  "Parkeren": {
+    "melding": "tarieven vandaag al bijgewerkt",
+    "tijd": "2026-10-07T04:05:33Z",
+    "seconden": 0,
+    "status": "ok"
   },
-  "Verstoringen": {
-    "seconden": 6,
-    "tijd": "2026-10-07T03:05:33Z",
-    "status": "ok",
-    "melding": "weg: 1183 actieve meldingen, 29 nieuw; spoor: niets nieuws"
-  },
-  "Deelmobiliteit": {
-    "seconden": 108,
-    "tijd": "2026-10-07T03:05:33Z",
-    "status": "ok",
-    "melding": "45 van 56 systemen, 27202 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+  "Laadpunten": {
+    "melding": "75213 locaties, 188415 laadpunten (52490 aan het laden); bestand van 2026-10-07T04:05:40Z",
+    "tijd": "2026-10-07T04:05:33Z",
+    "seconden": 25,
+    "status": "ok"
   }
 }
