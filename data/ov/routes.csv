@@ -149,8 +149,6 @@
 163008,ARR,Arriva,bus,637
 163009,ARR,Arriva,bus,639
 163010,ARR,Arriva,bus,655
-163038,ARR,Arriva,bus,10
-163039,ARR,Arriva,bus,10
 163103,ARR,Arriva,bus,10
 163104,ARR,Arriva,bus,10
 160725,BN,Blauwnet,bus,822
@@ -1318,7 +1316,6 @@
 159825,IFF:DB,DB,trein,Stoptrein RB51
 139861,IFF:EUROBAHN,Eurobahn,trein,Sneltrein RE13
 139862,IFF:EUROBAHN,Eurobahn,trein,Stoptrein RB61
-162468,IFF:EUROBAHN,Eurobahn,bus,Stopbus ipv trein
 163054,IFF:EUROBAHN,Eurobahn,bus,Stopbus ipv trein
 139863,IFF:EU_SLEEPER,European Sleeper,trein,European Sleeper
 160747,IFF:GV,GoVolta,trein,GoVolta
@@ -1396,7 +1393,6 @@
 147950,IFF:NS,NS,trein,Intercity
 154189,IFF:NS,NS,bus,Snelbus ipv trein
 154207,IFF:NS,NS,trein,Sprinter
-154663,IFF:NS,NS,trein,Sprinter
 159829,IFF:NS,NS,bus,Snelbus ipv trein
 159830,IFF:NS,NS,bus,Snelbus ipv trein
 159833,IFF:NS,NS,bus,Stopbus ipv trein
@@ -1413,11 +1409,9 @@
 160771,IFF:NS,NS,trein,Sprinter
 160772,IFF:NS,NS,trein,Sprinter
 161173,IFF:NS,NS,trein,Intercity
-161176,IFF:NS,NS,trein,Sprinter
 161177,IFF:NS,NS,trein,Sprinter
 161217,IFF:NS,NS,bus,Snelbus ipv trein
 161230,IFF:NS,NS,bus,Stopbus ipv trein
-161240,IFF:NS,NS,trein,Sprinter
 161404,IFF:NS,NS,bus,Snelbus ipv trein
 161405,IFF:NS,NS,bus,Stopbus ipv trein
 161406,IFF:NS,NS,bus,Stopbus ipv trein
@@ -1446,13 +1440,13 @@
 162490,IFF:NS,NS,trein,Sprinter
 162491,IFF:NS,NS,trein,Sprinter
 162492,IFF:NS,NS,trein,Sprinter
-162495,IFF:NS,NS,trein,Drempelvrije bus
-162498,IFF:NS,NS,trein,Drempelvrije bus
-162501,IFF:NS,NS,trein,Drempelvrije bus
-162503,IFF:NS,NS,trein,Drempelvrije bus
-162504,IFF:NS,NS,trein,Drempelvrije bus
-162505,IFF:NS,NS,trein,Drempelvrije bus
-162507,IFF:NS,NS,trein,Drempelvrije bus
+162495,IFF:NS,NS,bus,Drempelvrije bus
+162498,IFF:NS,NS,bus,Drempelvrije bus
+162501,IFF:NS,NS,bus,Drempelvrije bus
+162503,IFF:NS,NS,bus,Drempelvrije bus
+162504,IFF:NS,NS,bus,Drempelvrije bus
+162505,IFF:NS,NS,bus,Drempelvrije bus
+162507,IFF:NS,NS,bus,Drempelvrije bus
 162825,IFF:NS,NS,bus,Snelbus ipv trein
 162826,IFF:NS,NS,bus,Snelbus ipv trein
 162827,IFF:NS,NS,bus,Snelbus ipv trein
@@ -1476,36 +1470,36 @@
 162849,IFF:NS,NS,trein,Sprinter
 162850,IFF:NS,NS,trein,Sprinter
 162852,IFF:NS,NS,trein,Sprinter
-162853,IFF:NS,NS,trein,Drempelvrije bus
-162856,IFF:NS,NS,trein,Drempelvrije bus
-162857,IFF:NS,NS,trein,Drempelvrije bus
-162859,IFF:NS,NS,trein,Drempelvrije bus
-162860,IFF:NS,NS,trein,Drempelvrije bus
-162861,IFF:NS,NS,trein,Drempelvrije bus
-162862,IFF:NS,NS,trein,Drempelvrije bus
-162863,IFF:NS,NS,trein,Drempelvrije bus
-162865,IFF:NS,NS,trein,Drempelvrije bus
-162866,IFF:NS,NS,trein,Drempelvrije bus
-162868,IFF:NS,NS,trein,Drempelvrije bus
-162871,IFF:NS,NS,trein,Drempelvrije bus
-162872,IFF:NS,NS,trein,Drempelvrije bus
-162873,IFF:NS,NS,trein,Drempelvrije bus
-162874,IFF:NS,NS,trein,Drempelvrije bus
-162875,IFF:NS,NS,trein,Drempelvrije bus
-162876,IFF:NS,NS,trein,Drempelvrije bus
-162877,IFF:NS,NS,trein,Drempelvrije bus
-162878,IFF:NS,NS,trein,Drempelvrije bus
-162879,IFF:NS,NS,trein,Drempelvrije bus
-162880,IFF:NS,NS,trein,Drempelvrije bus
-162881,IFF:NS,NS,trein,Drempelvrije bus
-162882,IFF:NS,NS,trein,Drempelvrije bus
-162883,IFF:NS,NS,trein,Drempelvrije bus
-162884,IFF:NS,NS,trein,Drempelvrije bus
-162885,IFF:NS,NS,trein,Drempelvrije bus
-162886,IFF:NS,NS,trein,Drempelvrije bus
-162887,IFF:NS,NS,trein,Drempelvrije bus
+162853,IFF:NS,NS,bus,Drempelvrije bus
+162856,IFF:NS,NS,bus,Drempelvrije bus
+162857,IFF:NS,NS,bus,Drempelvrije bus
+162859,IFF:NS,NS,bus,Drempelvrije bus
+162860,IFF:NS,NS,bus,Drempelvrije bus
+162861,IFF:NS,NS,bus,Drempelvrije bus
+162862,IFF:NS,NS,bus,Drempelvrije bus
+162863,IFF:NS,NS,bus,Drempelvrije bus
+162865,IFF:NS,NS,bus,Drempelvrije bus
+162866,IFF:NS,NS,bus,Drempelvrije bus
+162868,IFF:NS,NS,bus,Drempelvrije bus
+162871,IFF:NS,NS,bus,Drempelvrije bus
+162872,IFF:NS,NS,bus,Drempelvrije bus
+162873,IFF:NS,NS,bus,Drempelvrije bus
+162874,IFF:NS,NS,bus,Drempelvrije bus
+162875,IFF:NS,NS,bus,Drempelvrije bus
+162876,IFF:NS,NS,bus,Drempelvrije bus
+162877,IFF:NS,NS,bus,Drempelvrije bus
+162878,IFF:NS,NS,bus,Drempelvrije bus
+162879,IFF:NS,NS,bus,Drempelvrije bus
+162880,IFF:NS,NS,bus,Drempelvrije bus
+162881,IFF:NS,NS,bus,Drempelvrije bus
+162882,IFF:NS,NS,bus,Drempelvrije bus
+162883,IFF:NS,NS,bus,Drempelvrije bus
+162884,IFF:NS,NS,bus,Drempelvrije bus
+162885,IFF:NS,NS,bus,Drempelvrije bus
+162886,IFF:NS,NS,bus,Drempelvrije bus
+162887,IFF:NS,NS,bus,Drempelvrije bus
 163030,IFF:NS,NS,trein,Intercity
-163034,IFF:NS,NS,trein,Drempelvrije bus
+163034,IFF:NS,NS,bus,Drempelvrije bus
 163053,IFF:NS,NS,trein,Sprinter
 163055,IFF:NS,NS,bus,Snelbus ipv trein
 163056,IFF:NS,NS,bus,Snelbus ipv trein
@@ -1533,16 +1527,16 @@
 163078,IFF:NS,NS,trein,Sprinter
 163079,IFF:NS,NS,trein,Sprinter
 163080,IFF:NS,NS,trein,Sprinter
-163081,IFF:NS,NS,trein,Drempelvrije bus
-163082,IFF:NS,NS,trein,Drempelvrije bus
-163083,IFF:NS,NS,trein,Drempelvrije bus
-163084,IFF:NS,NS,trein,Drempelvrije bus
-163085,IFF:NS,NS,trein,Drempelvrije bus
-163086,IFF:NS,NS,trein,Drempelvrije bus
-163087,IFF:NS,NS,trein,Drempelvrije bus
-163088,IFF:NS,NS,trein,Drempelvrije bus
-163089,IFF:NS,NS,trein,Drempelvrije bus
-163090,IFF:NS,NS,trein,Drempelvrije bus
+163081,IFF:NS,NS,bus,Drempelvrije bus
+163082,IFF:NS,NS,bus,Drempelvrije bus
+163083,IFF:NS,NS,bus,Drempelvrije bus
+163084,IFF:NS,NS,bus,Drempelvrije bus
+163085,IFF:NS,NS,bus,Drempelvrije bus
+163086,IFF:NS,NS,bus,Drempelvrije bus
+163087,IFF:NS,NS,bus,Drempelvrije bus
+163088,IFF:NS,NS,bus,Drempelvrije bus
+163089,IFF:NS,NS,bus,Drempelvrije bus
+163090,IFF:NS,NS,bus,Drempelvrije bus
 138956,IFF:NS_INT,NS International,trein,Eurostar
 138958,IFF:NS_INT,NS International,trein,Eurostar
 138965,IFF:NS_INT,NS International,trein,Nightjet
@@ -2866,7 +2860,6 @@
 162788,RRREIS,RRReis,bus,24
 162789,RRREIS,RRReis,bus,25
 162790,RRREIS,RRReis,bus,58
-163040,RRREIS,RRReis,bus,1
 163096,RRREIS,RRReis,bus,834
 163105,RRREIS,RRReis,bus,1
 134174,TESO,TESO,veerboot,TESO
