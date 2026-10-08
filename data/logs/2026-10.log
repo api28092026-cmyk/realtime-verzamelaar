@@ -1688,3 +1688,11 @@
 2026-10-08 10:08:40 [INFO] OV OK in 4 s: live: 17027 ritten, 2209 uitgevallen; meldingen: 745 actief, 16 nieuw
 2026-10-08 10:09:22 [INFO] NS OK in 43 s: storingen/werkzaamheden: 3 actief, 0 nieuw; drukte: 23 van 23 rijdende treinen, 0 stations, 0 keer drukte hoog
 2026-10-08 10:09:29 [INFO] Energie OK in 7 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 230, grensstromen 228, day-ahead 288 tijdstippen; TenneT: balance delta: 336 metingen in 6 kwartieren; Historie compleet
+2026-10-08 11:06:26 [INFO] Laadpunten OK in 48 s: 75071 locaties, 187508 laadpunten (41015 aan het laden); bestand van 2026-10-08T11:05:46Z
+2026-10-08 11:06:26 [INFO] Parkeren OK in 0 s: tarieven vandaag al bijgewerkt
+2026-10-08 11:06:32 [WARN] Poging 1 mislukt (https://api.ridecheck.app/gbfs/v3/amstelveen/vehicle_types.json): Response status code does not indicate success: 502 (Bad Gateway).. Opnieuw over 5 s.
+2026-10-08 11:08:19 [INFO] Deelmobiliteit OK in 113 s: 45 van 56 systemen, 15781 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-10-08 11:08:35 [INFO] Verstoringen OK in 17 s: weg: 1460 actieve meldingen, 211 nieuw; spoor: niets nieuws
+2026-10-08 11:08:41 [INFO] OV OK in 6 s: live: 16470 ritten, 2190 uitgevallen; meldingen: 742 actief, 7 nieuw
+2026-10-08 11:17:31 [INFO] NS OK in 530 s: storingen/werkzaamheden: 3 actief, 0 nieuw; drukte: 310 van 310 rijdende treinen, 247 stations, 27 keer drukte hoog
+2026-10-08 11:17:39 [INFO] Energie OK in 8 s: Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 236, grensstromen 229, day-ahead 288 tijdstippen; TenneT: balance delta: 415 metingen in 6 kwartieren; Historie compleet
