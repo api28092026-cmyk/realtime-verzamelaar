@@ -1,39 +1,9 @@
 ﻿{
-  "Energie": {
-    "seconden": 8,
-    "tijd": "2026-10-08T11:05:38Z",
-    "status": "ok",
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 236, grensstromen 229, day-ahead 288 tijdstippen; TenneT: balance delta: 415 metingen in 6 kwartieren; Historie compleet"
-  },
-  "Deelmobiliteit": {
-    "seconden": 113,
-    "tijd": "2026-10-08T11:05:38Z",
-    "status": "ok",
-    "melding": "45 van 56 systemen, 15781 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
-  },
   "EnergyZero": {
     "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
     "status": "ok",
     "seconden": 5,
     "tijd": "2026-10-08T04:31:00Z"
-  },
-  "Parkeren": {
-    "seconden": 0,
-    "tijd": "2026-10-08T11:05:38Z",
-    "status": "ok",
-    "melding": "tarieven vandaag al bijgewerkt"
-  },
-  "NS": {
-    "seconden": 530,
-    "tijd": "2026-10-08T11:05:38Z",
-    "status": "ok",
-    "melding": "storingen/werkzaamheden: 3 actief, 0 nieuw; drukte: 310 van 310 rijdende treinen, 247 stations, 27 keer drukte hoog"
-  },
-  "Laadpunten": {
-    "seconden": 48,
-    "tijd": "2026-10-08T11:05:38Z",
-    "status": "ok",
-    "melding": "75071 locaties, 187508 laadpunten (41015 aan het laden); bestand van 2026-10-08T11:05:46Z"
   },
   "Netcongestie": {
     "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
@@ -41,17 +11,23 @@
     "seconden": 4,
     "tijd": "2026-10-08T04:31:00Z"
   },
-  "Verstoringen": {
-    "seconden": 17,
-    "tijd": "2026-10-08T11:05:38Z",
-    "status": "ok",
-    "melding": "weg: 1460 actieve meldingen, 211 nieuw; spoor: niets nieuws"
-  },
   "OV": {
-    "seconden": 6,
-    "tijd": "2026-10-08T11:05:38Z",
+    "melding": "live: 16009 ritten, 2119 uitgevallen; meldingen: 759 actief, 20 nieuw",
+    "tijd": "2026-10-08T12:05:32Z",
     "status": "ok",
-    "melding": "live: 16470 ritten, 2190 uitgevallen; meldingen: 742 actief, 7 nieuw"
+    "seconden": 4
+  },
+  "TenderNed": {
+    "melding": "96 nieuwe publicaties",
+    "status": "ok",
+    "seconden": 119,
+    "tijd": "2026-10-08T04:31:00Z"
+  },
+  "Laadpunten": {
+    "melding": "75072 locaties, 187510 laadpunten (39980 aan het laden); bestand van 2026-10-08T12:05:38Z",
+    "tijd": "2026-10-08T12:05:32Z",
+    "status": "ok",
+    "seconden": 45
   },
   "RDW": {
     "melding": "21848 personenauto-registraties sinds 2026-09-28 verwerkt",
@@ -65,10 +41,34 @@
     "seconden": 22,
     "tijd": "2026-10-08T04:31:00Z"
   },
-  "TenderNed": {
-    "melding": "96 nieuwe publicaties",
+  "NS": {
+    "melding": "storingen/werkzaamheden: 4 actief, 1 nieuw; drukte: 314 van 314 rijdende treinen, 247 stations, 64 keer drukte hoog",
+    "tijd": "2026-10-08T12:05:32Z",
     "status": "ok",
-    "seconden": 119,
-    "tijd": "2026-10-08T04:31:00Z"
+    "seconden": 493
+  },
+  "Verstoringen": {
+    "melding": "weg: 1496 actieve meldingen, 250 nieuw; spoor: niets nieuws",
+    "tijd": "2026-10-08T12:05:32Z",
+    "status": "ok",
+    "seconden": 16
+  },
+  "Energie": {
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 241, grensstromen 229, day-ahead 384 tijdstippen; TenneT: balance delta: 367 metingen in 6 kwartieren; Historie compleet",
+    "tijd": "2026-10-08T12:05:32Z",
+    "status": "ok",
+    "seconden": 7
+  },
+  "Parkeren": {
+    "melding": "tarieven vandaag al bijgewerkt",
+    "tijd": "2026-10-08T12:05:32Z",
+    "status": "ok",
+    "seconden": 0
+  },
+  "Deelmobiliteit": {
+    "melding": "45 van 56 systemen, 15801 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "tijd": "2026-10-08T12:05:32Z",
+    "status": "ok",
+    "seconden": 84
   }
 }
