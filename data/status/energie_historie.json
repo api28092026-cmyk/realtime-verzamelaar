@@ -1,10 +1,10 @@
 ﻿{
-  "tennet_klaar": false,
-  "tennet_volgende": "2021-05",
-  "ec_klaar": true,
-  "tennet_leeg": 0,
-  "tennet_peildatum": "2026-10-08",
+  "ec_volgende": "2014-12",
   "ec_fouten": 0,
+  "ec_klaar": true,
+  "tennet_peildatum": "2026-10-08",
+  "tennet_volgende": "2021-05",
   "ec_overgeslagen": [],
-  "ec_volgende": "2014-12"
+  "tennet_klaar": false,
+  "tennet_leeg": 0
 }

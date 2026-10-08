@@ -1,27 +1,21 @@
 ﻿{
-  "NS": {
-    "seconden": 490,
-    "melding": "storingen/werkzaamheden: 5 actief, 2 nieuw; drukte: 323 van 323 rijdende treinen, 250 stations, 109 keer drukte hoog",
-    "tijd": "2026-10-08T18:05:43Z",
-    "status": "ok"
-  },
-  "RDW": {
-    "melding": "21848 personenauto-registraties sinds 2026-09-28 verwerkt",
+  "Parkeren": {
+    "tijd": "2026-10-08T19:05:38Z",
     "status": "ok",
-    "seconden": 164,
-    "tijd": "2026-10-08T04:31:00Z"
+    "seconden": 0,
+    "melding": "tarieven vandaag al bijgewerkt"
   },
   "Verstoringen": {
-    "seconden": 17,
-    "melding": "weg: 1300 actieve meldingen, 198 nieuw; spoor: niets nieuws",
-    "tijd": "2026-10-08T18:05:43Z",
-    "status": "ok"
+    "tijd": "2026-10-08T19:05:38Z",
+    "status": "ok",
+    "seconden": 14,
+    "melding": "weg: 1517 actieve meldingen, 347 nieuw; spoor: niets nieuws"
   },
-  "OV": {
-    "seconden": 4,
-    "melding": "live: 12692 ritten, 1790 uitgevallen; meldingen: 787 actief, 14 nieuw",
-    "tijd": "2026-10-08T18:05:43Z",
-    "status": "ok"
+  "Laadpunten": {
+    "tijd": "2026-10-08T19:05:38Z",
+    "status": "ok",
+    "seconden": 37,
+    "melding": "75244 locaties, 188486 laadpunten (52957 aan het laden); bestand van 2026-10-08T19:05:43Z"
   },
   "Netcongestie": {
     "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
@@ -29,29 +23,35 @@
     "seconden": 4,
     "tijd": "2026-10-08T04:31:00Z"
   },
-  "Laadpunten": {
-    "seconden": 46,
-    "melding": "75244 locaties, 188486 laadpunten (51587 aan het laden); bestand van 2026-10-08T18:05:48Z",
-    "tijd": "2026-10-08T18:05:43Z",
-    "status": "ok"
+  "Energie": {
+    "tijd": "2026-10-08T19:05:38Z",
+    "status": "ok",
+    "seconden": 8,
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 271, grensstromen 266, day-ahead 384 tijdstippen; TenneT: balance delta: 335 metingen in 6 kwartieren; Historie compleet"
   },
-  "Parkeren": {
-    "seconden": 0,
-    "melding": "tarieven vandaag al bijgewerkt",
-    "tijd": "2026-10-08T18:05:43Z",
-    "status": "ok"
+  "RDW": {
+    "melding": "21848 personenauto-registraties sinds 2026-09-28 verwerkt",
+    "status": "ok",
+    "seconden": 164,
+    "tijd": "2026-10-08T04:31:00Z"
+  },
+  "NS": {
+    "tijd": "2026-10-08T19:05:38Z",
+    "status": "ok",
+    "seconden": 30,
+    "melding": "storingen/werkzaamheden: 5 actief, 2 nieuw; drukte: 15 van 15 rijdende treinen, 0 stations, 0 keer drukte hoog"
+  },
+  "Deelmobiliteit": {
+    "tijd": "2026-10-08T19:05:38Z",
+    "status": "ok",
+    "seconden": 89,
+    "melding": "45 van 56 systemen, 25131 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
   },
   "EnergyZero": {
     "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
     "status": "ok",
     "seconden": 5,
     "tijd": "2026-10-08T04:31:00Z"
-  },
-  "Deelmobiliteit": {
-    "seconden": 86,
-    "melding": "45 van 56 systemen, 24546 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "tijd": "2026-10-08T18:05:43Z",
-    "status": "ok"
   },
   "TenderNed": {
     "melding": "96 nieuwe publicaties",
@@ -65,10 +65,10 @@
     "seconden": 22,
     "tijd": "2026-10-08T04:31:00Z"
   },
-  "Energie": {
-    "seconden": 7,
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 265, grensstromen 263, day-ahead 384 tijdstippen; TenneT: balance delta: 370 metingen in 6 kwartieren; Historie compleet",
-    "tijd": "2026-10-08T18:05:43Z",
-    "status": "ok"
+  "OV": {
+    "tijd": "2026-10-08T19:05:38Z",
+    "status": "ok",
+    "seconden": 4,
+    "melding": "live: 11734 ritten, 1728 uitgevallen; meldingen: 800 actief, 19 nieuw"
   }
 }
