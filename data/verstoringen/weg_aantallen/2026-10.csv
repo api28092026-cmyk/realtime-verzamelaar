@@ -3190,3 +3190,17 @@
 2026-10-08T00:05:35Z,ReroutingManagement,followDiversionSigns,121,0
 2026-10-08T00:05:35Z,GeneralNetworkManagement,bridgeSwingInOperation,3,0
 2026-10-08T00:05:35Z,VehicleObstruction,brokenDownVehicle,3,0
+2026-10-08T01:05:33Z,RoadOrCarriagewayOrLaneManagement,useSpecifiedLanesOrCarriageways,1,0
+2026-10-08T01:05:33Z,RoadOrCarriagewayOrLaneManagement,hardShoulderRunningInOperation,53,0
+2026-10-08T01:05:33Z,ReroutingManagement,followDiversionSigns,110,0
+2026-10-08T01:05:33Z,GeneralObstruction,objectOnTheRoad,1,0
+2026-10-08T01:05:33Z,RoadOrCarriagewayOrLaneManagement,roadClosed,10,0
+2026-10-08T01:05:33Z,RoadOrCarriagewayOrLaneManagement,useOfSpecifiedLanesOrCarriagewaysAllowed,27,0
+2026-10-08T01:05:33Z,SpeedManagement,speedRestrictionInOperation,146,0
+2026-10-08T01:05:33Z,RoadOrCarriagewayOrLaneManagement,narrowLanes,1,0
+2026-10-08T01:05:33Z,RoadOrCarriagewayOrLaneManagement,other,67,0
+2026-10-08T01:05:33Z,VehicleObstruction,other,83,0
+2026-10-08T01:05:33Z,RoadOrCarriagewayOrLaneManagement,lanesDeviated,45,0
+2026-10-08T01:05:33Z,RoadOrCarriagewayOrLaneManagement,carriagewayClosures,732,0
+2026-10-08T01:05:33Z,RoadOrCarriagewayOrLaneManagement,laneClosures,177,0
+2026-10-08T01:05:33Z,GeneralNetworkManagement,bridgeSwingInOperation,4,0
