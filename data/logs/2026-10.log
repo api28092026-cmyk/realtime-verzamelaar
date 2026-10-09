@@ -1815,3 +1815,15 @@
 2026-10-09 04:07:51 [INFO] OV OK in 4 s: live: 16251 ritten, 2814 uitgevallen; meldingen: 751 actief, 1 nieuw
 2026-10-09 04:11:51 [INFO] NS OK in 241 s: storingen/werkzaamheden: 3 actief, 0 nieuw; drukte: 131 van 131 rijdende treinen, 235 stations, 11 keer drukte hoog
 2026-10-09 04:12:00 [INFO] Energie OK in 9 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 209, grensstromen 200, day-ahead 288 tijdstippen; TenneT: balance delta: 393 metingen in 6 kwartieren; Historie compleet
+2026-10-09 04:30:54 [INFO] EnergyZero OK in 5 s: 194 uurprijzen bijgewerkt; gas: 5 gasdagen
+2026-10-09 04:33:17 [INFO] TenderNed OK in 143 s: 125 nieuwe publicaties
+2026-10-09 04:35:52 [INFO] RDW OK in 156 s: 20077 personenauto-registraties sinds 2026-09-29 verwerkt
+2026-10-09 04:36:39 [INFO] Laadpunten OK in 47 s: 75309 locaties, 188565 laadpunten (52269 aan het laden); bestand van 2026-10-09T04:35:59Z
+2026-10-09 04:36:43 [INFO] Netcongestie OK in 4 s: Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd
+2026-10-09 04:37:00 [INFO] KvkOpenData OK in 17 s: 1923732 bv's/nv's verwerkt, waarvan 77326 met status faillissement
+2026-10-09 04:37:01 [INFO] Parkeren OK in 0 s: tarieven vandaag al bijgewerkt
+2026-10-09 04:38:34 [INFO] Deelmobiliteit OK in 93 s: 45 van 56 systemen, 27209 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-10-09 04:38:52 [INFO] Verstoringen OK in 19 s: weg: 1266 actieve meldingen, 89 nieuw; spoor: niets nieuws
+2026-10-09 04:38:57 [INFO] OV OK in 5 s: live: 17875 ritten, 2930 uitgevallen; meldingen: 755 actief, 4 nieuw
+2026-10-09 04:44:12 [INFO] NS OK in 315 s: storingen/werkzaamheden: 3 actief, 0 nieuw; drukte: 197 van 197 rijdende treinen, 249 stations, 6 keer drukte hoog
+2026-10-09 04:44:20 [INFO] Energie OK in 8 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 212, grensstromen 205, day-ahead 288 tijdstippen; TenneT: balance delta: 236 metingen in 4 kwartieren; Historie compleet
