@@ -1,15 +1,51 @@
 ﻿{
-  "Laadpunten": {
-    "melding": "75310 locaties, 188563 laadpunten (48420 aan het laden); bestand van 2026-10-09T18:05:35Z",
-    "seconden": 33,
-    "tijd": "2026-10-09T18:05:30Z",
-    "status": "ok"
-  },
   "RDW": {
     "status": "ok",
     "melding": "20077 personenauto-registraties sinds 2026-09-29 verwerkt",
     "seconden": 156,
     "tijd": "2026-10-09T04:30:49Z"
+  },
+  "Deelmobiliteit": {
+    "melding": "45 van 56 systemen, 23575 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "tijd": "2026-10-09T19:05:26Z",
+    "status": "ok",
+    "seconden": 95
+  },
+  "EnergyZero": {
+    "status": "ok",
+    "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
+    "seconden": 5,
+    "tijd": "2026-10-09T04:30:49Z"
+  },
+  "Laadpunten": {
+    "melding": "75310 locaties, 188563 laadpunten (49034 aan het laden); bestand van 2026-10-09T19:05:32Z",
+    "tijd": "2026-10-09T19:05:26Z",
+    "status": "ok",
+    "seconden": 23
+  },
+  "NS": {
+    "melding": "storingen/werkzaamheden: 6 actief, 2 nieuw; drukte: 264 van 264 rijdende treinen, 246 stations, 36 keer drukte hoog",
+    "tijd": "2026-10-09T19:05:26Z",
+    "status": "ok",
+    "seconden": 452
+  },
+  "KvkOpenData": {
+    "status": "ok",
+    "melding": "1923732 bv's/nv's verwerkt, waarvan 77326 met status faillissement",
+    "seconden": 17,
+    "tijd": "2026-10-09T04:30:49Z"
+  },
+  "Verstoringen": {
+    "melding": "weg: 1351 actieve meldingen, 268 nieuw; spoor: niets nieuws",
+    "tijd": "2026-10-09T19:05:26Z",
+    "status": "ok",
+    "seconden": 8
+  },
+  "OV": {
+    "melding": "live: 9702 ritten, 1567 uitgevallen; meldingen: 805 actief, 2 nieuw",
+    "tijd": "2026-10-09T19:05:26Z",
+    "status": "ok",
+    "seconden": 4
   },
   "TenderNed": {
     "status": "ok",
@@ -19,33 +55,9 @@
   },
   "Parkeren": {
     "melding": "tarieven vandaag al bijgewerkt",
-    "seconden": 0,
-    "tijd": "2026-10-09T18:05:30Z",
-    "status": "ok"
-  },
-  "Deelmobiliteit": {
-    "melding": "45 van 56 systemen, 23644 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "seconden": 84,
-    "tijd": "2026-10-09T18:05:30Z",
-    "status": "ok"
-  },
-  "Verstoringen": {
-    "melding": "weg: 1236 actieve meldingen, 207 nieuw; spoor: niets nieuws",
-    "seconden": 12,
-    "tijd": "2026-10-09T18:05:30Z",
-    "status": "ok"
-  },
-  "EnergyZero": {
+    "tijd": "2026-10-09T19:05:26Z",
     "status": "ok",
-    "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
-    "seconden": 5,
-    "tijd": "2026-10-09T04:30:49Z"
-  },
-  "OV": {
-    "melding": "live: 10688 ritten, 1652 uitgevallen; meldingen: 805 actief, 1 nieuw",
-    "seconden": 3,
-    "tijd": "2026-10-09T18:05:30Z",
-    "status": "ok"
+    "seconden": 0
   },
   "Netcongestie": {
     "status": "ok",
@@ -54,21 +66,9 @@
     "tijd": "2026-10-09T04:30:49Z"
   },
   "Energie": {
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 267, grensstromen 264, day-ahead 288 tijdstippen; TenneT: balance delta: 375 metingen in 6 kwartieren; Historie compleet",
-    "seconden": 7,
-    "tijd": "2026-10-09T18:05:30Z",
-    "status": "ok"
-  },
-  "NS": {
-    "melding": "storingen/werkzaamheden: 4 actief, 0 nieuw; drukte: 297 van 297 rijdende treinen, 247 stations, 60 keer drukte hoog",
-    "seconden": 498,
-    "tijd": "2026-10-09T18:05:30Z",
-    "status": "ok"
-  },
-  "KvkOpenData": {
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 270, grensstromen 267, day-ahead 288 tijdstippen; TenneT: balance delta: 370 metingen in 6 kwartieren; Historie compleet",
+    "tijd": "2026-10-09T19:05:26Z",
     "status": "ok",
-    "melding": "1923732 bv's/nv's verwerkt, waarvan 77326 met status faillissement",
-    "seconden": 17,
-    "tijd": "2026-10-09T04:30:49Z"
+    "seconden": 9
   }
 }
