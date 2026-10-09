@@ -1,39 +1,27 @@
 ﻿{
-  "Verstoringen": {
-    "melding": "weg: 1459 actieve meldingen, 290 nieuw; spoor: niets nieuws",
-    "status": "ok",
-    "tijd": "2026-10-09T14:05:34Z",
-    "seconden": 19
-  },
-  "TenderNed": {
-    "status": "ok",
-    "melding": "125 nieuwe publicaties",
-    "seconden": 143,
-    "tijd": "2026-10-09T04:30:49Z"
-  },
-  "NS": {
-    "melding": "storingen/werkzaamheden: 5 actief, 2 nieuw; drukte: 312 van 312 rijdende treinen, 250 stations, 295 keer drukte hoog",
-    "status": "ok",
-    "tijd": "2026-10-09T14:05:34Z",
-    "seconden": 513
-  },
   "EnergyZero": {
     "status": "ok",
     "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
     "seconden": 5,
     "tijd": "2026-10-09T04:30:49Z"
   },
-  "RDW": {
+  "Energie": {
+    "tijd": "2026-10-09T15:05:35Z",
     "status": "ok",
-    "melding": "20077 personenauto-registraties sinds 2026-09-29 verwerkt",
-    "seconden": 156,
-    "tijd": "2026-10-09T04:30:49Z"
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 255, grensstromen 251, day-ahead 288 tijdstippen; TenneT: balance delta: 378 metingen in 6 kwartieren; Historie compleet",
+    "seconden": 9
   },
-  "KvkOpenData": {
+  "OV": {
+    "tijd": "2026-10-09T15:05:35Z",
     "status": "ok",
-    "melding": "1923732 bv's/nv's verwerkt, waarvan 77326 met status faillissement",
-    "seconden": 17,
-    "tijd": "2026-10-09T04:30:49Z"
+    "melding": "live: 13662 ritten, 2110 uitgevallen; meldingen: 832 actief, 6 nieuw",
+    "seconden": 6
+  },
+  "Verstoringen": {
+    "tijd": "2026-10-09T15:05:35Z",
+    "status": "ok",
+    "melding": "weg: 1429 actieve meldingen, 297 nieuw; spoor: niets nieuws",
+    "seconden": 20
   },
   "Netcongestie": {
     "status": "ok",
@@ -41,34 +29,46 @@
     "seconden": 4,
     "tijd": "2026-10-09T04:30:49Z"
   },
-  "OV": {
-    "melding": "live: 14352 ritten, 2225 uitgevallen; meldingen: 833 actief, 8 nieuw",
-    "status": "ok",
-    "tijd": "2026-10-09T14:05:34Z",
-    "seconden": 4
-  },
   "Parkeren": {
-    "melding": "tarieven vandaag al bijgewerkt",
+    "tijd": "2026-10-09T15:05:35Z",
     "status": "ok",
-    "tijd": "2026-10-09T14:05:34Z",
+    "melding": "tarieven vandaag al bijgewerkt",
     "seconden": 0
   },
-  "Deelmobiliteit": {
-    "melding": "45 van 56 systemen, 23493 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+  "KvkOpenData": {
     "status": "ok",
-    "tijd": "2026-10-09T14:05:34Z",
-    "seconden": 88
+    "melding": "1923732 bv's/nv's verwerkt, waarvan 77326 met status faillissement",
+    "seconden": 17,
+    "tijd": "2026-10-09T04:30:49Z"
   },
   "Laadpunten": {
-    "melding": "75119 locaties, 187551 laadpunten (41668 aan het laden); bestand van 2026-10-09T14:05:39Z",
+    "tijd": "2026-10-09T15:05:35Z",
     "status": "ok",
-    "tijd": "2026-10-09T14:05:34Z",
-    "seconden": 46
+    "melding": "75119 locaties, 187553 laadpunten (43340 aan het laden); bestand van 2026-10-09T15:05:42Z",
+    "seconden": 49
   },
-  "Energie": {
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 249, grensstromen 248, day-ahead 288 tijdstippen; TenneT: balance delta: 369 metingen in 6 kwartieren; Historie compleet",
+  "NS": {
+    "tijd": "2026-10-09T15:05:35Z",
     "status": "ok",
-    "tijd": "2026-10-09T14:05:34Z",
-    "seconden": 7
+    "melding": "storingen/werkzaamheden: 5 actief, 0 nieuw; drukte: 311 van 311 rijdende treinen, 250 stations, 356 keer drukte hoog",
+    "seconden": 532
+  },
+  "Deelmobiliteit": {
+    "tijd": "2026-10-09T15:05:35Z",
+    "status": "ok",
+    "melding": "45 van 56 systemen, 24592 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "seconden": 110
+  },
+  "RDW": {
+    "status": "ok",
+    "melding": "20077 personenauto-registraties sinds 2026-09-29 verwerkt",
+    "seconden": 156,
+    "tijd": "2026-10-09T04:30:49Z"
+  },
+  "TenderNed": {
+    "status": "ok",
+    "melding": "125 nieuwe publicaties",
+    "seconden": 143,
+    "tijd": "2026-10-09T04:30:49Z"
   }
 }
