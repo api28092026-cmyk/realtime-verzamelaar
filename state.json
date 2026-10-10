@@ -52,7 +52,7 @@
 "open": "Yes"
 },
 "Gp001": {
-"bikes": "2",
+"bikes": "3",
 "open": "Yes"
 },
 "HRN002": {
@@ -216,7 +216,7 @@
 "open": "No"
 },
 "asd002": {
-"bikes": "194",
+"bikes": "192",
 "open": "No"
 },
 "asd008": {
@@ -228,7 +228,7 @@
 "open": "No"
 },
 "asd010": {
-"bikes": "213",
+"bikes": "212",
 "open": "Yes"
 },
 "asdl001": {
@@ -249,7 +249,7 @@
 },
 "asn001": {
 "bikes": "171",
-"open": "Yes"
+"open": "No"
 },
 "ass001": {
 "bikes": "141",
@@ -581,7 +581,7 @@
 },
 "hdr002": {
 "bikes": "44",
-"open": "Yes"
+"open": "No"
 },
 "hdrz001": {
 "bikes": "7",
@@ -645,7 +645,7 @@
 },
 "hn001": {
 "bikes": "61",
-"open": "Yes"
+"open": "No"
 },
 "hnk001": {
 "bikes": "6",
@@ -796,7 +796,7 @@
 "open": "Yes"
 },
 "ndb003": {
-"bikes": "45",
+"bikes": "44",
 "open": "No"
 },
 "nkk001": {
@@ -812,7 +812,7 @@
 "open": "Yes"
 },
 "nmh001": {
-"bikes": "6",
+"bikes": "7",
 "open": "Yes"
 },
 "nvd001": {
@@ -912,7 +912,7 @@
 "open": "No"
 },
 "rtd001": {
-"bikes": "290",
+"bikes": "293",
 "open": "Yes"
 },
 "rtd906": {
@@ -988,7 +988,7 @@
 "open": "Yes"
 },
 "tbu001": {
-"bikes": "15",
+"bikes": "16",
 "open": "Yes"
 },
 "tl003": {
@@ -1000,7 +1000,7 @@
 "open": "Yes"
 },
 "ut016": {
-"bikes": "512",
+"bikes": "510",
 "open": "Yes"
 },
 "ut020": {
