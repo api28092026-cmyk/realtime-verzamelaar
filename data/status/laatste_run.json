@@ -1,51 +1,9 @@
 ﻿{
-  "NS": {
-    "seconden": 17,
-    "melding": "storingen/werkzaamheden: 2 actief, 0 nieuw; drukte: 7 van 7 rijdende treinen, 15 stations, 0 keer drukte hoog",
-    "status": "ok",
-    "tijd": "2026-10-10T01:05:37Z"
-  },
-  "TenderNed": {
-    "status": "ok",
-    "melding": "125 nieuwe publicaties",
-    "seconden": 143,
-    "tijd": "2026-10-09T04:30:49Z"
-  },
-  "OV": {
-    "seconden": 4,
-    "melding": "live: 8340 ritten, 1270 uitgevallen; meldingen: 777 actief, 7 nieuw",
-    "status": "ok",
-    "tijd": "2026-10-10T01:05:37Z"
-  },
-  "Deelmobiliteit": {
-    "seconden": 101,
-    "melding": "45 van 56 systemen, 25670 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "status": "ok",
-    "tijd": "2026-10-10T01:05:37Z"
-  },
-  "RDW": {
-    "status": "ok",
-    "melding": "20077 personenauto-registraties sinds 2026-09-29 verwerkt",
-    "seconden": 156,
-    "tijd": "2026-10-09T04:30:49Z"
-  },
-  "Laadpunten": {
-    "seconden": 33,
-    "melding": "75166 locaties, 187710 laadpunten (52765 aan het laden); bestand van 2026-10-10T01:05:44Z",
-    "status": "ok",
-    "tijd": "2026-10-10T01:05:37Z"
-  },
   "Verstoringen": {
     "seconden": 12,
-    "melding": "weg: 1372 actieve meldingen, 19 nieuw; spoor: niets nieuws",
     "status": "ok",
-    "tijd": "2026-10-10T01:05:37Z"
-  },
-  "Energie": {
-    "seconden": 7,
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 198, grensstromen 193, day-ahead 192 tijdstippen; TenneT: balance delta: 365 metingen in 6 kwartieren; Historie compleet",
-    "status": "ok",
-    "tijd": "2026-10-10T01:05:37Z"
+    "melding": "weg: 1335 actieve meldingen, 19 nieuw; spoor: niets nieuws",
+    "tijd": "2026-10-10T02:05:36Z"
   },
   "Netcongestie": {
     "status": "ok",
@@ -53,11 +11,17 @@
     "seconden": 4,
     "tijd": "2026-10-09T04:30:49Z"
   },
-  "Parkeren": {
-    "seconden": 0,
-    "melding": "tarieven vandaag al bijgewerkt",
+  "OV": {
+    "seconden": 4,
     "status": "ok",
-    "tijd": "2026-10-10T01:05:37Z"
+    "melding": "live: 9569 ritten, 2145 uitgevallen; meldingen: 777 actief, 0 nieuw",
+    "tijd": "2026-10-10T02:05:36Z"
+  },
+  "Laadpunten": {
+    "seconden": 32,
+    "status": "ok",
+    "melding": "75166 locaties, 187710 laadpunten (52839 aan het laden); bestand van 2026-10-10T02:05:43Z",
+    "tijd": "2026-10-10T02:05:36Z"
   },
   "EnergyZero": {
     "status": "ok",
@@ -69,6 +33,42 @@
     "status": "ok",
     "melding": "1923732 bv's/nv's verwerkt, waarvan 77326 met status faillissement",
     "seconden": 17,
+    "tijd": "2026-10-09T04:30:49Z"
+  },
+  "NS": {
+    "seconden": 10,
+    "status": "ok",
+    "melding": "storingen/werkzaamheden: 3 actief, 1 nieuw; drukte: 3 van 3 rijdende treinen, 10 stations, 0 keer drukte hoog",
+    "tijd": "2026-10-10T02:05:36Z"
+  },
+  "Deelmobiliteit": {
+    "seconden": 105,
+    "status": "ok",
+    "melding": "45 van 56 systemen, 25710 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "tijd": "2026-10-10T02:05:36Z"
+  },
+  "Energie": {
+    "seconden": 8,
+    "status": "ok",
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 201, grensstromen 197, day-ahead 192 tijdstippen; TenneT: balance delta: 374 metingen in 6 kwartieren; Historie compleet",
+    "tijd": "2026-10-10T02:05:36Z"
+  },
+  "TenderNed": {
+    "status": "ok",
+    "melding": "125 nieuwe publicaties",
+    "seconden": 143,
+    "tijd": "2026-10-09T04:30:49Z"
+  },
+  "Parkeren": {
+    "seconden": 0,
+    "status": "ok",
+    "melding": "tarieven vandaag al bijgewerkt",
+    "tijd": "2026-10-10T02:05:36Z"
+  },
+  "RDW": {
+    "status": "ok",
+    "melding": "20077 personenauto-registraties sinds 2026-09-29 verwerkt",
+    "seconden": 156,
     "tijd": "2026-10-09T04:30:49Z"
   }
 }
