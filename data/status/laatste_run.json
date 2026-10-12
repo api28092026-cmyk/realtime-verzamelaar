@@ -1,39 +1,27 @@
 ﻿{
-  "RDW": {
-    "status": "ok",
-    "tijd": "2026-10-12T04:30:49Z",
-    "seconden": 113,
-    "melding": "14958 personenauto-registraties sinds 2026-10-02 verwerkt"
-  },
-  "Verstoringen": {
-    "status": "ok",
-    "tijd": "2026-10-12T09:05:35Z",
-    "seconden": 13,
-    "melding": "weg: 1330 actieve meldingen, 172 nieuw; spoor: niets nieuws"
-  },
-  "Parkeren": {
-    "status": "ok",
-    "tijd": "2026-10-12T09:05:35Z",
-    "seconden": 0,
-    "melding": "tarieven vandaag al bijgewerkt"
-  },
-  "Laadpunten": {
-    "status": "ok",
-    "tijd": "2026-10-12T09:05:35Z",
-    "seconden": 31,
-    "melding": "75364 locaties, 188767 laadpunten (40103 aan het laden); bestand van 2026-10-12T09:05:41Z"
-  },
   "KvkOpenData": {
     "status": "ok",
     "tijd": "2026-10-12T04:30:49Z",
     "seconden": 16,
     "melding": "1924023 bv's/nv's verwerkt, waarvan 77334 met status faillissement"
   },
-  "NS": {
+  "Verstoringen": {
+    "tijd": "2026-10-12T10:05:30Z",
+    "seconden": 21,
+    "melding": "weg: 1330 actieve meldingen, 154 nieuw; spoor: niets nieuws",
+    "status": "ok"
+  },
+  "OV": {
+    "tijd": "2026-10-12T10:05:30Z",
+    "seconden": 4,
+    "melding": "live: 15909 ritten, 1801 uitgevallen; meldingen: 778 actief, 12 nieuw",
+    "status": "ok"
+  },
+  "RDW": {
     "status": "ok",
-    "tijd": "2026-10-12T09:05:35Z",
-    "seconden": 511,
-    "melding": "storingen/werkzaamheden: 11 actief, 1 nieuw; drukte: 319 van 319 rijdende treinen, 246 stations, 128 keer drukte hoog"
+    "tijd": "2026-10-12T04:30:49Z",
+    "seconden": 113,
+    "melding": "14958 personenauto-registraties sinds 2026-10-02 verwerkt"
   },
   "Netcongestie": {
     "status": "ok",
@@ -41,17 +29,11 @@
     "seconden": 5,
     "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (924 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (924 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)"
   },
-  "OV": {
+  "EnergyZero": {
     "status": "ok",
-    "tijd": "2026-10-12T09:05:35Z",
-    "seconden": 4,
-    "melding": "live: 16460 ritten, 1869 uitgevallen; meldingen: 778 actief, 12 nieuw"
-  },
-  "Energie": {
-    "status": "ok",
-    "tijd": "2026-10-12T09:05:35Z",
-    "seconden": 7,
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 230, grensstromen 226, day-ahead 192 tijdstippen; TenneT: balance delta: 367 metingen in 6 kwartieren; Historie compleet"
+    "tijd": "2026-10-12T04:30:49Z",
+    "seconden": 5,
+    "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen"
   },
   "TenderNed": {
     "status": "ok",
@@ -59,16 +41,34 @@
     "seconden": 68,
     "melding": "62 nieuwe publicaties"
   },
-  "Deelmobiliteit": {
-    "status": "ok",
-    "tijd": "2026-10-12T09:05:35Z",
-    "seconden": 92,
-    "melding": "45 van 56 systemen, 17556 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+  "Energie": {
+    "tijd": "2026-10-12T10:05:30Z",
+    "seconden": 7,
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 233, grensstromen 232, day-ahead 288 tijdstippen; TenneT: balance delta: 372 metingen in 6 kwartieren; Historie compleet",
+    "status": "ok"
   },
-  "EnergyZero": {
-    "status": "ok",
-    "tijd": "2026-10-12T04:30:49Z",
-    "seconden": 5,
-    "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen"
+  "Deelmobiliteit": {
+    "tijd": "2026-10-12T10:05:30Z",
+    "seconden": 83,
+    "melding": "45 van 56 systemen, 17368 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "status": "ok"
+  },
+  "NS": {
+    "tijd": "2026-10-12T10:05:30Z",
+    "seconden": 478,
+    "melding": "storingen/werkzaamheden: 11 actief, 0 nieuw; drukte: 312 van 312 rijdende treinen, 244 stations, 38 keer drukte hoog",
+    "status": "ok"
+  },
+  "Parkeren": {
+    "tijd": "2026-10-12T10:05:30Z",
+    "seconden": 0,
+    "melding": "tarieven vandaag al bijgewerkt",
+    "status": "ok"
+  },
+  "Laadpunten": {
+    "tijd": "2026-10-12T10:05:30Z",
+    "seconden": 47,
+    "melding": "75160 locaties, 187630 laadpunten (44508 aan het laden); bestand van 2026-10-12T10:05:35Z",
+    "status": "ok"
   }
 }
