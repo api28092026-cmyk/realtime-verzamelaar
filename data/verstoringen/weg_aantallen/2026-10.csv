@@ -4925,3 +4925,16 @@
 2026-10-12T00:05:31Z,VehicleObstruction,brokenDownVehicle,1,0
 2026-10-12T00:05:31Z,GeneralNetworkManagement,trafficBeingManuallyDirected,2,0
 2026-10-12T00:05:31Z,RoadOrCarriagewayOrLaneManagement,carriagewayClosures,572,0
+2026-10-12T01:05:28Z,GeneralNetworkManagement,bridgeSwingInOperation,4,0
+2026-10-12T01:05:28Z,RoadOrCarriagewayOrLaneManagement,useOfSpecifiedLanesOrCarriagewaysAllowed,14,0
+2026-10-12T01:05:28Z,GeneralNetworkManagement,trafficBeingManuallyDirected,2,0
+2026-10-12T01:05:28Z,RoadOrCarriagewayOrLaneManagement,roadClosed,7,0
+2026-10-12T01:05:28Z,SpeedManagement,speedRestrictionInOperation,108,0
+2026-10-12T01:05:28Z,RoadOrCarriagewayOrLaneManagement,carriagewayClosures,573,0
+2026-10-12T01:05:28Z,RoadOrCarriagewayOrLaneManagement,lanesDeviated,40,0
+2026-10-12T01:05:28Z,RoadOrCarriagewayOrLaneManagement,other,71,0
+2026-10-12T01:05:28Z,VehicleObstruction,other,53,0
+2026-10-12T01:05:28Z,RoadOrCarriagewayOrLaneManagement,laneClosures,141,0
+2026-10-12T01:05:28Z,ReroutingManagement,followDiversionSigns,84,0
+2026-10-12T01:05:28Z,GeneralObstruction,other,1,0
+2026-10-12T01:05:28Z,RoadOrCarriagewayOrLaneManagement,narrowLanes,1,0
