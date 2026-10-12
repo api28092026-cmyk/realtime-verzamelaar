@@ -2447,3 +2447,10 @@
 2026-10-12 15:08:11 [INFO] OV OK in 9 s: live: 15946 ritten, 1681 uitgevallen; meldingen: 810 actief, 16 nieuw
 2026-10-12 15:09:02 [INFO] NS OK in 51 s: storingen/werkzaamheden: 11 actief, 0 nieuw; drukte: 24 van 24 rijdende treinen, 0 stations, 0 keer drukte hoog
 2026-10-12 15:09:11 [INFO] Energie OK in 9 s: Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 253, grensstromen 247, day-ahead 384 tijdstippen; TenneT: balance delta: 327 metingen in 6 kwartieren; Historie compleet
+2026-10-12 16:06:25 [INFO] Laadpunten OK in 48 s: 80245 locaties, 201724 laadpunten (48754 aan het laden); bestand van 2026-10-12T16:05:42Z
+2026-10-12 16:06:25 [INFO] Parkeren OK in 0 s: tarieven vandaag al bijgewerkt
+2026-10-12 16:07:52 [INFO] Deelmobiliteit OK in 87 s: 45 van 56 systemen, 25433 voertuigen; niet bereikbaar: dott-eindhoven, dott-groningen, dott-utrecht, dott-veldhoven, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-10-12 16:08:15 [INFO] Verstoringen OK in 23 s: weg: 1422 actieve meldingen, 291 nieuw; spoor: niets nieuws
+2026-10-12 16:08:19 [INFO] OV OK in 4 s: live: 17929 ritten, 1649 uitgevallen; meldingen: 815 actief, 10 nieuw
+2026-10-12 16:16:48 [INFO] NS OK in 509 s: storingen/werkzaamheden: 11 actief, 0 nieuw; drukte: 327 van 327 rijdende treinen, 247 stations, 289 keer drukte hoog
+2026-10-12 16:16:56 [INFO] Energie OK in 8 s: Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 256, grensstromen 255, day-ahead 384 tijdstippen; TenneT: balance delta: 413 metingen in 6 kwartieren; Historie compleet
