@@ -19,7 +19,7 @@ $script:NzaCodeKol = 'code_nr', 'code_wachttijd', 'type_wachttijd', 'specialisme
 
 # Downloadlinks van de datasetpagina: 'actueel' (de link 'de dataset') en per archiefjaar.
 function Get-NzaLinks {
-    $html = Invoke-Get -Uri $script:NzaPagina -TimeoutSec 60
+    $html = $(if ($IsLinux) { & curl -4 -fsSL --retry 5 --retry-delay 15 --retry-all-errors -A $script:Cfg.UserAgent $script:NzaPagina | Out-String } else { Invoke-Get -Uri $script:NzaPagina -TimeoutSec 60 })
     $links = [ordered]@{}
     foreach ($m in [regex]::Matches($html, '<a[^>]+href="([^"]*DownloadDocument\.ashx\?identifier=PUC_\d+_22[^"]*)"[^>]*>(.*?)</a>', 'Singleline')) {
         $tekst = ($m.Groups[2].Value -replace '<[^>]+>', '').Trim()
@@ -28,6 +28,18 @@ function Get-NzaLinks {
     }
     if (-not $links.Contains('actueel')) { throw 'Link naar de actuele dataset niet gevonden op de NZa-pagina (opmaak gewijzigd?).' }
     return $links
+}
+
+# puc.overheid.nl heeft ook een IPv6-adres; GitHub-runners hebben geen IPv6 en krijgen dan af en toe 'Network is
+# unreachable'. Op Linux daarom curl met alleen IPv4 en eigen herhaalpogingen; elders de gewone download.
+function Save-NzaBestand {
+    param([string]$Url, [string]$Pad)
+    if ($IsLinux) {
+        & curl -4 -fsSL --retry 5 --retry-delay 15 --retry-all-errors --max-time 900 -A $script:Cfg.UserAgent -o $Pad $Url
+        if ($LASTEXITCODE -ne 0) { throw "curl kon $Url niet ophalen (exitcode $LASTEXITCODE)" }
+    } else {
+        Invoke-Get -Uri $Url -OutFile $Pad -TimeoutSec 600 -Pogingen 3
+    }
 }
 
 function Get-Cp1252 { try { [Text.Encoding]::GetEncoding(1252) } catch { [Text.Encoding]::GetEncoding('iso-8859-1') } }
@@ -107,7 +119,7 @@ function Invoke-BronNzaWachttijden {
     $tmp = Join-Path ([IO.Path]::GetTempPath()) 'realtime-verzamelaar'; New-Item -ItemType Directory -Force -Path $tmp | Out-Null
     foreach ($url in $bronnen) {
         $f = Join-Path $tmp 'nza_wachttijden.csv'
-        Invoke-Get -Uri $url -OutFile $f -TimeoutSec 600 -Pogingen 3
+        Save-NzaBestand -Url $url -Pad $f
         # De bestanden overlappen (het actuele bestand bevat een jaar terug): per peildatum wint het nieuwste bestand.
         $ditBestand = @{}
         $n = Read-NzaBestand -Pad $f -Na $laatste -Vest $vest -Codes $codes -Uit $ditBestand
