@@ -77,4 +77,13 @@ catch {
 # Zelfde taak haalt ook de hoogfrequente data (laadpunten en parkeren) binnen; die logt zelf in hoogfrequent\data\sync.log.
 $hf = Join-Path $PSScriptRoot '..\hoogfrequent\sync_local.ps1'
 if (Test-Path $hf) { & $hf }
+
+# En werkt de lokale kopie van de repository bij (data van de uurjob en de OV-fiets-historie in data\).
+# Alleen fast-forward: lokale wijzigingen worden nooit overschreven; lukt het niet, dan volgende keer opnieuw.
+try {
+    & git.exe -C (Join-Path $PSScriptRoot '..') pull --ff-only --quiet | Out-Null      # eigen instellingen van de repo (regeleinden) aanhouden
+    if ($LASTEXITCODE -ne 0) { throw "git pull mislukte (exitcode $LASTEXITCODE)" }
+    Log 'repository bijgewerkt (git pull)'
+}
+catch { Log "repository niet bijgewerkt: $($_.Exception.Message)" }
 if ($fout) { exit 1 }
