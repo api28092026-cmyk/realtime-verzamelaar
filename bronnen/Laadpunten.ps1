@@ -29,6 +29,76 @@ function Move-LaadpuntenOudeBestanden {
         Remove-Item -Path $pad
     }
 }
+
+# Niet elke exploitant geeft zijn status live door aan NDW. Deze indeling, elke dag opnieuw uit de uurtellingen van de
+# afgelopen 7 dagen, zegt per exploitant wat de data waard is:
+#   live             'aan het laden' verandert in >= 60% van de uren: echte wisseltijden, bruikbaar per 5 minuten
+#   per 6 uur        wisselt vrijwel alleen om 04, 10, 16 en 22 uur UTC: alleen die vier standen per dag zijn betrouwbaar
+#   deels aanwezig   staat maar een deel van de uren in de feed (bv. Enviem: 12 uur per dag)
+#   bevroren         status verandert (bijna) nooit
+#   onregelmatig     geen duidelijk patroon (vaak kleine exploitanten)
+#   klein            minder dan 25 laadpunten: te weinig om te beoordelen
+#   te kort gemeten  minder dan 48 uurmetingen (bv. een net aangesloten exploitant)
+function Update-LaadpuntenIndeling {
+    $map = Get-LaadpuntenMap 'per_exploitant'
+    $nu = (Get-Date).ToUniversalTime()
+    $vanaf = $nu.AddDays(-7).ToString('yyyy-MM-ddTHH', $script:Inv)
+    $maanden = @($nu.AddDays(-7).ToString('yyyy-MM', $script:Inv), $nu.ToString('yyyy-MM', $script:Inv)) | Select-Object -Unique
+    # Een meting per uur: de vaste uurrun (hh:05 tot hh:20); extra runs halverwege het uur tellen niet mee.
+    $perUur = @{}
+    foreach ($m in $maanden) {
+        $f = Join-Path $map ($m + '.csv')
+        if (-not (Test-Path $f)) { continue }
+        foreach ($r in (Import-Csv $f)) {
+            $uur = $r.peilmoment.Substring(0, 13); $min = [int]$r.peilmoment.Substring(14, 2)
+            if ($uur -lt $vanaf -or $min -gt 20) { continue }
+            if (-not $perUur.ContainsKey($uur)) { $perUur[$uur] = @{ t = $r.peilmoment; rijen = @{} } }
+            if ($r.peilmoment -ne $perUur[$uur].t) { continue }
+            $perUur[$uur].rijen[$r.exploitant] = $r
+        }
+    }
+    $uren = @($perUur.Keys | Sort-Object)
+    if ($uren.Count -lt 24) { return "indeling overgeslagen: pas $($uren.Count) uurmetingen" }
+    $exploitanten = @($perUur.Values | ForEach-Object { $_.rijen.Keys } | Sort-Object -Unique | Where-Object { $_ -ne '_totaal' })
+    $batch = '04', '10', '16', '22'
+    $rijen = foreach ($op in $exploitanten) {
+        $aanwezig = 0; $stappen = 0; $veranderd = 0; $opBatch = 0; $min = [int]::MaxValue; $max = 0; $vorige = $null; $vorigUur = $null
+        foreach ($u in $uren) {
+            $r = $perUur[$u].rijen[$op]
+            if (-not $r) { $vorige = $null; continue }
+            $aanwezig++; $n = [int]$r.evses; if ($n -lt $min) { $min = $n }; if ($n -gt $max) { $max = $n }
+            $tijd = [datetime]::ParseExact($u, 'yyyy-MM-ddTHH', $script:Inv)
+            if ($vorige -and ($tijd - $vorigUur).TotalHours -eq 1) {
+                $stappen++
+                if ($vorige.charging -ne $r.charging) { $veranderd++; if ($batch -contains $u.Substring(11, 2)) { $opBatch++ } }
+            }
+            $vorige = $r; $vorigUur = $tijd
+        }
+        $fracAanwezig = $aanwezig / $uren.Count
+        $fracVeranderd = $(if ($stappen) { $veranderd / $stappen } else { 0 })
+        $fracBatch = $(if ($veranderd) { $opBatch / $veranderd } else { 0 })
+        $groep = if ($aanwezig -lt 48) { 'te kort gemeten' }
+                 elseif ($max -lt 25) { 'klein' }
+                 elseif ($fracAanwezig -lt 0.8 -or $min -lt 0.5 * $max) { 'deels aanwezig' }
+                 elseif ($fracVeranderd -ge 0.6) { 'live' }
+                 elseif ($veranderd -ge 5 -and $fracBatch -ge 0.8) { 'per 6 uur' }
+                 elseif ($veranderd -le 2) { 'bevroren' }
+                 else { 'onregelmatig' }
+        @{ peildatum = $script:Today; exploitant = $op; groep = $groep; laadpunten = $max; uren_gemeten = $aanwezig
+           aandeel_uren_aanwezig = [math]::Round($fracAanwezig, 3); aandeel_uren_veranderd = [math]::Round($fracVeranderd, 3)
+           aandeel_wissels_op_batchuur = [math]::Round($fracBatch, 3); periode_van = $uren[0] + ':00Z'; periode_tot = $uren[-1] + ':00Z' }
+    }
+    $kol = 'peildatum', 'exploitant', 'groep', 'laadpunten', 'uren_gemeten', 'aandeel_uren_aanwezig', 'aandeel_uren_veranderd', 'aandeel_wissels_op_batchuur', 'periode_van', 'periode_tot'
+    $pad = Join-Path (Get-DataPath 'laadpunten') 'exploitant_indeling.csv'
+    if (Test-Path $pad) { Remove-Item $pad }
+    Add-CsvRows -Path $pad -Columns $kol -Rows @($rijen | Sort-Object { $_.groep }, { - $_.laadpunten })
+    Add-CsvRows -Path (Join-Path (Get-DataPath 'laadpunten') 'exploitant_indeling_historie.csv') -Columns $kol -Rows @($rijen)
+    $live = @($rijen | Where-Object { $_.groep -eq 'live' })
+    $somLive = 0; foreach ($r in $live) { $somLive += $r.laadpunten }
+    $som = 0; foreach ($r in $rijen) { $som += $r.laadpunten }
+    return "indeling: $($live.Count) van $(@($rijen).Count) exploitanten live ($([math]::Round(100 * $somLive / [math]::Max(1, $som)))% van de laadpunten)"
+}
+
 function Invoke-BronLaadpunten {
     $tmpDir = Join-Path ([IO.Path]::GetTempPath()) 'realtime-verzamelaar'
     New-Item -ItemType Directory -Force -Path $tmpDir | Out-Null
@@ -89,13 +159,21 @@ function Invoke-BronLaadpunten {
     $opRijen = foreach ($k in ($perOp.Keys | Sort-Object)) { & $maakRij 'exploitant' $k $perOp[$k] }
     Add-CsvRows -Path (Join-Path (Get-LaadpuntenMap 'per_exploitant') $maand) -Columns (@('peilmoment', 'exploitant', 'locaties', 'evses', 'evses_dc') + $statusKol + @('mediaan_kwh_ac', 'mediaan_kwh_dc')) -Rows @($opRijen)
     # Per plaats (~2.500 plaatsen) een keer per dag; elk uur zou ruim 100 MB per maand opleveren.
-    $status = Get-Status 'laadpunten'
-    if (-not $status -or $status.per_plaats_peildatum -ne $script:Today) {
+    # Ook een keer per dag: de indeling van exploitanten naar hoe vaak hun status ververst.
+    $oud = Get-Status 'laadpunten'
+    $status = @{ per_plaats_peildatum = $(if ($oud) { $oud.per_plaats_peildatum }); indeling_peildatum = $(if ($oud) { $oud.indeling_peildatum }) }
+    $extra = ''
+    if ($status.per_plaats_peildatum -ne $script:Today) {
         $plRijen = foreach ($k in ($perPlaats.Keys | Sort-Object)) { & $maakRij 'plaats' $k $perPlaats[$k] }
         Add-CsvRows -Path (Join-Path (Get-LaadpuntenMap 'per_plaats') $maand) -Columns (@('peilmoment', 'plaats', 'locaties', 'evses', 'evses_dc') + $statusKol + @('mediaan_kwh_ac', 'mediaan_kwh_dc')) -Rows @($plRijen)
-        Set-Status 'laadpunten' @{ per_plaats_peildatum = $script:Today }
+        $status.per_plaats_peildatum = $script:Today
     }
+    if ($status.indeling_peildatum -ne $script:Today) {
+        $extra = '; ' + (Update-LaadpuntenIndeling)
+        $status.indeling_peildatum = $script:Today
+    }
+    Set-Status 'laadpunten' $status
 
     $tot = $perOp['_totaal']
-    return "$($tot.locaties) locaties, $($tot.evses) laadpunten ($($tot.CHARGING) aan het laden); bestand van $bronTijd"
+    return "$($tot.locaties) locaties, $($tot.evses) laadpunten ($($tot.CHARGING) aan het laden); bestand van $bronTijd$extra"
 }

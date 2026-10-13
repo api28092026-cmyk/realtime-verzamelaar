@@ -15,7 +15,7 @@ Geen enkele bron vraagt een account of API-key. De workflows draaien op GitHub A
 | **EnergyZero** | `energyzero_prijzen.csv`: uurprijs stroom (EUR/kWh) en gas (EUR/m³), excl. btw; `gasprijs_dag.csv`: gasprijs per gasdag (06:00–06:00) in EUR/m³ en omgerekend naar EUR/MWh, vanaf 2020 | Openbaar endpoint van de EnergyZero-app, geen officieel dataproduct. Het is de kale beursprijs zonder opslag en energiebelasting: de stroomprijs is gelijk aan de Nord Pool-dagprijs (gecontroleerd), de gasprijs is de TTF day-ahead-prijs, afgerond op hele centen per m³ (circa 0,5 EUR/MWh nauwkeurig). Omrekening met 9,769 kWh/m³ (Groningen-equivalent). |
 | **TenderNed** | `tenderned_publicaties.csv`: elke nieuwe aankondiging, gunning en rectificatie, met opdrachtgever, procedure, CPV- en regiocodes | Gebruikt het openbare JSON-endpoint achter tenderned.nl en valt terug op de officiële Atom-feed. De eerste run haalt ~1.000 publicaties terug (10–15 min). Het volledige detail per publicatie staat in `tenderned_details\`. |
 | **RDW** | `rdw_registraties_per_soort.csv` (alle voertuigen per dag), `rdw_personenautos_per_brandstof.csv` en `..._per_merk.csv` (per dag, nieuw of import), `rdw_wagenpark_per_brandstof.csv` (hele wagenpark per peildatum) | De laatste 10 dagen worden elke run opnieuw geteld, zodat late registraties meetellen. "Benzine+Elektriciteit" omvat zowel plug-in als gewone hybrides. |
-| **Laadpunten (DOT-NL)** | `data/laadpunten/per_exploitant/<JJJJ-MM>.csv` (elk uur) en `per_plaats/<JJJJ-MM>.csv` (een keer per dag): aantallen per status (beschikbaar, aan het laden, defect …) en de mediaan kWh-prijs voor AC en DC | De rij `_totaal` bevat heel Nederland. De status per afzonderlijk laadpunt, elke 5 minuten, staat in de hoogfrequente verzamelaar (hieronder). Tot 6 oktober 2026 werd per plaats elk uur gemeten. |
+| **Laadpunten (DOT-NL)** | `data/laadpunten/per_exploitant/<JJJJ-MM>.csv` (elk uur) en `per_plaats/<JJJJ-MM>.csv` (een keer per dag): aantallen per status (beschikbaar, aan het laden, defect …) en de mediaan kWh-prijs voor AC en DC; `exploitant_indeling.csv`: per exploitant hoe vaak de status ververst (zie *Kwaliteit van de laadpuntdata*) | De rij `_totaal` bevat heel Nederland. De status per afzonderlijk laadpunt, elke 5 minuten, staat in de hoogfrequente verzamelaar (hieronder). Tot 6 oktober 2026 werd per plaats elk uur gemeten. |
 | **Netcongestie** | `netcongestie_*.csv`: vier lagen van de Capaciteitskaart (regionale netbeheerders en TenneT, afname en teruglevering), per voedingsgebied met status, wachtrij en aantal verzoeken | Schrijft alleen een nieuwe momentopname als de bron gewijzigd is. De statusvelden (`afname`, `opwek`) zijn de kleurcodes van de kaart. |
 | **OV-fiets** (`ovfiets/`) | `data/ovfiets/historie/<code>/<JJJJ-MM>.csv`: beschikbare fietsen per locatie per ~15 min, plus `locaties_live_reeks.csv` | Python-script (alleen standaardbibliotheek) voor ovfietsbeschikbaar.nl. De site toont ~4 weken; `samenvoegen.py` bouwt daar doorlopende reeksen van. De reeks begint eind augustus 2026 (eerdere scrape meegenomen). |
 | **OV-fiets wijzigingen** (`openov/`) | Op de branch `data`: `changes/<JJJJ-MM>.csv` (een regel per locatie waarvan het aantal fietsen of de openingsstatus veranderde), `scrapes/<JJJJ-MM>.csv` (elke poging, voor dekking en gaten), `locaties_meta.csv` en `state.json` | Elke 5 minuten via cron-job.org. Afgesloten maanden gaan als zip naar een release `data-JJJJ-MM` en daarna uit de branch. `openov/sync_local.ps1` haalt alles naar de lokale schijf. |
@@ -31,6 +31,26 @@ Geen enkele bron vraagt een account of API-key. De workflows draaien op GitHub A
 
 Alle CSV's gebruiken een komma als scheidingsteken en een punt als decimaalteken, in UTF-8. In Excel open je ze via **Gegevens > Van tekst/CSV**; in Power BI of Python lezen ze direct in. Elke rij heeft een `opgehaald_op`-tijdstempel (UTC).
 
+## Kwaliteit van de laadpuntdata
+
+Niet elke exploitant geeft de status van zijn laadpunten live door aan NDW. Daarom deelt de uurjob de exploitanten elke dag opnieuw in, op basis van de uurtellingen van de afgelopen 7 dagen: `data/laadpunten/exploitant_indeling.csv` (actueel) en `exploitant_indeling_historie.csv` (elke dag een stand). De naam in de kolom `exploitant` is dezelfde als in `laadpunten_kenmerken`, dus je koppelt de 5-minutendata zo: wijzigingen → kenmerken (via `evse`) → indeling (via `exploitant`).
+
+| Groep | Betekenis | Gebruik |
+|---|---|---|
+| `live` | Het aantal laadpunten dat laadt, verandert in ≥ 60% van de uren | Echte wisseltijden; bruikbaar voor bezetting per 5 minuten en per laadsessie |
+| `per 6 uur` | Statussen wisselen vrijwel alleen om 04, 10, 16 en 22 uur UTC | Alleen die vier standen per dag; korte laadsessies ontbreken en de tijdstempels zijn niet de echte wisseltijden |
+| `deels aanwezig` | Staat maar een deel van de uren in de feed (Enviem: 04–10 en 16–22 uur UTC) | Alleen binnen die uren |
+| `bevroren` | Status verandert (bijna) nooit | Niet gebruiken voor bezetting |
+| `onregelmatig`, `klein` | Geen duidelijk patroon, of minder dan 25 laadpunten | Per geval beoordelen |
+| `te kort gemeten` | Minder dan 48 uurmetingen, bv. net aangesloten | Na een paar dagen opnieuw kijken |
+
+Stand eind week 1 (7–12 oktober 2026): 24 exploitanten live, samen ±153.000 laadpunten (Vattenfall, EQUANS, TotalEnergies, Allego, Qwello, Eneco …); ±34.000 per 6 uur (E-Flux by Road, Laadnet, Opcharge, Pluq, Tesla …).
+
+Verder om te weten:
+- **Breuk op 12 oktober 2026, 16:05 UTC:** 50five sloot aan (+13.845 laadpunten) en 2.580 laadpunten van AGO verdwenen. Landelijke totalen springen daar; reken per exploitant.
+- **`VERDWENEN`** in de wijzigingen betekent dat een laadpunt uit de feed viel, niet dat het weg is. Behandel het als ontbrekende data.
+- **Volledig vanaf 7 oktober 2026.** Op 6 oktober begint de reeks om 13:57 UTC. Controle: de beginstand van 6 oktober plus alle wijzigingen geeft op 0,07% na de beginstand van 12 oktober.
+- Bestanden zijn per UTC-dag; een Nederlandse dag (UTC+1 of +2) beslaat dus twee bestanden.
 ## Snel starten
 
 ```powershell
