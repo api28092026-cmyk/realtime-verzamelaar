@@ -19,7 +19,10 @@ $script:NzaCodeKol = 'code_nr', 'code_wachttijd', 'type_wachttijd', 'specialisme
 
 # Downloadlinks van de datasetpagina: 'actueel' (de link 'de dataset') en per archiefjaar.
 function Get-NzaLinks {
-    $html = $(if ($IsLinux) { & curl -4 -fsSL --retry 5 --retry-delay 15 --retry-all-errors -A $script:Cfg.UserAgent $script:NzaPagina | Out-String } else { Invoke-Get -Uri $script:NzaPagina -TimeoutSec 60 })
+    if ($IsLinux) {
+        $html = (& curl -4 -sSL --retry 5 --retry-delay 15 --retry-all-errors -w '\nHTTP %{http_code}' -A $script:Cfg.UserAgent $script:NzaPagina) -join "`n"
+        if ($LASTEXITCODE -ne 0 -or $html -notmatch 'HTTP 200\s*$') { throw "NZa-pagina niet opgehaald (curl $LASTEXITCODE, $(($html -split "`n")[-1]), $($html.Length) tekens)" }
+    } else { $html = Invoke-Get -Uri $script:NzaPagina -TimeoutSec 60 }
     $links = [ordered]@{}
     foreach ($m in [regex]::Matches($html, '<a[^>]+href="([^"]*DownloadDocument\.ashx\?identifier=PUC_\d+_22[^"]*)"[^>]*>(.*?)</a>', 'Singleline')) {
         $tekst = ($m.Groups[2].Value -replace '<[^>]+>', '').Trim()
