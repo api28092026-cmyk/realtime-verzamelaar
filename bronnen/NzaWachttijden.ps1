@@ -108,7 +108,10 @@ function Invoke-BronNzaWachttijden {
     foreach ($url in $bronnen) {
         $f = Join-Path $tmp 'nza_wachttijden.csv'
         Invoke-Get -Uri $url -OutFile $f -TimeoutSec 600 -Pogingen 3
-        $n = Read-NzaBestand -Pad $f -Na $laatste -Vest $vest -Codes $codes -Uit $nieuw
+        # De bestanden overlappen (het actuele bestand bevat een jaar terug): per peildatum wint het nieuwste bestand.
+        $ditBestand = @{}
+        $n = Read-NzaBestand -Pad $f -Na $laatste -Vest $vest -Codes $codes -Uit $ditBestand
+        foreach ($peil in $ditBestand.Keys) { $nieuw[$peil] = $ditBestand[$peil] }
         Write-Log "NZa-wachttijden: $n nieuwe regels uit $($url -replace '.*identifier=', '')"
         Remove-Item $f -ErrorAction SilentlyContinue
         Suspend-Beleefd
