@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       bron:
-        description: 'Bronnen, komma-gescheiden (leeg = alle): EnergyZero, TenderNed, RDW, Laadpunten, Netcongestie, KvkOpenData, Parkeren, Deelmobiliteit, Verstoringen, OV, NS, Energie'
+        description: 'Bronnen, komma-gescheiden (leeg = alle): EnergyZero, TenderNed, RDW, Laadpunten, Netcongestie, KvkOpenData, Parkeren, Deelmobiliteit, Verstoringen, OV, NS, Energie, NzaWachttijden'
         required: false
         default: ''
 
