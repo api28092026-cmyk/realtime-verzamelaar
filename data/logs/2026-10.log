@@ -2606,3 +2606,10 @@
 2026-10-13 12:08:13 [INFO] OV OK in 4 s: live: 21814 ritten, 9029 uitgevallen; meldingen: 839 actief, 21 nieuw
 2026-10-13 12:16:33 [INFO] NS OK in 500 s: storingen/werkzaamheden: 9 actief, 0 nieuw; drukte: 324 van 324 rijdende treinen, 245 stations, 48 keer drukte hoog
 2026-10-13 12:16:42 [INFO] Energie OK in 8 s: Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 242, grensstromen 238, day-ahead 288 tijdstippen; TenneT: balance delta: 371 metingen in 6 kwartieren; Historie compleet
+2026-10-13 12:45:02 [INFO] NZa-wachttijden: 88301 nieuwe regels uit PUC_730444_22&versienummer=1
+2026-10-13 12:45:14 [INFO] NZa-wachttijden: 228257 nieuwe regels uit PUC_730445_22&versienummer=1
+2026-10-13 12:45:24 [INFO] NZa-wachttijden: 239951 nieuwe regels uit PUC_757085_22&versienummer=1
+2026-10-13 12:45:35 [INFO] NZa-wachttijden: 250856 nieuwe regels uit PUC_784122_22&versienummer=1
+2026-10-13 12:45:46 [INFO] NZa-wachttijden: 252667 nieuwe regels uit PUC_772052_22&versienummer=1
+2026-10-13 12:45:57 [INFO] NZa-wachttijden: 269526 nieuwe regels uit PUC_809508_22&versienummer=1
+2026-10-13 12:46:00 [INFO] NzaWachttijden OK in 65 s: 135 nieuwe peildata (2021-08-10 t/m 2026-09-29), 1329558 regels; 1124 vestigingen, 114 codes
