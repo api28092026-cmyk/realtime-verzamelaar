@@ -6,7 +6,7 @@ Bouwt tijdreeksen op uit open databronnen die zelf alleen de actuele stand tonen
 - `ovfiets/`: OV-fiets-historie per locatie van ovfietsbeschikbaar.nl, in Python.
 - `openov/`: OV-fiets-wijzigingen per 5 minuten van fiets.openov.nl, in Python.
 
-Geen enkele bron vraagt een account of API-key. De workflows draaien op GitHub Actions en worden gestart door cron-job.org (zie [CRON.md](CRON.md)).
+De workflows draaien op GitHub Actions en worden gestart door cron-job.org (zie [CRON.md](CRON.md)).
 
 ## Wat er verzameld wordt
 
@@ -102,25 +102,6 @@ powershell -ExecutionPolicy Bypass -File .\Verzamel.ps1
 ```
 
 Het logboek staat in `data\logs\`. Het resultaat van de laatste run per bron staat in `data\status\laatste_run.json`.
-
-## Automatisch laten draaien
-
-De workflows draaien op GitHub Actions. Omdat de repository openbaar is, zijn de minuten gratis; de verzamelde data is daardoor ook openbaar. cron-job.org start ze op vaste tijden: elke 5 minuten OV-fiets-wijzigingen, dagelijks de realtime-bronnen, optioneel elk uur de laadpunten en twee keer per week de OV-fiets-historie. Hoe je dat instelt, staat stap voor stap in [CRON.md](CRON.md), samen met de alternatieven via crontab op een eigen server en via Windows Taakplanner (`Installeer-Taak.ps1`).
-
-## Anoniem verzamelen
-
-Wat de bronnen van je zien, en wat je daaraan kunt doen:
-
-- **Geen account, geen key.** Alle zes de bronnen zijn zonder registratie te gebruiken. Er is dus nergens een naam, e-mailadres of bedrijf aan de verzoeken gekoppeld.
-- **Je haalt alles op, niet een selectie.** De scripts downloaden steeds de volledige landelijke dataset (alle laadpunten, alle bv's, alle publicaties) en filteren pas daarna. Een bron kan dus niet zien welke concurrent, regio of klant je volgt.
-- **Neutrale identificatie.** De `UserAgent` in `config.psd1` noemt geen persoon of bedrijf, maar verwijst naar deze (anonieme) repository. Zo kunnen bronhouders contact opnemen via GitHub in plaats van te blokkeren; OVapi vraagt daar expliciet om. Laat hem eerlijk: geen nagebootste browser.
-- **Niet vanaf het kantoornetwerk.** Wil je niet dat verzoeken van het IP-adres van kantoor komen, draai dan via GitHub Actions (of een eigen cloudserver). De bronnen zien dan een IP-adres van Microsoft/GitHub. GitHub zelf weet uiteraard wel van wie de repository is.
-
-Wat deze verzamelaar bewust **niet** doet: wisselende proxy's, nagebootste browsers of het omzeilen van limieten en blokkades. Dat is in strijd met de gebruiksvoorwaarden van de meeste bronnen en is ook niet nodig: het volume is een paar honderd rustige verzoeken per dag, met een pauze tussen elk verzoek.
-
-## Waarom niet het Centraal Insolventieregister?
-
-Het CIR is alleen geautomatiseerd te bevragen via een webservice-abonnement, dus met registratie, en het bevat persoonsgegevens (schuldsaneringen). Het veld `Insolventie` in de KVK open dataset geeft hetzelfde signaal voor alle bv's en nv's: anoniem, dagelijks en onder CC BY 4.0. Heb je per leverancier details nodig (curator, rechtbank, datum), vraag dan het gratis CIR-abonnement aan. Dat is een aparte module die zich identificeert.
 
 ## Onderhoud
 
