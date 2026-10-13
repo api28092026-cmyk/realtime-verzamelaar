@@ -84,15 +84,15 @@ Voeg dan met `crontab -e` deze regels toe (een `%` moet in crontab als `\%`):
 
 Gebruik steeds maar één route. Anders halen twee machines dezelfde data op en krijg je dubbele commits.
 
-## Alleen lokaal: wachttijden
+## Wachttijden: nu via de NZa
 
-De wachttijden (NZa-gegevens via ZorgkaartNederland) draaien bewust niet op GitHub, zodat de data niet openbaar wordt. Plan ze eenmalig op deze pc, in PowerShell **als administrator**:
+Tot 13 oktober 2026 haalde een lokale taak de wachttijden van ZorgkaartNederland. Die is vervangen door de bron `NzaWachttijden`: de NZa publiceert dezelfde cijfers zelf als open data, met historie vanaf augustus 2021. Die bron draait gewoon mee in de dagelijkse run op GitHub. De oude taak doet niets meer en kan weg, in PowerShell **als administrator**:
 
 ```powershell
-.\Installeer-WachttijdenTaak.ps1
+.\Installeer-WachttijdenTaak.ps1 -Verwijder
 ```
 
-De taak start elke dag om 10:15, onzichtbaar. Hij haalt hooguit één keer per 7 dagen op, dus een gemiste week wordt vanzelf ingehaald. De data komt in `lokaal\wachttijden\<jaar>.csv`. Weghalen gaat met `.\Installeer-WachttijdenTaak.ps1 -Verwijder`.
+De metingen van ZorgkaartNederland (29 september – 13 oktober 2026) blijven in `lokaal\wachttijden\`.
 ## Bewaken
 
 - In cron-job.org: de uitvoeringsgeschiedenis per job; bij een melding eerst naar de statuscode kijken (401 = token verlopen, 404 = verkeerde URL of workflownaam).
