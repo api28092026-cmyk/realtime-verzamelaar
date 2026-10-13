@@ -2628,3 +2628,10 @@
 2026-10-13 12:53:23 [WARN] Poging 2 mislukt (https://puc.overheid.nl/PUC/Handlers/DownloadDocument.ashx?identifier=PUC_772052_22&versienummer=1): Network is unreachable (puc.overheid.nl:443). Opnieuw over 15 s.
 2026-10-13 12:53:54 [ERROR] NzaWachttijden MISLUKT: Network is unreachable (puc.overheid.nl:443)
 2026-10-13 12:57:21 [ERROR] NzaWachttijden MISLUKT: Link naar de actuele dataset niet gevonden op de NZa-pagina (opmaak gewijzigd?).
+2026-10-13 12:59:08 [INFO] NZa-wachttijden: 88301 nieuwe regels uit PUC_730444_22&versienummer=1
+2026-10-13 12:59:21 [INFO] NZa-wachttijden: 228257 nieuwe regels uit PUC_730445_22&versienummer=1
+2026-10-13 12:59:33 [INFO] NZa-wachttijden: 239951 nieuwe regels uit PUC_757085_22&versienummer=1
+2026-10-13 12:59:47 [INFO] NZa-wachttijden: 250856 nieuwe regels uit PUC_784122_22&versienummer=1
+2026-10-13 13:00:00 [INFO] NZa-wachttijden: 252667 nieuwe regels uit PUC_772052_22&versienummer=1
+2026-10-13 13:00:14 [INFO] NZa-wachttijden: 269526 nieuwe regels uit PUC_809508_22&versienummer=1
+2026-10-13 13:00:16 [INFO] NzaWachttijden OK in 76 s: 135 nieuwe peildata (2021-08-10 t/m 2026-09-29), 1260492 regels; 1124 vestigingen, 114 codes
