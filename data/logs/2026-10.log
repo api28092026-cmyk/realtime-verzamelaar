@@ -2613,3 +2613,10 @@
 2026-10-13 12:45:46 [INFO] NZa-wachttijden: 252667 nieuwe regels uit PUC_772052_22&versienummer=1
 2026-10-13 12:45:57 [INFO] NZa-wachttijden: 269526 nieuwe regels uit PUC_809508_22&versienummer=1
 2026-10-13 12:46:00 [INFO] NzaWachttijden OK in 65 s: 135 nieuwe peildata (2021-08-10 t/m 2026-09-29), 1329558 regels; 1124 vestigingen, 114 codes
+2026-10-13 12:48:13 [INFO] NZa-wachttijden: 88301 nieuwe regels uit PUC_730444_22&versienummer=1
+2026-10-13 12:48:25 [INFO] NZa-wachttijden: 228257 nieuwe regels uit PUC_730445_22&versienummer=1
+2026-10-13 12:48:39 [INFO] NZa-wachttijden: 239951 nieuwe regels uit PUC_757085_22&versienummer=1
+2026-10-13 12:49:11 [INFO] NZa-wachttijden: 250856 nieuwe regels uit PUC_784122_22&versienummer=1
+2026-10-13 12:49:29 [WARN] Poging 1 mislukt (https://puc.overheid.nl/PUC/Handlers/DownloadDocument.ashx?identifier=PUC_772052_22&versienummer=1): Network is unreachable (puc.overheid.nl:443). Opnieuw over 5 s.
+2026-10-13 12:49:49 [WARN] Poging 2 mislukt (https://puc.overheid.nl/PUC/Handlers/DownloadDocument.ashx?identifier=PUC_772052_22&versienummer=1): Network is unreachable (puc.overheid.nl:443). Opnieuw over 15 s.
+2026-10-13 12:50:20 [ERROR] NzaWachttijden MISLUKT: Network is unreachable (puc.overheid.nl:443)
