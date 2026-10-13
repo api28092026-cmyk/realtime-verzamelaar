@@ -131,8 +131,6 @@
 163204,ARR,Arriva,bus,683
 163205,ARR,Arriva,bus,684
 163206,ARR,Arriva,bus,687
-163207,ARR,Arriva,bus,10
-163208,ARR,Arriva,bus,10
 163209,ARR,Arriva,bus,601
 163210,ARR,Arriva,bus,603
 163211,ARR,Arriva,bus,606
@@ -151,6 +149,8 @@
 163224,ARR,Arriva,bus,657
 163225,ARR,Arriva,bus,658
 163226,ARR,Arriva,bus,659
+163233,ARR,Arriva,bus,10
+163234,ARR,Arriva,bus,10
 160725,BN,Blauwnet,bus,822
 160726,BN,Blauwnet,bus,823
 160449,BRAVO,Bravo,bus,619
@@ -1418,7 +1418,6 @@
 161408,IFF:NS,NS,bus,Taxibus ipv trein
 161409,IFF:NS,NS,bus,Taxibus ipv trein
 161410,IFF:NS,NS,trein,Intercity
-161412,IFF:NS,NS,trein,Intercity
 161415,IFF:NS,NS,trein,Sprinter
 161418,IFF:NS,NS,trein,Sprinter
 162469,IFF:NS,NS,bus,Snelbus ipv trein
@@ -1557,7 +1556,6 @@
 139902,IFF:R-NET_QB,R-net Qbuzz,bus,Stopbus ipv trein
 139903,IFF:R-NET_QB,R-net Qbuzz,trein,Stoptrein
 139904,IFF:R-NET_QB,R-net Qbuzz,trein,Stoptrein
-161422,IFF:R-NET_QB,R-net Qbuzz,bus,Stopbus ipv trein
 139905,IFF:RRREIS_A,RRReis Arriva,trein,Stoptrein RS30
 139906,IFF:RRREIS_A,RRReis Arriva,trein,Stoptrein RS31
 139907,IFF:RRREIS_A,RRReis Arriva,trein,Stoptrein RS32
@@ -2428,7 +2426,6 @@
 159815,RET,RET,tram,1
 159816,RET,RET,tram,6
 159817,RET,RET,tram,11
-161158,RET,RET,bus,145
 161205,RET,RET,bus,33
 161206,RET,RET,bus,40
 161207,RET,RET,bus,51
@@ -2442,6 +2439,7 @@
 163044,RET,RET,metro,C
 163045,RET,RET,metro,D
 163046,RET,RET,metro,E
+163238,RET,RET,bus,145
 153435,RRREIS,RRReis,bus,524
 153436,RRREIS,RRReis,bus,525
 153437,RRREIS,RRReis,bus,526
@@ -2634,7 +2632,6 @@
 160389,RRREIS,RRReis,bus,206
 160390,RRREIS,RRReis,bus,74
 160391,RRREIS,RRReis,bus,167
-160392,RRREIS,RRReis,bus,867
 160393,RRREIS,RRReis,bus,114
 160394,RRREIS,RRReis,bus,104
 160395,RRREIS,RRReis,bus,144
@@ -2871,8 +2868,9 @@
 162789,RRREIS,RRReis,bus,25
 162790,RRREIS,RRReis,bus,58
 163096,RRREIS,RRReis,bus,834
-163227,RRREIS,RRReis,bus,1
 163229,RRREIS,RRReis,bus,5
+163235,RRREIS,RRReis,bus,1
+163237,RRREIS,RRReis,bus,809
 134174,TESO,TESO,veerboot,TESO
 147000,TRANSDEV,Transdev,bus,1
 147001,TRANSDEV,Transdev,bus,2
