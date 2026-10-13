@@ -31,6 +31,42 @@ Geen enkele bron vraagt een account of API-key. De workflows draaien op GitHub A
 
 Alle CSV's gebruiken een komma als scheidingsteken en een punt als decimaalteken, in UTF-8. In Excel open je ze via **Gegevens > Van tekst/CSV**; in Power BI of Python lezen ze direct in. Elke rij heeft een `opgehaald_op`-tijdstempel (UTC).
 
+## Data gebruiken
+
+Alle data is openbaar. Je hebt geen account, key of scripts nodig: het verzamelen gebeurt op GitHub, als gebruiker download je alleen.
+
+**Losse bestanden.** Open het bestand in `data/` en klik op *Download raw file*. Je kunt een bestand ook rechtstreeks inlezen via `https://raw.githubusercontent.com/api28092026-cmyk/realtime-verzamelaar/main/data/<pad>`, in Excel met **Gegevens > Van web**. In Python, bijvoorbeeld de NZa-wachttijden met namen van vestigingen en specialismen:
+
+```python
+import pandas as pd
+
+basis = "https://raw.githubusercontent.com/api28092026-cmyk/realtime-verzamelaar/main/data/nza_wachttijden/"
+wachttijden = (pd.read_csv(basis + "wachttijden/2026.csv")
+               .merge(pd.read_csv(basis + "vestigingen.csv"), on="vestiging_nr")
+               .merge(pd.read_csv(basis + "codes.csv"), on="code_nr"))
+```
+
+**5-minutendata.** Afgesloten dagen staan onder *Releases*: `hf-JJJJ-MM` bevat laadpunten en parkeren, per reeks en per dag een bestand `<reeks>_<JJJJ-MM-DD>.csv.gz`; `data-JJJJ-MM` bevat de OV-fiets-wijzigingen van een maand als zip. Ook die lees je direct in, bijvoorbeeld `pd.read_csv("https://github.com/api28092026-cmyk/realtime-verzamelaar/releases/download/hf-2026-10/laadpunten_wijzigingen_2026-10-06.csv.gz")`. De lopende dag staat op de branch `hoogfrequent-data` (bv. `laadpunten/wijzigingen/<JJJJ-MM-DD>.csv`), de lopende maand OV-fiets op de branch `data`.
+
+**Een eigen kopie die elk uur bijwerkt (Windows).** Installeer Git for Windows en geef in PowerShell:
+
+```powershell
+git clone --depth 1 https://github.com/api28092026-cmyk/realtime-verzamelaar.git
+cd realtime-verzamelaar
+powershell -ExecutionPolicy RemoteSigned -File .\openov\install_task.ps1
+```
+
+De taak "OV-fiets data sync" draait daarna bij aanmelden en elk uur, en haalt alles binnen:
+- `data\`: alle uur- en dagdata (via `git pull`);
+- `hoogfrequent\data\`: laadpunten en parkeren per 5 minuten (afgesloten dagen als `.csv.gz`, de lopende dag in `lopend\`);
+- `openov\data\`: OV-fiets per 5 minuten.
+
+De eerste keer download je ±45 MB voor de repository en ±70 MB aan 5-minutendata; op schijf is dat ±350 MB (stand oktober 2026). Daarna komt er ruim 5 MB per dag bij. Draai in zo'n kopie niet `Verzamel.ps1` of `Installeer-Taak.ps1`: dat verzamelt dubbel en schrijft in dezelfde bestanden als GitHub, waarna `git pull` vastloopt.
+
+**Een vaste stand voor een analyse.** *Code > Download ZIP* geeft de huidige stand van `data/` (zonder de 5-minutendata). Bewaar die met de datum erbij, of noteer de commit waarmee je werkte, zodat je de cijfers later kunt herhalen.
+
+**Bronvermelding.** Vermeld bij gebruik of delen de oorspronkelijke bron (zie de tabel hierboven en *Onderhoud*).
+
 ## Kwaliteit van de laadpuntdata
 
 Niet elke exploitant geeft de status van zijn laadpunten live door aan NDW. Daarom deelt de uurjob de exploitanten elke dag opnieuw in, op basis van de uurtellingen van de afgelopen 7 dagen: `data/laadpunten/exploitant_indeling.csv` (actueel) en `exploitant_indeling_historie.csv` (elke dag een stand). De naam in de kolom `exploitant` is dezelfde als in `laadpunten_kenmerken`, dus je koppelt de 5-minutendata zo: wijzigingen → kenmerken (via `evse`) → indeling (via `exploitant`).
