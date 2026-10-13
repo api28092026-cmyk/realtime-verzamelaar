@@ -2627,3 +2627,4 @@
 2026-10-13 12:53:01 [WARN] Poging 1 mislukt (https://puc.overheid.nl/PUC/Handlers/DownloadDocument.ashx?identifier=PUC_772052_22&versienummer=1): Network is unreachable (puc.overheid.nl:443). Opnieuw over 5 s.
 2026-10-13 12:53:23 [WARN] Poging 2 mislukt (https://puc.overheid.nl/PUC/Handlers/DownloadDocument.ashx?identifier=PUC_772052_22&versienummer=1): Network is unreachable (puc.overheid.nl:443). Opnieuw over 15 s.
 2026-10-13 12:53:54 [ERROR] NzaWachttijden MISLUKT: Network is unreachable (puc.overheid.nl:443)
+2026-10-13 12:57:21 [ERROR] NzaWachttijden MISLUKT: Link naar de actuele dataset niet gevonden op de NZa-pagina (opmaak gewijzigd?).
