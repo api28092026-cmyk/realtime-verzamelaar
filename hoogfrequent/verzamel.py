@@ -14,6 +14,7 @@ Output (map data/; op GitHub de branch hoogfrequent-data, afgesloten dagen als r
                                 evse = vaste code van 12 tekens, uit te zoeken in kenmerken)
   laadpunten/stand/D.csv.gz     status van elk laadpunt (wekelijks, op maandag): het beginpunt voor de wijzigingen
   laadpunten/kenmerken/D.csv.gz exploitant, adres, coordinaten, vermogen en stekkers per laadpunt (wekelijks, op maandag)
+  laadpunten/nieuw/D.csv        dezelfde kenmerken voor laadpunten die die dag (opnieuw) in de feed verschijnen
   parkeren/npr/D.csv            tijd_utc,garage_id,vrij,capaciteit,open,vol
   parkeren/amsterdam/D.csv      tijd_utc,locatie_id,naam,status,vrij_kort,capaciteit_kort,vrij_lang,capaciteit_lang
   parkeren/vrachtwagen/D.csv    tijd_utc,locatie_id,vrij,bezet,bezetting_pct
@@ -111,6 +112,9 @@ def lees_json(pad: Path, standaard):
 
 # ---------- laadpunten ----------
 
+KENMERK_KOP = ["evse", "party_id", "locatie_id", "evse_uid", "evse_id", "exploitant", "naam", "adres", "postcode", "plaats",
+               "lat", "lon", "dc", "max_kw", "connectoren"]
+
 def laadpunten() -> tuple:
     locs = json.loads(gzip.decompress(haal(LAAD_URL, timeout=120)))
     nu = {}
@@ -147,14 +151,22 @@ def laadpunten() -> tuple:
         rijen += [[TS, k, "VERDWENEN"] for k in oud.keys() - nu.keys()]
         rijen.sort()
         voeg_toe(DATA / "laadpunten" / "wijzigingen" / f"{DAG}.csv", ["tijd_utc", "evse", "status"], rijen)
+        # Laadpunten die (opnieuw) opduiken: meteen hun kenmerken, want de wekelijkse kenmerken missen nieuwkomers en
+        # groepen die maar een deel van de dag in de feed staan. Een keer per laadpunt per dag.
+        nieuw_pad = DATA / "laadpunten" / "nieuw" / f"{DAG}.csv"
+        al = set()
+        if nieuw_pad.exists():
+            with nieuw_pad.open(encoding="utf-8", newline="") as f:
+                al = {r[1] for r in csv.reader(f) if len(r) > 1}
+        per_k = {r[0]: r for r in kenmerken}
+        voeg_toe(nieuw_pad, ["tijd_utc"] + KENMERK_KOP, [[TS] + per_k[k] for k in sorted(nu.keys() - oud.keys() - al)])
 
     # Wekelijks (maandag, en bij een lege state) de volledige stand en de vaste kenmerken: het beginpunt om de wijzigingen op toe te passen.
     if not oud or (NU.weekday() == 0 and not (DATA / "laadpunten" / "stand" / f"{DAG}.csv.gz").exists()):
         schrijf(DATA / "laadpunten" / "stand" / f"{DAG}.csv.gz", ["evse", "status", "last_updated_utc"],
                 sorted([k, st, iso(lu) if lu else ""] for k, (lu, st) in nu.items()), gz=True)
-        schrijf(DATA / "laadpunten" / "kenmerken" / f"{DAG}.csv.gz",
-                ["evse", "party_id", "locatie_id", "evse_uid", "evse_id", "exploitant", "naam", "adres", "postcode", "plaats",
-                 "lat", "lon", "dc", "max_kw", "connectoren"], sorted(kenmerken, key=lambda r: [str(x) for x in r[1:4]]), gz=True)
+        schrijf(DATA / "laadpunten" / "kenmerken" / f"{DAG}.csv.gz", KENMERK_KOP,
+                sorted(kenmerken, key=lambda r: [str(x) for x in r[1:4]]), gz=True)
 
     # Platte, gesorteerde tekst: git slaat per run alleen de gewijzigde regels op.
     state_pad.parent.mkdir(parents=True, exist_ok=True)
@@ -171,7 +183,9 @@ def npr(state: dict) -> tuple:
     maandag = NU.weekday() == 0
     if s.get("catalogus_dag") != DAG or not garages:
         cat = json.loads(haal(NPR_URL, timeout=180)).get("ParkingFacilities") or []
-        if maandag or not (DATA / "parkeren" / "catalogus").exists():
+        # Wekelijks; bijgehouden in de state, want git bewaart geen lege mappen (na het archiveren).
+        if maandag or "catalogus_geschreven" not in s:
+            s["catalogus_geschreven"] = DAG
             schrijf(DATA / "parkeren" / "catalogus" / f"{DAG}.csv",
                     ["garage_id", "naam", "dynamisch", "beperkte_toegang", "statisch_bijgewerkt_utc"],
                     sorted([g.get("identifier"), g.get("name"), int(bool(g.get("dynamicDataUrl"))), int(bool(g.get("limitedAccess"))),
@@ -183,8 +197,9 @@ def npr(state: dict) -> tuple:
         for gid, g in dyn.items():
             garages.setdefault(gid, {})["url"] = g["dynamicDataUrl"]
             garages[gid]["static"] = g.get("staticDataUrl")
-        if maandag or not (DATA / "parkeren" / "garages").exists():
+        if maandag or "garages_geschreven" not in s:
             garage_kenmerken(dyn)
+            s["garages_geschreven"] = DAG
         s["catalogus_dag"] = DAG
 
     # Garages die al een dag niets bijwerken: alleen in de eerste run van elk uur proberen.

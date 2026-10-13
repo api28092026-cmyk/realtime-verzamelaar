@@ -21,6 +21,7 @@ REEKSEN = {
     "laadpunten/wijzigingen": "laadpunten_wijzigingen",
     "laadpunten/stand": "laadpunten_stand",
     "laadpunten/kenmerken": "laadpunten_kenmerken",
+    "laadpunten/nieuw": "laadpunten_nieuw",
     "parkeren/npr": "parkeren_npr",
     "parkeren/amsterdam": "parkeren_amsterdam",
     "parkeren/vrachtwagen": "parkeren_vrachtwagen",
