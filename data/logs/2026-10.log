@@ -2811,3 +2811,11 @@
 2026-10-14 11:16:38 [INFO] NS OK in 515 s: storingen/werkzaamheden: 20 actief, 0 nieuw; drukte: 311 van 311 rijdende treinen, 247 stations, 18 keer drukte hoog
 2026-10-14 11:18:41 [WARN] Poging 1 mislukt (https://api.energy-charts.info/public_power?country=nl&start=2026-10-12&end=2026-10-15): The request was canceled due to the configured HttpClient.Timeout of 120 seconds elapsing.. Opnieuw over 5 s.
 2026-10-14 11:20:47 [ERROR] Energie MISLUKT: Nord Pool: 192 kwartierprijzen; TenneT: balance delta: 397 metingen in 7 kwartieren; Historie compleet; Charts mislukt: The request was canceled due to the configured HttpClient.Timeout of 120 seconds elapsing.
+2026-10-14 12:06:19 [INFO] Laadpunten OK in 34 s: 80188 locaties, 200958 laadpunten (44603 aan het laden); bestand van 2026-10-14T12:05:52Z
+2026-10-14 12:06:19 [INFO] Parkeren OK in 0 s: tarieven vandaag al bijgewerkt
+2026-10-14 12:08:04 [INFO] Deelmobiliteit OK in 106 s: 45 van 52 systemen, 16918 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-10-14 12:08:19 [INFO] Verstoringen OK in 15 s: weg: 1409 actieve meldingen, 236 nieuw; spoor: niets nieuws
+2026-10-14 12:08:25 [INFO] OV OK in 5 s: live: 26648 ritten, 17289 uitgevallen; meldingen: 826 actief, 11 nieuw
+2026-10-14 12:16:48 [INFO] NS OK in 503 s: storingen/werkzaamheden: 20 actief, 0 nieuw; drukte: 307 van 307 rijdende treinen, 246 stations, 24 keer drukte hoog
+2026-10-14 12:18:50 [WARN] Poging 1 mislukt (https://api.energy-charts.info/public_power?country=nl&start=2026-10-12&end=2026-10-15): The request was canceled due to the configured HttpClient.Timeout of 120 seconds elapsing.. Opnieuw over 5 s.
+2026-10-14 12:20:57 [ERROR] Energie MISLUKT: Nord Pool: 192 kwartierprijzen; TenneT: balance delta: 375 metingen in 6 kwartieren; Historie compleet; Charts mislukt: The request was canceled due to the configured HttpClient.Timeout of 120 seconds elapsing.
