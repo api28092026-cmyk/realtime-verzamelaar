@@ -140,7 +140,7 @@
 "open": "Yes"
 },
 "ZD002": {
-"bikes": "40",
+"bikes": "39",
 "open": "Yes"
 },
 "Zh001": {
@@ -172,7 +172,7 @@
 "open": "No"
 },
 "amf001": {
-"bikes": "297",
+"bikes": "295",
 "open": "Yes"
 },
 "amf002": {
@@ -201,7 +201,7 @@
 },
 "apd001": {
 "bikes": "363",
-"open": "Yes"
+"open": "No"
 },
 "apn001": {
 "bikes": "39",
@@ -228,7 +228,7 @@
 "open": "Yes"
 },
 "asd010": {
-"bikes": "411",
+"bikes": "413",
 "open": "Yes"
 },
 "asdl001": {
@@ -384,7 +384,7 @@
 "open": "Yes"
 },
 "ddr001": {
-"bikes": "95",
+"bikes": "94",
 "open": "Yes"
 },
 "did001": {
@@ -420,7 +420,7 @@
 "open": "Yes"
 },
 "dt002": {
-"bikes": "369",
+"bikes": "370",
 "open": "Yes"
 },
 "dtc001": {
@@ -545,14 +545,14 @@
 },
 "gs003": {
 "bikes": "28",
-"open": "Yes"
+"open": "No"
 },
 "gv001": {
 "bikes": "101",
 "open": "Yes"
 },
 "gvc021": {
-"bikes": "591",
+"bikes": "590",
 "open": "Yes"
 },
 "gvc901": {
@@ -629,7 +629,7 @@
 },
 "hm001": {
 "bikes": "20",
-"open": "Yes"
+"open": "No"
 },
 "hmbh001": {
 "bikes": "5",
@@ -644,7 +644,7 @@
 "open": "Yes"
 },
 "hn001": {
-"bikes": "55",
+"bikes": "53",
 "open": "Yes"
 },
 "hnk001": {
@@ -681,7 +681,7 @@
 },
 "htn001": {
 "bikes": "61",
-"open": "Yes"
+"open": "No"
 },
 "htnc001": {
 "bikes": "23",
@@ -736,7 +736,7 @@
 "open": "Yes"
 },
 "ledn001": {
-"bikes": "269",
+"bikes": "270",
 "open": "Yes"
 },
 "ledn002": {
@@ -821,7 +821,7 @@
 },
 "o002": {
 "bikes": "33",
-"open": "Yes"
+"open": "No"
 },
 "obd001": {
 "bikes": "7",
@@ -852,11 +852,11 @@
 "open": "Yes"
 },
 "pmo001": {
-"bikes": "0",
+"bikes": "1",
 "open": "Yes"
 },
 "pmr001": {
-"bikes": "13",
+"bikes": "10",
 "open": "Yes"
 },
 "pt001": {
@@ -976,7 +976,7 @@
 "open": "Yes"
 },
 "tb003": {
-"bikes": "213",
+"bikes": "212",
 "open": "Yes"
 },
 "tbg001": {
@@ -1000,11 +1000,11 @@
 "open": "Yes"
 },
 "ut016": {
-"bikes": "527",
+"bikes": "529",
 "open": "Yes"
 },
 "ut020": {
-"bikes": "868",
+"bikes": "869",
 "open": "Yes"
 },
 "ut021": {
@@ -1149,7 +1149,7 @@
 },
 "wt003": {
 "bikes": "30",
-"open": "Yes"
+"open": "No"
 },
 "wtv001": {
 "bikes": "10",
