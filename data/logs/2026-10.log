@@ -2872,3 +2872,10 @@
 2026-10-14 19:14:49 [INFO] NS OK in 428 s: storingen/werkzaamheden: 21 actief, 0 nieuw; drukte: 254 van 254 rijdende treinen, 246 stations, 11 keer drukte hoog
 2026-10-14 19:16:55 [WARN] Poging 1 mislukt (https://api.energy-charts.info/price?bzn=NL&start=2026-10-12&end=2026-10-15): The request was canceled due to the configured HttpClient.Timeout of 120 seconds elapsing.. Opnieuw over 5 s.
 2026-10-14 19:19:03 [ERROR] Energie MISLUKT: Nord Pool: 192 kwartierprijzen; TenneT: balance delta: 390 metingen in 6 kwartieren; Historie compleet; Charts mislukt: The request was canceled due to the configured HttpClient.Timeout of 120 seconds elapsing.
+2026-10-14 20:05:58 [INFO] Laadpunten OK in 22 s: 80370 locaties, 202034 laadpunten (55481 aan het laden); bestand van 2026-10-14T20:05:41Z
+2026-10-14 20:05:58 [INFO] Parkeren OK in 0 s: tarieven vandaag al bijgewerkt
+2026-10-14 20:07:32 [INFO] Deelmobiliteit OK in 94 s: 45 van 52 systemen, 25678 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-10-14 20:07:42 [INFO] Verstoringen OK in 10 s: weg: 1522 actieve meldingen, 197 nieuw; spoor: niets nieuws
+2026-10-14 20:07:46 [INFO] OV OK in 4 s: live: 11913 ritten, 4615 uitgevallen; meldingen: 828 actief, 0 nieuw
+2026-10-14 20:14:43 [INFO] NS OK in 417 s: storingen/werkzaamheden: 23 actief, 2 nieuw; drukte: 243 van 243 rijdende treinen, 246 stations, 8 keer drukte hoog
+2026-10-14 20:14:54 [INFO] Energie OK in 11 s: Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 275, grensstromen 268, day-ahead 384 tijdstippen; TenneT: balance delta: 354 metingen in 6 kwartieren; Historie compleet
