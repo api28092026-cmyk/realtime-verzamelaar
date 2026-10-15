@@ -6274,3 +6274,14 @@
 2026-10-15T01:05:29Z,VehicleObstruction,brokenDownVehicle,1,0
 2026-10-15T01:05:29Z,RoadOrCarriagewayOrLaneManagement,lanesDeviated,40,0
 2026-10-15T01:05:29Z,RoadOrCarriagewayOrLaneManagement,roadClosed,6,0
+2026-10-15T02:05:44Z,RoadOrCarriagewayOrLaneManagement,laneClosures,149,0
+2026-10-15T02:05:44Z,ReroutingManagement,followDiversionSigns,98,0
+2026-10-15T02:05:44Z,GeneralNetworkManagement,bridgeSwingInOperation,2,0
+2026-10-15T02:05:44Z,RoadOrCarriagewayOrLaneManagement,roadClosed,5,0
+2026-10-15T02:05:44Z,RoadOrCarriagewayOrLaneManagement,lanesDeviated,38,0
+2026-10-15T02:05:44Z,RoadOrCarriagewayOrLaneManagement,useOfSpecifiedLanesOrCarriagewaysAllowed,11,0
+2026-10-15T02:05:44Z,RoadOrCarriagewayOrLaneManagement,carriagewayClosures,700,0
+2026-10-15T02:05:44Z,SpeedManagement,speedRestrictionInOperation,122,0
+2026-10-15T02:05:44Z,VehicleObstruction,other,69,0
+2026-10-15T02:05:44Z,RoadOrCarriagewayOrLaneManagement,other,91,0
+2026-10-15T02:05:44Z,RoadOrCarriagewayOrLaneManagement,narrowLanes,1,0
