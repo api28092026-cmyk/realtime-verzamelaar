@@ -1,50 +1,21 @@
 ﻿{
-  "TenderNed": {
-    "status": "ok",
-    "melding": "104 nieuwe publicaties",
-    "tijd": "2026-10-15T04:30:56Z",
-    "seconden": 111
-  },
-  "OV": {
-    "seconden": 4,
-    "tijd": "2026-10-15T09:05:34Z",
-    "status": "ok",
-    "melding": "live: 15654 ritten, 1841 uitgevallen; meldingen: 796 actief, 12 nieuw"
-  },
-  "Energie": {
-    "tijd": "2026-10-15T09:05:34Z",
-    "status": "fout",
-    "melding": "Nord Pool: 96 kwartierprijzen; TenneT: balance delta: 364 metingen in 6 kwartieren; Historie compleet; Charts mislukt: Response status code does not indicate success: 503 (Service Unavailable)."
-  },
-  "NS": {
-    "seconden": 484,
-    "tijd": "2026-10-15T09:05:34Z",
-    "status": "ok",
-    "melding": "storingen/werkzaamheden: 11 actief, 1 nieuw; drukte: 317 van 317 rijdende treinen, 245 stations, 60 keer drukte hoog"
-  },
-  "EnergyZero": {
-    "status": "ok",
-    "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
-    "tijd": "2026-10-15T04:30:56Z",
-    "seconden": 4
-  },
-  "Deelmobiliteit": {
-    "seconden": 79,
-    "tijd": "2026-10-15T09:05:34Z",
-    "status": "ok",
-    "melding": "45 van 52 systemen, 15984 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
-  },
   "KvkOpenData": {
     "status": "ok",
     "melding": "1925053 bv's/nv's verwerkt, waarvan 77335 met status faillissement",
     "tijd": "2026-10-15T04:30:56Z",
     "seconden": 13
   },
-  "RDW": {
+  "TenderNed": {
     "status": "ok",
-    "melding": "15730 personenauto-registraties sinds 2026-10-05 verwerkt",
+    "melding": "104 nieuwe publicaties",
     "tijd": "2026-10-15T04:30:56Z",
-    "seconden": 98
+    "seconden": 111
+  },
+  "NS": {
+    "melding": "storingen/werkzaamheden: 13 actief, 2 nieuw; drukte: 316 van 316 rijdende treinen, 245 stations, 42 keer drukte hoog",
+    "status": "ok",
+    "seconden": 478,
+    "tijd": "2026-10-15T10:05:38Z"
   },
   "NzaWachttijden": {
     "status": "ok",
@@ -52,11 +23,41 @@
     "tijd": "2026-10-15T04:30:56Z",
     "seconden": 11
   },
-  "Parkeren": {
-    "seconden": 0,
-    "tijd": "2026-10-15T09:05:34Z",
+  "Energie": {
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 233, grensstromen 228, day-ahead 288 tijdstippen; TenneT: balance delta: 375 metingen in 6 kwartieren; Historie compleet",
     "status": "ok",
-    "melding": "tarieven vandaag al bijgewerkt"
+    "seconden": 14,
+    "tijd": "2026-10-15T10:05:38Z"
+  },
+  "Deelmobiliteit": {
+    "melding": "45 van 52 systemen, 15802 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "status": "ok",
+    "seconden": 82,
+    "tijd": "2026-10-15T10:05:38Z"
+  },
+  "Verstoringen": {
+    "melding": "weg: 1329 actieve meldingen, 183 nieuw; spoor: niets nieuws",
+    "status": "ok",
+    "seconden": 27,
+    "tijd": "2026-10-15T10:05:38Z"
+  },
+  "Parkeren": {
+    "melding": "tarieven vandaag al bijgewerkt",
+    "status": "ok",
+    "seconden": 0,
+    "tijd": "2026-10-15T10:05:38Z"
+  },
+  "OV": {
+    "melding": "live: 15231 ritten, 1835 uitgevallen; meldingen: 812 actief, 18 nieuw",
+    "status": "ok",
+    "seconden": 4,
+    "tijd": "2026-10-15T10:05:38Z"
+  },
+  "RDW": {
+    "status": "ok",
+    "melding": "15730 personenauto-registraties sinds 2026-10-05 verwerkt",
+    "tijd": "2026-10-15T04:30:56Z",
+    "seconden": 98
   },
   "Netcongestie": {
     "status": "ok",
@@ -64,16 +65,16 @@
     "tijd": "2026-10-15T04:30:56Z",
     "seconden": 4
   },
-  "Verstoringen": {
-    "seconden": 26,
-    "tijd": "2026-10-15T09:05:34Z",
+  "EnergyZero": {
     "status": "ok",
-    "melding": "weg: 1378 actieve meldingen, 174 nieuw; spoor: niets nieuws"
+    "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
+    "tijd": "2026-10-15T04:30:56Z",
+    "seconden": 4
   },
   "Laadpunten": {
-    "seconden": 48,
-    "tijd": "2026-10-15T09:05:34Z",
+    "melding": "80256 locaties, 201206 laadpunten (46144 aan het laden); bestand van 2026-10-15T10:05:43Z",
     "status": "ok",
-    "melding": "80477 locaties, 202274 laadpunten (40185 aan het laden); bestand van 2026-10-15T09:05:39Z"
+    "seconden": 47,
+    "tijd": "2026-10-15T10:05:38Z"
   }
 }
