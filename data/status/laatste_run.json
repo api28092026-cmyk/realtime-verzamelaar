@@ -1,34 +1,4 @@
 ﻿{
-  "Parkeren": {
-    "seconden": 0,
-    "tijd": "2026-10-16T10:05:37Z",
-    "melding": "tarieven vandaag al bijgewerkt",
-    "status": "ok"
-  },
-  "Verstoringen": {
-    "seconden": 21,
-    "tijd": "2026-10-16T10:05:37Z",
-    "melding": "weg: 1334 actieve meldingen, 201 nieuw; spoor: niets nieuws",
-    "status": "ok"
-  },
-  "Laadpunten": {
-    "seconden": 40,
-    "tijd": "2026-10-16T10:05:37Z",
-    "melding": "80333 locaties, 201395 laadpunten (44201 aan het laden); bestand van 2026-10-16T10:05:42Z",
-    "status": "ok"
-  },
-  "Deelmobiliteit": {
-    "seconden": 84,
-    "tijd": "2026-10-16T10:05:37Z",
-    "melding": "45 van 52 systemen, 21636 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "status": "ok"
-  },
-  "EnergyZero": {
-    "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
-    "tijd": "2026-10-16T04:30:52Z",
-    "status": "ok",
-    "seconden": 4
-  },
   "TenderNed": {
     "melding": "123 nieuwe publicaties",
     "tijd": "2026-10-16T04:30:52Z",
@@ -41,17 +11,41 @@
     "status": "ok",
     "seconden": 4
   },
+  "Deelmobiliteit": {
+    "status": "ok",
+    "tijd": "2026-10-16T11:05:34Z",
+    "melding": "45 van 52 systemen, 21518 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "seconden": 83
+  },
+  "Verstoringen": {
+    "status": "ok",
+    "tijd": "2026-10-16T11:05:34Z",
+    "melding": "weg: 1365 actieve meldingen, 220 nieuw; spoor: niets nieuws",
+    "seconden": 28
+  },
+  "Energie": {
+    "status": "ok",
+    "tijd": "2026-10-16T11:05:34Z",
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 238, grensstromen 235, day-ahead 288 tijdstippen; TenneT: balance delta: 371 metingen in 6 kwartieren; Historie compleet",
+    "seconden": 10
+  },
+  "EnergyZero": {
+    "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
+    "tijd": "2026-10-16T04:30:52Z",
+    "status": "ok",
+    "seconden": 4
+  },
+  "OV": {
+    "status": "ok",
+    "tijd": "2026-10-16T11:05:34Z",
+    "melding": "live: 13165 ritten, 883 uitgevallen; meldingen: 873 actief, 6 nieuw",
+    "seconden": 4
+  },
   "NzaWachttijden": {
     "melding": "laatste peildatum 2026-10-13; volgende update niet voor 2026-10-28",
     "tijd": "2026-10-16T04:30:52Z",
     "status": "ok",
     "seconden": 0
-  },
-  "OV": {
-    "seconden": 4,
-    "tijd": "2026-10-16T10:05:37Z",
-    "melding": "live: 13795 ritten, 911 uitgevallen; meldingen: 869 actief, 26 nieuw",
-    "status": "ok"
   },
   "RDW": {
     "melding": "16661 personenauto-registraties sinds 2026-10-06 verwerkt",
@@ -59,22 +53,28 @@
     "status": "ok",
     "seconden": 108
   },
-  "Energie": {
-    "seconden": 19,
-    "tijd": "2026-10-16T10:05:37Z",
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 235, grensstromen 232, day-ahead 288 tijdstippen; TenneT: balance delta: 377 metingen in 6 kwartieren; Historie compleet",
-    "status": "ok"
+  "Laadpunten": {
+    "status": "ok",
+    "tijd": "2026-10-16T11:05:34Z",
+    "melding": "80337 locaties, 201403 laadpunten (43890 aan het laden); bestand van 2026-10-16T11:05:39Z",
+    "seconden": 48
+  },
+  "Parkeren": {
+    "status": "ok",
+    "tijd": "2026-10-16T11:05:34Z",
+    "melding": "tarieven vandaag al bijgewerkt",
+    "seconden": 0
+  },
+  "NS": {
+    "status": "ok",
+    "tijd": "2026-10-16T11:05:34Z",
+    "melding": "storingen/werkzaamheden: 12 actief, 0 nieuw; drukte: 295 van 295 rijdende treinen, 245 stations, 42 keer drukte hoog",
+    "seconden": 446
   },
   "KvkOpenData": {
     "melding": "1925173 bv's/nv's verwerkt, waarvan 77390 met status faillissement",
     "tijd": "2026-10-16T04:30:52Z",
     "status": "ok",
     "seconden": 15
-  },
-  "NS": {
-    "seconden": 484,
-    "tijd": "2026-10-16T10:05:37Z",
-    "melding": "storingen/werkzaamheden: 12 actief, 0 nieuw; drukte: 296 van 296 rijdende treinen, 245 stations, 39 keer drukte hoog",
-    "status": "ok"
   }
 }
