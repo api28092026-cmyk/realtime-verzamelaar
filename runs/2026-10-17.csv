@@ -207,3 +207,7 @@ tijd_utc,bron,status,items,rijen,duur_s,fout
 2026-10-17T04:15:27Z,npr,ok,271,24,18.0,
 2026-10-17T04:15:27Z,amsterdam,ok,67,12,1.9,
 2026-10-17T04:15:27Z,vrachtwagen,ok,8,4,0.6,
+2026-10-17T04:20:28Z,laadpunten,ok,202726,220,9.0,
+2026-10-17T04:20:28Z,npr,fout,0,0,270.1,RuntimeError: alle 276 garages mislukt
+2026-10-17T04:20:28Z,amsterdam,ok,67,12,2.4,
+2026-10-17T04:20:28Z,vrachtwagen,ok,8,6,1.5,
