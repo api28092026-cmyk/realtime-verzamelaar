@@ -3291,3 +3291,11 @@
 2026-10-17 02:07:35 [INFO] OV OK in 4 s: live: 7803 ritten, 1058 uitgevallen; meldingen: 829 actief, 0 nieuw
 2026-10-17 02:07:47 [INFO] NS OK in 11 s: storingen/werkzaamheden: 12 actief, 2 nieuw; drukte: 4 van 4 rijdende treinen, 26 stations, 0 keer drukte hoog
 2026-10-17 02:07:55 [INFO] Energie OK in 8 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 202, grensstromen 196, day-ahead 288 tijdstippen; TenneT: balance delta: 372 metingen in 6 kwartieren; Historie compleet
+2026-10-17 03:06:09 [INFO] Laadpunten OK in 35 s: 80405 locaties, 201552 laadpunten (50402 aan het laden); bestand van 2026-10-17T03:05:40Z
+2026-10-17 03:06:09 [INFO] Parkeren OK in 0 s: tarieven vandaag al bijgewerkt
+2026-10-17 03:06:19 [WARN] Poging 1 mislukt (https://api.ridecheck.app/gbfs/v3/breda/vehicle_status.json): Response status code does not indicate success: 502 (Bad Gateway).. Opnieuw over 5 s.
+2026-10-17 03:07:44 [INFO] Deelmobiliteit OK in 95 s: 45 van 52 systemen, 25320 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-10-17 03:08:03 [INFO] Verstoringen OK in 19 s: weg: 1312 actieve meldingen, 20 nieuw; spoor: niets nieuws
+2026-10-17 03:08:08 [INFO] OV OK in 4 s: live: 7979 ritten, 1070 uitgevallen; meldingen: 827 actief, 0 nieuw
+2026-10-17 03:08:34 [INFO] NS OK in 26 s: storingen/werkzaamheden: 16 actief, 4 nieuw; drukte: 13 van 13 rijdende treinen, 58 stations, 5 keer drukte hoog
+2026-10-17 03:08:52 [INFO] Energie OK in 18 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 205, grensstromen 200, day-ahead 288 tijdstippen; TenneT: balance delta: 379 metingen in 6 kwartieren; Historie compleet
