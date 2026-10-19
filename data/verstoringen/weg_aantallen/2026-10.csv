@@ -8033,3 +8033,17 @@
 2026-10-18T23:05:31Z,RoadOrCarriagewayOrLaneManagement,narrowLanes,1,0
 2026-10-18T23:05:31Z,GeneralObstruction,objectOnTheRoad,1,0
 2026-10-18T23:05:31Z,GeneralNetworkManagement,bridgeSwingInOperation,2,0
+2026-10-19T00:05:33Z,RoadOrCarriagewayOrLaneManagement,other,79,0
+2026-10-19T00:05:33Z,GeneralNetworkManagement,bridgeSwingInOperation,1,0
+2026-10-19T00:05:33Z,ReroutingManagement,followDiversionSigns,99,0
+2026-10-19T00:05:33Z,GeneralObstruction,other,1,0
+2026-10-19T00:05:33Z,RoadOrCarriagewayOrLaneManagement,roadClosed,12,0
+2026-10-19T00:05:33Z,SpeedManagement,speedRestrictionInOperation,119,0
+2026-10-19T00:05:33Z,RoadOrCarriagewayOrLaneManagement,lanesDeviated,45,0
+2026-10-19T00:05:33Z,RoadOrCarriagewayOrLaneManagement,useSpecifiedLanesOrCarriageways,1,0
+2026-10-19T00:05:33Z,GeneralObstruction,objectOnTheRoad,1,0
+2026-10-19T00:05:33Z,RoadOrCarriagewayOrLaneManagement,narrowLanes,1,0
+2026-10-19T00:05:33Z,RoadOrCarriagewayOrLaneManagement,useOfSpecifiedLanesOrCarriagewaysAllowed,11,0
+2026-10-19T00:05:33Z,RoadOrCarriagewayOrLaneManagement,carriagewayClosures,626,0
+2026-10-19T00:05:33Z,RoadOrCarriagewayOrLaneManagement,laneClosures,138,0
+2026-10-19T00:05:33Z,VehicleObstruction,other,51,0
