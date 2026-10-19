@@ -61,7 +61,7 @@
 },
 "Hde001": {
 "bikes": "18",
-"open": "Yes"
+"open": "No"
 },
 "Hgz001": {
 "bikes": "6",
@@ -89,7 +89,7 @@
 },
 "Ot001": {
 "bikes": "9",
-"open": "Yes"
+"open": "No"
 },
 "Ow002": {
 "bikes": "8",
@@ -164,7 +164,7 @@
 "open": "Yes"
 },
 "ah003": {
-"bikes": "20",
+"bikes": "19",
 "open": "Yes"
 },
 "alm001": {
@@ -216,7 +216,7 @@
 "open": "Yes"
 },
 "asd002": {
-"bikes": "180",
+"bikes": "181",
 "open": "Yes"
 },
 "asd008": {
@@ -368,7 +368,7 @@
 "open": "Yes"
 },
 "db001": {
-"bikes": "126",
+"bikes": "125",
 "open": "Yes"
 },
 "db002": {
@@ -420,7 +420,7 @@
 "open": "Yes"
 },
 "dt002": {
-"bikes": "401",
+"bikes": "399",
 "open": "Yes"
 },
 "dtc001": {
@@ -548,7 +548,7 @@
 "open": "Yes"
 },
 "gv001": {
-"bikes": "135",
+"bikes": "136",
 "open": "Yes"
 },
 "gvc021": {
@@ -616,7 +616,7 @@
 "open": "Yes"
 },
 "hlm002": {
-"bikes": "184",
+"bikes": "187",
 "open": "Yes"
 },
 "hlms001": {
@@ -653,7 +653,7 @@
 },
 "hon001": {
 "bikes": "10",
-"open": "Yes"
+"open": "No"
 },
 "hor001": {
 "bikes": "16",
@@ -672,7 +672,7 @@
 "open": "Yes"
 },
 "ht001": {
-"bikes": "272",
+"bikes": "273",
 "open": "Yes"
 },
 "ht002": {
@@ -736,7 +736,7 @@
 "open": "Yes"
 },
 "ledn001": {
-"bikes": "331",
+"bikes": "333",
 "open": "Yes"
 },
 "ledn002": {
@@ -776,7 +776,7 @@
 "open": "Yes"
 },
 "mt001": {
-"bikes": "145",
+"bikes": "144",
 "open": "Yes"
 },
 "mt003": {
@@ -844,7 +844,7 @@
 "open": "Yes"
 },
 "ovn001": {
-"bikes": "9",
+"bikes": "6",
 "open": "Yes"
 },
 "ow001": {
@@ -897,7 +897,7 @@
 },
 "rsn001": {
 "bikes": "13",
-"open": "Yes"
+"open": "No"
 },
 "rsw002": {
 "bikes": "13",
@@ -997,14 +997,14 @@
 },
 "ut007": {
 "bikes": "0",
-"open": "Yes"
+"open": "No"
 },
 "ut016": {
 "bikes": "498",
 "open": "Yes"
 },
 "ut020": {
-"bikes": "934",
+"bikes": "935",
 "open": "Yes"
 },
 "ut021": {
@@ -1044,7 +1044,7 @@
 "open": "Yes"
 },
 "uto002": {
-"bikes": "42",
+"bikes": "43",
 "open": "Yes"
 },
 "utt001": {
@@ -1120,7 +1120,7 @@
 "open": "Yes"
 },
 "wd001": {
-"bikes": "60",
+"bikes": "59",
 "open": "Yes"
 },
 "wf001": {
