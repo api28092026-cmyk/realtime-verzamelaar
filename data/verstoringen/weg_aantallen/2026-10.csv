@@ -8060,3 +8060,17 @@
 2026-10-19T01:05:29Z,RoadOrCarriagewayOrLaneManagement,lanesDeviated,45,0
 2026-10-19T01:05:29Z,RoadOrCarriagewayOrLaneManagement,other,79,0
 2026-10-19T01:05:29Z,VehicleObstruction,other,46,0
+2026-10-19T02:05:35Z,SpeedManagement,speedRestrictionInOperation,108,0
+2026-10-19T02:05:35Z,RoadOrCarriagewayOrLaneManagement,laneClosures,128,0
+2026-10-19T02:05:35Z,RoadOrCarriagewayOrLaneManagement,useSpecifiedLanesOrCarriageways,1,0
+2026-10-19T02:05:35Z,VehicleObstruction,other,46,0
+2026-10-19T02:05:35Z,RoadOrCarriagewayOrLaneManagement,other,79,0
+2026-10-19T02:05:35Z,RoadOrCarriagewayOrLaneManagement,roadClosed,11,0
+2026-10-19T02:05:35Z,RoadOrCarriagewayOrLaneManagement,lanesDeviated,44,0
+2026-10-19T02:05:35Z,RoadOrCarriagewayOrLaneManagement,carriagewayClosures,635,0
+2026-10-19T02:05:35Z,RoadOrCarriagewayOrLaneManagement,narrowLanes,1,0
+2026-10-19T02:05:35Z,GeneralNetworkManagement,bridgeSwingInOperation,2,0
+2026-10-19T02:05:35Z,Accident,other,2,0
+2026-10-19T02:05:35Z,ReroutingManagement,followDiversionSigns,95,0
+2026-10-19T02:05:35Z,GeneralObstruction,objectOnTheRoad,1,0
+2026-10-19T02:05:35Z,RoadOrCarriagewayOrLaneManagement,useOfSpecifiedLanesOrCarriagewaysAllowed,11,0
