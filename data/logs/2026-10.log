@@ -3884,3 +3884,11 @@
 2026-10-20 07:09:06 [INFO] OV OK in 7 s: live: 20984 ritten, 1752 uitgevallen; meldingen: 653 actief, 6 nieuw
 2026-10-20 07:16:33 [INFO] NS OK in 447 s: storingen/werkzaamheden: 8 actief, 1 nieuw; drukte: 265 van 265 rijdende treinen, 237 stations, 277 keer drukte hoog
 2026-10-20 07:17:03 [INFO] Energie OK in 31 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 223, grensstromen 216, day-ahead 288 tijdstippen; TenneT: balance delta: 381 metingen in 6 kwartieren; Historie compleet
+2026-10-20 08:06:07 [INFO] Laadpunten OK in 30 s: 80702 locaties, 202899 laadpunten (41502 aan het laden); bestand van 2026-10-20T08:05:41Z
+2026-10-20 08:06:07 [INFO] Parkeren OK in 0 s: tarieven vandaag al bijgewerkt
+2026-10-20 08:07:27 [WARN] Poging 1 mislukt (https://stables.donkey.bike/api/public/gbfs/3.0/donkey_katwijk/vehicle_status.json): The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.. Opnieuw over 5 s.
+2026-10-20 08:08:01 [INFO] Deelmobiliteit OK in 114 s: 45 van 52 systemen, 17739 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-10-20 08:08:21 [INFO] Verstoringen OK in 20 s: weg: 1490 actieve meldingen, 210 nieuw; spoor: niets nieuws
+2026-10-20 08:08:25 [INFO] OV OK in 4 s: live: 19343 ritten, 1630 uitgevallen; meldingen: 654 actief, 3 nieuw
+2026-10-20 08:16:09 [INFO] NS OK in 464 s: storingen/werkzaamheden: 9 actief, 1 nieuw; drukte: 303 van 303 rijdende treinen, 239 stations, 146 keer drukte hoog
+2026-10-20 08:16:18 [INFO] Energie OK in 9 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 226, grensstromen 216, day-ahead 288 tijdstippen; TenneT: balance delta: 370 metingen in 6 kwartieren; Historie compleet
