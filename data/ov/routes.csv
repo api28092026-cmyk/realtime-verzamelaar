@@ -98,7 +98,6 @@
 163433,ARR,Arriva,bus,7
 163434,ARR,Arriva,bus,8
 163435,ARR,Arriva,bus,9
-163436,ARR,Arriva,bus,10
 163437,ARR,Arriva,bus,11
 163438,ARR,Arriva,bus,12
 163439,ARR,Arriva,bus,13
@@ -147,11 +146,11 @@
 163493,ARR,Arriva,bus,7
 163494,ARR,Arriva,bus,8
 163495,ARR,Arriva,bus,9
-163497,ARR,Arriva,bus,10
 163499,ARR,Arriva,bus,321
 163500,ARR,Arriva,bus,322
 163501,ARR,Arriva,bus,SB3
-160725,BN,Blauwnet,bus,822
+163568,ARR,Arriva,bus,10
+163570,ARR,Arriva,bus,10
 160726,BN,Blauwnet,bus,823
 160449,BRAVO,Bravo,bus,619
 162528,BRAVO:ARR,Bravo (Arriva),bus,82
@@ -545,7 +544,6 @@
 153945,CXX,Connexxion,bus,569
 153946,CXX,Connexxion,bus,28
 154169,CXX,Connexxion,bus,401
-154224,CXX,Connexxion,bus,858
 160547,CXX,Connexxion,bus,169
 161155,CXX,Connexxion,bus,OVoM
 161156,CXX,Connexxion,bus,OVoM
@@ -1070,15 +1068,6 @@
 134298,DOEKSEN,Rederij Doeksen,veerboot,TV
 134299,DOEKSEN,Rederij Doeksen,veerboot,HT
 134302,DOEKSEN,Rederij Doeksen,veerboot,HT-S
-126872,EBS,EBS,bus,404
-126873,EBS,EBS,bus,403
-126877,EBS,EBS,bus,84
-126881,EBS,EBS,bus,116
-126882,EBS,EBS,bus,115
-126885,EBS,EBS,bus,87
-126890,EBS,EBS,bus,902
-142910,EBS,EBS,bus,107
-142911,EBS,EBS,bus,106
 154784,EBS,EBS,bus,60
 154785,EBS,EBS,bus,61
 154786,EBS,EBS,bus,63
@@ -1195,7 +1184,6 @@
 152394,GVB,GVB,bus,N88
 152395,GVB,GVB,bus,N93
 152396,GVB,GVB,bus,N91
-161332,GVB,GVB,bus,72
 161606,GVB,GVB,bus,71
 163563,GVB,GVB,bus,73
 148409,HERMES,Hermes,bus,255
@@ -1230,7 +1218,6 @@
 154699,HTM,HTM,bus,20
 154700,HTM,HTM,bus,21
 154701,HTM,HTM,bus,22
-154702,HTM,HTM,bus,23
 154703,HTM,HTM,bus,24
 154704,HTM,HTM,bus,25
 154705,HTM,HTM,bus,26
@@ -1248,10 +1235,10 @@
 162518,HTM,HTM,tram,2
 162519,HTM,HTM,tram,3
 162521,HTM,HTM,tram,19
-162522,HTM,HTM,bus,77
 162523,HTM,HTM,bus,23A
 162524,HTM,HTM,bus,23B
 163021,HTM,HTM,bus,50
+163575,HTM,HTM,bus,23A
 86488,IFF:ARRIVA,Arriva,trein,Stoptrein RS18
 86489,IFF:ARRIVA,Arriva,trein,Stoptrein RS11
 86490,IFF:ARRIVA,Arriva,trein,Stoptrein RS11
@@ -1277,11 +1264,7 @@
 160507,IFF:ARRIVA,Arriva,trein,Stoptrein RS18
 160742,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
 160745,IFF:ARRIVA,Arriva,trein,Sneltrein RE6
-161400,IFF:ARRIVA,Arriva,bus,Snelbus ipv trein
-162460,IFF:ARRIVA,Arriva,bus,Snelbus ipv trein
 162462,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
-162463,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
-162464,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
 162465,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
 162816,IFF:ARRIVA,Arriva,bus,Snelbus ipv trein
 162818,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
@@ -1401,17 +1384,9 @@
 161173,IFF:NS,NS,trein,Intercity
 161177,IFF:NS,NS,trein,Sprinter
 161405,IFF:NS,NS,bus,Stopbus ipv trein
-162469,IFF:NS,NS,bus,Snelbus ipv trein
-162470,IFF:NS,NS,bus,Snelbus ipv trein
-162471,IFF:NS,NS,bus,Snelbus ipv trein
 162472,IFF:NS,NS,bus,Snelbus ipv trein
 162475,IFF:NS,NS,bus,Snelbus ipv trein
-162478,IFF:NS,NS,bus,Stopbus ipv trein
-162479,IFF:NS,NS,bus,Stopbus ipv trein
 162482,IFF:NS,NS,bus,Stopbus ipv trein
-162490,IFF:NS,NS,trein,Sprinter
-162491,IFF:NS,NS,trein,Sprinter
-162492,IFF:NS,NS,trein,Sprinter
 162825,IFF:NS,NS,bus,Snelbus ipv trein
 162826,IFF:NS,NS,bus,Snelbus ipv trein
 162827,IFF:NS,NS,bus,Snelbus ipv trein
@@ -1427,7 +1402,6 @@
 162840,IFF:NS,NS,trein,Intercity
 162841,IFF:NS,NS,bus,Stopbus ipv trein
 162843,IFF:NS,NS,trein,Sprinter
-162845,IFF:NS,NS,trein,Sprinter
 162846,IFF:NS,NS,trein,Sprinter
 162847,IFF:NS,NS,trein,Sprinter
 162848,IFF:NS,NS,trein,Sprinter
@@ -1491,7 +1465,6 @@
 163275,IFF:NS,NS,bus,Toegankelijke bus
 163276,IFF:NS,NS,bus,Toegankelijke bus
 163277,IFF:NS,NS,bus,Toegankelijke bus
-163278,IFF:NS,NS,bus,Toegankelijke bus
 163279,IFF:NS,NS,bus,Toegankelijke bus
 163280,IFF:NS,NS,bus,Toegankelijke bus
 163281,IFF:NS,NS,bus,Toegankelijke bus
@@ -1546,7 +1519,6 @@
 162888,IFF:RRREIS_A,RRReis Arriva,bus,Stopbus ipv trein
 139909,IFF:RRREIS_K,RRReis Keolis,trein,Sprinter RS34
 139910,IFF:RRREIS_K,RRReis Keolis,trein,Sprinter RS34
-162513,IFF:RRREIS_K,RRReis Keolis,bus,Stopbus ipv trein
 139911,IFF:VIAS,VIAS,trein,Stoptrein RE19
 154741,MEERPLUS,MeerPlus,bus,104
 154742,MEERPLUS,MeerPlus,bus,100
@@ -1904,7 +1876,6 @@
 159818,QBUZZ,Qbuzz,bus,15
 159819,QBUZZ,Qbuzz,bus,9
 159820,QBUZZ,Qbuzz,bus,75
-160504,QBUZZ,Qbuzz,bus,888
 160740,QBUZZ,Qbuzz,bus,284
 161721,QBUZZ,Qbuzz,bus,6011
 161722,QBUZZ,Qbuzz,bus,6021
@@ -2311,8 +2282,6 @@
 162123,QBUZZ,Qbuzz,bus,9711
 162124,QBUZZ,Qbuzz,bus,9721
 162125,QBUZZ,Qbuzz,bus,9731
-162514,QBUZZ,Qbuzz,bus,73
-162515,QBUZZ,Qbuzz,bus,400
 162516,QBUZZ,Qbuzz,bus,801
 163115,QBUZZ,Qbuzz,bus,815
 163116,QBUZZ,Qbuzz,bus,73
@@ -2847,11 +2816,11 @@
 162788,RRREIS,RRReis,bus,24
 162789,RRREIS,RRReis,bus,25
 162790,RRREIS,RRReis,bus,58
-163096,RRREIS,RRReis,bus,834
 163229,RRREIS,RRReis,bus,5
 163237,RRREIS,RRReis,bus,809
-163481,RRREIS,RRReis,bus,1
 163503,RRREIS,RRReis,bus,707
+163571,RRREIS,RRReis,bus,1
+163573,RRREIS,RRReis,bus,627
 134174,TESO,TESO,veerboot,TESO
 147000,TRANSDEV,Transdev,bus,1
 147001,TRANSDEV,Transdev,bus,2
@@ -2898,7 +2867,6 @@
 147096,TRANSDEV,Transdev,bus,738
 147097,TRANSDEV,Transdev,bus,N60
 147098,TRANSDEV,Transdev,bus,N67
-148597,TRANSDEV,Transdev,bus,510
 150485,TRANSDEV,Transdev,bus,46
 151011,TRANSDEV,Transdev,bus,N36
 154259,TRANSDEV,Transdev,bus,N32
