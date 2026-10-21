@@ -1,15 +1,9 @@
 ﻿{
-  "Laadpunten": {
-    "seconden": 50,
-    "tijd": "2026-10-21T05:05:37Z",
-    "status": "ok",
-    "melding": "81595 locaties, 205341 laadpunten (50602 aan het laden); bestand van 2026-10-21T05:05:44Z"
-  },
   "Energie": {
-    "seconden": 10,
-    "tijd": "2026-10-21T05:05:37Z",
-    "status": "ok",
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 192, grensstromen 200, day-ahead 288 tijdstippen; TenneT: balance delta: 235 metingen in 4 kwartieren; Historie compleet"
+    "seconden": 8,
+    "tijd": "2026-10-21T06:05:37Z",
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 192, grensstromen 208, day-ahead 288 tijdstippen; TenneT: balance delta: 369 metingen in 6 kwartieren; Historie compleet",
+    "status": "ok"
   },
   "Netcongestie": {
     "seconden": 4,
@@ -23,28 +17,22 @@
     "melding": "1925921 bv's/nv's verwerkt, waarvan 77402 met status faillissement",
     "status": "ok"
   },
-  "OV": {
-    "seconden": 6,
-    "tijd": "2026-10-21T05:05:37Z",
-    "status": "ok",
-    "melding": "live: 17812 ritten, 2219 uitgevallen; meldingen: 663 actief, 0 nieuw"
-  },
-  "Verstoringen": {
-    "seconden": 38,
-    "tijd": "2026-10-21T05:05:37Z",
-    "status": "ok",
-    "melding": "weg: 1393 actieve meldingen, 169 nieuw; spoor: niets nieuws"
-  },
-  "Deelmobiliteit": {
-    "seconden": 103,
-    "tijd": "2026-10-21T05:05:37Z",
-    "status": "ok",
-    "melding": "45 van 52 systemen, 27187 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+  "NzaWachttijden": {
+    "seconden": 0,
+    "tijd": "2026-10-21T04:30:47Z",
+    "melding": "laatste peildatum 2026-10-13; volgende update niet voor 2026-10-28",
+    "status": "ok"
   },
   "TenderNed": {
     "seconden": 130,
     "tijd": "2026-10-21T04:30:47Z",
     "melding": "109 nieuwe publicaties",
+    "status": "ok"
+  },
+  "RDW": {
+    "seconden": 96,
+    "tijd": "2026-10-21T04:30:47Z",
+    "melding": "13147 personenauto-registraties sinds 2026-10-11 verwerkt",
     "status": "ok"
   },
   "EnergyZero": {
@@ -53,28 +41,40 @@
     "melding": "194 uurprijzen bijgewerkt; gas: 5 gasdagen",
     "status": "ok"
   },
-  "Parkeren": {
-    "seconden": 0,
-    "tijd": "2026-10-21T05:05:37Z",
-    "status": "ok",
-    "melding": "tarieven vandaag al bijgewerkt"
+  "Deelmobiliteit": {
+    "seconden": 80,
+    "tijd": "2026-10-21T06:05:37Z",
+    "melding": "45 van 52 systemen, 25531 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "status": "ok"
   },
-  "RDW": {
-    "seconden": 96,
-    "tijd": "2026-10-21T04:30:47Z",
-    "melding": "13147 personenauto-registraties sinds 2026-10-11 verwerkt",
+  "Laadpunten": {
+    "seconden": 49,
+    "tijd": "2026-10-21T06:05:37Z",
+    "melding": "81595 locaties, 205341 laadpunten (44014 aan het laden); bestand van 2026-10-21T06:05:42Z",
+    "status": "ok"
+  },
+  "OV": {
+    "seconden": 5,
+    "tijd": "2026-10-21T06:05:37Z",
+    "melding": "live: 18534 ritten, 2124 uitgevallen; meldingen: 675 actief, 20 nieuw",
+    "status": "ok"
+  },
+  "Verstoringen": {
+    "seconden": 35,
+    "tijd": "2026-10-21T06:05:37Z",
+    "melding": "weg: 1421 actieve meldingen, 180 nieuw; spoor: niets nieuws",
     "status": "ok"
   },
   "NS": {
-    "seconden": 519,
-    "tijd": "2026-10-21T05:05:37Z",
-    "status": "ok",
-    "melding": "storingen/werkzaamheden: 8 actief, 0 nieuw; drukte: 305 van 305 rijdende treinen, 239 stations, 82 keer drukte hoog"
+    "seconden": 485,
+    "tijd": "2026-10-21T06:05:37Z",
+    "melding": "storingen/werkzaamheden: 9 actief, 2 nieuw; drukte: 314 van 314 rijdende treinen, 239 stations, 263 keer drukte hoog",
+    "status": "ok"
   },
-  "NzaWachttijden": {
+  "Parkeren": {
     "seconden": 0,
-    "tijd": "2026-10-21T04:30:47Z",
-    "melding": "laatste peildatum 2026-10-13; volgende update niet voor 2026-10-28",
+    "tijd": "2026-10-21T06:05:37Z",
+    "melding": "tarieven vandaag al bijgewerkt",
     "status": "ok"
   }
 }
