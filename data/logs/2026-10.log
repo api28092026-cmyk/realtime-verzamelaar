@@ -4163,3 +4163,11 @@
 2026-10-21 20:07:46 [INFO] OV OK in 4 s: live: 10567 ritten, 1142 uitgevallen; meldingen: 723 actief, 0 nieuw
 2026-10-21 20:14:48 [INFO] NS OK in 422 s: storingen/werkzaamheden: 8 actief, 0 nieuw; drukte: 245 van 245 rijdende treinen, 235 stations, 13 keer drukte hoog
 2026-10-21 20:14:57 [INFO] Energie OK in 9 s: Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 274, grensstromen 270, day-ahead 384 tijdstippen; TenneT: balance delta: 373 metingen in 6 kwartieren; Historie compleet
+2026-10-21 21:06:08 [INFO] Laadpunten OK in 31 s: 80738 locaties, 203055 laadpunten (57840 aan het laden); bestand van 2026-10-21T21:05:42Z
+2026-10-21 21:06:08 [INFO] Parkeren OK in 0 s: tarieven vandaag al bijgewerkt
+2026-10-21 21:06:54 [WARN] Poging 1 mislukt (https://www.cykl.nl/gbfs/gbfs.json): Network is unreachable (www.cykl.nl:443). Opnieuw over 5 s.
+2026-10-21 21:07:42 [INFO] Deelmobiliteit OK in 94 s: 44 van 52 systemen, 26706 voertuigen; niet bereikbaar: CKL, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-10-21 21:08:02 [INFO] Verstoringen OK in 20 s: weg: 1641 actieve meldingen, 143 nieuw; spoor: niets nieuws
+2026-10-21 21:08:07 [INFO] OV OK in 4 s: live: 10163 ritten, 1095 uitgevallen; meldingen: 720 actief, 0 nieuw
+2026-10-21 21:14:39 [INFO] NS OK in 393 s: storingen/werkzaamheden: 9 actief, 1 nieuw; drukte: 234 van 234 rijdende treinen, 235 stations, 9 keer drukte hoog
+2026-10-21 21:14:48 [INFO] Energie OK in 9 s: Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 277, grensstromen 274, day-ahead 384 tijdstippen; TenneT: balance delta: 373 metingen in 6 kwartieren; Historie compleet
