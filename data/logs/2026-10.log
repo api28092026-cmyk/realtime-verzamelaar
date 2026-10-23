@@ -4412,3 +4412,45 @@
 2026-10-23 04:07:55 [INFO] OV OK in 5 s: live: 14503 ritten, 2364 uitgevallen; meldingen: 682 actief, 0 nieuw
 2026-10-23 04:13:23 [INFO] NS OK in 328 s: storingen/werkzaamheden: 9 actief, 0 nieuw; drukte: 192 van 192 rijdende treinen, 235 stations, 11 keer drukte hoog
 2026-10-23 04:13:30 [INFO] Energie OK in 8 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 206, grensstromen 165, day-ahead 288 tijdstippen; TenneT: balance delta: 396 metingen in 6 kwartieren; Historie compleet
+2026-10-23 04:30:55 [INFO] EnergyZero OK in 5 s: 194 uurprijzen bijgewerkt; gas: 5 gasdagen
+2026-10-23 04:30:56 [WARN] Poging 1 mislukt (https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties?page=0&size=100): Response status code does not indicate success: 500 (Internal Server Error).. Opnieuw over 5 s.
+2026-10-23 04:31:01 [WARN] Poging 2 mislukt (https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties?page=0&size=100): Response status code does not indicate success: 500 (Internal Server Error).. Opnieuw over 15 s.
+2026-10-23 04:31:17 [WARN] Poging 3 mislukt (https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties?page=0&size=100): Response status code does not indicate success: 500 (Internal Server Error).. Opnieuw over 45 s.
+2026-10-23 04:32:02 [WARN] TenderNed JSON-endpoint faalde (Response status code does not indicate success: 500 (Internal Server Error).); terugval op de Atom-feed.
+2026-10-23 04:32:03 [WARN] Detail van publicatie 445837 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:04 [WARN] Detail van publicatie 445833 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:06 [WARN] Detail van publicatie 445832 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:07 [WARN] Detail van publicatie 445825 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:08 [WARN] Detail van publicatie 445820 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:09 [WARN] Detail van publicatie 445814 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:10 [WARN] Detail van publicatie 445804 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:11 [WARN] Detail van publicatie 445801 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:12 [WARN] Detail van publicatie 445800 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:13 [WARN] Detail van publicatie 445790 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:14 [WARN] Detail van publicatie 445789 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:16 [WARN] Detail van publicatie 445788 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:17 [WARN] Detail van publicatie 445782 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:18 [WARN] Detail van publicatie 445779 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:19 [WARN] Detail van publicatie 445776 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:20 [WARN] Detail van publicatie 445775 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:21 [WARN] Detail van publicatie 445774 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:22 [WARN] Detail van publicatie 445772 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:23 [WARN] Detail van publicatie 445769 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:24 [WARN] Detail van publicatie 445765 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:26 [WARN] Detail van publicatie 445764 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:27 [WARN] Detail van publicatie 445754 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:28 [WARN] Detail van publicatie 445741 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:29 [WARN] Detail van publicatie 445733 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:30 [WARN] Detail van publicatie 445722 niet opgehaald: Response status code does not indicate success: 404 (Not Found).
+2026-10-23 04:32:31 [INFO] TenderNed OK in 96 s: 25 nieuwe publicaties
+2026-10-23 04:34:59 [INFO] RDW OK in 148 s: 16543 personenauto-registraties sinds 2026-10-13 verwerkt
+2026-10-23 04:35:47 [INFO] Laadpunten OK in 48 s: 80840 locaties, 203325 laadpunten (55037 aan het laden); bestand van 2026-10-23T04:35:04Z
+2026-10-23 04:35:50 [INFO] Netcongestie OK in 3 s: Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd
+2026-10-23 04:36:09 [INFO] KvkOpenData OK in 19 s: 1927044 bv's/nv's verwerkt, waarvan 77452 met status faillissement
+2026-10-23 04:36:09 [INFO] Parkeren OK in 0 s: tarieven vandaag al bijgewerkt
+2026-10-23 04:37:42 [INFO] Deelmobiliteit OK in 92 s: 45 van 52 systemen, 25981 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-10-23 04:38:23 [INFO] Verstoringen OK in 41 s: weg: 1355 actieve meldingen, 98 nieuw; spoor: niets nieuws
+2026-10-23 04:38:28 [INFO] OV OK in 5 s: live: 15617 ritten, 2407 uitgevallen; meldingen: 702 actief, 20 nieuw
+2026-10-23 04:45:33 [INFO] NS OK in 424 s: storingen/werkzaamheden: 9 actief, 0 nieuw; drukte: 270 van 270 rijdende treinen, 239 stations, 16 keer drukte hoog
+2026-10-23 04:45:42 [INFO] Energie OK in 10 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 210, grensstromen 167, day-ahead 288 tijdstippen; TenneT: balance delta: 235 metingen in 4 kwartieren; Historie compleet
+2026-10-23 04:45:42 [INFO] NzaWachttijden OK in 0 s: laatste peildatum 2026-10-13; volgende update niet voor 2026-10-28
