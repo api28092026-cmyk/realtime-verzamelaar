@@ -9908,3 +9908,16 @@
 2026-10-22T23:06:04Z,GeneralNetworkManagement,bridgeSwingInOperation,5,0
 2026-10-22T23:06:04Z,ReroutingManagement,followDiversionSigns,132,0
 2026-10-22T23:06:04Z,RoadOrCarriagewayOrLaneManagement,other,105,0
+2026-10-23T00:05:30Z,RoadOrCarriagewayOrLaneManagement,hardShoulderRunningInOperation,26,0
+2026-10-23T00:05:30Z,GeneralNetworkManagement,bridgeSwingInOperation,5,0
+2026-10-23T00:05:30Z,RoadOrCarriagewayOrLaneManagement,other,105,0
+2026-10-23T00:05:30Z,SpeedManagement,speedRestrictionInOperation,159,0
+2026-10-23T00:05:30Z,RoadOrCarriagewayOrLaneManagement,roadClosed,16,0
+2026-10-23T00:05:30Z,RoadOrCarriagewayOrLaneManagement,laneClosures,169,0
+2026-10-23T00:05:30Z,Accident,other,1,0
+2026-10-23T00:05:30Z,RoadOrCarriagewayOrLaneManagement,useOfSpecifiedLanesOrCarriagewaysAllowed,24,0
+2026-10-23T00:05:30Z,RoadOrCarriagewayOrLaneManagement,narrowLanes,1,0
+2026-10-23T00:05:30Z,ReroutingManagement,followDiversionSigns,132,0
+2026-10-23T00:05:30Z,RoadOrCarriagewayOrLaneManagement,lanesDeviated,47,0
+2026-10-23T00:05:30Z,RoadOrCarriagewayOrLaneManagement,carriagewayClosures,809,0
+2026-10-23T00:05:30Z,VehicleObstruction,other,106,0
