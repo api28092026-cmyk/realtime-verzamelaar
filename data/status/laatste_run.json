@@ -1,9 +1,21 @@
 ﻿{
+  "KvkOpenData": {
+    "tijd": "2026-10-24T04:30:52Z",
+    "seconden": 17,
+    "melding": "1927286 bv's/nv's verwerkt, waarvan 77457 met status faillissement",
+    "status": "ok"
+  },
   "OV": {
     "status": "ok",
-    "tijd": "2026-10-24T16:05:44Z",
-    "seconden": 3,
-    "melding": "live: 9143 ritten, 1619 uitgevallen; meldingen: 679 actief, 0 nieuw"
+    "seconden": 4,
+    "tijd": "2026-10-24T17:05:32Z",
+    "melding": "live: 8010 ritten, 1534 uitgevallen; meldingen: 719 actief, 42 nieuw"
+  },
+  "Deelmobiliteit": {
+    "status": "ok",
+    "seconden": 78,
+    "tijd": "2026-10-24T17:05:32Z",
+    "melding": "45 van 52 systemen, 22023 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
   },
   "TenderNed": {
     "tijd": "2026-10-24T04:30:52Z",
@@ -13,33 +25,27 @@
   },
   "Verstoringen": {
     "status": "ok",
-    "tijd": "2026-10-24T16:05:44Z",
-    "seconden": 23,
-    "melding": "weg: 1473 actieve meldingen, 115 nieuw; spoor: niets nieuws"
+    "seconden": 39,
+    "tijd": "2026-10-24T17:05:32Z",
+    "melding": "weg: 1448 actieve meldingen, 114 nieuw; spoor: niets nieuws"
+  },
+  "NzaWachttijden": {
+    "tijd": "2026-10-24T04:30:52Z",
+    "seconden": 0,
+    "melding": "laatste peildatum 2026-10-13; volgende update niet voor 2026-10-28",
+    "status": "ok"
+  },
+  "Energie": {
+    "status": "ok",
+    "seconden": 10,
+    "tijd": "2026-10-24T17:05:32Z",
+    "melding": "Nord Pool: 196 kwartierprijzen; Energy-Charts: opwek 262, grensstromen 259, day-ahead 388 tijdstippen; TenneT: balance delta: 377 metingen in 6 kwartieren; Historie compleet"
   },
   "NS": {
     "status": "ok",
-    "tijd": "2026-10-24T16:05:44Z",
-    "seconden": 441,
-    "melding": "storingen/werkzaamheden: 18 actief, 2 nieuw; drukte: 290 van 290 rijdende treinen, 237 stations, 122 keer drukte hoog"
-  },
-  "KvkOpenData": {
-    "tijd": "2026-10-24T04:30:52Z",
-    "seconden": 17,
-    "melding": "1927286 bv's/nv's verwerkt, waarvan 77457 met status faillissement",
-    "status": "ok"
-  },
-  "Parkeren": {
-    "status": "ok",
-    "tijd": "2026-10-24T16:05:44Z",
-    "seconden": 0,
-    "melding": "tarieven vandaag al bijgewerkt"
-  },
-  "Deelmobiliteit": {
-    "status": "ok",
-    "tijd": "2026-10-24T16:05:44Z",
-    "seconden": 79,
-    "melding": "45 van 52 systemen, 22021 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+    "seconden": 457,
+    "tijd": "2026-10-24T17:05:32Z",
+    "melding": "storingen/werkzaamheden: 17 actief, 0 nieuw; drukte: 298 van 298 rijdende treinen, 237 stations, 62 keer drukte hoog"
   },
   "RDW": {
     "tijd": "2026-10-24T04:30:52Z",
@@ -47,29 +53,23 @@
     "melding": "16996 personenauto-registraties sinds 2026-10-14 verwerkt",
     "status": "ok"
   },
-  "Energie": {
-    "status": "ok",
-    "tijd": "2026-10-24T16:05:44Z",
-    "seconden": 9,
-    "melding": "Nord Pool: 196 kwartierprijzen; Energy-Charts: opwek 257, grensstromen 255, day-ahead 388 tijdstippen; TenneT: balance delta: 370 metingen in 6 kwartieren; Historie compleet"
-  },
   "EnergyZero": {
     "tijd": "2026-10-24T04:30:52Z",
     "seconden": 5,
     "melding": "214 uurprijzen bijgewerkt; gas: 6 gasdagen",
     "status": "ok"
   },
+  "Parkeren": {
+    "status": "ok",
+    "seconden": 0,
+    "tijd": "2026-10-24T17:05:32Z",
+    "melding": "tarieven vandaag al bijgewerkt"
+  },
   "Laadpunten": {
     "status": "ok",
-    "tijd": "2026-10-24T16:05:44Z",
-    "seconden": 31,
-    "melding": "80811 locaties, 203273 laadpunten (49180 aan het laden); bestand van 2026-10-24T16:05:48Z"
-  },
-  "NzaWachttijden": {
-    "tijd": "2026-10-24T04:30:52Z",
-    "seconden": 0,
-    "melding": "laatste peildatum 2026-10-13; volgende update niet voor 2026-10-28",
-    "status": "ok"
+    "seconden": 45,
+    "tijd": "2026-10-24T17:05:32Z",
+    "melding": "80811 locaties, 203273 laadpunten (49792 aan het laden); bestand van 2026-10-24T17:05:36Z"
   },
   "Netcongestie": {
     "tijd": "2026-10-24T04:30:52Z",
