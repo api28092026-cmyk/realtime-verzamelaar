@@ -5443,3 +5443,13 @@
 2026-10-28 15:09:10 [INFO] OV OK in 6 s: live: 15234 ritten, 1691 uitgevallen; meldingen: 705 actief, 8 nieuw
 2026-10-28 15:18:43 [INFO] NS OK in 573 s: storingen/werkzaamheden: 12 actief, 4 nieuw; drukte: 331 van 331 rijdende treinen, 249 stations, 190 keer drukte hoog
 2026-10-28 15:18:55 [INFO] Energie OK in 12 s: Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 246, grensstromen 245, day-ahead 384 tijdstippen; TenneT: balance delta: 377 metingen in 6 kwartieren; Historie compleet
+2026-10-28 16:06:30 [INFO] Laadpunten OK in 49 s: 81701 locaties, 205672 laadpunten (50311 aan het laden); bestand van 2026-10-28T16:05:45Z
+2026-10-28 16:06:30 [INFO] Parkeren OK in 0 s: tarieven vandaag al bijgewerkt
+2026-10-28 16:08:01 [INFO] Deelmobiliteit OK in 91 s: 45 van 52 systemen, 22183 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-10-28 16:08:47 [INFO] Verstoringen OK in 46 s: weg: 1456 actieve meldingen, 332 nieuw; spoor: niets nieuws
+2026-10-28 16:08:57 [WARN] Poging 1 mislukt (https://gtfs.ovapi.nl/nl/tripUpdates.pb): Resource temporarily unavailable (gtfs.ovapi.nl:443). Opnieuw over 5 s.
+2026-10-28 16:09:12 [WARN] Poging 2 mislukt (https://gtfs.ovapi.nl/nl/tripUpdates.pb): Resource temporarily unavailable (gtfs.ovapi.nl:443). Opnieuw over 15 s.
+2026-10-28 16:09:37 [WARN] Poging 3 mislukt (https://gtfs.ovapi.nl/nl/tripUpdates.pb): Resource temporarily unavailable (gtfs.ovapi.nl:443). Opnieuw over 45 s.
+2026-10-28 16:10:32 [ERROR] OV MISLUKT: Resource temporarily unavailable (gtfs.ovapi.nl:443)
+2026-10-28 16:19:35 [INFO] NS OK in 543 s: storingen/werkzaamheden: 8 actief, 0 nieuw; drukte: 337 van 337 rijdende treinen, 249 stations, 353 keer drukte hoog
+2026-10-28 16:19:47 [INFO] Energie OK in 11 s: Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 250, grensstromen 249, day-ahead 384 tijdstippen; TenneT: balance delta: 378 metingen in 6 kwartieren; Historie compleet
