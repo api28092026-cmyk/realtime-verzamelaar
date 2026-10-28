@@ -155,7 +155,6 @@
 163871,ARR,Arriva,bus,539
 163872,ARR,Arriva,bus,550
 163873,ARR,Arriva,bus,557
-160726,BN,Blauwnet,bus,823
 160449,BRAVO,Bravo,bus,619
 162528,BRAVO:ARR,Bravo (Arriva),bus,82
 162903,BRAVO:ARR,Bravo (Arriva),bus,296
@@ -517,7 +516,6 @@
 147334,CXX,Connexxion,bus,191
 147335,CXX,Connexxion,bus,194
 147336,CXX,Connexxion,bus,195
-147337,CXX,Connexxion,bus,198
 147338,CXX,Connexxion,bus,199
 147339,CXX,Connexxion,bus,200
 147340,CXX,Connexxion,bus,244
@@ -1241,6 +1239,7 @@
 162524,HTM,HTM,bus,23B
 163021,HTM,HTM,bus,50
 163575,HTM,HTM,bus,23A
+164016,HTM,HTM,bus,23
 86488,IFF:ARRIVA,Arriva,trein,Stoptrein RS18
 86489,IFF:ARRIVA,Arriva,trein,Stoptrein RS11
 86490,IFF:ARRIVA,Arriva,trein,Stoptrein RS11
@@ -1266,12 +1265,7 @@
 160745,IFF:ARRIVA,Arriva,trein,Sneltrein RE6
 162462,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
 162465,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
-162818,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
-162819,IFF:ARRIVA,Arriva,bus,Taxibus ipv trein
-162820,IFF:ARRIVA,Arriva,trein,Sneltrein RE6
-162823,IFF:ARRIVA,Arriva,trein,Stoptrein RS11
 163048,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
-163239,IFF:ARRIVA,Arriva,bus,Snelbus ipv trein
 163240,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
 163241,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
 163242,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
@@ -1279,22 +1273,27 @@
 163576,IFF:ARRIVA,Arriva,bus,Snelbus ipv trein
 163577,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
 163578,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
+163973,IFF:ARRIVA,Arriva,bus,Stopbus ipv trein
+163974,IFF:ARRIVA,Arriva,bus,Taxibus ipv trein
+163975,IFF:ARRIVA,Arriva,trein,Sneltrein RE6
+163976,IFF:ARRIVA,Arriva,trein,Stoptrein RS11
+163977,IFF:ARRIVA,Arriva,trein,Stoptrein
 139852,IFF:BLAUWNET_A,Blauwnet Arriva,trein,Sneltrein RE20
 139853,IFF:BLAUWNET_A,Blauwnet Arriva,trein,Sneltrein RE20
 139854,IFF:BLAUWNET_A,Blauwnet Arriva,trein,Stoptrein RS21
 139855,IFF:BLAUWNET_A,Blauwnet Arriva,trein,Stoptrein RS24
 139856,IFF:BLAUWNET_A,Blauwnet Arriva,trein,Stoptrein RS20
-161402,IFF:BLAUWNET_A,Blauwnet Arriva,bus,Stopbus ipv trein
+163978,IFF:BLAUWNET_A,Blauwnet Arriva,bus,Snelbus ipv trein
+163979,IFF:BLAUWNET_A,Blauwnet Arriva,bus,Stopbus ipv trein
 139857,IFF:BLAUWNET_K,Blauwnet Keolis,trein,Intercity IC23
 139858,IFF:BLAUWNET_K,Blauwnet Keolis,trein,Sprinter RS23
 139859,IFF:BLAUWNET_K,Blauwnet Keolis,trein,Sprinter RS22
-163052,IFF:BLAUWNET_K,Blauwnet Keolis,bus,Stopbus ipv trein
-163579,IFF:BLAUWNET_K,Blauwnet Keolis,bus,Snelbus ipv trein
+163980,IFF:BLAUWNET_K,Blauwnet Keolis,trein,Sprinter RS23
 163580,IFF:DB,DB,trein,Stoptrein RB64
 139861,IFF:EUROBAHN,Eurobahn,trein,Sneltrein RE13
 139862,IFF:EUROBAHN,Eurobahn,trein,Stoptrein RB61
 163054,IFF:EUROBAHN,Eurobahn,bus,Stopbus ipv trein
-139863,IFF:EU_SLEEPER,European Sleeper,trein,European Sleeper
+139863,IFF:EU_SLEEPER,Eu Sleeper,trein,European Sleeper
 160747,IFF:GV,GoVolta,trein,GoVolta
 162824,IFF:GV,GoVolta,trein,GoVolta
 163244,IFF:NMBS,NMBS,trein,Stoptrein S32
@@ -1386,29 +1385,18 @@
 161405,IFF:NS,NS,bus,Stopbus ipv trein
 162472,IFF:NS,NS,bus,Snelbus ipv trein
 162475,IFF:NS,NS,bus,Snelbus ipv trein
-162482,IFF:NS,NS,bus,Stopbus ipv trein
-162825,IFF:NS,NS,bus,Snelbus ipv trein
-162827,IFF:NS,NS,bus,Snelbus ipv trein
-162830,IFF:NS,NS,bus,Stopbus ipv trein
-162838,IFF:NS,NS,trein,Intercity
 162841,IFF:NS,NS,bus,Stopbus ipv trein
 162843,IFF:NS,NS,trein,Sprinter
-162848,IFF:NS,NS,trein,Sprinter
-162850,IFF:NS,NS,trein,Sprinter
-162852,IFF:NS,NS,trein,Sprinter
-163053,IFF:NS,NS,trein,Sprinter
 163055,IFF:NS,NS,bus,Snelbus ipv trein
 163056,IFF:NS,NS,bus,Snelbus ipv trein
 163057,IFF:NS,NS,bus,Snelbus ipv trein
 163058,IFF:NS,NS,bus,Snelbus ipv trein
 163059,IFF:NS,NS,bus,Snelbus ipv trein
-163060,IFF:NS,NS,bus,Snelbus ipv trein
 163061,IFF:NS,NS,bus,Stopbus ipv trein
 163062,IFF:NS,NS,bus,Stopbus ipv trein
 163064,IFF:NS,NS,bus,Stopbus ipv trein
 163065,IFF:NS,NS,bus,Stopbus ipv trein
 163067,IFF:NS,NS,bus,Stopbus ipv trein
-163068,IFF:NS,NS,bus,Snelbus ipv trein
 163069,IFF:NS,NS,bus,Snelbus ipv trein
 163070,IFF:NS,NS,bus,Snelbus ipv trein
 163072,IFF:NS,NS,bus,Stopbus ipv trein
@@ -1429,44 +1417,10 @@
 163252,IFF:NS,NS,trein,Intercity
 163253,IFF:NS,NS,trein,Intercity
 163254,IFF:NS,NS,trein,Intercity
-163255,IFF:NS,NS,metro,Metro ipv trein
 163257,IFF:NS,NS,trein,Sprinter
 163258,IFF:NS,NS,trein,Sprinter
 163259,IFF:NS,NS,trein,Sprinter
 163260,IFF:NS,NS,trein,Sprinter
-163261,IFF:NS,NS,bus,Toegankelijke bus
-163262,IFF:NS,NS,bus,Toegankelijke bus
-163263,IFF:NS,NS,bus,Toegankelijke bus
-163264,IFF:NS,NS,bus,Toegankelijke bus
-163265,IFF:NS,NS,bus,Toegankelijke bus
-163266,IFF:NS,NS,bus,Toegankelijke bus
-163267,IFF:NS,NS,bus,Toegankelijke bus
-163268,IFF:NS,NS,bus,Toegankelijke bus
-163269,IFF:NS,NS,bus,Toegankelijke bus
-163270,IFF:NS,NS,bus,Toegankelijke bus
-163271,IFF:NS,NS,bus,Toegankelijke bus
-163272,IFF:NS,NS,bus,Toegankelijke bus
-163273,IFF:NS,NS,bus,Toegankelijke bus
-163275,IFF:NS,NS,bus,Toegankelijke bus
-163276,IFF:NS,NS,bus,Toegankelijke bus
-163277,IFF:NS,NS,bus,Toegankelijke bus
-163279,IFF:NS,NS,bus,Toegankelijke bus
-163280,IFF:NS,NS,bus,Toegankelijke bus
-163281,IFF:NS,NS,bus,Toegankelijke bus
-163282,IFF:NS,NS,bus,Toegankelijke bus
-163283,IFF:NS,NS,bus,Toegankelijke bus
-163284,IFF:NS,NS,bus,Toegankelijke bus
-163285,IFF:NS,NS,bus,Toegankelijke bus
-163286,IFF:NS,NS,bus,Toegankelijke bus
-163287,IFF:NS,NS,bus,Toegankelijke bus
-163288,IFF:NS,NS,bus,Toegankelijke bus
-163289,IFF:NS,NS,bus,Toegankelijke bus
-163290,IFF:NS,NS,bus,Toegankelijke bus
-163291,IFF:NS,NS,bus,Toegankelijke bus
-163294,IFF:NS,NS,bus,Toegankelijke bus
-163300,IFF:NS,NS,bus,Toegankelijke bus
-163301,IFF:NS,NS,bus,Toegankelijke bus
-163302,IFF:NS,NS,bus,Toegankelijke bus
 163581,IFF:NS,NS,bus,Snelbus ipv trein
 163582,IFF:NS,NS,bus,Snelbus ipv trein
 163583,IFF:NS,NS,bus,Snelbus ipv trein
@@ -1487,20 +1441,44 @@
 163598,IFF:NS,NS,bus,Stopbus ipv trein
 163599,IFF:NS,NS,bus,Stopbus ipv trein
 163600,IFF:NS,NS,bus,Snelbus ipv trein
-163601,IFF:NS,NS,trein,Intercity
 163603,IFF:NS,NS,trein,Intercity
 163604,IFF:NS,NS,trein,Intercity
 163605,IFF:NS,NS,trein,Intercity
-163606,IFF:NS,NS,trein,Intercity
-163607,IFF:NS,NS,metro,Metro ipv trein
 163608,IFF:NS,NS,trein,Sprinter
-163609,IFF:NS,NS,bus,Toegankelijke bus
-163610,IFF:NS,NS,bus,Toegankelijke bus
-163611,IFF:NS,NS,bus,Toegankelijke bus
-163612,IFF:NS,NS,bus,Toegankelijke bus
-163613,IFF:NS,NS,bus,Toegankelijke bus
-163614,IFF:NS,NS,bus,Toegankelijke bus
-163615,IFF:NS,NS,bus,Toegankelijke bus
+163981,IFF:NS,NS,bus,Snelbus ipv trein
+163982,IFF:NS,NS,bus,Snelbus ipv trein
+163983,IFF:NS,NS,bus,Snelbus ipv trein
+163984,IFF:NS,NS,bus,Snelbus ipv trein
+163985,IFF:NS,NS,bus,Snelbus ipv trein
+163986,IFF:NS,NS,bus,Snelbus ipv trein
+163987,IFF:NS,NS,bus,Snelbus ipv trein
+163988,IFF:NS,NS,bus,Snelbus ipv trein
+163989,IFF:NS,NS,bus,Snelbus ipv trein
+163990,IFF:NS,NS,bus,Snelbus ipv trein
+163991,IFF:NS,NS,bus,Stopbus ipv trein
+163992,IFF:NS,NS,bus,Stopbus ipv trein
+163993,IFF:NS,NS,bus,Stopbus ipv trein
+163994,IFF:NS,NS,bus,Stopbus ipv trein
+163995,IFF:NS,NS,bus,Stopbus ipv trein
+163996,IFF:NS,NS,bus,Stopbus ipv trein
+163997,IFF:NS,NS,bus,Stopbus ipv trein
+163998,IFF:NS,NS,bus,Stopbus ipv trein
+163999,IFF:NS,NS,bus,Taxibus ipv trein
+164000,IFF:NS,NS,bus,Taxibus ipv trein
+164001,IFF:NS,NS,bus,Snelbus ipv trein
+164002,IFF:NS,NS,bus,Snelbus ipv trein
+164003,IFF:NS,NS,bus,Snelbus ipv trein
+164004,IFF:NS,NS,trein,Intercity
+164005,IFF:NS,NS,trein,Intercity
+164006,IFF:NS,NS,bus,Stopbus ipv trein
+164007,IFF:NS,NS,metro,Metro ipv trein
+164008,IFF:NS,NS,metro,Metro ipv trein
+164009,IFF:NS,NS,trein,Sprinter
+164010,IFF:NS,NS,trein,Sprinter
+164011,IFF:NS,NS,trein,Sprinter
+164012,IFF:NS,NS,trein,Sprinter
+164013,IFF:NS,NS,trein,Sprinter
+164014,IFF:NS,NS,bus,Toegankelijke bus
 138956,IFF:NS_INT,NS International,trein,Eurostar
 138958,IFF:NS_INT,NS International,trein,Eurostar
 138965,IFF:NS_INT,NS International,trein,Nightjet
@@ -1514,6 +1492,7 @@
 160718,IFF:NS_INT,NS International,trein,ICE
 163616,IFF:NS_INT,NS International,trein,ICE
 163617,IFF:NS_INT,NS International,trein,ICE
+164015,IFF:NS_INT,NS International,trein,ICE
 139898,IFF:R-NET_NS,R-net NS,trein,Sprinter
 139899,IFF:R-NET_NS,R-net NS,trein,Sprinter
 139900,IFF:R-NET_QB,R-net Qbuzz,bus,Stopbus ipv trein
@@ -1578,9 +1557,6 @@
 154783,MEERPLUS,MeerPlus,bus,610
 161335,NL:MLN:Operator:9f1641fb-e08a-41b9-bdaa-204918901704,Miljoenenlijn,trein,MS5
 161529,NL:MLN:Operator:9f1641fb-e08a-41b9-bdaa-204918901704,Miljoenenlijn,trein,MS1
-161530,NL:MLN:Operator:9f1641fb-e08a-41b9-bdaa-204918901704,Miljoenenlijn,trein,MS2
-160775,NL:OVCN:Operator:21a33b6a-7389-4c5d-99ea-904f7551694a,Electrische Museumtramlijn Amsterdam,bus,30
-160776,NL:OVCN:Operator:21a33b6a-7389-4c5d-99ea-904f7551694a,Electrische Museumtramlijn Amsterdam,tram,30
 161034,NL:OVCN:Operator:21a33b6a-7389-4c5d-99ea-904f7551694a,Electrische Museumtramlijn Amsterdam,tram,20
 163565,NL:OVCN:Operator:21a33b6a-7389-4c5d-99ea-904f7551694a,Electrische Museumtramlijn Amsterdam,tram,3
 161717,NL:RVO:Operator:a62d2c9b-c206-42e0-9e1d-9a20dbb9301f,RVO Busvervoer,bus,N45
@@ -2302,6 +2278,8 @@
 163125,QBUZZ,Qbuzz,bus,205
 163709,QBUZZ,Qbuzz,bus,73
 163710,QBUZZ,Qbuzz,bus,400
+164017,QBUZZ,Qbuzz,bus,148
+164018,QBUZZ,Qbuzz,bus,248
 152855,RET,RET,bus,52
 152896,RET,RET,bus,547
 152897,RET,RET,bus,567
@@ -2390,7 +2368,6 @@
 163699,RET,RET,tram,1
 163700,RET,RET,tram,2
 163701,RET,RET,tram,3
-163702,RET,RET,tram,4
 163703,RET,RET,tram,5
 163704,RET,RET,tram,6
 163705,RET,RET,tram,7
