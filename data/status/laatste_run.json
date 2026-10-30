@@ -1,24 +1,7 @@
 ﻿{
-  "NzaWachttijden": {
-    "tijd": "2026-10-30T05:30:47Z",
-    "melding": "NZa-pagina niet opgehaald (curl 0, HTTP 403, 1213 tekens)",
-    "status": "fout"
-  },
-  "Deelmobiliteit": {
-    "status": "ok",
-    "tijd": "2026-10-30T09:05:36Z",
-    "melding": "45 van 52 systemen, 21676 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "seconden": 96
-  },
-  "NS": {
-    "status": "ok",
-    "tijd": "2026-10-30T09:05:36Z",
-    "melding": "storingen/werkzaamheden: 9 actief, 1 nieuw; drukte: 228 van 228 rijdende treinen, 243 stations, 36 keer drukte hoog",
-    "seconden": 379
-  },
-  "TenderNed": {
-    "seconden": 162,
-    "melding": "142 nieuwe publicaties",
+  "RDW": {
+    "seconden": 132,
+    "melding": "18341 personenauto-registraties sinds 2026-10-20 verwerkt",
     "status": "ok",
     "tijd": "2026-10-30T05:30:47Z"
   },
@@ -28,27 +11,15 @@
     "status": "ok",
     "tijd": "2026-10-30T05:30:47Z"
   },
-  "Verstoringen": {
+  "Laadpunten": {
     "status": "ok",
-    "tijd": "2026-10-30T09:05:36Z",
-    "melding": "weg: 1365 actieve meldingen, 183 nieuw; spoor: niets nieuws",
-    "seconden": 32
+    "tijd": "2026-10-30T10:05:33Z",
+    "seconden": 23,
+    "melding": "80977 locaties, 203748 laadpunten (45352 aan het laden); bestand van 2026-10-30T10:05:37Z"
   },
-  "OV": {
-    "status": "ok",
-    "tijd": "2026-10-30T09:05:36Z",
-    "melding": "live: 14715 ritten, 1035 uitgevallen; meldingen: 738 actief, 19 nieuw",
-    "seconden": 5
-  },
-  "KvkOpenData": {
-    "seconden": 15,
-    "melding": "1928672 bv's/nv's verwerkt, waarvan 77525 met status faillissement",
-    "status": "ok",
-    "tijd": "2026-10-30T05:30:47Z"
-  },
-  "RDW": {
-    "seconden": 132,
-    "melding": "18341 personenauto-registraties sinds 2026-10-20 verwerkt",
+  "TenderNed": {
+    "seconden": 162,
+    "melding": "142 nieuwe publicaties",
     "status": "ok",
     "tijd": "2026-10-30T05:30:47Z"
   },
@@ -60,20 +31,49 @@
   },
   "Energie": {
     "status": "ok",
-    "tijd": "2026-10-30T09:05:36Z",
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 222, grensstromen 222, day-ahead 288 tijdstippen; TenneT: balance delta: 374 metingen in 6 kwartieren; Historie compleet",
-    "seconden": 20
+    "tijd": "2026-10-30T10:05:33Z",
+    "seconden": 7,
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 227, grensstromen 222, day-ahead 288 tijdstippen; TenneT: balance delta: 372 metingen in 6 kwartieren; Historie compleet"
   },
-  "Laadpunten": {
+  "NzaWachttijden": {
+    "tijd": "2026-10-30T05:30:47Z",
+    "melding": "NZa-pagina niet opgehaald (curl 0, HTTP 403, 1213 tekens)",
+    "status": "fout"
+  },
+  "NS": {
     "status": "ok",
-    "tijd": "2026-10-30T09:05:36Z",
-    "melding": "80970 locaties, 203734 laadpunten (44743 aan het laden); bestand van 2026-10-30T09:05:40Z",
-    "seconden": 35
+    "tijd": "2026-10-30T10:05:33Z",
+    "seconden": 393,
+    "melding": "storingen/werkzaamheden: 6 actief, 0 nieuw; drukte: 233 van 233 rijdende treinen, 243 stations, 30 keer drukte hoog"
+  },
+  "Deelmobiliteit": {
+    "status": "ok",
+    "tijd": "2026-10-30T10:05:33Z",
+    "seconden": 96,
+    "melding": "45 van 52 systemen, 21020 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+  },
+  "OV": {
+    "status": "ok",
+    "tijd": "2026-10-30T10:05:33Z",
+    "seconden": 4,
+    "melding": "live: 13894 ritten, 1011 uitgevallen; meldingen: 732 actief, 3 nieuw"
+  },
+  "Verstoringen": {
+    "status": "ok",
+    "tijd": "2026-10-30T10:05:33Z",
+    "seconden": 19,
+    "melding": "weg: 1409 actieve meldingen, 272 nieuw; spoor: niets nieuws"
+  },
+  "KvkOpenData": {
+    "seconden": 15,
+    "melding": "1928672 bv's/nv's verwerkt, waarvan 77525 met status faillissement",
+    "status": "ok",
+    "tijd": "2026-10-30T05:30:47Z"
   },
   "Parkeren": {
     "status": "ok",
-    "tijd": "2026-10-30T09:05:36Z",
-    "melding": "tarieven vandaag al bijgewerkt",
-    "seconden": 0
+    "tijd": "2026-10-30T10:05:33Z",
+    "seconden": 0,
+    "melding": "tarieven vandaag al bijgewerkt"
   }
 }
