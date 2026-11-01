@@ -973,7 +973,6 @@
 153857,DELIJN,De Lijn,bus,313
 153858,DELIJN,De Lijn,bus,318
 153859,DELIJN,De Lijn,bus,319
-153860,DELIJN,De Lijn,bus,336
 153864,DELIJN,De Lijn,bus,349
 153865,DELIJN,De Lijn,bus,353
 153866,DELIJN,De Lijn,bus,355
@@ -1010,7 +1009,6 @@
 160456,DELIJN,De Lijn,bus,381
 160457,DELIJN,De Lijn,bus,391
 160458,DELIJN,De Lijn,bus,442
-160459,DELIJN,De Lijn,bus,443
 160460,DELIJN,De Lijn,bus,444
 160461,DELIJN,De Lijn,bus,444
 160462,DELIJN,De Lijn,bus,447
@@ -1056,8 +1054,6 @@
 161191,DELIJN,De Lijn,bus,601
 161192,DELIJN,De Lijn,bus,67
 161193,DELIJN,De Lijn,bus,67
-161194,DELIJN,De Lijn,bus,760
-161195,DELIJN,De Lijn,bus,762
 161196,DELIJN,De Lijn,bus,129
 161197,DELIJN,De Lijn,bus,21
 161198,DELIJN,De Lijn,bus,21
@@ -1066,6 +1062,18 @@
 161201,DELIJN,De Lijn,bus,476
 161202,DELIJN,De Lijn,bus,70b
 161203,DELIJN,De Lijn,bus,70b
+164020,DELIJN,De Lijn,bus,880
+164021,DELIJN,De Lijn,bus,932
+164022,DELIJN,De Lijn,bus,273
+164023,DELIJN,De Lijn,bus,357
+164024,DELIJN,De Lijn,bus,506
+164025,DELIJN,De Lijn,bus,508
+164027,DELIJN,De Lijn,bus,808
+164028,DELIJN,De Lijn,bus,209
+164031,DELIJN,De Lijn,bus,211
+164034,DELIJN,De Lijn,bus,281
+164035,DELIJN,De Lijn,bus,312
+164036,DELIJN,De Lijn,bus,318
 134297,DOEKSEN,Rederij Doeksen,veerboot,HV
 134298,DOEKSEN,Rederij Doeksen,veerboot,TV
 134299,DOEKSEN,Rederij Doeksen,veerboot,HT
@@ -1464,7 +1472,6 @@
 163998,IFF:NS,NS,bus,Stopbus ipv trein
 163999,IFF:NS,NS,bus,Taxibus ipv trein
 164000,IFF:NS,NS,bus,Taxibus ipv trein
-164001,IFF:NS,NS,bus,Snelbus ipv trein
 164002,IFF:NS,NS,bus,Snelbus ipv trein
 164003,IFF:NS,NS,bus,Snelbus ipv trein
 164004,IFF:NS,NS,trein,Intercity
@@ -1476,7 +1483,6 @@
 164010,IFF:NS,NS,trein,Sprinter
 164011,IFF:NS,NS,trein,Sprinter
 164012,IFF:NS,NS,trein,Sprinter
-164013,IFF:NS,NS,trein,Sprinter
 164014,IFF:NS,NS,bus,Toegankelijke bus
 138956,IFF:NS_INT,NS International,trein,Eurostar
 138958,IFF:NS_INT,NS International,trein,Eurostar
@@ -2274,7 +2280,6 @@
 163115,QBUZZ,Qbuzz,bus,815
 163116,QBUZZ,Qbuzz,bus,73
 163117,QBUZZ,Qbuzz,bus,400
-163125,QBUZZ,Qbuzz,bus,205
 163709,QBUZZ,Qbuzz,bus,73
 163710,QBUZZ,Qbuzz,bus,400
 164017,QBUZZ,Qbuzz,bus,148
