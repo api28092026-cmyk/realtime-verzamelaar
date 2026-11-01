@@ -1,44 +1,32 @@
 ﻿{
-  "Verstoringen": {
-    "melding": "weg: 1316 actieve meldingen, 90 nieuw; spoor: 2026-10 nog niet gepubliceerd",
-    "tijd": "2026-11-01T17:05:28Z",
-    "status": "ok",
-    "seconden": 19
-  },
-  "Laadpunten": {
-    "melding": "81817 locaties, 206067 laadpunten (52221 aan het laden); bestand van 2026-11-01T17:05:33Z",
-    "tijd": "2026-11-01T17:05:28Z",
-    "status": "ok",
-    "seconden": 22
-  },
-  "TenderNed": {
-    "melding": "27 nieuwe publicaties",
-    "tijd": "2026-11-01T05:30:47Z",
-    "seconden": 35,
-    "status": "ok"
-  },
-  "KvkOpenData": {
-    "melding": "1929054 bv's/nv's verwerkt, waarvan 77529 met status faillissement",
-    "tijd": "2026-11-01T05:30:47Z",
-    "seconden": 23,
-    "status": "ok"
-  },
   "NS": {
-    "melding": "storingen/werkzaamheden: 17 actief, 2 nieuw; drukte: 197 van 197 rijdende treinen, 219 stations, 19 keer drukte hoog",
-    "tijd": "2026-11-01T17:05:28Z",
     "status": "ok",
-    "seconden": 327
-  },
-  "Parkeren": {
-    "melding": "tarieven vandaag al bijgewerkt",
-    "tijd": "2026-11-01T17:05:28Z",
-    "status": "ok",
-    "seconden": 0
+    "seconden": 317,
+    "tijd": "2026-11-01T18:05:28Z",
+    "melding": "storingen/werkzaamheden: 15 actief, 0 nieuw; drukte: 207 van 207 rijdende treinen, 230 stations, 26 keer drukte hoog"
   },
   "NzaWachttijden": {
     "melding": "laatste peildatum 2026-10-27; volgende update niet voor 2026-11-11",
     "tijd": "2026-11-01T05:30:47Z",
     "seconden": 0,
+    "status": "ok"
+  },
+  "OV": {
+    "status": "ok",
+    "seconden": 4,
+    "tijd": "2026-11-01T18:05:28Z",
+    "melding": "live: 10678 ritten, 407 uitgevallen; meldingen: 625 actief, 0 nieuw"
+  },
+  "Deelmobiliteit": {
+    "status": "ok",
+    "seconden": 81,
+    "tijd": "2026-11-01T18:05:28Z",
+    "melding": "45 van 52 systemen, 25115 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+  },
+  "TenderNed": {
+    "melding": "27 nieuwe publicaties",
+    "tijd": "2026-11-01T05:30:47Z",
+    "seconden": 35,
     "status": "ok"
   },
   "EnergyZero": {
@@ -47,23 +35,29 @@
     "seconden": 5,
     "status": "ok"
   },
-  "Energie": {
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 258, grensstromen 254, day-ahead 384 tijdstippen; TenneT: balance delta: 368 metingen in 6 kwartieren; Historie compleet",
-    "tijd": "2026-11-01T17:05:28Z",
+  "Laadpunten": {
     "status": "ok",
-    "seconden": 8
+    "seconden": 48,
+    "tijd": "2026-11-01T18:05:28Z",
+    "melding": "81817 locaties, 206067 laadpunten (52634 aan het laden); bestand van 2026-11-01T18:05:32Z"
   },
-  "OV": {
-    "melding": "live: 11210 ritten, 484 uitgevallen; meldingen: 631 actief, 2 nieuw",
-    "tijd": "2026-11-01T17:05:28Z",
+  "Parkeren": {
     "status": "ok",
-    "seconden": 4
+    "seconden": 0,
+    "tijd": "2026-11-01T18:05:28Z",
+    "melding": "tarieven vandaag al bijgewerkt"
   },
-  "Deelmobiliteit": {
-    "melding": "45 van 52 systemen, 24511 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "tijd": "2026-11-01T17:05:28Z",
+  "KvkOpenData": {
+    "melding": "1929054 bv's/nv's verwerkt, waarvan 77529 met status faillissement",
+    "tijd": "2026-11-01T05:30:47Z",
+    "seconden": 23,
+    "status": "ok"
+  },
+  "Verstoringen": {
     "status": "ok",
-    "seconden": 92
+    "seconden": 50,
+    "tijd": "2026-11-01T18:05:28Z",
+    "melding": "weg: 1287 actieve meldingen, 78 nieuw; spoor: 2026-10 nog niet gepubliceerd"
   },
   "RDW": {
     "melding": "22400 personenauto-registraties sinds 2026-10-22 verwerkt",
@@ -76,5 +70,11 @@
     "tijd": "2026-11-01T05:30:47Z",
     "seconden": 4,
     "status": "ok"
+  },
+  "Energie": {
+    "status": "ok",
+    "seconden": 9,
+    "tijd": "2026-11-01T18:05:28Z",
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 258, grensstromen 258, day-ahead 384 tijdstippen; TenneT: balance delta: 377 metingen in 6 kwartieren; Historie compleet"
   }
 }
