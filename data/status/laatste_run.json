@@ -1,27 +1,15 @@
 ﻿{
-  "EnergyZero": {
-    "melding": "215 uurprijzen bijgewerkt; gas: 6 gasdagen",
-    "tijd": "2026-11-01T05:30:47Z",
-    "seconden": 5,
-    "status": "ok"
-  },
   "Verstoringen": {
-    "melding": "weg: 1356 actieve meldingen, 95 nieuw; spoor: 2026-10 nog niet gepubliceerd",
-    "tijd": "2026-11-01T16:05:34Z",
-    "seconden": 52,
-    "status": "ok"
-  },
-  "NS": {
-    "melding": "storingen/werkzaamheden: 16 actief, 1 nieuw; drukte: 190 van 190 rijdende treinen, 225 stations, 23 keer drukte hoog",
-    "tijd": "2026-11-01T16:05:34Z",
-    "seconden": 322,
-    "status": "ok"
+    "melding": "weg: 1316 actieve meldingen, 90 nieuw; spoor: 2026-10 nog niet gepubliceerd",
+    "tijd": "2026-11-01T17:05:28Z",
+    "status": "ok",
+    "seconden": 19
   },
   "Laadpunten": {
-    "melding": "80900 locaties, 203580 laadpunten (50753 aan het laden); bestand van 2026-11-01T16:05:39Z",
-    "tijd": "2026-11-01T16:05:34Z",
-    "seconden": 49,
-    "status": "ok"
+    "melding": "81817 locaties, 206067 laadpunten (52221 aan het laden); bestand van 2026-11-01T17:05:33Z",
+    "tijd": "2026-11-01T17:05:28Z",
+    "status": "ok",
+    "seconden": 22
   },
   "TenderNed": {
     "melding": "27 nieuwe publicaties",
@@ -35,29 +23,17 @@
     "seconden": 23,
     "status": "ok"
   },
-  "OV": {
-    "melding": "live: 9047 ritten, 550 uitgevallen; meldingen: 635 actief, 0 nieuw",
-    "tijd": "2026-11-01T16:05:34Z",
-    "seconden": 6,
-    "status": "ok"
+  "NS": {
+    "melding": "storingen/werkzaamheden: 17 actief, 2 nieuw; drukte: 197 van 197 rijdende treinen, 219 stations, 19 keer drukte hoog",
+    "tijd": "2026-11-01T17:05:28Z",
+    "status": "ok",
+    "seconden": 327
   },
   "Parkeren": {
     "melding": "tarieven vandaag al bijgewerkt",
-    "tijd": "2026-11-01T16:05:34Z",
-    "seconden": 0,
-    "status": "ok"
-  },
-  "Energie": {
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 253, grensstromen 251, day-ahead 384 tijdstippen; TenneT: balance delta: 376 metingen in 6 kwartieren; Historie compleet",
-    "tijd": "2026-11-01T16:05:34Z",
-    "seconden": 13,
-    "status": "ok"
-  },
-  "RDW": {
-    "melding": "22400 personenauto-registraties sinds 2026-10-22 verwerkt",
-    "tijd": "2026-11-01T05:30:47Z",
-    "seconden": 154,
-    "status": "ok"
+    "tijd": "2026-11-01T17:05:28Z",
+    "status": "ok",
+    "seconden": 0
   },
   "NzaWachttijden": {
     "melding": "laatste peildatum 2026-10-27; volgende update niet voor 2026-11-11",
@@ -65,10 +41,34 @@
     "seconden": 0,
     "status": "ok"
   },
+  "EnergyZero": {
+    "melding": "215 uurprijzen bijgewerkt; gas: 6 gasdagen",
+    "tijd": "2026-11-01T05:30:47Z",
+    "seconden": 5,
+    "status": "ok"
+  },
+  "Energie": {
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 258, grensstromen 254, day-ahead 384 tijdstippen; TenneT: balance delta: 368 metingen in 6 kwartieren; Historie compleet",
+    "tijd": "2026-11-01T17:05:28Z",
+    "status": "ok",
+    "seconden": 8
+  },
+  "OV": {
+    "melding": "live: 11210 ritten, 484 uitgevallen; meldingen: 631 actief, 2 nieuw",
+    "tijd": "2026-11-01T17:05:28Z",
+    "status": "ok",
+    "seconden": 4
+  },
   "Deelmobiliteit": {
-    "melding": "45 van 52 systemen, 23649 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "tijd": "2026-11-01T16:05:34Z",
-    "seconden": 99,
+    "melding": "45 van 52 systemen, 24511 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "tijd": "2026-11-01T17:05:28Z",
+    "status": "ok",
+    "seconden": 92
+  },
+  "RDW": {
+    "melding": "22400 personenauto-registraties sinds 2026-10-22 verwerkt",
+    "tijd": "2026-11-01T05:30:47Z",
+    "seconden": 154,
     "status": "ok"
   },
   "Netcongestie": {
