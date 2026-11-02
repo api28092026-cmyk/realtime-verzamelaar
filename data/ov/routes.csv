@@ -435,7 +435,6 @@
 147042,CXX,Connexxion,bus,567
 147043,CXX,Connexxion,bus,568
 147044,CXX,Connexxion,bus,569
-147045,CXX,Connexxion,bus,572
 147046,CXX,Connexxion,bus,680
 147244,CXX,Connexxion,bus,102
 147245,CXX,Connexxion,bus,107
@@ -1401,10 +1400,7 @@
 163059,IFF:NS,NS,bus,Snelbus ipv trein
 163061,IFF:NS,NS,bus,Stopbus ipv trein
 163062,IFF:NS,NS,bus,Stopbus ipv trein
-163064,IFF:NS,NS,bus,Stopbus ipv trein
 163065,IFF:NS,NS,bus,Stopbus ipv trein
-163067,IFF:NS,NS,bus,Stopbus ipv trein
-163069,IFF:NS,NS,bus,Snelbus ipv trein
 163070,IFF:NS,NS,bus,Snelbus ipv trein
 163072,IFF:NS,NS,bus,Stopbus ipv trein
 163073,IFF:NS,NS,bus,Stopbus ipv trein
@@ -1412,7 +1408,6 @@
 163075,IFF:NS,NS,bus,Stopbus ipv trein
 163076,IFF:NS,NS,trein,Sprinter
 163078,IFF:NS,NS,trein,Sprinter
-163079,IFF:NS,NS,trein,Sprinter
 163080,IFF:NS,NS,trein,Sprinter
 163245,IFF:NS,NS,bus,Snelbus ipv trein
 163246,IFF:NS,NS,bus,Snelbus ipv trein
@@ -1452,7 +1447,6 @@
 163604,IFF:NS,NS,trein,Intercity
 163605,IFF:NS,NS,trein,Intercity
 163608,IFF:NS,NS,trein,Sprinter
-163981,IFF:NS,NS,bus,Snelbus ipv trein
 163982,IFF:NS,NS,bus,Snelbus ipv trein
 163983,IFF:NS,NS,bus,Snelbus ipv trein
 163984,IFF:NS,NS,bus,Snelbus ipv trein
@@ -1473,7 +1467,6 @@
 163999,IFF:NS,NS,bus,Taxibus ipv trein
 164000,IFF:NS,NS,bus,Taxibus ipv trein
 164002,IFF:NS,NS,bus,Snelbus ipv trein
-164003,IFF:NS,NS,bus,Snelbus ipv trein
 164004,IFF:NS,NS,trein,Intercity
 164005,IFF:NS,NS,trein,Intercity
 164006,IFF:NS,NS,bus,Stopbus ipv trein
@@ -2276,7 +2269,6 @@
 162123,QBUZZ,Qbuzz,bus,9711
 162124,QBUZZ,Qbuzz,bus,9721
 162125,QBUZZ,Qbuzz,bus,9731
-162516,QBUZZ,Qbuzz,bus,801
 163115,QBUZZ,Qbuzz,bus,815
 163116,QBUZZ,Qbuzz,bus,73
 163117,QBUZZ,Qbuzz,bus,400
@@ -2755,7 +2747,6 @@
 163883,RRREIS,RRReis,bus,193
 163884,RRREIS,RRReis,bus,597
 163885,RRREIS,RRReis,bus,596
-163886,RRREIS,RRReis,bus,595
 163887,RRREIS,RRReis,bus,594
 163888,RRREIS,RRReis,bus,593
 163889,RRREIS,RRReis,bus,592
