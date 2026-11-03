@@ -1296,7 +1296,7 @@
 139858,IFF:BLAUWNET_K,Blauwnet Keolis,trein,Sprinter RS23
 139859,IFF:BLAUWNET_K,Blauwnet Keolis,trein,Sprinter RS22
 163980,IFF:BLAUWNET_K,Blauwnet Keolis,trein,Sprinter RS23
-163580,IFF:DB,DB,trein,Stoptrein RB64
+163580,IFF:DB,Deutsche Bahn,trein,Stoptrein RB64
 139861,IFF:EUROBAHN,Eurobahn,trein,Sneltrein RE13
 139862,IFF:EUROBAHN,Eurobahn,trein,Stoptrein RB61
 139863,IFF:EU_SLEEPER,Eu Sleeper,trein,European Sleeper
@@ -1391,10 +1391,8 @@
 161405,IFF:NS,NS,bus,Stopbus ipv trein
 162472,IFF:NS,NS,bus,Snelbus ipv trein
 162475,IFF:NS,NS,bus,Snelbus ipv trein
-162841,IFF:NS,NS,bus,Stopbus ipv trein
 162843,IFF:NS,NS,trein,Sprinter
 163055,IFF:NS,NS,bus,Snelbus ipv trein
-163056,IFF:NS,NS,bus,Snelbus ipv trein
 163057,IFF:NS,NS,bus,Snelbus ipv trein
 163058,IFF:NS,NS,bus,Snelbus ipv trein
 163059,IFF:NS,NS,bus,Snelbus ipv trein
@@ -1466,7 +1464,6 @@
 163998,IFF:NS,NS,bus,Stopbus ipv trein
 163999,IFF:NS,NS,bus,Taxibus ipv trein
 164000,IFF:NS,NS,bus,Taxibus ipv trein
-164002,IFF:NS,NS,bus,Snelbus ipv trein
 164004,IFF:NS,NS,trein,Intercity
 164005,IFF:NS,NS,trein,Intercity
 164006,IFF:NS,NS,bus,Stopbus ipv trein
@@ -1557,7 +1554,9 @@
 161529,NL:MLN:Operator:9f1641fb-e08a-41b9-bdaa-204918901704,Miljoenenlijn,trein,MS1
 161034,NL:OVCN:Operator:21a33b6a-7389-4c5d-99ea-904f7551694a,Electrische Museumtramlijn Amsterdam,tram,20
 163565,NL:OVCN:Operator:21a33b6a-7389-4c5d-99ea-904f7551694a,Electrische Museumtramlijn Amsterdam,tram,3
+164039,NL:REGEGO:Operator:17d35bbf-8d0b-4af2-aa33-4bacbad7cf33,Regego Vervoer,bus,N50
 161717,NL:RVO:Operator:a62d2c9b-c206-42e0-9e1d-9a20dbb9301f,RVO Busvervoer,bus,N45
+164037,NL:ZTM:Branding:7152632d-eda5-41c1-b7d7-7db3dc447824,De Opstap,bus,272
 151320,QBUZZ,Qbuzz,bus,20
 151321,QBUZZ,Qbuzz,bus,21
 151322,QBUZZ,Qbuzz,bus,22
@@ -1863,7 +1862,6 @@
 159818,QBUZZ,Qbuzz,bus,15
 159819,QBUZZ,Qbuzz,bus,9
 159820,QBUZZ,Qbuzz,bus,75
-160740,QBUZZ,Qbuzz,bus,284
 161721,QBUZZ,Qbuzz,bus,6011
 161722,QBUZZ,Qbuzz,bus,6021
 161723,QBUZZ,Qbuzz,bus,6031
@@ -2270,8 +2268,6 @@
 162124,QBUZZ,Qbuzz,bus,9721
 162125,QBUZZ,Qbuzz,bus,9731
 163115,QBUZZ,Qbuzz,bus,815
-163116,QBUZZ,Qbuzz,bus,73
-163117,QBUZZ,Qbuzz,bus,400
 163709,QBUZZ,Qbuzz,bus,73
 163710,QBUZZ,Qbuzz,bus,400
 164017,QBUZZ,Qbuzz,bus,148
@@ -2851,20 +2847,7 @@
 150485,TRANSDEV,Transdev,bus,46
 151011,TRANSDEV,Transdev,bus,N36
 154259,TRANSDEV,Transdev,bus,N32
-161132,TRANSDEV,Transdev,bus,501
-161133,TRANSDEV,Transdev,bus,508
-161134,TRANSDEV,Transdev,bus,509
-161135,TRANSDEV,Transdev,bus,510
-161136,TRANSDEV,Transdev,bus,512
 161137,TRANSDEV,Transdev,bus,514
-161138,TRANSDEV,Transdev,bus,516
-161139,TRANSDEV,Transdev,bus,517
-161140,TRANSDEV,Transdev,bus,511
-161141,TRANSDEV,Transdev,bus,515
-161142,TRANSDEV,Transdev,bus,532
-161143,TRANSDEV,Transdev,bus,533
-161144,TRANSDEV,Transdev,bus,538
-161145,TRANSDEV,Transdev,bus,569
 161146,TRANSDEV,Transdev,bus,Flex
 161147,TRANSDEV,Transdev,bus,Flex
 161148,TRANSDEV,Transdev,bus,Flex
