@@ -1,21 +1,15 @@
 ﻿{
-  "NS": {
-    "tijd": "2026-11-04T17:05:34Z",
-    "status": "ok",
-    "seconden": 553,
-    "melding": "storingen/werkzaamheden: 7 actief, 3 nieuw; drukte: 332 van 332 rijdende treinen, 247 stations, 288 keer drukte hoog"
-  },
   "KvkOpenData": {
     "status": "ok",
     "tijd": "2026-11-04T05:30:45Z",
     "melding": "1929838 bv's/nv's verwerkt, waarvan 77534 met status faillissement",
     "seconden": 17
   },
-  "Parkeren": {
-    "tijd": "2026-11-04T17:05:34Z",
+  "NS": {
+    "melding": "storingen/werkzaamheden: 5 actief, 0 nieuw; drukte: 322 van 322 rijdende treinen, 247 stations, 111 keer drukte hoog",
     "status": "ok",
-    "seconden": 0,
-    "melding": "tarieven vandaag al bijgewerkt"
+    "tijd": "2026-11-04T18:05:33Z",
+    "seconden": 509
   },
   "RDW": {
     "status": "ok",
@@ -23,41 +17,11 @@
     "melding": "18494 personenauto-registraties sinds 2026-10-25 verwerkt",
     "seconden": 141
   },
-  "Laadpunten": {
-    "tijd": "2026-11-04T17:05:34Z",
-    "status": "ok",
-    "seconden": 50,
-    "melding": "83404 locaties, 209902 laadpunten (55913 aan het laden); bestand van 2026-11-04T17:05:39Z"
-  },
-  "Deelmobiliteit": {
-    "tijd": "2026-11-04T17:05:34Z",
-    "status": "ok",
-    "seconden": 101,
-    "melding": "45 van 52 systemen, 24955 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
-  },
-  "OV": {
-    "tijd": "2026-11-04T17:05:34Z",
-    "status": "ok",
-    "seconden": 6,
-    "melding": "live: 15742 ritten, 1505 uitgevallen; meldingen: 731 actief, 12 nieuw"
-  },
-  "NzaWachttijden": {
+  "EnergyZero": {
     "status": "ok",
     "tijd": "2026-11-04T05:30:45Z",
-    "melding": "laatste peildatum 2026-10-27; volgende update niet voor 2026-11-11",
-    "seconden": 0
-  },
-  "Energie": {
-    "tijd": "2026-11-04T17:05:34Z",
-    "status": "ok",
-    "seconden": 8,
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 255, grensstromen 254, day-ahead 384 tijdstippen; TenneT: balance delta: 377 metingen in 6 kwartieren; Historie compleet"
-  },
-  "Verstoringen": {
-    "tijd": "2026-11-04T17:05:34Z",
-    "status": "ok",
-    "seconden": 55,
-    "melding": "weg: 1436 actieve meldingen, 285 nieuw; spoor: 2026-10 nog niet gepubliceerd"
+    "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
+    "seconden": 3
   },
   "Netcongestie": {
     "status": "ok",
@@ -71,10 +35,46 @@
     "melding": "140 nieuwe publicaties",
     "seconden": 159
   },
-  "EnergyZero": {
+  "Deelmobiliteit": {
+    "melding": "45 van 52 systemen, 25302 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "status": "ok",
+    "tijd": "2026-11-04T18:05:33Z",
+    "seconden": 85
+  },
+  "NzaWachttijden": {
     "status": "ok",
     "tijd": "2026-11-04T05:30:45Z",
-    "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
-    "seconden": 3
+    "melding": "laatste peildatum 2026-10-27; volgende update niet voor 2026-11-11",
+    "seconden": 0
+  },
+  "Laadpunten": {
+    "melding": "83422 locaties, 209938 laadpunten (60894 aan het laden); bestand van 2026-11-04T18:05:38Z",
+    "status": "ok",
+    "tijd": "2026-11-04T18:05:33Z",
+    "seconden": 42
+  },
+  "Energie": {
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 260, grensstromen 254, day-ahead 384 tijdstippen; TenneT: balance delta: 367 metingen in 6 kwartieren; Historie compleet",
+    "status": "ok",
+    "tijd": "2026-11-04T18:05:33Z",
+    "seconden": 8
+  },
+  "OV": {
+    "melding": "live: 13484 ritten, 1434 uitgevallen; meldingen: 736 actief, 7 nieuw",
+    "status": "ok",
+    "tijd": "2026-11-04T18:05:33Z",
+    "seconden": 4
+  },
+  "Verstoringen": {
+    "melding": "weg: 1289 actieve meldingen, 188 nieuw; spoor: 2026-10 nog niet gepubliceerd",
+    "status": "ok",
+    "tijd": "2026-11-04T18:05:33Z",
+    "seconden": 46
+  },
+  "Parkeren": {
+    "melding": "tarieven vandaag al bijgewerkt",
+    "status": "ok",
+    "tijd": "2026-11-04T18:05:33Z",
+    "seconden": 0
   }
 }
