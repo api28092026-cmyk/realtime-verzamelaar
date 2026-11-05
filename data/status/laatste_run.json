@@ -1,9 +1,9 @@
 ﻿{
-  "EnergyZero": {
-    "status": "ok",
-    "tijd": "2026-11-04T05:30:45Z",
-    "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
-    "seconden": 3
+  "Laadpunten": {
+    "tijd": "2026-11-05T05:05:33Z",
+    "seconden": 35,
+    "melding": "83537 locaties, 210222 laadpunten (63889 aan het laden); bestand van 2026-11-05T05:05:39Z",
+    "status": "ok"
   },
   "Netcongestie": {
     "status": "ok",
@@ -17,23 +17,35 @@
     "melding": "18494 personenauto-registraties sinds 2026-10-25 verwerkt",
     "seconden": 141
   },
-  "Parkeren": {
-    "melding": "tarieven vandaag al bijgewerkt",
-    "status": "ok",
-    "seconden": 0,
-    "tijd": "2026-11-05T04:05:38Z"
-  },
   "NS": {
-    "melding": "storingen/werkzaamheden: 3 actief, 0 nieuw; drukte: 18 van 18 rijdende treinen, 116 stations, 8 keer drukte hoog",
-    "status": "ok",
-    "seconden": 37,
-    "tijd": "2026-11-05T04:05:38Z"
+    "tijd": "2026-11-05T05:05:33Z",
+    "seconden": 335,
+    "melding": "storingen/werkzaamheden: 4 actief, 1 nieuw; drukte: 184 van 184 rijdende treinen, 243 stations, 40 keer drukte hoog",
+    "status": "ok"
   },
-  "NzaWachttijden": {
-    "status": "ok",
-    "tijd": "2026-11-04T05:30:45Z",
-    "melding": "laatste peildatum 2026-10-27; volgende update niet voor 2026-11-11",
-    "seconden": 0
+  "Verstoringen": {
+    "tijd": "2026-11-05T05:05:33Z",
+    "seconden": 35,
+    "melding": "weg: 1204 actieve meldingen, 127 nieuw; spoor: niets nieuws",
+    "status": "ok"
+  },
+  "Energie": {
+    "tijd": "2026-11-05T05:05:33Z",
+    "seconden": 7,
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 209, grensstromen 189, day-ahead 288 tijdstippen; TenneT: balance delta: 394 metingen in 6 kwartieren; Historie compleet",
+    "status": "ok"
+  },
+  "OV": {
+    "tijd": "2026-11-05T05:05:33Z",
+    "seconden": 5,
+    "melding": "live: 15268 ritten, 2289 uitgevallen; meldingen: 718 actief, 2 nieuw",
+    "status": "ok"
+  },
+  "Deelmobiliteit": {
+    "tijd": "2026-11-05T05:05:33Z",
+    "seconden": 102,
+    "melding": "45 van 52 systemen, 27182 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "status": "ok"
   },
   "KvkOpenData": {
     "status": "ok",
@@ -41,40 +53,28 @@
     "melding": "1929838 bv's/nv's verwerkt, waarvan 77534 met status faillissement",
     "seconden": 17
   },
-  "Energie": {
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 204, grensstromen 189, day-ahead 288 tijdstippen; TenneT: balance delta: 380 metingen in 6 kwartieren; Historie compleet",
-    "status": "ok",
-    "seconden": 10,
-    "tijd": "2026-11-05T04:05:38Z"
-  },
-  "Deelmobiliteit": {
-    "melding": "45 van 52 systemen, 27194 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "status": "ok",
-    "seconden": 104,
-    "tijd": "2026-11-05T04:05:38Z"
-  },
   "TenderNed": {
     "status": "ok",
     "tijd": "2026-11-04T05:30:45Z",
     "melding": "140 nieuwe publicaties",
     "seconden": 159
   },
-  "Laadpunten": {
-    "melding": "82682 locaties, 207885 laadpunten (66189 aan het laden); bestand van 2026-11-05T04:05:43Z",
-    "status": "ok",
-    "seconden": 50,
-    "tijd": "2026-11-05T04:05:38Z"
+  "Parkeren": {
+    "tijd": "2026-11-05T05:05:33Z",
+    "seconden": 0,
+    "melding": "tarieven vandaag al bijgewerkt",
+    "status": "ok"
   },
-  "OV": {
-    "melding": "live: 12495 ritten, 2208 uitgevallen; meldingen: 718 actief, 0 nieuw",
+  "EnergyZero": {
     "status": "ok",
-    "seconden": 6,
-    "tijd": "2026-11-05T04:05:38Z"
+    "tijd": "2026-11-04T05:30:45Z",
+    "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
+    "seconden": 3
   },
-  "Verstoringen": {
-    "melding": "weg: 1146 actieve meldingen, 41 nieuw; spoor: niets nieuws",
+  "NzaWachttijden": {
     "status": "ok",
-    "seconden": 60,
-    "tijd": "2026-11-05T04:05:38Z"
+    "tijd": "2026-11-04T05:30:45Z",
+    "melding": "laatste peildatum 2026-10-27; volgende update niet voor 2026-11-11",
+    "seconden": 0
   }
 }
