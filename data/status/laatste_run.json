@@ -5,35 +5,35 @@
     "seconden": 19,
     "status": "ok"
   },
-  "Laadpunten": {
-    "seconden": 50,
+  "OV": {
     "status": "ok",
-    "tijd": "2026-11-06T12:05:35Z",
-    "melding": "83642 locaties, 210440 laadpunten (54584 aan het laden); bestand van 2026-11-06T12:05:39Z"
+    "tijd": "2026-11-06T13:05:32Z",
+    "seconden": 5,
+    "melding": "live: 12614 ritten, 1726 uitgevallen; meldingen: 788 actief, 16 nieuw"
   },
   "Parkeren": {
-    "seconden": 0,
     "status": "ok",
-    "tijd": "2026-11-06T12:05:35Z",
+    "tijd": "2026-11-06T13:05:32Z",
+    "seconden": 0,
     "melding": "tarieven vandaag al bijgewerkt"
   },
-  "Verstoringen": {
-    "seconden": 64,
-    "status": "ok",
-    "tijd": "2026-11-06T12:05:35Z",
-    "melding": "weg: 1363 actieve meldingen, 218 nieuw; spoor: niets nieuws"
-  },
-  "OV": {
-    "seconden": 5,
-    "status": "ok",
-    "tijd": "2026-11-06T12:05:35Z",
-    "melding": "live: 12919 ritten, 1794 uitgevallen; meldingen: 775 actief, 13 nieuw"
-  },
   "Deelmobiliteit": {
-    "seconden": 91,
     "status": "ok",
-    "tijd": "2026-11-06T12:05:35Z",
-    "melding": "45 van 52 systemen, 20149 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+    "tijd": "2026-11-06T13:05:32Z",
+    "seconden": 107,
+    "melding": "45 van 52 systemen, 20071 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+  },
+  "Energie": {
+    "status": "ok",
+    "tijd": "2026-11-06T13:05:32Z",
+    "seconden": 8,
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 241, grensstromen 238, day-ahead 288 tijdstippen; TenneT: balance delta: 377 metingen in 6 kwartieren; Historie compleet"
+  },
+  "RDW": {
+    "tijd": "2026-11-06T05:30:45Z",
+    "melding": "21019 personenauto-registraties sinds 2026-10-27 verwerkt",
+    "seconden": 129,
+    "status": "ok"
   },
   "Netcongestie": {
     "tijd": "2026-11-06T05:30:45Z",
@@ -41,10 +41,16 @@
     "seconden": 4,
     "status": "ok"
   },
-  "EnergyZero": {
+  "NS": {
+    "status": "ok",
+    "tijd": "2026-11-06T13:05:32Z",
+    "seconden": 510,
+    "melding": "storingen/werkzaamheden: 6 actief, 0 nieuw; drukte: 292 van 292 rijdende treinen, 244 stations, 130 keer drukte hoog"
+  },
+  "NzaWachttijden": {
     "tijd": "2026-11-06T05:30:45Z",
-    "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
-    "seconden": 5,
+    "melding": "laatste peildatum 2026-10-27; volgende update niet voor 2026-11-11",
+    "seconden": 0,
     "status": "ok"
   },
   "TenderNed": {
@@ -53,28 +59,22 @@
     "seconden": 123,
     "status": "ok"
   },
-  "NS": {
-    "seconden": 439,
+  "Verstoringen": {
     "status": "ok",
-    "tijd": "2026-11-06T12:05:35Z",
-    "melding": "storingen/werkzaamheden: 6 actief, 2 nieuw; drukte: 284 van 284 rijdende treinen, 244 stations, 88 keer drukte hoog"
+    "tijd": "2026-11-06T13:05:32Z",
+    "seconden": 34,
+    "melding": "weg: 1401 actieve meldingen, 248 nieuw; spoor: niets nieuws"
   },
-  "NzaWachttijden": {
-    "tijd": "2026-11-06T05:30:45Z",
-    "melding": "laatste peildatum 2026-10-27; volgende update niet voor 2026-11-11",
-    "seconden": 0,
-    "status": "ok"
-  },
-  "RDW": {
-    "tijd": "2026-11-06T05:30:45Z",
-    "melding": "21019 personenauto-registraties sinds 2026-10-27 verwerkt",
-    "seconden": 129,
-    "status": "ok"
-  },
-  "Energie": {
-    "seconden": 8,
+  "Laadpunten": {
     "status": "ok",
-    "tijd": "2026-11-06T12:05:35Z",
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 236, grensstromen 236, day-ahead 288 tijdstippen; TenneT: balance delta: 368 metingen in 6 kwartieren; Historie compleet"
+    "tijd": "2026-11-06T13:05:32Z",
+    "seconden": 34,
+    "melding": "83650 locaties, 210457 laadpunten (52995 aan het laden); bestand van 2026-11-06T13:05:37Z"
+  },
+  "EnergyZero": {
+    "tijd": "2026-11-06T05:30:45Z",
+    "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
+    "seconden": 5,
+    "status": "ok"
   }
 }
