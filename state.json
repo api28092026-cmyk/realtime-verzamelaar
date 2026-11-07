@@ -140,7 +140,7 @@
 "open": "Yes"
 },
 "ZD002": {
-"bikes": "42",
+"bikes": "41",
 "open": "Yes"
 },
 "Zh001": {
@@ -188,7 +188,7 @@
 "open": "Yes"
 },
 "amr001": {
-"bikes": "116",
+"bikes": "117",
 "open": "Yes"
 },
 "amrn002": {
@@ -201,7 +201,7 @@
 },
 "apd001": {
 "bikes": "335",
-"open": "No"
+"open": "Yes"
 },
 "apn001": {
 "bikes": "49",
@@ -281,7 +281,7 @@
 },
 "bgn002": {
 "bikes": "26",
-"open": "No"
+"open": "Yes"
 },
 "bhv002": {
 "bikes": "50",
@@ -601,7 +601,7 @@
 },
 "hgv003": {
 "bikes": "32",
-"open": "No"
+"open": "Yes"
 },
 "hil001": {
 "bikes": "7",
@@ -672,7 +672,7 @@
 "open": "Yes"
 },
 "ht001": {
-"bikes": "267",
+"bikes": "269",
 "open": "Yes"
 },
 "ht002": {
@@ -736,7 +736,7 @@
 "open": "Yes"
 },
 "ledn001": {
-"bikes": "262",
+"bikes": "261",
 "open": "Yes"
 },
 "ledn002": {
@@ -821,7 +821,7 @@
 },
 "o002": {
 "bikes": "20",
-"open": "No"
+"open": "Yes"
 },
 "obd001": {
 "bikes": "4",
@@ -993,7 +993,7 @@
 },
 "tl003": {
 "bikes": "23",
-"open": "No"
+"open": "Yes"
 },
 "ut007": {
 "bikes": "11",
@@ -1004,7 +1004,7 @@
 "open": "Yes"
 },
 "ut020": {
-"bikes": "433",
+"bikes": "434",
 "open": "Yes"
 },
 "ut021": {
@@ -1149,7 +1149,7 @@
 },
 "wt003": {
 "bikes": "18",
-"open": "No"
+"open": "Yes"
 },
 "wtv001": {
 "bikes": "10",
@@ -1181,7 +1181,7 @@
 },
 "ztm002": {
 "bikes": "11",
-"open": "No"
+"open": "Yes"
 },
 "ztm003": {
 "bikes": "24",
