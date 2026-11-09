@@ -141,7 +141,7 @@
 },
 "ZD002": {
 "bikes": "39",
-"open": "Yes"
+"open": "No"
 },
 "Zh001": {
 "bikes": "2",
@@ -169,15 +169,15 @@
 },
 "alm001": {
 "bikes": "58",
-"open": "Yes"
+"open": "No"
 },
 "amf001": {
 "bikes": "288",
-"open": "Yes"
+"open": "No"
 },
 "amf002": {
 "bikes": "75",
-"open": "Yes"
+"open": "No"
 },
 "amfs001": {
 "bikes": "41",
@@ -189,7 +189,7 @@
 },
 "amr001": {
 "bikes": "126",
-"open": "Yes"
+"open": "No"
 },
 "amrn002": {
 "bikes": "15",
@@ -209,7 +209,7 @@
 },
 "asa001": {
 "bikes": "250",
-"open": "Yes"
+"open": "No"
 },
 "asb002": {
 "bikes": "25",
@@ -237,7 +237,7 @@
 },
 "asdm001": {
 "bikes": "43",
-"open": "Yes"
+"open": "No"
 },
 "asdz001": {
 "bikes": "261",
@@ -249,7 +249,7 @@
 },
 "asn001": {
 "bikes": "179",
-"open": "Yes"
+"open": "No"
 },
 "ass001": {
 "bikes": "128",
@@ -285,7 +285,7 @@
 },
 "bhv002": {
 "bikes": "59",
-"open": "Yes"
+"open": "No"
 },
 "bkg001": {
 "bikes": "4",
@@ -420,7 +420,7 @@
 "open": "Yes"
 },
 "dt002": {
-"bikes": "369",
+"bikes": "368",
 "open": "Yes"
 },
 "dtc001": {
@@ -569,7 +569,7 @@
 },
 "had003": {
 "bikes": "21",
-"open": "Yes"
+"open": "No"
 },
 "hd001": {
 "bikes": "60",
@@ -592,7 +592,7 @@
 "open": "Yes"
 },
 "hgl002": {
-"bikes": "31",
+"bikes": "29",
 "open": "Yes"
 },
 "hglg001": {
@@ -645,7 +645,7 @@
 },
 "hn001": {
 "bikes": "37",
-"open": "Yes"
+"open": "No"
 },
 "hnk001": {
 "bikes": "6",
@@ -673,7 +673,7 @@
 },
 "ht001": {
 "bikes": "295",
-"open": "Yes"
+"open": "No"
 },
 "ht002": {
 "bikes": "5",
@@ -697,7 +697,7 @@
 },
 "hwd003": {
 "bikes": "21",
-"open": "Yes"
+"open": "No"
 },
 "hwzb001": {
 "bikes": "9",
@@ -777,11 +777,11 @@
 },
 "mt001": {
 "bikes": "154",
-"open": "Yes"
+"open": "No"
 },
 "mt003": {
 "bikes": "25",
-"open": "Yes"
+"open": "No"
 },
 "mtn001": {
 "bikes": "4",
@@ -1004,7 +1004,7 @@
 "open": "Yes"
 },
 "ut020": {
-"bikes": "879",
+"bikes": "878",
 "open": "Yes"
 },
 "ut021": {
@@ -1045,7 +1045,7 @@
 },
 "uto002": {
 "bikes": "42",
-"open": "Yes"
+"open": "No"
 },
 "utt001": {
 "bikes": "5",
@@ -1073,7 +1073,7 @@
 },
 "vl001": {
 "bikes": "42",
-"open": "Yes"
+"open": "No"
 },
 "vlb001": {
 "bikes": "6",
