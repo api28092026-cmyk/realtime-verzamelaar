@@ -3385,3 +3385,17 @@
 2026-11-09T00:05:30Z,RoadOrCarriagewayOrLaneManagement,laneClosures,104,0
 2026-11-09T00:05:30Z,Accident,accident,1,0
 2026-11-09T00:05:30Z,RoadOrCarriagewayOrLaneManagement,useOfSpecifiedLanesOrCarriagewaysAllowed,5,0
+2026-11-09T01:05:32Z,RoadOrCarriagewayOrLaneManagement,carriagewayClosures,516,0
+2026-11-09T01:05:32Z,RoadOrCarriagewayOrLaneManagement,lanesDeviated,30,0
+2026-11-09T01:05:32Z,RoadOrCarriagewayOrLaneManagement,other,58,0
+2026-11-09T01:05:32Z,RoadOrCarriagewayOrLaneManagement,useOfSpecifiedLanesOrCarriagewaysAllowed,5,0
+2026-11-09T01:05:32Z,SpeedManagement,speedRestrictionInOperation,82,0
+2026-11-09T01:05:32Z,RoadOrCarriagewayOrLaneManagement,narrowLanes,1,0
+2026-11-09T01:05:32Z,VehicleObstruction,other,34,0
+2026-11-09T01:05:32Z,RoadOrCarriagewayOrLaneManagement,hardShoulderRunningInOperation,48,0
+2026-11-09T01:05:32Z,VehicleObstruction,brokenDownVehicle,2,0
+2026-11-09T01:05:32Z,PoorEnvironmentConditions,fog,1,0
+2026-11-09T01:05:32Z,RoadOrCarriagewayOrLaneManagement,roadClosed,2,0
+2026-11-09T01:05:32Z,RoadOrCarriagewayOrLaneManagement,laneClosures,99,0
+2026-11-09T01:05:32Z,GeneralObstruction,other,1,0
+2026-11-09T01:05:32Z,ReroutingManagement,followDiversionSigns,43,0
