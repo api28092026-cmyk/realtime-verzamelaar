@@ -121,11 +121,7 @@
 163500,ARR,Arriva,bus,322
 163501,ARR,Arriva,bus,SB3
 163845,ARR,Arriva,bus,350
-163869,ARR,Arriva,bus,79
-163870,ARR,Arriva,bus,350
 163871,ARR,Arriva,bus,539
-163872,ARR,Arriva,bus,550
-163873,ARR,Arriva,bus,557
 164179,ARR,Arriva,bus,672
 164180,ARR,Arriva,bus,674
 164181,ARR,Arriva,bus,679
@@ -153,8 +149,10 @@
 164212,ARR,Arriva,bus,1
 164213,ARR,Arriva,bus,3
 164582,ARR,Arriva,bus,10
-164584,ARR,Arriva,bus,10
-164585,ARR,Arriva,bus,10
+164673,ARR,Arriva,bus,10
+164682,ARR,Arriva,bus,10
+164684,ARR,Arriva,bus,10
+164685,ARR,Arriva,bus,350
 160449,BRAVO,Bravo,bus,619
 162528,BRAVO:ARR,Bravo (Arriva),bus,82
 164120,BRAVO:ARR,Bravo (Arriva),bus,1
@@ -213,57 +211,23 @@
 164173,BRAVO:ARR,Bravo (Arriva),bus,502
 164175,BRAVO:ARR,Bravo (Arriva),bus,682
 164176,BRAVO:ARR,Bravo (Arriva),bus,683
-164385,BRAVO:ARR,Bravo (Arriva),bus,257
-164386,BRAVO:ARR,Bravo (Arriva),bus,253
-164387,BRAVO:ARR,Bravo (Arriva),bus,242
 164388,BRAVO:ARR,Bravo (Arriva),bus,306
-164389,BRAVO:ARR,Bravo (Arriva),bus,239
-164390,BRAVO:ARR,Bravo (Arriva),bus,207
-164391,BRAVO:ARR,Bravo (Arriva),bus,204
 164392,BRAVO:ARR,Bravo (Arriva),bus,158
 164393,BRAVO:ARR,Bravo (Arriva),bus,157
 164394,BRAVO:ARR,Bravo (Arriva),bus,143
 164395,BRAVO:ARR,Bravo (Arriva),bus,141
 164396,BRAVO:ARR,Bravo (Arriva),bus,136
 164397,BRAVO:ARR,Bravo (Arriva),bus,135
-164398,BRAVO:ARR,Bravo (Arriva),bus,92
-164399,BRAVO:ARR,Bravo (Arriva),bus,91
 164400,BRAVO:ARR,Bravo (Arriva),bus,90
 164401,BRAVO:ARR,Bravo (Arriva),bus,3
-164402,BRAVO:ARR,Bravo (Arriva),bus,294
-164403,BRAVO:ARR,Bravo (Arriva),bus,292
-164404,BRAVO:ARR,Bravo (Arriva),bus,262
-164405,BRAVO:ARR,Bravo (Arriva),bus,295
-164406,BRAVO:ARR,Bravo (Arriva),bus,296
-164407,BRAVO:ARR,Bravo (Arriva),bus,256
-164408,BRAVO:ARR,Bravo (Arriva),bus,255
-164409,BRAVO:ARR,Bravo (Arriva),bus,251
-164410,BRAVO:ARR,Bravo (Arriva),bus,250
-164411,BRAVO:ARR,Bravo (Arriva),bus,300
 164412,BRAVO:ARR,Bravo (Arriva),bus,305
-164413,BRAVO:ARR,Bravo (Arriva),bus,238
-164414,BRAVO:ARR,Bravo (Arriva),bus,602
-164415,BRAVO:ARR,Bravo (Arriva),bus,203
 164416,BRAVO:ARR,Bravo (Arriva),bus,156
-164417,BRAVO:ARR,Bravo (Arriva),bus,643
-164418,BRAVO:ARR,Bravo (Arriva),bus,644
-164419,BRAVO:ARR,Bravo (Arriva),bus,142
 164420,BRAVO:ARR,Bravo (Arriva),bus,137
-164421,BRAVO:ARR,Bravo (Arriva),bus,655
-164422,BRAVO:ARR,Bravo (Arriva),bus,662
-164423,BRAVO:ARR,Bravo (Arriva),bus,690
 164424,BRAVO:ARR,Bravo (Arriva),bus,99
-164425,BRAVO:ARR,Bravo (Arriva),bus,96
 164427,BRAVO:ARR,Bravo (Arriva),bus,4
-164428,BRAVO:ARR,Bravo (Arriva),bus,7
-164429,BRAVO:ARR,Bravo (Arriva),bus,299
 164430,BRAVO:ARR,Bravo (Arriva),bus,301
-164431,BRAVO:ARR,Bravo (Arriva),bus,601
-164432,BRAVO:ARR,Bravo (Arriva),bus,605
 164433,BRAVO:ARR,Bravo (Arriva),bus,140
-164434,BRAVO:ARR,Bravo (Arriva),bus,131
 164436,BRAVO:ARR,Bravo (Arriva),bus,8
-164437,BRAVO:ARR,Bravo (Arriva),bus,11
 164438,BRAVO:ARR,Bravo (Arriva),bus,80
 164439,BRAVO:ARR,Bravo (Arriva),bus,1
 164440,BRAVO:ARR,Bravo (Arriva),bus,2
@@ -273,29 +237,99 @@
 164444,BRAVO:ARR,Bravo (Arriva),bus,801
 164445,BRAVO:ARR,Bravo (Arriva),bus,7
 164446,BRAVO:ARR,Bravo (Arriva),bus,6
-164447,BRAVO:ARR,Bravo (Arriva),bus,293
-164448,BRAVO:ARR,Bravo (Arriva),bus,289
-164449,BRAVO:ARR,Bravo (Arriva),bus,254
-164450,BRAVO:ARR,Bravo (Arriva),bus,637
-164451,BRAVO:ARR,Bravo (Arriva),bus,638
-164452,BRAVO:ARR,Bravo (Arriva),bus,639
-164453,BRAVO:ARR,Bravo (Arriva),bus,154
-164454,BRAVO:ARR,Bravo (Arriva),bus,692
 164455,BRAVO:ARR,Bravo (Arriva),bus,1
 164456,BRAVO:ARR,Bravo (Arriva),bus,2
-164457,BRAVO:ARR,Bravo (Arriva),bus,5
 164458,BRAVO:ARR,Bravo (Arriva),bus,5
-164459,BRAVO:ARR,Bravo (Arriva),bus,684
 164460,BRAVO:ARR,Bravo (Arriva),bus,9
-164461,BRAVO:ARR,Bravo (Arriva),bus,174
 164462,BRAVO:ARR,Bravo (Arriva),bus,9
-164463,BRAVO:ARR,Bravo (Arriva),bus,10
 164464,BRAVO:ARR,Bravo (Arriva),bus,60
 164465,BRAVO:ARR,Bravo (Arriva),bus,70
 164466,BRAVO:ARR,Bravo (Arriva),bus,3
 164467,BRAVO:ARR,Bravo (Arriva),bus,4
 164468,BRAVO:ARR,Bravo (Arriva),bus,8
-164469,BRAVO:ARR,Bravo (Arriva),bus,181
+164595,BRAVO:ARR,Bravo (Arriva),bus,136
+164596,BRAVO:ARR,Bravo (Arriva),bus,141
+164597,BRAVO:ARR,Bravo (Arriva),bus,142
+164598,BRAVO:ARR,Bravo (Arriva),bus,158
+164599,BRAVO:ARR,Bravo (Arriva),bus,203
+164600,BRAVO:ARR,Bravo (Arriva),bus,204
+164601,BRAVO:ARR,Bravo (Arriva),bus,207
+164602,BRAVO:ARR,Bravo (Arriva),bus,239
+164603,BRAVO:ARR,Bravo (Arriva),bus,250
+164604,BRAVO:ARR,Bravo (Arriva),bus,251
+164605,BRAVO:ARR,Bravo (Arriva),bus,257
+164606,BRAVO:ARR,Bravo (Arriva),bus,692
+164607,BRAVO:ARR,Bravo (Arriva),bus,2
+164608,BRAVO:ARR,Bravo (Arriva),bus,3
+164609,BRAVO:ARR,Bravo (Arriva),bus,4
+164610,BRAVO:ARR,Bravo (Arriva),bus,5
+164611,BRAVO:ARR,Bravo (Arriva),bus,6
+164612,BRAVO:ARR,Bravo (Arriva),bus,7
+164613,BRAVO:ARR,Bravo (Arriva),bus,639
+164614,BRAVO:ARR,Bravo (Arriva),bus,9
+164615,BRAVO:ARR,Bravo (Arriva),bus,10
+164616,BRAVO:ARR,Bravo (Arriva),bus,637
+164617,BRAVO:ARR,Bravo (Arriva),bus,605
+164618,BRAVO:ARR,Bravo (Arriva),bus,157
+164619,BRAVO:ARR,Bravo (Arriva),bus,143
+164620,BRAVO:ARR,Bravo (Arriva),bus,137
+164621,BRAVO:ARR,Bravo (Arriva),bus,135
+164622,BRAVO:ARR,Bravo (Arriva),bus,131
+164623,BRAVO:ARR,Bravo (Arriva),bus,99
+164624,BRAVO:ARR,Bravo (Arriva),bus,96
+164625,BRAVO:ARR,Bravo (Arriva),bus,92
+164626,BRAVO:ARR,Bravo (Arriva),bus,91
+164627,BRAVO:ARR,Bravo (Arriva),bus,8
+164628,BRAVO:ARR,Bravo (Arriva),bus,90
+164629,BRAVO:ARR,Bravo (Arriva),bus,9
+164630,BRAVO:ARR,Bravo (Arriva),bus,800
+164631,BRAVO:ARR,Bravo (Arriva),bus,801
+164632,BRAVO:ARR,Bravo (Arriva),bus,7
+164635,BRAVO:ARR,Bravo (Arriva),bus,662
+164636,BRAVO:ARR,Bravo (Arriva),bus,655
+164637,BRAVO:ARR,Bravo (Arriva),bus,690
+164638,BRAVO:ARR,Bravo (Arriva),bus,644
+164639,BRAVO:ARR,Bravo (Arriva),bus,643
+164640,BRAVO:ARR,Bravo (Arriva),bus,1
+164641,BRAVO:ARR,Bravo (Arriva),bus,11
+164642,BRAVO:ARR,Bravo (Arriva),bus,638
+164643,BRAVO:ARR,Bravo (Arriva),bus,60
+164644,BRAVO:ARR,Bravo (Arriva),bus,70
+164645,BRAVO:ARR,Bravo (Arriva),bus,602
+164646,BRAVO:ARR,Bravo (Arriva),bus,601
+164647,BRAVO:ARR,Bravo (Arriva),bus,1
+164648,BRAVO:ARR,Bravo (Arriva),bus,306
+164649,BRAVO:ARR,Bravo (Arriva),bus,305
+164650,BRAVO:ARR,Bravo (Arriva),bus,301
+164651,BRAVO:ARR,Bravo (Arriva),bus,299
+164652,BRAVO:ARR,Bravo (Arriva),bus,292
+164653,BRAVO:ARR,Bravo (Arriva),bus,289
+164654,BRAVO:ARR,Bravo (Arriva),bus,262
+164655,BRAVO:ARR,Bravo (Arriva),bus,256
+164656,BRAVO:ARR,Bravo (Arriva),bus,255
+164657,BRAVO:ARR,Bravo (Arriva),bus,254
+164658,BRAVO:ARR,Bravo (Arriva),bus,253
+164659,BRAVO:ARR,Bravo (Arriva),bus,242
+164660,BRAVO:ARR,Bravo (Arriva),bus,238
+164661,BRAVO:ARR,Bravo (Arriva),bus,156
+164662,BRAVO:ARR,Bravo (Arriva),bus,2
+164663,BRAVO:ARR,Bravo (Arriva),bus,140
+164664,BRAVO:ARR,Bravo (Arriva),bus,3
+164665,BRAVO:ARR,Bravo (Arriva),bus,4
+164666,BRAVO:ARR,Bravo (Arriva),bus,5
+164667,BRAVO:ARR,Bravo (Arriva),bus,6
+164668,BRAVO:ARR,Bravo (Arriva),bus,7
+164669,BRAVO:ARR,Bravo (Arriva),bus,174
+164670,BRAVO:ARR,Bravo (Arriva),bus,8
+164671,BRAVO:ARR,Bravo (Arriva),bus,684
+164672,BRAVO:ARR,Bravo (Arriva),bus,181
+164675,BRAVO:ARR,Bravo (Arriva),bus,80
+164676,BRAVO:ARR,Bravo (Arriva),bus,300
+164677,BRAVO:ARR,Bravo (Arriva),bus,296
+164678,BRAVO:ARR,Bravo (Arriva),bus,295
+164679,BRAVO:ARR,Bravo (Arriva),bus,294
+164680,BRAVO:ARR,Bravo (Arriva),bus,293
+164681,BRAVO:ARR,Bravo (Arriva),bus,154
 160396,BRAVO:CXX,Bravo (Hermes),bus,2
 160397,BRAVO:CXX,Bravo (Hermes),bus,3
 160398,BRAVO:CXX,Bravo (Hermes),bus,4
@@ -1050,17 +1084,8 @@
 160501,DELIJN,De Lijn,bus,804
 160502,DELIJN,De Lijn,bus,51a
 160503,DELIJN,De Lijn,bus,51a
-161191,DELIJN,De Lijn,bus,601
 161192,DELIJN,De Lijn,bus,67
 161193,DELIJN,De Lijn,bus,67
-161196,DELIJN,De Lijn,bus,129
-161197,DELIJN,De Lijn,bus,21
-161198,DELIJN,De Lijn,bus,21
-161199,DELIJN,De Lijn,bus,22
-161200,DELIJN,De Lijn,bus,22
-161201,DELIJN,De Lijn,bus,476
-161202,DELIJN,De Lijn,bus,70b
-161203,DELIJN,De Lijn,bus,70b
 164020,DELIJN,De Lijn,bus,880
 164021,DELIJN,De Lijn,bus,932
 164022,DELIJN,De Lijn,bus,273
@@ -1398,19 +1423,13 @@
 161177,IFF:NS,NS,trein,Sprinter
 162472,IFF:NS,NS,bus,Snelbus ipv trein
 162475,IFF:NS,NS,bus,Snelbus ipv trein
-163055,IFF:NS,NS,bus,Snelbus ipv trein
 163058,IFF:NS,NS,bus,Snelbus ipv trein
 163059,IFF:NS,NS,bus,Snelbus ipv trein
-163062,IFF:NS,NS,bus,Stopbus ipv trein
 163075,IFF:NS,NS,bus,Stopbus ipv trein
 163080,IFF:NS,NS,trein,Sprinter
 163245,IFF:NS,NS,bus,Snelbus ipv trein
-163246,IFF:NS,NS,bus,Snelbus ipv trein
 163247,IFF:NS,NS,trein,Intercity
-163252,IFF:NS,NS,trein,Intercity
 163253,IFF:NS,NS,trein,Intercity
-163254,IFF:NS,NS,trein,Intercity
-163257,IFF:NS,NS,trein,Sprinter
 163258,IFF:NS,NS,trein,Sprinter
 163260,IFF:NS,NS,trein,Sprinter
 163581,IFF:NS,NS,bus,Snelbus ipv trein
@@ -1439,7 +1458,6 @@
 163982,IFF:NS,NS,bus,Snelbus ipv trein
 163983,IFF:NS,NS,bus,Snelbus ipv trein
 163984,IFF:NS,NS,bus,Snelbus ipv trein
-163985,IFF:NS,NS,bus,Snelbus ipv trein
 163986,IFF:NS,NS,bus,Snelbus ipv trein
 163987,IFF:NS,NS,bus,Snelbus ipv trein
 163988,IFF:NS,NS,bus,Snelbus ipv trein
@@ -1449,7 +1467,6 @@
 163992,IFF:NS,NS,bus,Stopbus ipv trein
 163993,IFF:NS,NS,bus,Stopbus ipv trein
 163994,IFF:NS,NS,bus,Stopbus ipv trein
-163995,IFF:NS,NS,bus,Stopbus ipv trein
 163996,IFF:NS,NS,bus,Stopbus ipv trein
 163997,IFF:NS,NS,bus,Stopbus ipv trein
 163998,IFF:NS,NS,bus,Stopbus ipv trein
@@ -1563,7 +1580,6 @@
 161529,NL:MLN:Operator:9f1641fb-e08a-41b9-bdaa-204918901704,Miljoenenlijn,trein,MS1
 164040,NL:MLN:Operator:9f1641fb-e08a-41b9-bdaa-204918901704,Miljoenenlijn,trein,MS2
 161034,NL:OVCN:Operator:21a33b6a-7389-4c5d-99ea-904f7551694a,Electrische Museumtramlijn Amsterdam,tram,20
-164384,NL:OVCN:Operator:21a33b6a-7389-4c5d-99ea-904f7551694a,Electrische Museumtramlijn Amsterdam,tram,3
 164039,NL:REGEGO:Operator:17d35bbf-8d0b-4af2-aa33-4bacbad7cf33,Regego Vervoer,bus,N50
 161717,NL:RVO:Operator:a62d2c9b-c206-42e0-9e1d-9a20dbb9301f,RVO Busvervoer,bus,N45
 164037,NL:ZTM:Branding:7152632d-eda5-41c1-b7d7-7db3dc447824,De Opstap,bus,272
@@ -2805,6 +2821,7 @@
 164559,RRREIS,RRReis,bus,195
 164561,RRREIS,RRReis,bus,513
 164586,RRREIS,RRReis,bus,1
+164686,RRREIS,RRReis,bus,1
 134174,TESO,TESO,veerboot,TESO
 147000,TRANSDEV,Transdev,bus,1
 147001,TRANSDEV,Transdev,bus,2
