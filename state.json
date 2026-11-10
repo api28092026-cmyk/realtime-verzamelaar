@@ -120,7 +120,7 @@
 "open": "No"
 },
 "Vdm001": {
-"bikes": "11",
+"bikes": "12",
 "open": "Yes"
 },
 "Vg001": {
@@ -161,11 +161,11 @@
 },
 "ah001": {
 "bikes": "366",
-"open": "Yes"
+"open": "No"
 },
 "ah003": {
 "bikes": "18",
-"open": "Yes"
+"open": "No"
 },
 "alm001": {
 "bikes": "54",
@@ -757,7 +757,7 @@
 },
 "mas003": {
 "bikes": "35",
-"open": "Yes"
+"open": "No"
 },
 "mdb002": {
 "bikes": "18",
@@ -824,7 +824,7 @@
 "open": "No"
 },
 "obd001": {
-"bikes": "3",
+"bikes": "4",
 "open": "Yes"
 },
 "odb001": {
@@ -932,7 +932,7 @@
 "open": "Yes"
 },
 "sdm002": {
-"bikes": "34",
+"bikes": "33",
 "open": "Yes"
 },
 "sdt001": {
