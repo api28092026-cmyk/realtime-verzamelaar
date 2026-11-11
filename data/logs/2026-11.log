@@ -1827,3 +1827,17 @@
 2026-11-11 05:09:13 [INFO] OV OK in 6 s: live: 19848 ritten, 2151 uitgevallen; meldingen: 838 actief, 4 nieuw
 2026-11-11 05:14:14 [INFO] NS OK in 301 s: storingen/werkzaamheden: 4 actief, 0 nieuw; drukte: 187 van 187 rijdende treinen, 240 stations, 22 keer drukte hoog
 2026-11-11 05:14:23 [INFO] Energie OK in 9 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 208, grensstromen 208, day-ahead 288 tijdstippen; TenneT: balance delta: 401 metingen in 6 kwartieren; Historie compleet
+2026-11-11 05:31:00 [INFO] EnergyZero OK in 4 s: 196 uurprijzen bijgewerkt; gas: 5 gasdagen
+2026-11-11 05:33:12 [INFO] TenderNed OK in 133 s: 115 nieuwe publicaties
+2026-11-11 05:34:43 [INFO] RDW OK in 91 s: 13626 personenauto-registraties sinds 2026-11-01 verwerkt
+2026-11-11 05:35:02 [INFO] Laadpunten OK in 19 s: 74197 locaties, 190070 laadpunten (51486 aan het laden); bestand van 2026-11-11T05:34:47Z
+2026-11-11 05:35:06 [INFO] Netcongestie OK in 4 s: Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd
+2026-11-11 05:35:21 [INFO] KvkOpenData OK in 15 s: 1931796 bv's/nv's verwerkt, waarvan 77569 met status faillissement
+2026-11-11 05:35:21 [INFO] Parkeren OK in 0 s: tarieven vandaag al bijgewerkt
+2026-11-11 05:36:50 [INFO] Deelmobiliteit OK in 89 s: 45 van 52 systemen, 27514 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-11-11 05:37:14 [INFO] Verstoringen OK in 24 s: weg: 1198 actieve meldingen, 120 nieuw; spoor: niets nieuws
+2026-11-11 05:37:18 [INFO] OV OK in 4 s: live: 21234 ritten, 2168 uitgevallen; meldingen: 838 actief, 0 nieuw
+2026-11-11 05:44:55 [INFO] NS OK in 457 s: storingen/werkzaamheden: 5 actief, 1 nieuw; drukte: 274 van 274 rijdende treinen, 244 stations, 32 keer drukte hoog
+2026-11-11 05:45:03 [INFO] Energie OK in 8 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 208, grensstromen 208, day-ahead 288 tijdstippen; TenneT: balance delta: 228 metingen in 4 kwartieren; Historie compleet
+2026-11-11 05:45:12 [INFO] NZa-wachttijden: 0 nieuwe regels uit PUC_809508_22&versienummer=1
+2026-11-11 05:45:13 [INFO] NzaWachttijden OK in 10 s: geen nieuwe peildatum na 2026-10-27 (NZa publiceert elke 2 weken)
