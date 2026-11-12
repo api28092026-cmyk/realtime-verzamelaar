@@ -78,14 +78,18 @@ function Invoke-NsStoringen {
     return "storingen/werkzaamheden: $($meldingen.Count) actief, $nieuw nieuw"
 }
 
-function Invoke-NsDrukte {
-    # Alle treinen die nu rijden (posities), daarna per trein de drukteverwachting per station.
+function Get-NsDrukteMeting {
+    # Een poging: alle treinen die nu rijden (posities), daarna per trein de drukteverwachting per station.
     $treinen = @((Invoke-NsGet '/virtual-train-api/api/vehicle').payload.treinen)
     $perType = @{}; foreach ($t in $treinen) { $perType[[string]$t.type] = 1 + [int]$perType[[string]$t.type] }
     $max = if ($script:Cfg.NsDrukteMaxTreinen) { [int]$script:Cfg.NsDrukteMaxTreinen } else { 400 }
     $nummers = @($treinen | ForEach-Object { [string]$_.treinNummer } | Where-Object { $_ } | Select-Object -Unique | Select-Object -First $max)
-    $perStation = @{}; $gelukt = 0
+    $perStation = @{}; $gelukt = 0; $i = 0
     foreach ($nr in $nummers) {
+        $i++
+        # Storingsbeeld van de API: een korte, onvolledige treinenlijst (10-30 treinen) zonder enige prognose.
+        # Na 10 treinen zonder prognose stoppen we deze poging; een echte meting heeft dan al stations.
+        if ($i -gt 10 -and $perStation.Count -eq 0) { break }
         try {
             foreach ($p in @((Invoke-NsGet "/virtual-train-api/api/v1/prognose/$nr").prognoses)) {
                 $k = [string]$p.stationUic
@@ -96,6 +100,22 @@ function Invoke-NsDrukte {
         } catch { }
         Start-Sleep -Milliseconds 1100     # ruim onder 300 verzoeken per 5 minuten
     }
+    return @{ perType = $perType; nummers = $nummers; perStation = $perStation; gelukt = $gelukt; leeg = ($nummers.Count -ge 10 -and $perStation.Count -eq 0) }
+}
+
+function Invoke-NsDrukte {
+    $pogingen = 3
+    for ($p = 1; $p -le $pogingen; $p++) {
+        $m = Get-NsDrukteMeting
+        if (-not $m.leeg) { break }
+        if ($p -lt $pogingen) {
+            Write-Log "NS-drukte poging ${p}: $($m.nummers.Count) treinen zonder prognoses (onvolledige respons). Opnieuw over 60 s." 'WARN'
+            Start-Sleep -Seconds 60
+        }
+    }
+    # Blijft de respons leeg, dan niets wegschrijven: ook het aantal rijdende treinen is dan onvolledig.
+    if ($m.leeg) { throw "drukte: NS gaf na $pogingen pogingen alleen $($m.nummers.Count) treinen zonder prognoses (onvolledige respons); niets opgeslagen" }
+    $perType = $m.perType; $nummers = $m.nummers; $perStation = $m.perStation; $gelukt = $m.gelukt
     $map = Join-Path (Get-DataPath 'ns') 'drukte'; New-Item -ItemType Directory -Force -Path $map | Out-Null
     $maand = (Get-Date).ToUniversalTime().ToString('yyyy-MM', $script:Inv)
     $rijen = foreach ($k in $perStation.Keys) { $a = $perStation[$k]; @{ peilmoment = $script:RunStamp; station_uic = $k; treinen_laag = $a.LOW; treinen_middel = $a.MEDIUM; treinen_hoog = $a.HIGH; overig = $a.overig } }
@@ -112,6 +132,8 @@ function Invoke-BronNS {
     $uit = @()
     $s = Update-NsStations; if ($s) { $uit += $s }
     $uit += Invoke-NsStoringen
-    $uit += Invoke-NsDrukte
+    # Een mislukte drukte-meting maakt de bron 'fout' (zichtbaar in log en laatste_run.json), maar de storingen
+    # zijn dan al opgeslagen en blijven in de melding staan.
+    try { $uit += Invoke-NsDrukte } catch { throw (($uit + $_.Exception.Message) -join '; ') }
     return ($uit -join '; ')
 }
