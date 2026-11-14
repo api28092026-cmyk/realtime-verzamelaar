@@ -1,69 +1,9 @@
 ﻿{
-  "Laadpunten": {
-    "seconden": 33,
-    "status": "ok",
-    "melding": "85720 locaties, 214977 laadpunten (54903 aan het laden); bestand van 2026-11-14T17:05:40Z",
-    "tijd": "2026-11-14T17:05:35Z"
-  },
   "Deelmobiliteit": {
-    "seconden": 99,
-    "status": "ok",
-    "melding": "45 van 52 systemen, 20360 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "tijd": "2026-11-14T17:05:35Z"
-  },
-  "Parkeren": {
-    "seconden": 0,
-    "status": "ok",
-    "melding": "tarieven vandaag al bijgewerkt",
-    "tijd": "2026-11-14T17:05:35Z"
-  },
-  "NzaWachttijden": {
-    "seconden": 11,
-    "tijd": "2026-11-14T05:30:55Z",
-    "status": "ok",
-    "melding": "geen nieuwe peildatum na 2026-10-27 (NZa publiceert elke 2 weken)"
-  },
-  "EnergyZero": {
-    "seconden": 6,
-    "tijd": "2026-11-14T05:30:55Z",
-    "status": "ok",
-    "melding": "215 uurprijzen bijgewerkt; gas: 6 gasdagen"
-  },
-  "KvkOpenData": {
-    "seconden": 19,
-    "tijd": "2026-11-14T05:30:55Z",
-    "status": "ok",
-    "melding": "1932913 bv's/nv's verwerkt, waarvan 77618 met status faillissement"
-  },
-  "OV": {
-    "seconden": 5,
-    "status": "ok",
-    "melding": "live: 12116 ritten, 1555 uitgevallen; meldingen: 854 actief, 0 nieuw",
-    "tijd": "2026-11-14T17:05:35Z"
-  },
-  "NS": {
-    "seconden": 444,
-    "status": "ok",
-    "melding": "storingen/werkzaamheden: 14 actief, 0 nieuw; drukte: 262 van 262 rijdende treinen, 237 stations, 184 keer drukte hoog",
-    "tijd": "2026-11-14T17:05:35Z"
-  },
-  "Verstoringen": {
-    "seconden": 39,
-    "status": "ok",
-    "melding": "weg: 1197 actieve meldingen, 132 nieuw; spoor: niets nieuws",
-    "tijd": "2026-11-14T17:05:35Z"
-  },
-  "TenderNed": {
-    "seconden": 40,
-    "tijd": "2026-11-14T05:30:55Z",
-    "status": "ok",
-    "melding": "35 nieuwe publicaties"
-  },
-  "RDW": {
-    "seconden": 109,
-    "tijd": "2026-11-14T05:30:55Z",
-    "status": "ok",
-    "melding": "17493 personenauto-registraties sinds 2026-11-04 verwerkt"
+    "tijd": "2026-11-14T18:05:33Z",
+    "seconden": 80,
+    "melding": "45 van 52 systemen, 20154 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "status": "ok"
   },
   "Netcongestie": {
     "seconden": 3,
@@ -71,10 +11,70 @@
     "status": "ok",
     "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd"
   },
-  "Energie": {
-    "seconden": 8,
+  "RDW": {
+    "seconden": 109,
+    "tijd": "2026-11-14T05:30:55Z",
     "status": "ok",
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 257, grensstromen 258, day-ahead 384 tijdstippen; TenneT: balance delta: 369 metingen in 6 kwartieren; Historie compleet",
-    "tijd": "2026-11-14T17:05:35Z"
+    "melding": "17493 personenauto-registraties sinds 2026-11-04 verwerkt"
+  },
+  "KvkOpenData": {
+    "seconden": 19,
+    "tijd": "2026-11-14T05:30:55Z",
+    "status": "ok",
+    "melding": "1932913 bv's/nv's verwerkt, waarvan 77618 met status faillissement"
+  },
+  "Energie": {
+    "tijd": "2026-11-14T18:05:33Z",
+    "seconden": 7,
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 262, grensstromen 260, day-ahead 384 tijdstippen; TenneT: balance delta: 369 metingen in 6 kwartieren; Historie compleet",
+    "status": "ok"
+  },
+  "EnergyZero": {
+    "seconden": 6,
+    "tijd": "2026-11-14T05:30:55Z",
+    "status": "ok",
+    "melding": "215 uurprijzen bijgewerkt; gas: 6 gasdagen"
+  },
+  "NS": {
+    "tijd": "2026-11-14T18:05:33Z",
+    "seconden": 413,
+    "melding": "storingen/werkzaamheden: 15 actief, 1 nieuw; drukte: 263 van 263 rijdende treinen, 236 stations, 119 keer drukte hoog",
+    "status": "ok"
+  },
+  "NzaWachttijden": {
+    "seconden": 11,
+    "tijd": "2026-11-14T05:30:55Z",
+    "status": "ok",
+    "melding": "geen nieuwe peildatum na 2026-10-27 (NZa publiceert elke 2 weken)"
+  },
+  "OV": {
+    "tijd": "2026-11-14T18:05:33Z",
+    "seconden": 4,
+    "melding": "live: 11134 ritten, 1485 uitgevallen; meldingen: 852 actief, 2 nieuw",
+    "status": "ok"
+  },
+  "Verstoringen": {
+    "tijd": "2026-11-14T18:05:33Z",
+    "seconden": 41,
+    "melding": "weg: 1127 actieve meldingen, 88 nieuw; spoor: niets nieuws",
+    "status": "ok"
+  },
+  "Parkeren": {
+    "tijd": "2026-11-14T18:05:33Z",
+    "seconden": 0,
+    "melding": "tarieven vandaag al bijgewerkt",
+    "status": "ok"
+  },
+  "TenderNed": {
+    "seconden": 40,
+    "tijd": "2026-11-14T05:30:55Z",
+    "status": "ok",
+    "melding": "35 nieuwe publicaties"
+  },
+  "Laadpunten": {
+    "tijd": "2026-11-14T18:05:33Z",
+    "seconden": 33,
+    "melding": "85722 locaties, 214981 laadpunten (56125 aan het laden); bestand van 2026-11-14T18:05:37Z",
+    "status": "ok"
   }
 }
