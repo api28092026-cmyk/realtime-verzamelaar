@@ -6070,3 +6070,17 @@
 2026-11-15T05:05:37Z,Accident,accident,1,0
 2026-11-15T05:05:37Z,RoadOrCarriagewayOrLaneManagement,hardShoulderRunningInOperation,48,0
 2026-11-15T05:05:37Z,RoadOrCarriagewayOrLaneManagement,narrowLanes,1,0
+2026-11-15T05:30:46Z,VehicleObstruction,brokenDownVehicle,2,0
+2026-11-15T05:30:46Z,RoadOrCarriagewayOrLaneManagement,laneClosures,105,0
+2026-11-15T05:30:46Z,RoadOrCarriagewayOrLaneManagement,narrowLanes,1,0
+2026-11-15T05:30:46Z,RoadOrCarriagewayOrLaneManagement,useOfSpecifiedLanesOrCarriagewaysAllowed,14,0
+2026-11-15T05:30:46Z,RoadOrCarriagewayOrLaneManagement,other,51,0
+2026-11-15T05:30:46Z,RoadOrCarriagewayOrLaneManagement,lanesDeviated,33,0
+2026-11-15T05:30:46Z,RoadOrCarriagewayOrLaneManagement,roadClosed,2,0
+2026-11-15T05:30:46Z,GeneralNetworkManagement,bridgeSwingInOperation,2,0
+2026-11-15T05:30:46Z,RoadOrCarriagewayOrLaneManagement,hardShoulderRunningInOperation,48,0
+2026-11-15T05:30:46Z,ReroutingManagement,followDiversionSigns,66,0
+2026-11-15T05:30:46Z,SpeedManagement,speedRestrictionInOperation,88,0
+2026-11-15T05:30:46Z,VehicleObstruction,other,39,0
+2026-11-15T05:30:46Z,RoadOrCarriagewayOrLaneManagement,carriagewayClosures,526,0
+2026-11-15T05:30:46Z,GeneralObstruction,other,2,0
