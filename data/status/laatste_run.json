@@ -1,15 +1,27 @@
 ﻿{
+  "OV": {
+    "melding": "live: 9787 ritten, 1220 uitgevallen; meldingen: 674 actief, 0 nieuw",
+    "seconden": 5,
+    "status": "ok",
+    "tijd": "2026-11-15T23:05:30Z"
+  },
   "Netcongestie": {
     "tijd": "2026-11-15T05:30:46Z",
     "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
     "seconden": 4,
     "status": "ok"
   },
-  "OV": {
-    "seconden": 6,
-    "tijd": "2026-11-15T22:05:37Z",
+  "Parkeren": {
+    "melding": "tarieven vandaag al bijgewerkt",
+    "seconden": 0,
     "status": "ok",
-    "melding": "live: 10470 ritten, 1275 uitgevallen; meldingen: 687 actief, 2 nieuw"
+    "tijd": "2026-11-15T23:05:30Z"
+  },
+  "NS": {
+    "melding": "storingen/werkzaamheden: 10 actief, 1 nieuw; drukte: 176 van 176 rijdende treinen, 235 stations, 21 keer drukte hoog",
+    "seconden": 274,
+    "status": "ok",
+    "tijd": "2026-11-15T23:05:30Z"
   },
   "TenderNed": {
     "tijd": "2026-11-15T05:30:46Z",
@@ -18,15 +30,21 @@
     "status": "ok"
   },
   "Verstoringen": {
-    "seconden": 37,
-    "tijd": "2026-11-15T22:05:37Z",
+    "melding": "weg: 970 actieve meldingen, 31 nieuw; spoor: niets nieuws",
+    "seconden": 73,
     "status": "ok",
-    "melding": "weg: 993 actieve meldingen, 42 nieuw; spoor: niets nieuws"
+    "tijd": "2026-11-15T23:05:30Z"
   },
   "NzaWachttijden": {
     "tijd": "2026-11-15T05:30:46Z",
     "melding": "NZa-pagina niet opgehaald (curl 0, HTTP 403, 1213 tekens)",
     "status": "fout"
+  },
+  "Deelmobiliteit": {
+    "melding": "45 van 52 systemen, 27573 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "seconden": 79,
+    "status": "ok",
+    "tijd": "2026-11-15T23:05:30Z"
   },
   "KvkOpenData": {
     "tijd": "2026-11-15T05:30:46Z",
@@ -34,29 +52,11 @@
     "seconden": 19,
     "status": "ok"
   },
-  "Laadpunten": {
-    "seconden": 32,
-    "tijd": "2026-11-15T22:05:37Z",
-    "status": "ok",
-    "melding": "84851 locaties, 212614 laadpunten (60236 aan het laden); bestand van 2026-11-15T22:05:43Z"
-  },
   "Energie": {
-    "seconden": 9,
-    "tijd": "2026-11-15T22:05:37Z",
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 278, grensstromen 282, day-ahead 384 tijdstippen; TenneT: balance delta: 367 metingen in 6 kwartieren; Historie compleet",
+    "seconden": 10,
     "status": "ok",
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 278, grensstromen 278, day-ahead 384 tijdstippen; TenneT: balance delta: 376 metingen in 6 kwartieren; Historie compleet"
-  },
-  "NS": {
-    "seconden": 393,
-    "tijd": "2026-11-15T22:05:37Z",
-    "status": "ok",
-    "melding": "storingen/werkzaamheden: 11 actief, 1 nieuw; drukte: 213 van 213 rijdende treinen, 236 stations, 12 keer drukte hoog"
-  },
-  "RDW": {
-    "tijd": "2026-11-15T05:30:46Z",
-    "melding": "18546 personenauto-registraties sinds 2026-11-05 verwerkt",
-    "seconden": 120,
-    "status": "ok"
+    "tijd": "2026-11-15T23:05:30Z"
   },
   "EnergyZero": {
     "tijd": "2026-11-15T05:30:46Z",
@@ -64,16 +64,16 @@
     "seconden": 4,
     "status": "ok"
   },
-  "Deelmobiliteit": {
-    "seconden": 100,
-    "tijd": "2026-11-15T22:05:37Z",
-    "status": "ok",
-    "melding": "45 van 52 systemen, 27473 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+  "RDW": {
+    "tijd": "2026-11-15T05:30:46Z",
+    "melding": "18546 personenauto-registraties sinds 2026-11-05 verwerkt",
+    "seconden": 120,
+    "status": "ok"
   },
-  "Parkeren": {
-    "seconden": 0,
-    "tijd": "2026-11-15T22:05:37Z",
+  "Laadpunten": {
+    "melding": "84890 locaties, 212701 laadpunten (60692 aan het laden); bestand van 2026-11-15T23:05:34Z",
+    "seconden": 48,
     "status": "ok",
-    "melding": "tarieven vandaag al bijgewerkt"
+    "tijd": "2026-11-15T23:05:30Z"
   }
 }
