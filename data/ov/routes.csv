@@ -603,91 +603,23 @@
 161528,CXX,Connexxion,bus,650
 163317,CXX,Connexxion,bus,TXL
 163626,CXX,Connexxion,bus,31
-164962,DELIJN,De Lijn,bus,380
-164963,DELIJN,De Lijn,bus,43a
-164964,DELIJN,De Lijn,bus,45
-164965,DELIJN,De Lijn,bus,455
-164966,DELIJN,De Lijn,bus,456
-164967,DELIJN,De Lijn,bus,457
-164968,DELIJN,De Lijn,bus,458
-164969,DELIJN,De Lijn,bus,459
-164970,DELIJN,De Lijn,bus,46
-164971,DELIJN,De Lijn,bus,461
-164974,DELIJN,De Lijn,bus,433
-164975,DELIJN,De Lijn,bus,20a
-164976,DELIJN,De Lijn,bus,206
-164980,DELIJN,De Lijn,bus,F45
-164981,DELIJN,De Lijn,bus,62
-164982,DELIJN,De Lijn,bus,63
-164983,DELIJN,De Lijn,bus,42
-164984,DELIJN,De Lijn,bus,380
-164985,DELIJN,De Lijn,bus,43a
-164986,DELIJN,De Lijn,bus,45
-164987,DELIJN,De Lijn,bus,455
-164988,DELIJN,De Lijn,bus,456
-164989,DELIJN,De Lijn,bus,457
-164990,DELIJN,De Lijn,bus,458
-164991,DELIJN,De Lijn,bus,459
-164992,DELIJN,De Lijn,bus,46
-164993,DELIJN,De Lijn,bus,461
-164996,DELIJN,De Lijn,bus,433
-164997,DELIJN,De Lijn,bus,20a
-164998,DELIJN,De Lijn,bus,206
-165002,DELIJN,De Lijn,bus,F45
-165003,DELIJN,De Lijn,bus,62
-165004,DELIJN,De Lijn,bus,63
-165005,DELIJN,De Lijn,bus,42
-165006,DELIJN,De Lijn,bus,380
-165007,DELIJN,De Lijn,bus,43a
-165008,DELIJN,De Lijn,bus,45
-165009,DELIJN,De Lijn,bus,455
-165010,DELIJN,De Lijn,bus,456
-165011,DELIJN,De Lijn,bus,457
-165012,DELIJN,De Lijn,bus,458
-165013,DELIJN,De Lijn,bus,459
-165014,DELIJN,De Lijn,bus,46
-165015,DELIJN,De Lijn,bus,461
-165018,DELIJN,De Lijn,bus,433
-165019,DELIJN,De Lijn,bus,20a
-165020,DELIJN,De Lijn,bus,206
-165024,DELIJN,De Lijn,bus,F45
-165025,DELIJN,De Lijn,bus,62
-165026,DELIJN,De Lijn,bus,63
-165027,DELIJN,De Lijn,bus,42
-165029,DELIJN,De Lijn,bus,380
-165030,DELIJN,De Lijn,bus,43a
-165031,DELIJN,De Lijn,bus,45
-165032,DELIJN,De Lijn,bus,455
-165033,DELIJN,De Lijn,bus,456
-165034,DELIJN,De Lijn,bus,457
-165035,DELIJN,De Lijn,bus,458
-165036,DELIJN,De Lijn,bus,459
-165037,DELIJN,De Lijn,bus,46
-165038,DELIJN,De Lijn,bus,461
-165041,DELIJN,De Lijn,bus,433
-165042,DELIJN,De Lijn,bus,20a
-165043,DELIJN,De Lijn,bus,206
-165047,DELIJN,De Lijn,bus,F45
-165048,DELIJN,De Lijn,bus,62
-165049,DELIJN,De Lijn,bus,63
-165050,DELIJN,De Lijn,bus,42
-165054,DELIJN,De Lijn,bus,380
-165055,DELIJN,De Lijn,bus,43a
-165056,DELIJN,De Lijn,bus,45
-165057,DELIJN,De Lijn,bus,455
-165058,DELIJN,De Lijn,bus,456
-165059,DELIJN,De Lijn,bus,457
-165060,DELIJN,De Lijn,bus,458
-165061,DELIJN,De Lijn,bus,459
-165062,DELIJN,De Lijn,bus,46
-165063,DELIJN,De Lijn,bus,461
-165066,DELIJN,De Lijn,bus,433
-165067,DELIJN,De Lijn,bus,20a
-165068,DELIJN,De Lijn,bus,206
-165072,DELIJN,De Lijn,bus,F45
-165073,DELIJN,De Lijn,bus,62
-165074,DELIJN,De Lijn,bus,63
-165075,DELIJN,De Lijn,bus,42
+165076,DELIJN,De Lijn,bus,380
+165077,DELIJN,De Lijn,bus,43a
+165078,DELIJN,De Lijn,bus,45
+165079,DELIJN,De Lijn,bus,455
+165080,DELIJN,De Lijn,bus,456
+165081,DELIJN,De Lijn,bus,457
+165082,DELIJN,De Lijn,bus,458
+165083,DELIJN,De Lijn,bus,459
+165084,DELIJN,De Lijn,bus,46
+165085,DELIJN,De Lijn,bus,461
+165088,DELIJN,De Lijn,bus,433
+165089,DELIJN,De Lijn,bus,20a
+165090,DELIJN,De Lijn,bus,206
+165094,DELIJN,De Lijn,bus,45
+165095,DELIJN,De Lijn,bus,62
+165096,DELIJN,De Lijn,bus,63
+165097,DELIJN,De Lijn,bus,42
 134297,DOEKSEN,Rederij Doeksen,veerboot,HV
 134298,DOEKSEN,Rederij Doeksen,veerboot,TV
 134299,DOEKSEN,Rederij Doeksen,veerboot,HT
@@ -808,7 +740,6 @@
 152394,GVB,GVB,bus,N88
 152395,GVB,GVB,bus,N93
 152396,GVB,GVB,bus,N91
-161606,GVB,GVB,bus,71
 163563,GVB,GVB,bus,73
 148409,HERMES,Hermes,bus,255
 148410,HERMES,Hermes,bus,256
@@ -866,7 +797,7 @@
 164907,IFF:DB,DB,trein,RB64
 164908,IFF:EUROBAHN,Eurobahn,trein,RE13
 164909,IFF:EUROBAHN,Eurobahn,trein,RB61
-139863,IFF:EU_SLEEPER,European Sleeper,trein,European Sleeper
+139863,IFF:EU_SLEEPER,Eu Sleeper,trein,European Sleeper
 160747,IFF:GV,GoVolta,trein,GoVolta
 162824,IFF:GV,GoVolta,trein,GoVolta
 164910,IFF:NMBS,NMBS,trein,S32
@@ -1010,8 +941,6 @@
 163080,NS,NS,trein,Sprinter
 163245,NS,NS,bus,Snelbus ipv trein
 163581,NS,NS,bus,Snelbus ipv trein
-163582,NS,NS,bus,Snelbus ipv trein
-163583,NS,NS,bus,Snelbus ipv trein
 163584,NS,NS,bus,Snelbus ipv trein
 163585,NS,NS,bus,Snelbus ipv trein
 163586,NS,NS,bus,Snelbus ipv trein
@@ -1021,7 +950,6 @@
 163590,NS,NS,bus,Snelbus ipv trein
 163591,NS,NS,bus,Stopbus ipv trein
 163592,NS,NS,bus,Stopbus ipv trein
-163593,NS,NS,bus,Stopbus ipv trein
 163595,NS,NS,bus,Stopbus ipv trein
 163596,NS,NS,bus,Stopbus ipv trein
 163597,NS,NS,bus,Stopbus ipv trein
