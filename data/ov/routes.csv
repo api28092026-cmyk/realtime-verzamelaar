@@ -603,23 +603,23 @@
 161528,CXX,Connexxion,bus,650
 163317,CXX,Connexxion,bus,TXL
 163626,CXX,Connexxion,bus,31
-165076,DELIJN,De Lijn,bus,380
-165077,DELIJN,De Lijn,bus,43a
-165078,DELIJN,De Lijn,bus,45
-165079,DELIJN,De Lijn,bus,455
-165080,DELIJN,De Lijn,bus,456
-165081,DELIJN,De Lijn,bus,457
-165082,DELIJN,De Lijn,bus,458
-165083,DELIJN,De Lijn,bus,459
-165084,DELIJN,De Lijn,bus,46
-165085,DELIJN,De Lijn,bus,461
-165088,DELIJN,De Lijn,bus,433
-165089,DELIJN,De Lijn,bus,20a
-165090,DELIJN,De Lijn,bus,206
-165094,DELIJN,De Lijn,bus,45
-165095,DELIJN,De Lijn,bus,62
-165096,DELIJN,De Lijn,bus,63
-165097,DELIJN,De Lijn,bus,42
+165099,DELIJN,De Lijn,bus,380
+165100,DELIJN,De Lijn,bus,43a
+165101,DELIJN,De Lijn,bus,45
+165102,DELIJN,De Lijn,bus,455
+165103,DELIJN,De Lijn,bus,456
+165104,DELIJN,De Lijn,bus,457
+165105,DELIJN,De Lijn,bus,458
+165106,DELIJN,De Lijn,bus,459
+165107,DELIJN,De Lijn,bus,46
+165108,DELIJN,De Lijn,bus,461
+165111,DELIJN,De Lijn,bus,433
+165112,DELIJN,De Lijn,bus,20a
+165113,DELIJN,De Lijn,bus,206
+165117,DELIJN,De Lijn,bus,45
+165118,DELIJN,De Lijn,bus,62
+165119,DELIJN,De Lijn,bus,63
+165120,DELIJN,De Lijn,bus,42
 134297,DOEKSEN,Rederij Doeksen,veerboot,HV
 134298,DOEKSEN,Rederij Doeksen,veerboot,TV
 134299,DOEKSEN,Rederij Doeksen,veerboot,HT
@@ -792,12 +792,12 @@
 163021,HTM,HTM,bus,50
 163575,HTM,HTM,bus,23A
 164016,HTM,HTM,bus,23
-164905,IFF:DB,DB,trein,RE13
-164906,IFF:DB,DB,trein,RB51
-164907,IFF:DB,DB,trein,RB64
+164905,IFF:DB,Deutsche Bahn,trein,RE13
+164906,IFF:DB,Deutsche Bahn,trein,RB51
+164907,IFF:DB,Deutsche Bahn,trein,RB64
 164908,IFF:EUROBAHN,Eurobahn,trein,RE13
 164909,IFF:EUROBAHN,Eurobahn,trein,RB61
-139863,IFF:EU_SLEEPER,Eu Sleeper,trein,European Sleeper
+139863,IFF:EU_SLEEPER,European Sleeper,trein,European Sleeper
 160747,IFF:GV,GoVolta,trein,GoVolta
 162824,IFF:GV,GoVolta,trein,GoVolta
 164910,IFF:NMBS,NMBS,trein,S32
@@ -940,7 +940,6 @@
 163075,NS,NS,bus,Stopbus ipv trein
 163080,NS,NS,trein,Sprinter
 163245,NS,NS,bus,Snelbus ipv trein
-163581,NS,NS,bus,Snelbus ipv trein
 163584,NS,NS,bus,Snelbus ipv trein
 163585,NS,NS,bus,Snelbus ipv trein
 163586,NS,NS,bus,Snelbus ipv trein
@@ -958,7 +957,6 @@
 163600,NS,NS,bus,Snelbus ipv trein
 163604,NS,NS,trein,Intercity
 163605,NS,NS,trein,Intercity
-163608,NS,NS,trein,Sprinter
 163987,NS,NS,bus,Snelbus ipv trein
 163989,NS,NS,bus,Snelbus ipv trein
 163996,NS,NS,bus,Stopbus ipv trein
@@ -995,8 +993,6 @@
 164915,NS,NS,bus,Snelbus ipv trein
 164916,NS,NS,bus,Snelbus ipv trein
 164917,NS,NS,bus,Snelbus ipv trein
-164918,NS,NS,bus,Snelbus ipv trein
-164919,NS,NS,bus,Snelbus ipv trein
 164920,NS,NS,bus,Stopbus ipv trein
 164921,NS,NS,bus,Stopbus ipv trein
 164922,NS,NS,bus,Stopbus ipv trein
@@ -1842,6 +1838,7 @@
 163708,RET,RET,tram,12
 163971,RET,RET,bus,145
 163972,RET,RET,tram,4
+165123,RET,RET,tram,7
 139898,RNET,R-net,trein,Sprinter
 139899,RNET,R-net,trein,Sprinter
 139900,RNET,R-net,bus,Stopbus ipv trein
