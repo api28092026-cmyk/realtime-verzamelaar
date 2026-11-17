@@ -1,67 +1,26 @@
 ﻿{
-  "Verstoringen": {
-    "tijd": "2026-11-17T13:05:40Z",
-    "melding": "weg: 1254 actieve meldingen, 192 nieuw; spoor: niets nieuws",
+  "OV": {
     "status": "ok",
-    "seconden": 76
+    "seconden": 6,
+    "melding": "live: 16404 ritten, 1955 uitgevallen; meldingen: 694 actief, 13 nieuw",
+    "tijd": "2026-11-17T14:05:35Z"
+  },
+  "NS": {
+    "status": "ok",
+    "seconden": 42,
+    "melding": "storingen/werkzaamheden: 12 actief, 2 nieuw; drukte: 21 van 21 rijdende treinen, 31 stations, 3 keer drukte hoog",
+    "tijd": "2026-11-17T14:05:35Z"
   },
   "Laadpunten": {
-    "tijd": "2026-11-17T13:05:40Z",
-    "melding": "84936 locaties, 212829 laadpunten (50266 aan het laden); bestand van 2026-11-17T13:05:44Z",
     "status": "ok",
-    "seconden": 49
+    "seconden": 36,
+    "melding": "84936 locaties, 212837 laadpunten (50078 aan het laden); bestand van 2026-11-17T14:05:40Z",
+    "tijd": "2026-11-17T14:05:35Z"
   },
   "EnergyZero": {
     "seconden": 4,
     "status": "ok",
     "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
-    "tijd": "2026-11-17T05:30:56Z"
-  },
-  "OV": {
-    "tijd": "2026-11-17T13:05:40Z",
-    "melding": "live: 16614 ritten, 1996 uitgevallen; meldingen: 685 actief, 12 nieuw",
-    "status": "ok",
-    "seconden": 6
-  },
-  "NzaWachttijden": {
-    "status": "fout",
-    "melding": "NZa-pagina niet opgehaald (curl 0, HTTP 403, 1213 tekens)",
-    "tijd": "2026-11-17T05:30:56Z"
-  },
-  "Netcongestie": {
-    "seconden": 4,
-    "status": "ok",
-    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
-    "tijd": "2026-11-17T05:30:56Z"
-  },
-  "Energie": {
-    "tijd": "2026-11-17T13:05:40Z",
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 239, grensstromen 241, day-ahead 384 tijdstippen; TenneT: balance delta: 378 metingen in 6 kwartieren; Historie compleet",
-    "status": "ok",
-    "seconden": 10
-  },
-  "KvkOpenData": {
-    "seconden": 22,
-    "status": "ok",
-    "melding": "1933831 bv's/nv's verwerkt, waarvan 77620 met status faillissement",
-    "tijd": "2026-11-17T05:30:56Z"
-  },
-  "Deelmobiliteit": {
-    "tijd": "2026-11-17T13:05:40Z",
-    "melding": "45 van 52 systemen, 18537 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "status": "ok",
-    "seconden": 84
-  },
-  "Parkeren": {
-    "tijd": "2026-11-17T13:05:40Z",
-    "melding": "tarieven vandaag al bijgewerkt",
-    "status": "ok",
-    "seconden": 0
-  },
-  "TenderNed": {
-    "seconden": 123,
-    "status": "ok",
-    "melding": "98 nieuwe publicaties",
     "tijd": "2026-11-17T05:30:56Z"
   },
   "RDW": {
@@ -70,10 +29,51 @@
     "melding": "13988 personenauto-registraties sinds 2026-11-07 verwerkt",
     "tijd": "2026-11-17T05:30:56Z"
   },
-  "NS": {
-    "tijd": "2026-11-17T13:05:40Z",
-    "melding": "storingen/werkzaamheden: 10 actief, 2 nieuw; drukte: 303 van 303 rijdende treinen, 238 stations, 66 keer drukte hoog",
+  "NzaWachttijden": {
+    "status": "fout",
+    "melding": "NZa-pagina niet opgehaald (curl 0, HTTP 403, 1213 tekens)",
+    "tijd": "2026-11-17T05:30:56Z"
+  },
+  "Verstoringen": {
     "status": "ok",
-    "seconden": 483
+    "seconden": 45,
+    "melding": "weg: 1247 actieve meldingen, 209 nieuw; spoor: niets nieuws",
+    "tijd": "2026-11-17T14:05:35Z"
+  },
+  "Energie": {
+    "status": "ok",
+    "seconden": 11,
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 244, grensstromen 244, day-ahead 384 tijdstippen; TenneT: balance delta: 335 metingen in 6 kwartieren; Historie compleet",
+    "tijd": "2026-11-17T14:05:35Z"
+  },
+  "Netcongestie": {
+    "seconden": 4,
+    "status": "ok",
+    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
+    "tijd": "2026-11-17T05:30:56Z"
+  },
+  "TenderNed": {
+    "seconden": 123,
+    "status": "ok",
+    "melding": "98 nieuwe publicaties",
+    "tijd": "2026-11-17T05:30:56Z"
+  },
+  "KvkOpenData": {
+    "seconden": 22,
+    "status": "ok",
+    "melding": "1933831 bv's/nv's verwerkt, waarvan 77620 met status faillissement",
+    "tijd": "2026-11-17T05:30:56Z"
+  },
+  "Deelmobiliteit": {
+    "status": "ok",
+    "seconden": 104,
+    "melding": "45 van 52 systemen, 18872 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "tijd": "2026-11-17T14:05:35Z"
+  },
+  "Parkeren": {
+    "status": "ok",
+    "seconden": 0,
+    "melding": "tarieven vandaag al bijgewerkt",
+    "tijd": "2026-11-17T14:05:35Z"
   }
 }
