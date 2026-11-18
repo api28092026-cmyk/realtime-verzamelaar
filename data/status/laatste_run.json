@@ -1,21 +1,27 @@
 ﻿{
+  "KvkOpenData": {
+    "melding": "1933621 bv's/nv's verwerkt, waarvan 77619 met status faillissement",
+    "seconden": 22,
+    "tijd": "2026-11-18T05:30:56Z",
+    "status": "ok"
+  },
+  "Laadpunten": {
+    "melding": "84974 locaties, 212956 laadpunten (47824 aan het laden); bestand van 2026-11-18T10:05:42Z",
+    "tijd": "2026-11-18T10:05:37Z",
+    "status": "ok",
+    "seconden": 23
+  },
   "Netcongestie": {
     "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
     "seconden": 4,
     "tijd": "2026-11-18T05:30:56Z",
     "status": "ok"
   },
-  "Energie": {
-    "seconden": 9,
-    "status": "ok",
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 223, grensstromen 224, day-ahead 288 tijdstippen; TenneT: balance delta: 377 metingen in 6 kwartieren; Historie compleet",
-    "tijd": "2026-11-18T09:05:40Z"
-  },
   "Parkeren": {
-    "seconden": 0,
-    "status": "ok",
     "melding": "tarieven vandaag al bijgewerkt",
-    "tijd": "2026-11-18T09:05:40Z"
+    "tijd": "2026-11-18T10:05:37Z",
+    "status": "ok",
+    "seconden": 0
   },
   "TenderNed": {
     "melding": "114 nieuwe publicaties",
@@ -23,41 +29,11 @@
     "tijd": "2026-11-18T05:30:56Z",
     "status": "ok"
   },
-  "OV": {
-    "seconden": 6,
-    "status": "ok",
-    "melding": "live: 20027 ritten, 2112 uitgevallen; meldingen: 693 actief, 11 nieuw",
-    "tijd": "2026-11-18T09:05:40Z"
-  },
-  "Laadpunten": {
-    "seconden": 44,
-    "status": "ok",
-    "melding": "84964 locaties, 212923 laadpunten (46967 aan het laden); bestand van 2026-11-18T09:05:45Z",
-    "tijd": "2026-11-18T09:05:40Z"
-  },
   "NS": {
-    "seconden": 514,
+    "melding": "storingen/werkzaamheden: 11 actief, 1 nieuw; drukte: 318 van 318 rijdende treinen, 241 stations, 55 keer drukte hoog",
+    "tijd": "2026-11-18T10:05:37Z",
     "status": "ok",
-    "melding": "storingen/werkzaamheden: 10 actief, 1 nieuw; drukte: 307 van 307 rijdende treinen, 241 stations, 120 keer drukte hoog",
-    "tijd": "2026-11-18T09:05:40Z"
-  },
-  "Deelmobiliteit": {
-    "seconden": 114,
-    "status": "ok",
-    "melding": "45 van 52 systemen, 21045 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "tijd": "2026-11-18T09:05:40Z"
-  },
-  "KvkOpenData": {
-    "melding": "1933621 bv's/nv's verwerkt, waarvan 77619 met status faillissement",
-    "seconden": 22,
-    "tijd": "2026-11-18T05:30:56Z",
-    "status": "ok"
-  },
-  "RDW": {
-    "melding": "15054 personenauto-registraties sinds 2026-11-08 verwerkt",
-    "seconden": 113,
-    "tijd": "2026-11-18T05:30:56Z",
-    "status": "ok"
+    "seconden": 534
   },
   "EnergyZero": {
     "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
@@ -65,16 +41,40 @@
     "tijd": "2026-11-18T05:30:56Z",
     "status": "ok"
   },
+  "Energie": {
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 228, grensstromen 229, day-ahead 288 tijdstippen; TenneT: balance delta: 371 metingen in 6 kwartieren; Historie compleet",
+    "tijd": "2026-11-18T10:05:37Z",
+    "status": "ok",
+    "seconden": 9
+  },
+  "Verstoringen": {
+    "melding": "weg: 1276 actieve meldingen, 179 nieuw; spoor: niets nieuws",
+    "tijd": "2026-11-18T10:05:37Z",
+    "status": "ok",
+    "seconden": 29
+  },
+  "Deelmobiliteit": {
+    "melding": "45 van 52 systemen, 20611 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "tijd": "2026-11-18T10:05:37Z",
+    "status": "ok",
+    "seconden": 115
+  },
+  "RDW": {
+    "melding": "15054 personenauto-registraties sinds 2026-11-08 verwerkt",
+    "seconden": 113,
+    "tijd": "2026-11-18T05:30:56Z",
+    "status": "ok"
+  },
+  "OV": {
+    "melding": "live: 18840 ritten, 2038 uitgevallen; meldingen: 691 actief, 10 nieuw",
+    "tijd": "2026-11-18T10:05:37Z",
+    "status": "ok",
+    "seconden": 5
+  },
   "NzaWachttijden": {
     "melding": "1 nieuwe peildata (2026-11-10 t/m 2026-11-10), 9504 regels; 1130 vestigingen, 114 codes",
     "seconden": 13,
     "tijd": "2026-11-18T05:30:56Z",
     "status": "ok"
-  },
-  "Verstoringen": {
-    "seconden": 64,
-    "status": "ok",
-    "melding": "weg: 1282 actieve meldingen, 200 nieuw; spoor: niets nieuws",
-    "tijd": "2026-11-18T09:05:40Z"
   }
 }
