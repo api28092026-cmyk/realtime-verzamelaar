@@ -1,13 +1,42 @@
 ﻿{
-  "OV": {
-    "melding": "live: 22903 ritten, 2089 uitgevallen; meldingen: 675 actief, 6 nieuw",
+  "EnergyZero": {
+    "seconden": 4,
+    "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
     "status": "ok",
-    "tijd": "2026-11-19T10:05:33Z",
+    "tijd": "2026-11-19T05:30:57Z"
+  },
+  "OV": {
+    "tijd": "2026-11-19T11:05:37Z",
+    "status": "ok",
+    "melding": "live: 21918 ritten, 1993 uitgevallen; meldingen: 684 actief, 13 nieuw",
     "seconden": 5
   },
   "Netcongestie": {
     "seconden": 4,
     "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
+    "status": "ok",
+    "tijd": "2026-11-19T05:30:57Z"
+  },
+  "KvkOpenData": {
+    "melding": "Network is unreachable (www.kvk.nl:443)",
+    "status": "fout",
+    "tijd": "2026-11-19T05:30:57Z"
+  },
+  "Deelmobiliteit": {
+    "tijd": "2026-11-19T11:05:37Z",
+    "status": "ok",
+    "melding": "45 van 52 systemen, 17196 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "seconden": 82
+  },
+  "Energie": {
+    "tijd": "2026-11-19T11:05:37Z",
+    "status": "ok",
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 230, grensstromen 232, day-ahead 288 tijdstippen; TenneT: balance delta: 372 metingen in 6 kwartieren; Historie compleet",
+    "seconden": 7
+  },
+  "RDW": {
+    "seconden": 111,
+    "melding": "17369 personenauto-registraties sinds 2026-11-09 verwerkt",
     "status": "ok",
     "tijd": "2026-11-19T05:30:57Z"
   },
@@ -17,41 +46,17 @@
     "status": "ok",
     "tijd": "2026-11-19T05:30:57Z"
   },
-  "Parkeren": {
-    "melding": "tarieven vandaag al bijgewerkt",
-    "status": "ok",
-    "tijd": "2026-11-19T10:05:33Z",
-    "seconden": 0
-  },
-  "EnergyZero": {
-    "seconden": 4,
-    "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
-    "status": "ok",
-    "tijd": "2026-11-19T05:30:57Z"
-  },
   "Laadpunten": {
-    "melding": "86026 locaties, 215867 laadpunten (49338 aan het laden); bestand van 2026-11-19T10:05:38Z",
+    "tijd": "2026-11-19T11:05:37Z",
     "status": "ok",
-    "tijd": "2026-11-19T10:05:33Z",
-    "seconden": 23
+    "melding": "85060 locaties, 213220 laadpunten (52323 aan het laden); bestand van 2026-11-19T11:05:41Z",
+    "seconden": 33
   },
   "Verstoringen": {
-    "melding": "weg: 1247 actieve meldingen, 206 nieuw; spoor: niets nieuws",
+    "tijd": "2026-11-19T11:05:37Z",
     "status": "ok",
-    "tijd": "2026-11-19T10:05:33Z",
-    "seconden": 31
-  },
-  "NS": {
-    "melding": "storingen/werkzaamheden: 12 actief, 1 nieuw; drukte: 314 van 314 rijdende treinen, 238 stations, 76 keer drukte hoog",
-    "status": "ok",
-    "tijd": "2026-11-19T10:05:33Z",
-    "seconden": 531
-  },
-  "Deelmobiliteit": {
-    "melding": "45 van 52 systemen, 17346 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "status": "ok",
-    "tijd": "2026-11-19T10:05:33Z",
-    "seconden": 95
+    "melding": "weg: 1269 actieve meldingen, 195 nieuw; spoor: niets nieuws",
+    "seconden": 47
   },
   "TenderNed": {
     "seconden": 121,
@@ -59,21 +64,16 @@
     "status": "ok",
     "tijd": "2026-11-19T05:30:57Z"
   },
-  "RDW": {
-    "seconden": 111,
-    "melding": "17369 personenauto-registraties sinds 2026-11-09 verwerkt",
+  "NS": {
+    "tijd": "2026-11-19T11:05:37Z",
     "status": "ok",
-    "tijd": "2026-11-19T05:30:57Z"
+    "melding": "storingen/werkzaamheden: 12 actief, 1 nieuw; drukte: 309 van 309 rijdende treinen, 238 stations, 55 keer drukte hoog",
+    "seconden": 485
   },
-  "Energie": {
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 223, grensstromen 228, day-ahead 288 tijdstippen; TenneT: balance delta: 370 metingen in 6 kwartieren; Historie compleet",
+  "Parkeren": {
+    "tijd": "2026-11-19T11:05:37Z",
     "status": "ok",
-    "tijd": "2026-11-19T10:05:33Z",
-    "seconden": 7
-  },
-  "KvkOpenData": {
-    "melding": "Network is unreachable (www.kvk.nl:443)",
-    "status": "fout",
-    "tijd": "2026-11-19T05:30:57Z"
+    "melding": "tarieven vandaag al bijgewerkt",
+    "seconden": 0
   }
 }
