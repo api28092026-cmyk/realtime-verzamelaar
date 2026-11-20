@@ -658,34 +658,91 @@
 161528,CXX,Connexxion,bus,650
 163317,CXX,Connexxion,bus,TXL
 163626,CXX,Connexxion,bus,31
-164694,CXX,Connexxion,bus,169
-165098,CXX,Connexxion,bus,858
-165099,DELIJN,De Lijn,bus,380
-165100,DELIJN,De Lijn,bus,43a
-165101,DELIJN,De Lijn,bus,45
-165102,DELIJN,De Lijn,bus,455
-165103,DELIJN,De Lijn,bus,456
-165104,DELIJN,De Lijn,bus,457
-165105,DELIJN,De Lijn,bus,458
-165106,DELIJN,De Lijn,bus,459
-165107,DELIJN,De Lijn,bus,46
-165108,DELIJN,De Lijn,bus,461
-165109,DELIJN,De Lijn,bus,F17
-165110,DELIJN,De Lijn,bus,F20
-165111,DELIJN,De Lijn,bus,433
-165112,DELIJN,De Lijn,bus,20a
-165113,DELIJN,De Lijn,bus,206
-165114,DELIJN,De Lijn,bus,F20
-165115,DELIJN,De Lijn,bus,F45
-165116,DELIJN,De Lijn,bus,F63
-165117,DELIJN,De Lijn,bus,45
-165118,DELIJN,De Lijn,bus,62
-165119,DELIJN,De Lijn,bus,63
-165120,DELIJN,De Lijn,bus,42
+165510,DELIJN,De Lijn,bus,380
+165511,DELIJN,De Lijn,bus,43a
+165512,DELIJN,De Lijn,bus,45
+165513,DELIJN,De Lijn,bus,455
+165514,DELIJN,De Lijn,bus,456
+165515,DELIJN,De Lijn,bus,457
+165516,DELIJN,De Lijn,bus,458
+165517,DELIJN,De Lijn,bus,459
+165518,DELIJN,De Lijn,bus,46
+165519,DELIJN,De Lijn,bus,461
+165520,DELIJN,De Lijn,bus,F17
+165521,DELIJN,De Lijn,bus,F20
+165522,DELIJN,De Lijn,bus,433
+165523,DELIJN,De Lijn,bus,20a
+165524,DELIJN,De Lijn,bus,206
+165525,DELIJN,De Lijn,bus,F20
+165526,DELIJN,De Lijn,bus,F45
+165527,DELIJN,De Lijn,bus,F63
+165528,DELIJN,De Lijn,bus,45
+165529,DELIJN,De Lijn,bus,62
+165530,DELIJN,De Lijn,bus,63
+165531,DELIJN,De Lijn,bus,42
 134297,DOEKSEN,Rederij Doeksen,veerboot,HV
 134298,DOEKSEN,Rederij Doeksen,veerboot,TV
 134299,DOEKSEN,Rederij Doeksen,veerboot,HT
 134302,DOEKSEN,Rederij Doeksen,veerboot,HT-S
+163504,DOORZEELAND,doorZeeland,bus,42
+163505,DOORZEELAND,doorZeeland,bus,1
+163506,DOORZEELAND,doorZeeland,bus,20
+163507,DOORZEELAND,doorZeeland,bus,133
+163508,DOORZEELAND,doorZeeland,bus,107
+163509,DOORZEELAND,doorZeeland,bus,19
+163510,DOORZEELAND,doorZeeland,bus,56
+163511,DOORZEELAND,doorZeeland,bus,58
+163512,DOORZEELAND,doorZeeland,bus,50
+163513,DOORZEELAND,doorZeeland,bus,132
+163514,DOORZEELAND,doorZeeland,bus,396
+163515,DOORZEELAND,doorZeeland,bus,5
+163516,DOORZEELAND,doorZeeland,bus,31
+163517,DOORZEELAND,doorZeeland,bus,27
+163518,DOORZEELAND,doorZeeland,bus,23
+163519,DOORZEELAND,doorZeeland,bus,53
+163520,DOORZEELAND,doorZeeland,bus,52
+163521,DOORZEELAND,doorZeeland,bus,395
+163522,DOORZEELAND,doorZeeland,bus,601
+163523,DOORZEELAND,doorZeeland,bus,631
+163524,DOORZEELAND,doorZeeland,bus,644
+163525,DOORZEELAND,doorZeeland,bus,602
+163526,DOORZEELAND,doorZeeland,bus,604
+163527,DOORZEELAND,doorZeeland,bus,606
+163528,DOORZEELAND,doorZeeland,bus,605
+163531,DOORZEELAND,doorZeeland,bus,608
+163532,DOORZEELAND,doorZeeland,bus,610
+163533,DOORZEELAND,doorZeeland,bus,618
+163534,DOORZEELAND,doorZeeland,bus,622
+163535,DOORZEELAND,doorZeeland,bus,628
+163536,DOORZEELAND,doorZeeland,bus,629
+163537,DOORZEELAND,doorZeeland,bus,633
+163538,DOORZEELAND,doorZeeland,bus,634
+163539,DOORZEELAND,doorZeeland,bus,639
+163541,DOORZEELAND,doorZeeland,bus,645
+163542,DOORZEELAND,doorZeeland,bus,646
+163543,DOORZEELAND,doorZeeland,bus,647
+163544,DOORZEELAND,doorZeeland,bus,660
+163545,DOORZEELAND,doorZeeland,bus,665
+163546,DOORZEELAND,doorZeeland,bus,569
+163547,DOORZEELAND,doorZeeland,bus,584
+163548,DOORZEELAND,doorZeeland,bus,595
+163549,DOORZEELAND,doorZeeland,bus,502
+163550,DOORZEELAND,doorZeeland,bus,501
+163551,DOORZEELAND,doorZeeland,bus,512
+163552,DOORZEELAND,doorZeeland,bus,513
+163553,DOORZEELAND,doorZeeland,bus,511
+163554,DOORZEELAND,doorZeeland,bus,515
+163555,DOORZEELAND,doorZeeland,bus,523
+163556,DOORZEELAND,doorZeeland,bus,582
+163557,DOORZEELAND,doorZeeland,bus,583
+163558,DOORZEELAND,doorZeeland,bus,589
+163559,DOORZEELAND,doorZeeland,bus,594
+163560,DOORZEELAND,doorZeeland,bus,598
+163561,DOORZEELAND,doorZeeland,bus,597
+163562,DOORZEELAND,doorZeeland,bus,599
+165051,DOORZEELAND,doorZeeland,bus,609
+165052,DOORZEELAND,doorZeeland,bus,643
+165053,DOORZEELAND,doorZeeland,bus,607
 154784,EBS,EBS,bus,60
 154785,EBS,EBS,bus,61
 154786,EBS,EBS,bus,63
@@ -804,6 +861,9 @@
 152396,GVB,GVB,bus,N91
 161605,GVB,GVB,bus,240
 163563,GVB,GVB,bus,73
+165533,GVB,GVB,tram,23
+165534,GVB,GVB,tram,28
+165535,GVB,GVB,bus,71
 148409,HERMES,Hermes,bus,255
 148410,HERMES,Hermes,bus,256
 148411,HERMES,Hermes,bus,257
@@ -909,9 +969,9 @@
 165174,IFF:BLAUWNET_K,Blauwnet Keolis,trein,IC23
 165175,IFF:BLAUWNET_K,Blauwnet Keolis,trein,RS22
 165176,IFF:BLAUWNET_K,Blauwnet Keolis,trein,RS23
-164905,IFF:DB,Deutsche Bahn,trein,RE13
-164907,IFF:DB,Deutsche Bahn,trein,RB64
-165177,IFF:DB,Deutsche Bahn,trein,RB51
+164905,IFF:DB,DB,trein,RE13
+164907,IFF:DB,DB,trein,RB64
+165177,IFF:DB,DB,trein,RB51
 164908,IFF:EUROBAHN,Eurobahn,trein,RE13
 164909,IFF:EUROBAHN,Eurobahn,trein,RB61
 139863,IFF:EU_SLEEPER,European Sleeper,trein,European Sleeper
@@ -1188,7 +1248,6 @@
 165450,IFF:NS_INT,NS International,trein,Intercity direct
 165451,IFF:NS_INT,NS International,trein,ICE
 165452,IFF:NS_INT,NS International,trein,ICE
-165453,IFF:NS_INT,NS International,trein,ICE
 165454,IFF:NS_INT,NS International,trein,ICE
 165455,IFF:NS_INT,NS International,trein,ICE
 165456,IFF:NS_INT,NS International,trein,ICE
@@ -1258,65 +1317,6 @@
 154781,MEERPLUS,MeerPlus,bus,800
 154782,MEERPLUS,MeerPlus,bus,614
 154783,MEERPLUS,MeerPlus,bus,610
-163504,NL:EBS:Branding:doorZeeland,doorZeeland,bus,42
-163505,NL:EBS:Branding:doorZeeland,doorZeeland,bus,1
-163506,NL:EBS:Branding:doorZeeland,doorZeeland,bus,20
-163507,NL:EBS:Branding:doorZeeland,doorZeeland,bus,133
-163508,NL:EBS:Branding:doorZeeland,doorZeeland,bus,107
-163509,NL:EBS:Branding:doorZeeland,doorZeeland,bus,19
-163510,NL:EBS:Branding:doorZeeland,doorZeeland,bus,56
-163511,NL:EBS:Branding:doorZeeland,doorZeeland,bus,58
-163512,NL:EBS:Branding:doorZeeland,doorZeeland,bus,50
-163513,NL:EBS:Branding:doorZeeland,doorZeeland,bus,132
-163514,NL:EBS:Branding:doorZeeland,doorZeeland,bus,396
-163515,NL:EBS:Branding:doorZeeland,doorZeeland,bus,5
-163516,NL:EBS:Branding:doorZeeland,doorZeeland,bus,31
-163517,NL:EBS:Branding:doorZeeland,doorZeeland,bus,27
-163518,NL:EBS:Branding:doorZeeland,doorZeeland,bus,23
-163519,NL:EBS:Branding:doorZeeland,doorZeeland,bus,53
-163520,NL:EBS:Branding:doorZeeland,doorZeeland,bus,52
-163521,NL:EBS:Branding:doorZeeland,doorZeeland,bus,395
-163522,NL:EBS:Branding:doorZeeland,doorZeeland,bus,601
-163523,NL:EBS:Branding:doorZeeland,doorZeeland,bus,631
-163524,NL:EBS:Branding:doorZeeland,doorZeeland,bus,644
-163525,NL:EBS:Branding:doorZeeland,doorZeeland,bus,602
-163526,NL:EBS:Branding:doorZeeland,doorZeeland,bus,604
-163527,NL:EBS:Branding:doorZeeland,doorZeeland,bus,606
-163528,NL:EBS:Branding:doorZeeland,doorZeeland,bus,605
-163531,NL:EBS:Branding:doorZeeland,doorZeeland,bus,608
-163532,NL:EBS:Branding:doorZeeland,doorZeeland,bus,610
-163533,NL:EBS:Branding:doorZeeland,doorZeeland,bus,618
-163534,NL:EBS:Branding:doorZeeland,doorZeeland,bus,622
-163535,NL:EBS:Branding:doorZeeland,doorZeeland,bus,628
-163536,NL:EBS:Branding:doorZeeland,doorZeeland,bus,629
-163537,NL:EBS:Branding:doorZeeland,doorZeeland,bus,633
-163538,NL:EBS:Branding:doorZeeland,doorZeeland,bus,634
-163539,NL:EBS:Branding:doorZeeland,doorZeeland,bus,639
-163541,NL:EBS:Branding:doorZeeland,doorZeeland,bus,645
-163542,NL:EBS:Branding:doorZeeland,doorZeeland,bus,646
-163543,NL:EBS:Branding:doorZeeland,doorZeeland,bus,647
-163544,NL:EBS:Branding:doorZeeland,doorZeeland,bus,660
-163545,NL:EBS:Branding:doorZeeland,doorZeeland,bus,665
-163546,NL:EBS:Branding:doorZeeland,doorZeeland,bus,569
-163547,NL:EBS:Branding:doorZeeland,doorZeeland,bus,584
-163548,NL:EBS:Branding:doorZeeland,doorZeeland,bus,595
-163549,NL:EBS:Branding:doorZeeland,doorZeeland,bus,502
-163550,NL:EBS:Branding:doorZeeland,doorZeeland,bus,501
-163551,NL:EBS:Branding:doorZeeland,doorZeeland,bus,512
-163552,NL:EBS:Branding:doorZeeland,doorZeeland,bus,513
-163553,NL:EBS:Branding:doorZeeland,doorZeeland,bus,511
-163554,NL:EBS:Branding:doorZeeland,doorZeeland,bus,515
-163555,NL:EBS:Branding:doorZeeland,doorZeeland,bus,523
-163556,NL:EBS:Branding:doorZeeland,doorZeeland,bus,582
-163557,NL:EBS:Branding:doorZeeland,doorZeeland,bus,583
-163558,NL:EBS:Branding:doorZeeland,doorZeeland,bus,589
-163559,NL:EBS:Branding:doorZeeland,doorZeeland,bus,594
-163560,NL:EBS:Branding:doorZeeland,doorZeeland,bus,598
-163561,NL:EBS:Branding:doorZeeland,doorZeeland,bus,597
-163562,NL:EBS:Branding:doorZeeland,doorZeeland,bus,599
-165051,NL:EBS:Branding:doorZeeland,doorZeeland,bus,609
-165052,NL:EBS:Branding:doorZeeland,doorZeeland,bus,643
-165053,NL:EBS:Branding:doorZeeland,doorZeeland,bus,607
 161335,NL:MLN:Operator:9f1641fb-e08a-41b9-bdaa-204918901704,Miljoenenlijn,trein,MS5
 161529,NL:MLN:Operator:9f1641fb-e08a-41b9-bdaa-204918901704,Miljoenenlijn,trein,MS1
 164040,NL:MLN:Operator:9f1641fb-e08a-41b9-bdaa-204918901704,Miljoenenlijn,trein,MS2
@@ -2426,7 +2426,6 @@
 162780,RRREIS,RRReis,bus,651
 162781,RRREIS,RRReis,bus,697
 163237,RRREIS,RRReis,bus,809
-163503,RRREIS,RRReis,bus,707
 163573,RRREIS,RRReis,bus,627
 163908,RRREIS,RRReis,bus,85
 163910,RRREIS,RRReis,bus,82
@@ -2611,6 +2610,7 @@
 164578,RRREIS,RRReis,bus,150
 164579,RRREIS,RRReis,bus,11
 164686,RRREIS,RRReis,bus,1
+165509,RRREIS,RRReis,bus,58
 134174,TESO,TESO,veerboot,TESO
 147000,TRANSDEV,Transdev,bus,1
 147001,TRANSDEV,Transdev,bus,2
@@ -2691,7 +2691,6 @@
 163968,TRANSDEV,Transdev,bus,533
 163969,TRANSDEV,Transdev,bus,538
 163970,TRANSDEV,Transdev,bus,569
-164568,TRANSDEV,Transdev,bus,200
 164589,TRANSDEV,Transdev,bus,472
 164590,TRANSDEV,Transdev,bus,711
 164591,TRANSDEV,Transdev,bus,712
@@ -2840,6 +2839,12 @@
 164692,UOV,U-OV,bus,Flex
 164693,UOV,U-OV,bus,Flex
 165124,UOV,U-OV,bus,820
+165504,UOV,U-OV,bus,N1
+165505,UOV,U-OV,bus,N4
+165506,UOV,U-OV,bus,N5
+165507,UOV,U-OV,bus,N6
+165508,UOV,U-OV,bus,N9
+165532,UOV,U-OV,bus,815
 151916,WATERBUS,Waterbus,veerboot,20
 151918,WATERBUS,Waterbus,veerboot,22
 151917,WATERSHUTTLE,WaterShuttle,veerboot,WS
