@@ -3786,3 +3786,13 @@
 2026-11-21 15:09:05 [INFO] OV OK in 4 s: live: 11987 ritten, 1792 uitgevallen; meldingen: 651 actief, 0 nieuw
 2026-11-21 15:15:51 [INFO] NS OK in 406 s: storingen/werkzaamheden: 17 actief, 1 nieuw; drukte: 256 van 256 rijdende treinen, 237 stations, 154 keer drukte hoog
 2026-11-21 15:15:59 [INFO] Energie OK in 8 s: Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 246, grensstromen 250, day-ahead 192 tijdstippen; TenneT: balance delta: 366 metingen in 6 kwartieren; Historie compleet
+2026-11-21 16:06:32 [INFO] Laadpunten OK in 49 s: 85164 locaties, 213488 laadpunten (52550 aan het laden); bestand van 2026-11-21T16:05:47Z
+2026-11-21 16:06:32 [WARN] Poging 1 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 5 s.
+2026-11-21 16:06:37 [WARN] Poging 2 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 15 s.
+2026-11-21 16:06:52 [WARN] Poging 3 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 45 s.
+2026-11-21 16:07:37 [ERROR] Parkeren MISLUKT: Name or service not known (opendata.rdw.nl:443)
+2026-11-21 16:09:12 [INFO] Deelmobiliteit OK in 95 s: 45 van 52 systemen, 19750 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-11-21 16:10:32 [INFO] Verstoringen OK in 80 s: weg: 1134 actieve meldingen, 112 nieuw; spoor: niets nieuws
+2026-11-21 16:10:38 [INFO] OV OK in 6 s: live: 11233 ritten, 1687 uitgevallen; meldingen: 647 actief, 0 nieuw
+2026-11-21 16:17:07 [INFO] NS OK in 388 s: storingen/werkzaamheden: 17 actief, 0 nieuw; drukte: 247 van 247 rijdende treinen, 236 stations, 181 keer drukte hoog
+2026-11-21 16:17:17 [INFO] Energie OK in 11 s: Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 250, grensstromen 252, day-ahead 192 tijdstippen; TenneT: balance delta: 381 metingen in 6 kwartieren; Historie compleet
