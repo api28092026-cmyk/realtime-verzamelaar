@@ -3906,3 +3906,13 @@
 2026-11-22 03:10:24 [INFO] OV OK in 5 s: live: 8662 ritten, 1936 uitgevallen; meldingen: 637 actief, 0 nieuw
 2026-11-22 03:10:43 [INFO] NS OK in 19 s: storingen/werkzaamheden: 16 actief, 0 nieuw; drukte: 9 van 9 rijdende treinen, 28 stations, 0 keer drukte hoog
 2026-11-22 03:10:53 [INFO] Energie OK in 11 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 198, grensstromen 200, day-ahead 96 tijdstippen; TenneT: balance delta: 377 metingen in 6 kwartieren; Historie compleet
+2026-11-22 04:06:05 [INFO] Laadpunten OK in 29 s: 85207 locaties, 213587 laadpunten (58654 aan het laden); bestand van 2026-11-22T04:05:40Z
+2026-11-22 04:06:05 [WARN] Poging 1 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 5 s.
+2026-11-22 04:06:10 [WARN] Poging 2 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 15 s.
+2026-11-22 04:06:25 [WARN] Poging 3 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 45 s.
+2026-11-22 04:07:10 [ERROR] Parkeren MISLUKT: Name or service not known (opendata.rdw.nl:443)
+2026-11-22 04:08:29 [INFO] Deelmobiliteit OK in 78 s: 45 van 52 systemen, 23605 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-11-22 04:09:09 [INFO] Verstoringen OK in 41 s: weg: 993 actieve meldingen, 16 nieuw; spoor: niets nieuws
+2026-11-22 04:09:13 [INFO] OV OK in 4 s: live: 8708 ritten, 1935 uitgevallen; meldingen: 637 actief, 0 nieuw
+2026-11-22 04:09:41 [INFO] NS OK in 27 s: storingen/werkzaamheden: 16 actief, 0 nieuw; drukte: 15 van 15 rijdende treinen, 72 stations, 0 keer drukte hoog
+2026-11-22 04:09:47 [INFO] Energie OK in 6 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 202, grensstromen 205, day-ahead 96 tijdstippen; TenneT: balance delta: 368 metingen in 6 kwartieren; Historie compleet
