@@ -3975,3 +3975,13 @@
 2026-11-22 08:09:12 [INFO] OV OK in 4 s: live: 13798 ritten, 3293 uitgevallen; meldingen: 639 actief, 10 nieuw
 2026-11-22 08:14:44 [INFO] NS OK in 332 s: storingen/werkzaamheden: 18 actief, 2 nieuw; drukte: 204 van 204 rijdende treinen, 233 stations, 9 keer drukte hoog
 2026-11-22 08:14:52 [INFO] Energie OK in 8 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 219, grensstromen 222, day-ahead 96 tijdstippen; TenneT: balance delta: 378 metingen in 6 kwartieren; Historie compleet
+2026-11-22 09:06:11 [INFO] Laadpunten OK in 28 s: 85236 locaties, 213652 laadpunten (52572 aan het laden); bestand van 2026-11-22T09:05:46Z
+2026-11-22 09:06:11 [WARN] Poging 1 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 5 s.
+2026-11-22 09:06:16 [WARN] Poging 2 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 15 s.
+2026-11-22 09:06:31 [WARN] Poging 3 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 45 s.
+2026-11-22 09:07:16 [ERROR] Parkeren MISLUKT: Name or service not known (opendata.rdw.nl:443)
+2026-11-22 09:08:35 [INFO] Deelmobiliteit OK in 79 s: 45 van 52 systemen, 23444 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-11-22 09:09:16 [INFO] Verstoringen OK in 41 s: weg: 1032 actieve meldingen, 57 nieuw; spoor: niets nieuws
+2026-11-22 09:09:20 [INFO] OV OK in 4 s: live: 14187 ritten, 3228 uitgevallen; meldingen: 634 actief, 4 nieuw
+2026-11-22 09:15:03 [INFO] NS OK in 343 s: storingen/werkzaamheden: 18 actief, 3 nieuw; drukte: 216 van 216 rijdende treinen, 237 stations, 34 keer drukte hoog
+2026-11-22 09:15:10 [INFO] Energie OK in 7 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 224, grensstromen 222, day-ahead 96 tijdstippen; TenneT: balance delta: 375 metingen in 6 kwartieren; Historie compleet
