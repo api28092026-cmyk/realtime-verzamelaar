@@ -1,44 +1,21 @@
 ﻿{
-  "KvkOpenData": {
-    "tijd": "2026-11-22T05:30:59Z",
-    "melding": "1935007 bv's/nv's verwerkt, waarvan 77696 met status faillissement",
-    "seconden": 34,
-    "status": "ok"
-  },
-  "OV": {
-    "status": "ok",
-    "seconden": 4,
-    "melding": "live: 12908 ritten, 3355 uitgevallen; meldingen: 637 actief, 8 nieuw",
-    "tijd": "2026-11-22T07:05:39Z"
-  },
-  "Parkeren": {
-    "status": "fout",
-    "melding": "Name or service not known (opendata.rdw.nl:443)",
-    "tijd": "2026-11-22T07:05:39Z"
-  },
-  "Verstoringen": {
-    "status": "ok",
-    "seconden": 50,
-    "melding": "weg: 1014 actieve meldingen, 27 nieuw; spoor: niets nieuws",
-    "tijd": "2026-11-22T07:05:39Z"
-  },
-  "Energie": {
-    "status": "ok",
-    "seconden": 7,
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 215, grensstromen 218, day-ahead 96 tijdstippen; TenneT: balance delta: 385 metingen in 6 kwartieren; Historie compleet",
-    "tijd": "2026-11-22T07:05:39Z"
-  },
   "EnergyZero": {
     "tijd": "2026-11-22T05:30:59Z",
     "melding": "215 uurprijzen bijgewerkt; gas: 6 gasdagen",
     "seconden": 5,
     "status": "ok"
   },
-  "NzaWachttijden": {
-    "tijd": "2026-11-22T05:30:59Z",
-    "melding": "laatste peildatum 2026-11-10; volgende update niet voor 2026-11-25",
-    "seconden": 0,
-    "status": "ok"
+  "Laadpunten": {
+    "status": "ok",
+    "melding": "85236 locaties, 213652 laadpunten (55186 aan het laden); bestand van 2026-11-22T08:05:33Z",
+    "tijd": "2026-11-22T08:05:28Z",
+    "seconden": 26
+  },
+  "NS": {
+    "status": "ok",
+    "melding": "storingen/werkzaamheden: 18 actief, 2 nieuw; drukte: 204 van 204 rijdende treinen, 233 stations, 9 keer drukte hoog",
+    "tijd": "2026-11-22T08:05:28Z",
+    "seconden": 332
   },
   "Netcongestie": {
     "tijd": "2026-11-22T05:30:59Z",
@@ -46,11 +23,11 @@
     "seconden": 4,
     "status": "ok"
   },
-  "Laadpunten": {
+  "Deelmobiliteit": {
     "status": "ok",
-    "seconden": 34,
-    "melding": "85236 locaties, 213652 laadpunten (57338 aan het laden); bestand van 2026-11-22T07:05:43Z",
-    "tijd": "2026-11-22T07:05:39Z"
+    "melding": "45 van 52 systemen, 23643 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "tijd": "2026-11-22T08:05:28Z",
+    "seconden": 94
   },
   "RDW": {
     "tijd": "2026-11-22T05:30:59Z",
@@ -63,16 +40,39 @@
     "seconden": 25,
     "status": "ok"
   },
-  "Deelmobiliteit": {
+  "Verstoringen": {
     "status": "ok",
-    "seconden": 83,
-    "melding": "45 van 52 systemen, 23685 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "tijd": "2026-11-22T07:05:39Z"
+    "melding": "weg: 1009 actieve meldingen, 45 nieuw; spoor: niets nieuws",
+    "tijd": "2026-11-22T08:05:28Z",
+    "seconden": 34
   },
-  "NS": {
+  "Parkeren": {
+    "status": "fout",
+    "melding": "Name or service not known (opendata.rdw.nl:443)",
+    "tijd": "2026-11-22T08:05:28Z"
+  },
+  "OV": {
     "status": "ok",
-    "seconden": 268,
-    "melding": "storingen/werkzaamheden: 17 actief, 2 nieuw; drukte: 169 van 169 rijdende treinen, 234 stations, 0 keer drukte hoog",
-    "tijd": "2026-11-22T07:05:39Z"
+    "melding": "live: 13798 ritten, 3293 uitgevallen; meldingen: 639 actief, 10 nieuw",
+    "tijd": "2026-11-22T08:05:28Z",
+    "seconden": 4
+  },
+  "Energie": {
+    "status": "ok",
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 219, grensstromen 222, day-ahead 96 tijdstippen; TenneT: balance delta: 378 metingen in 6 kwartieren; Historie compleet",
+    "tijd": "2026-11-22T08:05:28Z",
+    "seconden": 8
+  },
+  "NzaWachttijden": {
+    "tijd": "2026-11-22T05:30:59Z",
+    "melding": "laatste peildatum 2026-11-10; volgende update niet voor 2026-11-25",
+    "seconden": 0,
+    "status": "ok"
+  },
+  "KvkOpenData": {
+    "tijd": "2026-11-22T05:30:59Z",
+    "melding": "1935007 bv's/nv's verwerkt, waarvan 77696 met status faillissement",
+    "seconden": 34,
+    "status": "ok"
   }
 }
