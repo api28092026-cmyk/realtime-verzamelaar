@@ -1,37 +1,9 @@
 ﻿{
-  "RDW": {
+  "NzaWachttijden": {
     "tijd": "2026-11-22T05:30:59Z",
-    "melding": "Name or service not known (opendata.rdw.nl:443)",
-    "status": "fout"
-  },
-  "NS": {
-    "status": "ok",
-    "melding": "storingen/werkzaamheden: 17 actief, 1 nieuw; drukte: 237 van 237 rijdende treinen, 236 stations, 65 keer drukte hoog",
-    "seconden": 378,
-    "tijd": "2026-11-22T12:05:40Z"
-  },
-  "TenderNed": {
-    "tijd": "2026-11-22T05:30:59Z",
-    "melding": "18 nieuwe publicaties",
-    "seconden": 25,
+    "melding": "laatste peildatum 2026-11-10; volgende update niet voor 2026-11-25",
+    "seconden": 0,
     "status": "ok"
-  },
-  "Energie": {
-    "status": "ok",
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 231, grensstromen 238, day-ahead 96 tijdstippen; TenneT: balance delta: 366 metingen in 6 kwartieren; Historie compleet",
-    "seconden": 11,
-    "tijd": "2026-11-22T12:05:40Z"
-  },
-  "Deelmobiliteit": {
-    "status": "ok",
-    "melding": "45 van 52 systemen, 23086 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "seconden": 80,
-    "tijd": "2026-11-22T12:05:40Z"
-  },
-  "Parkeren": {
-    "status": "fout",
-    "melding": "Name or service not known (opendata.rdw.nl:443)",
-    "tijd": "2026-11-22T12:05:40Z"
   },
   "EnergyZero": {
     "tijd": "2026-11-22T05:30:59Z",
@@ -39,17 +11,11 @@
     "seconden": 5,
     "status": "ok"
   },
-  "NzaWachttijden": {
-    "tijd": "2026-11-22T05:30:59Z",
-    "melding": "laatste peildatum 2026-11-10; volgende update niet voor 2026-11-25",
-    "seconden": 0,
-    "status": "ok"
-  },
-  "OV": {
+  "NS": {
+    "melding": "storingen/werkzaamheden: 15 actief, 0 nieuw; drukte: 249 van 249 rijdende treinen, 237 stations, 57 keer drukte hoog",
     "status": "ok",
-    "melding": "live: 13904 ritten, 3027 uitgevallen; meldingen: 638 actief, 9 nieuw",
-    "seconden": 4,
-    "tijd": "2026-11-22T12:05:40Z"
+    "tijd": "2026-11-22T13:05:36Z",
+    "seconden": 412
   },
   "KvkOpenData": {
     "tijd": "2026-11-22T05:30:59Z",
@@ -57,11 +23,40 @@
     "seconden": 34,
     "status": "ok"
   },
-  "Verstoringen": {
+  "OV": {
+    "melding": "live: 25559 ritten, 14996 uitgevallen; meldingen: 659 actief, 24 nieuw",
     "status": "ok",
-    "melding": "weg: 1119 actieve meldingen, 109 nieuw; spoor: niets nieuws",
-    "seconden": 41,
-    "tijd": "2026-11-22T12:05:40Z"
+    "tijd": "2026-11-22T13:05:36Z",
+    "seconden": 6
+  },
+  "RDW": {
+    "tijd": "2026-11-22T05:30:59Z",
+    "melding": "Name or service not known (opendata.rdw.nl:443)",
+    "status": "fout"
+  },
+  "Laadpunten": {
+    "melding": "85190 locaties, 213541 laadpunten (54128 aan het laden); bestand van 2026-11-22T13:05:41Z",
+    "status": "ok",
+    "tijd": "2026-11-22T13:05:36Z",
+    "seconden": 49
+  },
+  "TenderNed": {
+    "tijd": "2026-11-22T05:30:59Z",
+    "melding": "18 nieuwe publicaties",
+    "seconden": 25,
+    "status": "ok"
+  },
+  "Verstoringen": {
+    "melding": "weg: 1113 actieve meldingen, 106 nieuw; spoor: niets nieuws",
+    "status": "ok",
+    "tijd": "2026-11-22T13:05:36Z",
+    "seconden": 82
+  },
+  "Energie": {
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 238, grensstromen 240, day-ahead 96 tijdstippen; TenneT: balance delta: 384 metingen in 6 kwartieren; Historie compleet",
+    "status": "ok",
+    "tijd": "2026-11-22T13:05:36Z",
+    "seconden": 10
   },
   "Netcongestie": {
     "tijd": "2026-11-22T05:30:59Z",
@@ -69,10 +64,15 @@
     "seconden": 4,
     "status": "ok"
   },
-  "Laadpunten": {
+  "Deelmobiliteit": {
+    "melding": "45 van 52 systemen, 22968 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
     "status": "ok",
-    "melding": "85190 locaties, 213541 laadpunten (53057 aan het laden); bestand van 2026-11-22T12:05:44Z",
-    "seconden": 28,
-    "tijd": "2026-11-22T12:05:40Z"
+    "tijd": "2026-11-22T13:05:36Z",
+    "seconden": 101
+  },
+  "Parkeren": {
+    "melding": "Name or service not known (opendata.rdw.nl:443)",
+    "status": "fout",
+    "tijd": "2026-11-22T13:05:36Z"
   }
 }
