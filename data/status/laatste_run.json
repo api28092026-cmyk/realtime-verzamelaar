@@ -1,20 +1,20 @@
 ﻿{
-  "KvkOpenData": {
-    "tijd": "2026-11-22T05:30:59Z",
-    "melding": "1935007 bv's/nv's verwerkt, waarvan 77696 met status faillissement",
-    "seconden": 34,
-    "status": "ok"
-  },
-  "OV": {
-    "tijd": "2026-11-22T05:30:59Z",
-    "melding": "live: 11653 ritten, 3396 uitgevallen; meldingen: 637 actief, 0 nieuw",
-    "seconden": 6,
-    "status": "ok"
-  },
   "NzaWachttijden": {
     "tijd": "2026-11-22T05:30:59Z",
     "melding": "laatste peildatum 2026-11-10; volgende update niet voor 2026-11-25",
     "seconden": 0,
+    "status": "ok"
+  },
+  "Verstoringen": {
+    "melding": "weg: 1008 actieve meldingen, 19 nieuw; spoor: niets nieuws",
+    "seconden": 37,
+    "tijd": "2026-11-22T06:05:40Z",
+    "status": "ok"
+  },
+  "OV": {
+    "melding": "live: 11924 ritten, 3381 uitgevallen; meldingen: 637 actief, 0 nieuw",
+    "seconden": 6,
+    "tijd": "2026-11-22T06:05:40Z",
     "status": "ok"
   },
   "EnergyZero": {
@@ -29,38 +29,38 @@
     "seconden": 25,
     "status": "ok"
   },
-  "Parkeren": {
-    "tijd": "2026-11-22T05:30:59Z",
-    "melding": "Name or service not known (opendata.rdw.nl:443)",
-    "status": "fout"
-  },
-  "Energie": {
-    "tijd": "2026-11-22T05:30:59Z",
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 210, grensstromen 210, day-ahead 96 tijdstippen; TenneT: balance delta: 215 metingen in 4 kwartieren; Historie compleet",
-    "seconden": 11,
-    "status": "ok"
-  },
   "RDW": {
     "tijd": "2026-11-22T05:30:59Z",
     "melding": "Name or service not known (opendata.rdw.nl:443)",
     "status": "fout"
   },
-  "Deelmobiliteit": {
-    "tijd": "2026-11-22T05:30:59Z",
-    "melding": "45 van 52 systemen, 23627 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "seconden": 108,
+  "Energie": {
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 210, grensstromen 210, day-ahead 96 tijdstippen; TenneT: balance delta: 235 metingen in 4 kwartieren; Historie compleet",
+    "seconden": 8,
+    "tijd": "2026-11-22T06:05:40Z",
     "status": "ok"
+  },
+  "Deelmobiliteit": {
+    "melding": "45 van 52 systemen, 23636 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "seconden": 104,
+    "tijd": "2026-11-22T06:05:40Z",
+    "status": "ok"
+  },
+  "Parkeren": {
+    "melding": "Name or service not known (opendata.rdw.nl:443)",
+    "tijd": "2026-11-22T06:05:40Z",
+    "status": "fout"
   },
   "NS": {
-    "tijd": "2026-11-22T05:30:59Z",
-    "melding": "storingen/werkzaamheden: 16 actief, 0 nieuw; drukte: 33 van 33 rijdende treinen, 115 stations, 4 keer drukte hoog",
-    "seconden": 62,
+    "melding": "storingen/werkzaamheden: 15 actief, 0 nieuw; drukte: 64 van 64 rijdende treinen, 189 stations, 4 keer drukte hoog",
+    "seconden": 126,
+    "tijd": "2026-11-22T06:05:40Z",
     "status": "ok"
   },
-  "Verstoringen": {
-    "tijd": "2026-11-22T05:30:59Z",
-    "melding": "weg: 1005 actieve meldingen, 10 nieuw; spoor: niets nieuws",
-    "seconden": 91,
+  "Laadpunten": {
+    "melding": "85236 locaties, 213652 laadpunten (58113 aan het laden); bestand van 2026-11-22T06:05:51Z",
+    "seconden": 33,
+    "tijd": "2026-11-22T06:05:40Z",
     "status": "ok"
   },
   "Netcongestie": {
@@ -69,10 +69,10 @@
     "seconden": 4,
     "status": "ok"
   },
-  "Laadpunten": {
+  "KvkOpenData": {
     "tijd": "2026-11-22T05:30:59Z",
-    "melding": "85236 locaties, 213652 laadpunten (58343 aan het laden); bestand van 2026-11-22T05:32:40Z",
-    "seconden": 51,
+    "melding": "1935007 bv's/nv's verwerkt, waarvan 77696 met status faillissement",
+    "seconden": 34,
     "status": "ok"
   }
 }
