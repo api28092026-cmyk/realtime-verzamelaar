@@ -1,32 +1,44 @@
 ﻿{
-  "NS": {
-    "status": "ok",
-    "tijd": "2026-11-23T14:05:48Z",
-    "melding": "storingen/werkzaamheden: 11 actief, 0 nieuw; drukte: 289 van 289 rijdende treinen, 243 stations, 145 keer drukte hoog",
-    "seconden": 459
-  },
-  "EnergyZero": {
+  "KvkOpenData": {
     "tijd": "2026-11-23T05:30:52Z",
-    "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
+    "melding": "1935007 bv's/nv's verwerkt, waarvan 77696 met status faillissement",
     "status": "ok",
-    "seconden": 5
+    "seconden": 26
+  },
+  "TenderNed": {
+    "tijd": "2026-11-23T05:30:52Z",
+    "melding": "49 nieuwe publicaties",
+    "status": "ok",
+    "seconden": 62
+  },
+  "Parkeren": {
+    "melding": "tarieven: 9686 tariefdelen, 15 nieuw",
+    "status": "ok",
+    "seconden": 6,
+    "tijd": "2026-11-23T15:05:58Z"
   },
   "Deelmobiliteit": {
+    "melding": "45 van 52 systemen, 18083 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
     "status": "ok",
-    "tijd": "2026-11-23T14:05:48Z",
-    "melding": "45 van 52 systemen, 16826 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "seconden": 81
+    "seconden": 96,
+    "tijd": "2026-11-23T15:05:58Z"
   },
   "RDW": {
     "melding": "Name or service not known (opendata.rdw.nl:443)",
     "status": "fout",
     "tijd": "2026-11-23T05:30:52Z"
   },
-  "Verstoringen": {
+  "Energie": {
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 240, grensstromen 248, day-ahead 288 tijdstippen; TenneT: balance delta: 377 metingen in 6 kwartieren; Historie compleet",
     "status": "ok",
-    "tijd": "2026-11-23T14:05:48Z",
-    "melding": "weg: 1263 actieve meldingen, 211 nieuw; spoor: niets nieuws",
-    "seconden": 52
+    "seconden": 10,
+    "tijd": "2026-11-23T15:05:58Z"
+  },
+  "EnergyZero": {
+    "tijd": "2026-11-23T05:30:52Z",
+    "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
+    "status": "ok",
+    "seconden": 5
   },
   "Netcongestie": {
     "tijd": "2026-11-23T05:30:52Z",
@@ -40,39 +52,28 @@
     "status": "ok",
     "seconden": 0
   },
-  "Parkeren": {
-    "status": "fout",
-    "tijd": "2026-11-23T14:05:48Z",
-    "melding": "Name or service not known (opendata.rdw.nl:443)"
-  },
-  "TenderNed": {
-    "tijd": "2026-11-23T05:30:52Z",
-    "melding": "49 nieuwe publicaties",
+  "Laadpunten": {
+    "melding": "86218 locaties, 216230 laadpunten (57022 aan het laden); bestand van 2026-11-23T15:06:02Z",
     "status": "ok",
-    "seconden": 62
+    "seconden": 30,
+    "tijd": "2026-11-23T15:05:58Z"
+  },
+  "Verstoringen": {
+    "melding": "weg: 1341 actieve meldingen, 292 nieuw; spoor: niets nieuws",
+    "status": "ok",
+    "seconden": 42,
+    "tijd": "2026-11-23T15:05:58Z"
   },
   "OV": {
+    "melding": "live: 33334 ritten, 23194 uitgevallen; meldingen: 629 actief, 13 nieuw",
     "status": "ok",
-    "tijd": "2026-11-23T14:05:48Z",
-    "melding": "live: 35207 ritten, 24857 uitgevallen; meldingen: 626 actief, 5 nieuw",
-    "seconden": 5
+    "seconden": 5,
+    "tijd": "2026-11-23T15:05:58Z"
   },
-  "KvkOpenData": {
-    "tijd": "2026-11-23T05:30:52Z",
-    "melding": "1935007 bv's/nv's verwerkt, waarvan 77696 met status faillissement",
+  "NS": {
+    "melding": "storingen/werkzaamheden: 12 actief, 2 nieuw; drukte: 319 van 319 rijdende treinen, 243 stations, 361 keer drukte hoog",
     "status": "ok",
-    "seconden": 26
-  },
-  "Laadpunten": {
-    "status": "ok",
-    "tijd": "2026-11-23T14:05:48Z",
-    "melding": "86210 locaties, 216210 laadpunten (56075 aan het laden); bestand van 2026-11-23T14:05:51Z",
-    "seconden": 34
-  },
-  "Energie": {
-    "status": "ok",
-    "tijd": "2026-11-23T14:05:48Z",
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 234, grensstromen 242, day-ahead 288 tijdstippen; TenneT: balance delta: 374 metingen in 6 kwartieren; Historie compleet",
-    "seconden": 8
+    "seconden": 543,
+    "tijd": "2026-11-23T15:05:58Z"
   }
 }
