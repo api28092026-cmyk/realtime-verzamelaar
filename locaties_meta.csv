@@ -4,6 +4,7 @@ location_code,station_code,name,city,lat,lng,service_type,type
 ac002,AC,AC - OV-fiets - Abcoude,,52.278386,4.97704,,OV_FIETS
 ah001,AH,AH - OV-fiets - Arnhem Centrum,Arnhem,51.984,5.9013,Bemenst,OV_FIETS
 ah003,AH,AH - OV-ebike - Arnhem Centrum,Arnhem,51.9834,5.90139,Bemenst,OV_FIETS
+Ahpr002,AHPR,AHPR - OV-fiets - Arnhem Presikhaaf,,,,,OV_FIETS
 alm001,ALM,ALM - OV-fiets - Almere Centrum Landdrostdreef,Almere,52.37453,5.22016,Bemenst,OV_FIETS
 amf001,AMF,AMF - OV-fiets - Amersfoort Centraal,Amersfoort,52.15293,5.37481,Bemenst,OV_FIETS
 amf002,AMF,AMF - OV-fiets - Amersfoort Mondriaanplein,Amersfoort,52.15446,5.37339,Sleutelautomaat,OV_FIETS
