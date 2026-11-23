@@ -4186,3 +4186,22 @@
 2026-11-23 05:10:36 [INFO] OV OK in 7 s: live: 51540 ritten, 37662 uitgevallen; meldingen: 597 actief, 0 nieuw
 2026-11-23 05:15:39 [INFO] NS OK in 302 s: storingen/werkzaamheden: 16 actief, 6 nieuw; drukte: 191 van 191 rijdende treinen, 239 stations, 46 keer drukte hoog
 2026-11-23 05:15:50 [INFO] Energie OK in 11 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 202, grensstromen 208, day-ahead 192 tijdstippen; TenneT: balance delta: 397 metingen in 6 kwartieren; Historie compleet
+2026-11-23 05:30:57 [INFO] EnergyZero OK in 5 s: 196 uurprijzen bijgewerkt; gas: 5 gasdagen
+2026-11-23 05:31:59 [INFO] TenderNed OK in 62 s: 49 nieuwe publicaties
+2026-11-23 05:31:59 [WARN] Poging 1 mislukt (https://opendata.rdw.nl/resource/m9d7-ebf2.json?$select=datum_eerste_tenaamstelling_in_nederland%20as%20datum%2C%20voertuigsoort%2C%20count%28%2A%29%20as%20aantal&$where=datum_eerste_tenaamstelling_in_nederland_dt%20%3E%3D%20%272026-11-13T00%3A00%3A00%27&$group=datum_eerste_tenaamstelling_in_nederland%2C%20voertuigsoort&$limit=50000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 5 s.
+2026-11-23 05:32:04 [WARN] Poging 2 mislukt (https://opendata.rdw.nl/resource/m9d7-ebf2.json?$select=datum_eerste_tenaamstelling_in_nederland%20as%20datum%2C%20voertuigsoort%2C%20count%28%2A%29%20as%20aantal&$where=datum_eerste_tenaamstelling_in_nederland_dt%20%3E%3D%20%272026-11-13T00%3A00%3A00%27&$group=datum_eerste_tenaamstelling_in_nederland%2C%20voertuigsoort&$limit=50000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 15 s.
+2026-11-23 05:32:19 [WARN] Poging 3 mislukt (https://opendata.rdw.nl/resource/m9d7-ebf2.json?$select=datum_eerste_tenaamstelling_in_nederland%20as%20datum%2C%20voertuigsoort%2C%20count%28%2A%29%20as%20aantal&$where=datum_eerste_tenaamstelling_in_nederland_dt%20%3E%3D%20%272026-11-13T00%3A00%3A00%27&$group=datum_eerste_tenaamstelling_in_nederland%2C%20voertuigsoort&$limit=50000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 45 s.
+2026-11-23 05:33:04 [ERROR] RDW MISLUKT: Name or service not known (opendata.rdw.nl:443)
+2026-11-23 05:33:46 [INFO] Laadpunten OK in 42 s: 85276 locaties, 213711 laadpunten (59036 aan het laden); bestand van 2026-11-23T05:33:09Z
+2026-11-23 05:33:51 [INFO] Netcongestie OK in 5 s: Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (921 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (921 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)
+2026-11-23 05:34:16 [INFO] KvkOpenData OK in 26 s: 1935007 bv's/nv's verwerkt, waarvan 77696 met status faillissement
+2026-11-23 05:34:17 [WARN] Poging 1 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 5 s.
+2026-11-23 05:34:22 [WARN] Poging 2 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 15 s.
+2026-11-23 05:34:37 [WARN] Poging 3 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 45 s.
+2026-11-23 05:35:22 [ERROR] Parkeren MISLUKT: Name or service not known (opendata.rdw.nl:443)
+2026-11-23 05:37:04 [INFO] Deelmobiliteit OK in 102 s: 45 van 52 systemen, 27163 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-11-23 05:38:15 [INFO] Verstoringen OK in 72 s: weg: 1086 actieve meldingen, 113 nieuw; spoor: niets nieuws
+2026-11-23 05:38:21 [INFO] OV OK in 6 s: live: 55005 ritten, 40747 uitgevallen; meldingen: 598 actief, 3 nieuw
+2026-11-23 05:45:36 [INFO] NS OK in 434 s: storingen/werkzaamheden: 17 actief, 1 nieuw; drukte: 265 van 265 rijdende treinen, 243 stations, 89 keer drukte hoog
+2026-11-23 05:45:45 [INFO] Energie OK in 10 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 210, grensstromen 208, day-ahead 192 tijdstippen; TenneT: balance delta: 224 metingen in 4 kwartieren; Historie compleet
+2026-11-23 05:45:45 [INFO] NzaWachttijden OK in 0 s: laatste peildatum 2026-11-10; volgende update niet voor 2026-11-25
