@@ -4166,3 +4166,13 @@
 2026-11-23 03:10:46 [INFO] OV OK in 9 s: live: 42365 ritten, 29866 uitgevallen; meldingen: 612 actief, 0 nieuw
 2026-11-23 03:11:08 [INFO] NS OK in 22 s: storingen/werkzaamheden: 9 actief, 1 nieuw; drukte: 9 van 9 rijdende treinen, 46 stations, 6 keer drukte hoog
 2026-11-23 03:11:19 [INFO] Energie OK in 11 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 198, grensstromen 199, day-ahead 192 tijdstippen; TenneT: balance delta: 381 metingen in 6 kwartieren; Historie compleet
+2026-11-23 04:06:23 [INFO] Laadpunten OK in 49 s: 85275 locaties, 213704 laadpunten (63991 aan het laden); bestand van 2026-11-23T04:05:37Z
+2026-11-23 04:06:23 [WARN] Poging 1 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 5 s.
+2026-11-23 04:06:28 [WARN] Poging 2 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 15 s.
+2026-11-23 04:06:43 [WARN] Poging 3 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 45 s.
+2026-11-23 04:07:28 [ERROR] Parkeren MISLUKT: Name or service not known (opendata.rdw.nl:443)
+2026-11-23 04:08:53 [INFO] Deelmobiliteit OK in 85 s: 45 van 52 systemen, 27223 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-11-23 04:10:13 [INFO] Verstoringen OK in 81 s: weg: 945 actieve meldingen, 61 nieuw; spoor: niets nieuws
+2026-11-23 04:10:19 [INFO] OV OK in 6 s: live: 45991 ritten, 34056 uitgevallen; meldingen: 602 actief, 0 nieuw
+2026-11-23 04:11:02 [INFO] NS OK in 43 s: storingen/werkzaamheden: 10 actief, 1 nieuw; drukte: 25 van 25 rijdende treinen, 143 stations, 12 keer drukte hoog
+2026-11-23 04:11:12 [INFO] Energie OK in 9 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 198, grensstromen 201, day-ahead 192 tijdstippen; TenneT: balance delta: 373 metingen in 6 kwartieren; Historie compleet
