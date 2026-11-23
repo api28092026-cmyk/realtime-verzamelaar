@@ -1,16 +1,4 @@
 ﻿{
-  "Laadpunten": {
-    "seconden": 37,
-    "melding": "86163 locaties, 216116 laadpunten (58150 aan het laden); bestand van 2026-11-23T11:05:38Z",
-    "tijd": "2026-11-23T11:05:34Z",
-    "status": "ok"
-  },
-  "Netcongestie": {
-    "tijd": "2026-11-23T05:30:52Z",
-    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (921 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (921 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)",
-    "status": "ok",
-    "seconden": 5
-  },
   "TenderNed": {
     "tijd": "2026-11-23T05:30:52Z",
     "melding": "49 nieuwe publicaties",
@@ -18,22 +6,22 @@
     "seconden": 62
   },
   "Verstoringen": {
-    "seconden": 53,
-    "melding": "weg: 1250 actieve meldingen, 189 nieuw; spoor: niets nieuws",
-    "tijd": "2026-11-23T11:05:34Z",
-    "status": "ok"
+    "tijd": "2026-11-23T12:05:36Z",
+    "status": "ok",
+    "seconden": 48,
+    "melding": "weg: 1300 actieve meldingen, 221 nieuw; spoor: niets nieuws"
   },
-  "Deelmobiliteit": {
-    "seconden": 84,
-    "melding": "45 van 52 systemen, 16587 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "tijd": "2026-11-23T11:05:34Z",
-    "status": "ok"
+  "OV": {
+    "tijd": "2026-11-23T12:05:36Z",
+    "status": "ok",
+    "seconden": 5,
+    "melding": "live: 39981 ritten, 28670 uitgevallen; meldingen: 622 actief, 4 nieuw"
   },
-  "Energie": {
-    "seconden": 8,
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 232, grensstromen 227, day-ahead 192 tijdstippen; TenneT: balance delta: 373 metingen in 6 kwartieren; Historie compleet",
-    "tijd": "2026-11-23T11:05:34Z",
-    "status": "ok"
+  "Laadpunten": {
+    "tijd": "2026-11-23T12:05:36Z",
+    "status": "ok",
+    "seconden": 32,
+    "melding": "86177 locaties, 216144 laadpunten (58302 aan het laden); bestand van 2026-11-23T12:05:41Z"
   },
   "KvkOpenData": {
     "tijd": "2026-11-23T05:30:52Z",
@@ -41,27 +29,39 @@
     "status": "ok",
     "seconden": 26
   },
+  "NS": {
+    "tijd": "2026-11-23T12:05:36Z",
+    "status": "ok",
+    "seconden": 469,
+    "melding": "storingen/werkzaamheden: 12 actief, 1 nieuw; drukte: 282 van 282 rijdende treinen, 240 stations, 43 keer drukte hoog"
+  },
   "NzaWachttijden": {
     "tijd": "2026-11-23T05:30:52Z",
     "melding": "laatste peildatum 2026-11-10; volgende update niet voor 2026-11-25",
     "status": "ok",
     "seconden": 0
   },
+  "Energie": {
+    "tijd": "2026-11-23T12:05:36Z",
+    "status": "ok",
+    "seconden": 9,
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 232, grensstromen 232, day-ahead 192 tijdstippen; TenneT: balance delta: 376 metingen in 6 kwartieren; Historie compleet"
+  },
+  "Deelmobiliteit": {
+    "tijd": "2026-11-23T12:05:36Z",
+    "status": "ok",
+    "seconden": 105,
+    "melding": "45 van 52 systemen, 16480 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
+  },
   "Parkeren": {
-    "melding": "Name or service not known (opendata.rdw.nl:443)",
-    "tijd": "2026-11-23T11:05:34Z",
-    "status": "fout"
+    "status": "fout",
+    "tijd": "2026-11-23T12:05:36Z",
+    "melding": "Name or service not known (opendata.rdw.nl:443)"
   },
   "RDW": {
     "melding": "Name or service not known (opendata.rdw.nl:443)",
     "status": "fout",
     "tijd": "2026-11-23T05:30:52Z"
-  },
-  "OV": {
-    "seconden": 5,
-    "melding": "live: 43280 ritten, 31317 uitgevallen; meldingen: 621 actief, 13 nieuw",
-    "tijd": "2026-11-23T11:05:34Z",
-    "status": "ok"
   },
   "EnergyZero": {
     "tijd": "2026-11-23T05:30:52Z",
@@ -69,10 +69,10 @@
     "status": "ok",
     "seconden": 5
   },
-  "NS": {
-    "seconden": 461,
-    "melding": "storingen/werkzaamheden: 12 actief, 0 nieuw; drukte: 289 van 289 rijdende treinen, 240 stations, 36 keer drukte hoog",
-    "tijd": "2026-11-23T11:05:34Z",
-    "status": "ok"
+  "Netcongestie": {
+    "tijd": "2026-11-23T05:30:52Z",
+    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname nieuwe momentopname (921 gebieden); Capaciteitskaart_elektriciteitsnet_v2_teruglevering nieuwe momentopname (921 gebieden); Capaciteitskaart_Tennet_afname nieuwe momentopname (27 gebieden); Capaciteitskaart_Tennet_teruglevering nieuwe momentopname (27 gebieden)",
+    "status": "ok",
+    "seconden": 5
   }
 }
