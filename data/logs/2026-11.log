@@ -4136,3 +4136,13 @@
 2026-11-23 00:11:34 [INFO] OV OK in 61 s: dienstregeling: 2880 lijnen, 1550476 geplande ritten in 14 dagen; live: 38239 ritten, 28969 uitgevallen; meldingen: 615 actief, 0 nieuw
 2026-11-23 00:12:51 [INFO] NS OK in 78 s: stations: 785; storingen/werkzaamheden: 15 actief, 3 nieuw; drukte: 44 van 44 rijdende treinen, 165 stations, 6 keer drukte hoog
 2026-11-23 00:13:04 [INFO] Energie OK in 13 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 186, grensstromen 189, day-ahead 192 tijdstippen; TenneT: afrekenprijzen: 288 kwartieren, balance delta: 365 metingen in 6 kwartieren; Historie compleet
+2026-11-23 01:06:00 [INFO] Laadpunten OK in 24 s: 85275 locaties, 213704 laadpunten (64447 aan het laden); bestand van 2026-11-23T01:05:41Z
+2026-11-23 01:06:00 [WARN] Poging 1 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 5 s.
+2026-11-23 01:06:06 [WARN] Poging 2 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 15 s.
+2026-11-23 01:06:21 [WARN] Poging 3 mislukt (https://opendata.rdw.nl/resource/534e-5vdg.json?$limit=200000): Name or service not known (opendata.rdw.nl:443). Opnieuw over 45 s.
+2026-11-23 01:07:06 [ERROR] Parkeren MISLUKT: Name or service not known (opendata.rdw.nl:443)
+2026-11-23 01:09:05 [INFO] Deelmobiliteit OK in 119 s: 45 van 52 systemen, 27203 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle
+2026-11-23 01:09:38 [INFO] Verstoringen OK in 33 s: weg: 917 actieve meldingen, 9 nieuw; spoor: niets nieuws
+2026-11-23 01:09:42 [INFO] OV OK in 5 s: live: 38654 ritten, 28968 uitgevallen; meldingen: 614 actief, 0 nieuw
+2026-11-23 01:10:01 [INFO] NS OK in 19 s: storingen/werkzaamheden: 8 actief, 0 nieuw; drukte: 9 van 9 rijdende treinen, 47 stations, 6 keer drukte hoog
+2026-11-23 01:10:15 [INFO] Energie OK in 13 s: Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 186, grensstromen 193, day-ahead 192 tijdstippen; TenneT: balance delta: 360 metingen in 6 kwartieren; Historie compleet
