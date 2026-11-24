@@ -1,56 +1,8 @@
 ﻿{
-  "OV": {
-    "seconden": 5,
-    "status": "ok",
-    "tijd": "2026-11-24T18:05:42Z",
-    "melding": "live: 20641 ritten, 9637 uitgevallen; meldingen: 714 actief, 53 nieuw"
-  },
-  "Verstoringen": {
-    "seconden": 42,
-    "status": "ok",
-    "tijd": "2026-11-24T18:05:42Z",
-    "melding": "weg: 1115 actieve meldingen, 179 nieuw; spoor: niets nieuws"
-  },
-  "NS": {
-    "seconden": 493,
-    "status": "ok",
-    "tijd": "2026-11-24T18:05:42Z",
-    "melding": "storingen/werkzaamheden: 13 actief, 0 nieuw; drukte: 294 van 294 rijdende treinen, 244 stations, 212 keer drukte hoog"
-  },
-  "Laadpunten": {
-    "seconden": 29,
-    "status": "ok",
-    "tijd": "2026-11-24T18:05:42Z",
-    "melding": "86314 locaties, 216463 laadpunten (69963 aan het laden); bestand van 2026-11-24T18:05:46Z"
-  },
-  "RDW": {
-    "melding": "9825 personenauto-registraties sinds 2026-11-14 verwerkt",
-    "status": "ok",
-    "seconden": 70,
-    "tijd": "2026-11-24T05:30:52Z"
-  },
   "EnergyZero": {
     "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
     "status": "ok",
     "seconden": 5,
-    "tijd": "2026-11-24T05:30:52Z"
-  },
-  "Deelmobiliteit": {
-    "seconden": 95,
-    "status": "ok",
-    "tijd": "2026-11-24T18:05:42Z",
-    "melding": "45 van 52 systemen, 24759 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle"
-  },
-  "Parkeren": {
-    "seconden": 0,
-    "status": "ok",
-    "tijd": "2026-11-24T18:05:42Z",
-    "melding": "tarieven vandaag al bijgewerkt"
-  },
-  "NzaWachttijden": {
-    "melding": "laatste peildatum 2026-11-10; volgende update niet voor 2026-11-25",
-    "status": "ok",
-    "seconden": 0,
     "tijd": "2026-11-24T05:30:52Z"
   },
   "Netcongestie": {
@@ -59,16 +11,28 @@
     "seconden": 3,
     "tijd": "2026-11-24T05:30:52Z"
   },
-  "Energie": {
-    "seconden": 11,
-    "status": "ok",
-    "tijd": "2026-11-24T18:05:42Z",
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 261, grensstromen 260, day-ahead 384 tijdstippen; TenneT: balance delta: 363 metingen in 6 kwartieren; Historie compleet"
+  "NS": {
+    "melding": "storingen/werkzaamheden: 13 actief, 0 nieuw; drukte: 272 van 272 rijdende treinen, 241 stations, 63 keer drukte hoog",
+    "tijd": "2026-11-24T19:05:37Z",
+    "seconden": 489,
+    "status": "ok"
   },
-  "KvkOpenData": {
-    "melding": "1936059 bv's/nv's verwerkt, waarvan 77701 met status faillissement",
+  "Verstoringen": {
+    "melding": "weg: 1090 actieve meldingen, 175 nieuw; spoor: niets nieuws",
+    "tijd": "2026-11-24T19:05:37Z",
+    "seconden": 85,
+    "status": "ok"
+  },
+  "Laadpunten": {
+    "melding": "86314 locaties, 216463 laadpunten (72148 aan het laden); bestand van 2026-11-24T19:05:42Z",
+    "tijd": "2026-11-24T19:05:37Z",
+    "seconden": 50,
+    "status": "ok"
+  },
+  "NzaWachttijden": {
+    "melding": "laatste peildatum 2026-11-10; volgende update niet voor 2026-11-25",
     "status": "ok",
-    "seconden": 24,
+    "seconden": 0,
     "tijd": "2026-11-24T05:30:52Z"
   },
   "TenderNed": {
@@ -76,5 +40,41 @@
     "status": "ok",
     "seconden": 106,
     "tijd": "2026-11-24T05:30:52Z"
+  },
+  "RDW": {
+    "melding": "9825 personenauto-registraties sinds 2026-11-14 verwerkt",
+    "status": "ok",
+    "seconden": 70,
+    "tijd": "2026-11-24T05:30:52Z"
+  },
+  "Energie": {
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 266, grensstromen 264, day-ahead 384 tijdstippen; TenneT: balance delta: 380 metingen in 6 kwartieren; Historie compleet",
+    "tijd": "2026-11-24T19:05:37Z",
+    "seconden": 12,
+    "status": "ok"
+  },
+  "Deelmobiliteit": {
+    "melding": "45 van 52 systemen, 24901 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "tijd": "2026-11-24T19:05:37Z",
+    "seconden": 107,
+    "status": "ok"
+  },
+  "KvkOpenData": {
+    "melding": "1936059 bv's/nv's verwerkt, waarvan 77701 met status faillissement",
+    "status": "ok",
+    "seconden": 24,
+    "tijd": "2026-11-24T05:30:52Z"
+  },
+  "Parkeren": {
+    "melding": "tarieven vandaag al bijgewerkt",
+    "tijd": "2026-11-24T19:05:37Z",
+    "seconden": 0,
+    "status": "ok"
+  },
+  "OV": {
+    "melding": "live: 18599 ritten, 7563 uitgevallen; meldingen: 714 actief, 55 nieuw",
+    "tijd": "2026-11-24T19:05:37Z",
+    "seconden": 7,
+    "status": "ok"
   }
 }
