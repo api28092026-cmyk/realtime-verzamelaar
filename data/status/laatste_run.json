@@ -1,9 +1,51 @@
 ﻿{
+  "Laadpunten": {
+    "tijd": "2026-11-24T17:05:48Z",
+    "seconden": 30,
+    "melding": "86308 locaties, 216451 laadpunten (63912 aan het laden); bestand van 2026-11-24T17:05:53Z",
+    "status": "ok"
+  },
+  "NS": {
+    "tijd": "2026-11-24T17:05:48Z",
+    "seconden": 599,
+    "melding": "storingen/werkzaamheden: 13 actief, 0 nieuw; drukte: 318 van 318 rijdende treinen, 244 stations, 560 keer drukte hoog",
+    "status": "ok"
+  },
+  "RDW": {
+    "melding": "9825 personenauto-registraties sinds 2026-11-14 verwerkt",
+    "status": "ok",
+    "seconden": 70,
+    "tijd": "2026-11-24T05:30:52Z"
+  },
   "Parkeren": {
+    "tijd": "2026-11-24T17:05:48Z",
     "seconden": 0,
     "melding": "tarieven vandaag al bijgewerkt",
-    "tijd": "2026-11-24T16:05:39Z",
     "status": "ok"
+  },
+  "Deelmobiliteit": {
+    "tijd": "2026-11-24T17:05:48Z",
+    "seconden": 107,
+    "melding": "45 van 52 systemen, 24328 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "status": "ok"
+  },
+  "Verstoringen": {
+    "tijd": "2026-11-24T17:05:48Z",
+    "seconden": 44,
+    "melding": "weg: 1297 actieve meldingen, 304 nieuw; spoor: niets nieuws",
+    "status": "ok"
+  },
+  "KvkOpenData": {
+    "melding": "1936059 bv's/nv's verwerkt, waarvan 77701 met status faillissement",
+    "status": "ok",
+    "seconden": 24,
+    "tijd": "2026-11-24T05:30:52Z"
+  },
+  "EnergyZero": {
+    "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
+    "status": "ok",
+    "seconden": 5,
+    "tijd": "2026-11-24T05:30:52Z"
   },
   "TenderNed": {
     "melding": "86 nieuwe publicaties",
@@ -11,23 +53,11 @@
     "seconden": 106,
     "tijd": "2026-11-24T05:30:52Z"
   },
-  "Verstoringen": {
-    "seconden": 85,
-    "melding": "weg: 1356 actieve meldingen, 359 nieuw; spoor: niets nieuws",
-    "tijd": "2026-11-24T16:05:39Z",
-    "status": "ok"
-  },
-  "Deelmobiliteit": {
-    "seconden": 110,
-    "melding": "45 van 52 systemen, 20903 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "tijd": "2026-11-24T16:05:39Z",
-    "status": "ok"
-  },
-  "Laadpunten": {
-    "seconden": 50,
-    "melding": "85459 locaties, 214377 laadpunten (61287 aan het laden); bestand van 2026-11-24T16:05:44Z",
-    "tijd": "2026-11-24T16:05:39Z",
-    "status": "ok"
+  "Netcongestie": {
+    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
+    "status": "ok",
+    "seconden": 3,
+    "tijd": "2026-11-24T05:30:52Z"
   },
   "NzaWachttijden": {
     "melding": "laatste peildatum 2026-11-10; volgende update niet voor 2026-11-25",
@@ -36,45 +66,15 @@
     "tijd": "2026-11-24T05:30:52Z"
   },
   "OV": {
+    "tijd": "2026-11-24T17:05:48Z",
     "seconden": 7,
-    "melding": "live: 25160 ritten, 15101 uitgevallen; meldingen: 668 actief, 8 nieuw",
-    "tijd": "2026-11-24T16:05:39Z",
+    "melding": "live: 24771 ritten, 12471 uitgevallen; meldingen: 716 actief, 50 nieuw",
     "status": "ok"
   },
   "Energie": {
-    "seconden": 12,
-    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 251, grensstromen 250, day-ahead 384 tijdstippen; TenneT: balance delta: 383 metingen in 6 kwartieren; Historie compleet",
-    "tijd": "2026-11-24T16:05:39Z",
+    "tijd": "2026-11-24T17:05:48Z",
+    "seconden": 10,
+    "melding": "Nord Pool: 192 kwartierprijzen; Energy-Charts: opwek 256, grensstromen 256, day-ahead 384 tijdstippen; TenneT: balance delta: 373 metingen in 6 kwartieren; Historie compleet",
     "status": "ok"
-  },
-  "EnergyZero": {
-    "melding": "196 uurprijzen bijgewerkt; gas: 5 gasdagen",
-    "status": "ok",
-    "seconden": 5,
-    "tijd": "2026-11-24T05:30:52Z"
-  },
-  "KvkOpenData": {
-    "melding": "1936059 bv's/nv's verwerkt, waarvan 77701 met status faillissement",
-    "status": "ok",
-    "seconden": 24,
-    "tijd": "2026-11-24T05:30:52Z"
-  },
-  "RDW": {
-    "melding": "9825 personenauto-registraties sinds 2026-11-14 verwerkt",
-    "status": "ok",
-    "seconden": 70,
-    "tijd": "2026-11-24T05:30:52Z"
-  },
-  "NS": {
-    "seconden": 553,
-    "melding": "storingen/werkzaamheden: 14 actief, 1 nieuw; drukte: 312 van 312 rijdende treinen, 244 stations, 748 keer drukte hoog",
-    "tijd": "2026-11-24T16:05:39Z",
-    "status": "ok"
-  },
-  "Netcongestie": {
-    "melding": "Capaciteitskaart_elektriciteitsnet_v2_afname ongewijzigd; Capaciteitskaart_elektriciteitsnet_v2_teruglevering ongewijzigd; Capaciteitskaart_Tennet_afname ongewijzigd; Capaciteitskaart_Tennet_teruglevering ongewijzigd",
-    "status": "ok",
-    "seconden": 3,
-    "tijd": "2026-11-24T05:30:52Z"
   }
 }
