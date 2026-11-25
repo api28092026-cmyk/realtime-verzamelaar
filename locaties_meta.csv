@@ -4,7 +4,7 @@ location_code,station_code,name,city,lat,lng,service_type,type
 ac002,AC,AC - OV-fiets - Abcoude,,52.278386,4.97704,,OV_FIETS
 ah001,AH,AH - OV-fiets - Arnhem Centrum,Arnhem,51.984,5.9013,Bemenst,OV_FIETS
 ah003,AH,AH - OV-ebike - Arnhem Centrum,Arnhem,51.9834,5.90139,Bemenst,OV_FIETS
-AHPR001,AHPR,AHPR - OV-fiets - Arnhem Presikhaaf,Arnhem,51.987676,5.942606,,OV_FIETS
+AHPR001,AHPR,AHPR - OV-fiets - Arnhem Presikhaaf,Arnhem,51.987597,5.942685,,OV_FIETS
 Ahpr001,AHPR,AHPR - OV-fiets - Arnhem Presikhaaf,Arnhem,51.987676,5.942606,,OV_FIETS
 AHPR002,AHPR,AHPR - OV-fiets - Arnhem Presikhaaf,Arnhem,51.987676,5.942606,,OV_FIETS
 Ahpr002,AHPR,AHPR - OV-fiets - Arnhem Presikhaaf,,,,,OV_FIETS
@@ -87,7 +87,7 @@ dv001,DV,DV - OV-fiets - Deventer,Deventer,52.25645,6.160837,Bemenst,OV_FIETS
 dv003,BSLC,DV - OV-fiets - Deventer Boerhavelaan,Deventer,52.2685,6.175444,,OV_FIETS
 dvc001,DVC,DVC - OV-fiets - Deventer Colmschate,Deventer,52.25051,6.21552,OV-fietspunt,OV_FIETS
 dvd001,DVD,DVD - OV-fiets - Duivendrecht,Duivendrecht,52.32369,4.93629,,OV_FIETS
-dvd002,DVD,DVD - OV-fiets - Duivendrecht,Duivendrecht,52.32369,4.93629,,OV_FIETS
+dvd002,DVD,DVD - OV-fiets - Duivendrecht,Duivendrecht,52.323255,4.936542,,OV_FIETS
 dvn001,DVN,DVN- OV-fiets -Duiven,Duiven,51.94356,6.01459,Box,OV_FIETS
 dvnk001,DVNK,DVNK - OV-fiets - Leiden de Vink,Leiden,52.14708,4.45593,,OV_FIETS
 Dz001,DZ,DZ - OV-fiets - Delfzijl,Delfzijl,53.333643,6.923376,,OV_FIETS
@@ -144,6 +144,7 @@ hmbv001,HMBV,HMBV - OV-fiets - Helmond Brandevoort,Helmond,51.46274,5.60881,,OV_
 hmh001,HMH,HMH - OV-fiets - Helmond 't Hout,Helmond,51.468092,5.630949,,OV_FIETS
 hn001,HN,HN - OV-fiets - Hoorn,Hoorn,52.64469,5.05501,Bemenst,OV_FIETS
 hnk001,HNK,HNK - OV-fiets - Hoorn Kersenboogerd,Hoorn,52.653593,5.085789,,OV_FIETS
+Hno002,HNO,HNO - OV-fiets - Heino,Heino,52.426648,6.222831,,OV_FIETS
 hon001,HON,HON - OV-fiets - Holten,Holten,52.283957,6.420916,,OV_FIETS
 hor001,HOR,HOR - OV-fiets - Hollandse Rading OV-fiets Carrousel,Hollandsche Rading,52.17815,5.17915,,OV_FIETS
 hr002,HR,HR - OV-fiets - Heerenveen,Heerenveen,52.96098,5.91617,,OV_FIETS
