@@ -1,32 +1,9 @@
 ﻿{
-  "Verstoringen": {
-    "status": "ok",
-    "melding": "weg: 1142 actieve meldingen, 208 nieuw; spoor: niets nieuws",
-    "seconden": 53,
-    "tijd": "2026-11-27T08:05:41Z"
-  },
-  "TenderNed": {
-    "tijd": "2026-11-27T05:30:52Z",
-    "melding": "120 nieuwe publicaties",
-    "status": "ok",
-    "seconden": 146
-  },
-  "Laadpunten": {
-    "status": "ok",
-    "melding": "75945 locaties, 193925 laadpunten (47242 aan het laden); bestand van 2026-11-27T08:05:45Z",
-    "seconden": 33,
-    "tijd": "2026-11-27T08:05:41Z"
-  },
   "Parkeren": {
-    "status": "ok",
-    "melding": "tarieven vandaag al bijgewerkt",
     "seconden": 0,
-    "tijd": "2026-11-27T08:05:41Z"
-  },
-  "NzaWachttijden": {
-    "tijd": "2026-11-27T05:30:52Z",
-    "melding": "NZa-pagina niet opgehaald (curl 0, HTTP 403, 1213 tekens)",
-    "status": "fout"
+    "melding": "tarieven vandaag al bijgewerkt",
+    "tijd": "2026-11-27T09:05:33Z",
+    "status": "ok"
   },
   "EnergyZero": {
     "tijd": "2026-11-27T05:30:52Z",
@@ -34,17 +11,11 @@
     "status": "ok",
     "seconden": 6
   },
-  "KvkOpenData": {
+  "TenderNed": {
     "tijd": "2026-11-27T05:30:52Z",
-    "melding": "1937037 bv's/nv's verwerkt, waarvan 77755 met status faillissement",
+    "melding": "120 nieuwe publicaties",
     "status": "ok",
-    "seconden": 26
-  },
-  "Energie": {
-    "status": "ok",
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 222, grensstromen 215, day-ahead 288 tijdstippen; TenneT: balance delta: 367 metingen in 6 kwartieren; Historie compleet",
-    "seconden": 10,
-    "tijd": "2026-11-27T08:05:41Z"
+    "seconden": 146
   },
   "RDW": {
     "tijd": "2026-11-27T05:30:52Z",
@@ -52,17 +23,46 @@
     "status": "ok",
     "seconden": 124
   },
+  "Energie": {
+    "seconden": 8,
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 222, grensstromen 223, day-ahead 288 tijdstippen; TenneT: balance delta: 370 metingen in 6 kwartieren; Historie compleet",
+    "tijd": "2026-11-27T09:05:33Z",
+    "status": "ok"
+  },
   "Deelmobiliteit": {
+    "seconden": 95,
+    "melding": "45 van 52 systemen, 22414 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "tijd": "2026-11-27T09:05:33Z",
+    "status": "ok"
+  },
+  "OV": {
+    "seconden": 5,
+    "melding": "live: 20440 ritten, 2225 uitgevallen; meldingen: 680 actief, 31 nieuw",
+    "tijd": "2026-11-27T09:05:33Z",
+    "status": "ok"
+  },
+  "KvkOpenData": {
+    "tijd": "2026-11-27T05:30:52Z",
+    "melding": "1937037 bv's/nv's verwerkt, waarvan 77755 met status faillissement",
     "status": "ok",
-    "melding": "44 van 52 systemen, 23646 voertuigen; niet bereikbaar: CKL, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "seconden": 102,
-    "tijd": "2026-11-27T08:05:41Z"
+    "seconden": 26
+  },
+  "NzaWachttijden": {
+    "tijd": "2026-11-27T05:30:52Z",
+    "melding": "NZa-pagina niet opgehaald (curl 0, HTTP 403, 1213 tekens)",
+    "status": "fout"
   },
   "NS": {
-    "status": "ok",
-    "melding": "storingen/werkzaamheden: 12 actief, 1 nieuw; drukte: 292 van 292 rijdende treinen, 242 stations, 193 keer drukte hoog",
-    "seconden": 480,
-    "tijd": "2026-11-27T08:05:41Z"
+    "seconden": 479,
+    "melding": "storingen/werkzaamheden: 16 actief, 5 nieuw; drukte: 289 van 289 rijdende treinen, 242 stations, 108 keer drukte hoog",
+    "tijd": "2026-11-27T09:05:33Z",
+    "status": "ok"
+  },
+  "Laadpunten": {
+    "seconden": 25,
+    "melding": "75951 locaties, 193937 laadpunten (49186 aan het laden); bestand van 2026-11-27T09:05:38Z",
+    "tijd": "2026-11-27T09:05:33Z",
+    "status": "ok"
   },
   "Netcongestie": {
     "tijd": "2026-11-27T05:30:52Z",
@@ -70,10 +70,10 @@
     "status": "ok",
     "seconden": 4
   },
-  "OV": {
-    "status": "ok",
-    "melding": "live: 21678 ritten, 2340 uitgevallen; meldingen: 655 actief, 13 nieuw",
-    "seconden": 6,
-    "tijd": "2026-11-27T08:05:41Z"
+  "Verstoringen": {
+    "seconden": 33,
+    "melding": "weg: 1120 actieve meldingen, 168 nieuw; spoor: niets nieuws",
+    "tijd": "2026-11-27T09:05:33Z",
+    "status": "ok"
   }
 }
