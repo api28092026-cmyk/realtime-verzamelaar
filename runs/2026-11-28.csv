@@ -359,3 +359,7 @@ tijd_utc,bron,status,items,rijen,duur_s,fout
 2026-11-28T07:25:27Z,npr,ok,272,74,21.4,
 2026-11-28T07:25:27Z,amsterdam,ok,68,24,1.7,
 2026-11-28T07:25:27Z,vrachtwagen,ok,8,7,0.7,
+2026-11-28T07:30:41Z,laadpunten,ok,191841,1209,5.9,
+2026-11-28T07:30:41Z,npr,ok,272,76,17.1,
+2026-11-28T07:30:41Z,amsterdam,fout,0,0,46.1,URLError: <urlopen error timed out>
+2026-11-28T07:30:41Z,vrachtwagen,ok,8,5,1.2,
