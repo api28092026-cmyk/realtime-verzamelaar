@@ -1,40 +1,4 @@
 ﻿{
-  "Laadpunten": {
-    "tijd": "2026-11-28T05:31:02Z",
-    "melding": "75175 locaties, 191839 laadpunten (56655 aan het laden); bestand van 2026-11-28T05:33:52Z",
-    "seconden": 32,
-    "status": "ok"
-  },
-  "Deelmobiliteit": {
-    "tijd": "2026-11-28T05:31:02Z",
-    "melding": "45 van 52 systemen, 24856 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "seconden": 83,
-    "status": "ok"
-  },
-  "EnergyZero": {
-    "tijd": "2026-11-28T05:31:02Z",
-    "melding": "215 uurprijzen bijgewerkt; gas: 6 gasdagen",
-    "seconden": 4,
-    "status": "ok"
-  },
-  "OV": {
-    "tijd": "2026-11-28T05:31:02Z",
-    "melding": "live: 17496 ritten, 2154 uitgevallen; meldingen: 628 actief, 5 nieuw",
-    "seconden": 5,
-    "status": "ok"
-  },
-  "Verstoringen": {
-    "tijd": "2026-11-28T05:31:02Z",
-    "melding": "weg: 1006 actieve meldingen, 34 nieuw; spoor: niets nieuws",
-    "seconden": 61,
-    "status": "ok"
-  },
-  "RDW": {
-    "tijd": "2026-11-28T05:31:02Z",
-    "melding": "19143 personenauto-registraties sinds 2026-11-18 verwerkt",
-    "seconden": 115,
-    "status": "ok"
-  },
   "NzaWachttijden": {
     "tijd": "2026-11-28T05:31:02Z",
     "melding": "1 nieuwe peildata (2026-11-24 t/m 2026-11-24), 9354 regels; 1131 vestigingen, 114 codes",
@@ -47,16 +11,34 @@
     "seconden": 48,
     "status": "ok"
   },
+  "Laadpunten": {
+    "melding": "75175 locaties, 191839 laadpunten (56112 aan het laden); bestand van 2026-11-28T06:05:50Z",
+    "tijd": "2026-11-28T06:05:44Z",
+    "seconden": 49,
+    "status": "ok"
+  },
+  "Verstoringen": {
+    "melding": "weg: 993 actieve meldingen, 49 nieuw; spoor: niets nieuws",
+    "tijd": "2026-11-28T06:05:44Z",
+    "seconden": 93,
+    "status": "ok"
+  },
   "Parkeren": {
-    "tijd": "2026-11-28T05:31:02Z",
     "melding": "tarieven vandaag al bijgewerkt",
+    "tijd": "2026-11-28T06:05:44Z",
     "seconden": 0,
     "status": "ok"
   },
-  "NS": {
-    "tijd": "2026-11-28T05:31:02Z",
-    "melding": "storingen/werkzaamheden: 18 actief, 0 nieuw; drukte: 102 van 102 rijdende treinen, 220 stations, 0 keer drukte hoog",
-    "seconden": 166,
+  "OV": {
+    "melding": "live: 18052 ritten, 2140 uitgevallen; meldingen: 628 actief, 0 nieuw",
+    "tijd": "2026-11-28T06:05:44Z",
+    "seconden": 7,
+    "status": "ok"
+  },
+  "Energie": {
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 211, grensstromen 182, day-ahead 288 tijdstippen; TenneT: balance delta: 248 metingen in 4 kwartieren; Historie compleet",
+    "tijd": "2026-11-28T06:05:44Z",
+    "seconden": 11,
     "status": "ok"
   },
   "Netcongestie": {
@@ -65,16 +47,34 @@
     "seconden": 4,
     "status": "ok"
   },
-  "Energie": {
+  "RDW": {
     "tijd": "2026-11-28T05:31:02Z",
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 211, grensstromen 182, day-ahead 288 tijdstippen; TenneT: balance delta: 221 metingen in 4 kwartieren; Historie compleet",
-    "seconden": 15,
+    "melding": "19143 personenauto-registraties sinds 2026-11-18 verwerkt",
+    "seconden": 115,
+    "status": "ok"
+  },
+  "Deelmobiliteit": {
+    "melding": "44 van 52 systemen, 24829 voertuigen; niet bereikbaar: CKL, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "tijd": "2026-11-28T06:05:44Z",
+    "seconden": 106,
     "status": "ok"
   },
   "KvkOpenData": {
     "tijd": "2026-11-28T05:31:02Z",
     "melding": "1937534 bv's/nv's verwerkt, waarvan 77756 met status faillissement",
     "seconden": 19,
+    "status": "ok"
+  },
+  "EnergyZero": {
+    "tijd": "2026-11-28T05:31:02Z",
+    "melding": "215 uurprijzen bijgewerkt; gas: 6 gasdagen",
+    "seconden": 4,
+    "status": "ok"
+  },
+  "NS": {
+    "melding": "storingen/werkzaamheden: 18 actief, 0 nieuw; drukte: 156 van 156 rijdende treinen, 235 stations, 0 keer drukte hoog",
+    "tijd": "2026-11-28T06:05:44Z",
+    "seconden": 283,
     "status": "ok"
   }
 }
