@@ -1,15 +1,27 @@
 ﻿{
-  "OV": {
-    "melding": "live: 18316 ritten, 1937 uitgevallen; meldingen: 639 actief, 1 nieuw",
-    "status": "ok",
-    "tijd": "2026-11-28T10:05:39Z",
-    "seconden": 7
+  "KvkOpenData": {
+    "tijd": "2026-11-28T05:31:02Z",
+    "melding": "1937534 bv's/nv's verwerkt, waarvan 77756 met status faillissement",
+    "seconden": 19,
+    "status": "ok"
+  },
+  "Verstoringen": {
+    "tijd": "2026-11-28T11:05:38Z",
+    "melding": "weg: 1194 actieve meldingen, 140 nieuw; spoor: niets nieuws",
+    "seconden": 39,
+    "status": "ok"
   },
   "Deelmobiliteit": {
-    "melding": "44 van 52 systemen, 23868 voertuigen; niet bereikbaar: CKL, cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
-    "status": "ok",
-    "tijd": "2026-11-28T10:05:39Z",
-    "seconden": 106
+    "tijd": "2026-11-28T11:05:38Z",
+    "melding": "45 van 52 systemen, 23481 voertuigen; niet bereikbaar: cooltra_arnhem, cooltra_breda, cooltra_den_bosch, cooltra_enschede, cooltra_groningen, cooltra_tilburg, cooltra_zwolle",
+    "seconden": 111,
+    "status": "ok"
+  },
+  "NS": {
+    "tijd": "2026-11-28T11:05:38Z",
+    "melding": "storingen/werkzaamheden: 21 actief, 2 nieuw; drukte: 252 van 252 rijdende treinen, 236 stations, 122 keer drukte hoog",
+    "seconden": 454,
+    "status": "ok"
   },
   "NzaWachttijden": {
     "tijd": "2026-11-28T05:31:02Z",
@@ -23,41 +35,23 @@
     "seconden": 4,
     "status": "ok"
   },
-  "TenderNed": {
-    "tijd": "2026-11-28T05:31:02Z",
-    "melding": "42 nieuwe publicaties",
-    "seconden": 48,
-    "status": "ok"
-  },
   "RDW": {
     "tijd": "2026-11-28T05:31:02Z",
     "melding": "19143 personenauto-registraties sinds 2026-11-18 verwerkt",
     "seconden": 115,
     "status": "ok"
   },
-  "NS": {
-    "melding": "storingen/werkzaamheden: 22 actief, 0 nieuw; drukte: 246 van 246 rijdende treinen, 236 stations, 95 keer drukte hoog",
-    "status": "ok",
-    "tijd": "2026-11-28T10:05:39Z",
-    "seconden": 431
-  },
-  "KvkOpenData": {
-    "tijd": "2026-11-28T05:31:02Z",
-    "melding": "1937534 bv's/nv's verwerkt, waarvan 77756 met status faillissement",
-    "seconden": 19,
+  "Energie": {
+    "tijd": "2026-11-28T11:05:38Z",
+    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 231, grensstromen 182, day-ahead 288 tijdstippen; TenneT: balance delta: 370 metingen in 6 kwartieren; Historie compleet",
+    "seconden": 8,
     "status": "ok"
   },
-  "Energie": {
-    "melding": "Nord Pool: 96 kwartierprijzen; Energy-Charts: opwek 226, grensstromen 182, day-ahead 288 tijdstippen; TenneT: balance delta: 376 metingen in 6 kwartieren; Historie compleet",
-    "status": "ok",
-    "tijd": "2026-11-28T10:05:39Z",
-    "seconden": 12
-  },
-  "Verstoringen": {
-    "melding": "weg: 1177 actieve meldingen, 144 nieuw; spoor: niets nieuws",
-    "status": "ok",
-    "tijd": "2026-11-28T10:05:39Z",
-    "seconden": 86
+  "TenderNed": {
+    "tijd": "2026-11-28T05:31:02Z",
+    "melding": "42 nieuwe publicaties",
+    "seconden": 48,
+    "status": "ok"
   },
   "EnergyZero": {
     "tijd": "2026-11-28T05:31:02Z",
@@ -65,16 +59,22 @@
     "seconden": 4,
     "status": "ok"
   },
-  "Parkeren": {
-    "melding": "tarieven vandaag al bijgewerkt",
-    "status": "ok",
-    "tijd": "2026-11-28T10:05:39Z",
-    "seconden": 0
+  "OV": {
+    "tijd": "2026-11-28T11:05:38Z",
+    "melding": "live: 17676 ritten, 1855 uitgevallen; meldingen: 648 actief, 9 nieuw",
+    "seconden": 6,
+    "status": "ok"
   },
   "Laadpunten": {
-    "melding": "75188 locaties, 191865 laadpunten (46034 aan het laden); bestand van 2026-11-28T10:05:44Z",
-    "status": "ok",
-    "tijd": "2026-11-28T10:05:39Z",
-    "seconden": 47
+    "tijd": "2026-11-28T11:05:38Z",
+    "melding": "75121 locaties, 191693 laadpunten (47155 aan het laden); bestand van 2026-11-28T11:05:43Z",
+    "seconden": 24,
+    "status": "ok"
+  },
+  "Parkeren": {
+    "tijd": "2026-11-28T11:05:38Z",
+    "melding": "tarieven vandaag al bijgewerkt",
+    "seconden": 0,
+    "status": "ok"
   }
 }
